@@ -85,7 +85,7 @@
   },
   "authoritative_state": "Its own root/version/Draft/supply, rights, and asset income; one authority per dimension",
   "ci": {
-    "actual_source_path_executed": false,
+    "actual_source_path_executed": true,
     "historical_publication_verification": {
       "actual_source_path_executed": false,
       "current_config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
@@ -127,7 +127,7 @@
       "product_verification": "passed",
       "scope": "local unpublished publication prerequisite and actual consumer combination; not steady-state independent CI"
     },
-    "latest_local_evidence": "evidence/maker-manufacturing-source/production/result.json",
+    "latest_local_evidence": "evidence/maker-manufacturing-activation/activation-result.json",
     "local_command": [
       "python3",
       "scripts/ci.py"
@@ -142,8 +142,70 @@
         "timeout_seconds": 1800
       }
     ],
-    "product_verification": "passed_in_review_candidate; actual_activation_pending",
-    "scope": "Contained unpublished manufacturing source build and fixed original consumer regression fixtures; actual admission held on Standard"
+    "product_verification": "passed",
+    "scope": "Actual owning manufacturing source plus exact original Maker49/Pack57/focused9 regressions; full Core consumers, held Admission and release remain pending",
+    "historical_source_activation_candidate": {
+      "actual_source_path_executed": false,
+      "historical_publication_verification": {
+        "actual_source_path_executed": false,
+        "current_config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+        "current_seal_sha256": "601809d344f041c1f4dbddd2ac53d92f974ad4bdee85aed9bc49ad30ca4780aa",
+        "historical_leaf_verification": {
+          "local_command": [
+            "python3",
+            "scripts/ci.py"
+          ],
+          "product_commands": [
+            {
+              "argv": [
+                "python3",
+                "scripts/verify_maker_leaves.py",
+                "--combined"
+              ],
+              "id": "maker-unpublished-leaves-actual-combination",
+              "timeout_seconds": 1800
+            }
+          ],
+          "product_verification": "passed",
+          "scope": "maintenance_contract_and_two_maker_leaf_units_with_actual_consumer_combination"
+        },
+        "latest_local_evidence": "evidence/maker-publication-extraction/replay-runs/1791646822812793000/summary.json",
+        "local_command": [
+          "python3",
+          "scripts/ci.py"
+        ],
+        "product_commands": [
+          {
+            "argv": [
+              "python3",
+              "scripts/run_maker_publication.py"
+            ],
+            "id": "maker-publication-prerequisite-staged-actual-inputs",
+            "timeout_seconds": 1800
+          }
+        ],
+        "product_verification": "passed",
+        "scope": "local unpublished publication prerequisite and actual consumer combination; not steady-state independent CI"
+      },
+      "latest_local_evidence": "evidence/maker-manufacturing-source/production/result.json",
+      "local_command": [
+        "python3",
+        "scripts/ci.py"
+      ],
+      "product_commands": [
+        {
+          "argv": [
+            "python3",
+            "scripts/verify_maker.py"
+          ],
+          "id": "maker-manufacturing-owning-source-original-regressions",
+          "timeout_seconds": 1800
+        }
+      ],
+      "product_verification": "passed_in_review_candidate; actual_activation_pending",
+      "scope": "Contained unpublished manufacturing source build and fixed original consumer regression fixtures; actual admission held on Standard"
+    },
+    "source_recovery_verification": "evidence/maker-manufacturing-activation/public-source-recovery.json"
   },
   "compatibility": {
     "change_dimensions": [
