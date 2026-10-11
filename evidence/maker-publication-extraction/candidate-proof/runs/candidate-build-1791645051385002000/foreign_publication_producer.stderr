@@ -1,0 +1,65 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING ForeignPublicationProducer
+[0m[1m[38;5;9merror[EC04007][0m[1m: incompatible types[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:5
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     [0m[31massert!(p.issued<policy::supply(&p.definition),1)[0m;p.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m     [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [0m[34m│[0m     [0m[31m│[0m
+   [0m[34m│[0m     [0m[31mInvalid call of 'assert'. Invalid argument for parameter '0'[0m
+   [0m[34m│[0m     [0m[34mExpected: 'bool'[0m
+   [0m[34m·[0m
+[0m[34m28[0m [0m[34m│[0m public fun issued(p:&Product):u64{p.issued}
+   [0m[34m│[0m                               [0m[34m---[0m [0m[34mGiven: 'u64'[0m
+
+[0m[1m[38;5;9merror[EC03007][0m[1m: too many type arguments[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:13
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!([0m[31mp.issued<policy::supply(&p.definition),1)[0m;p.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m             [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mInvalid instantiation of '(foreign_publication_producer=0x0)::producer::issued'. Expected 0 type argument(s) but got 1[0m
+
+[0m[1m[38;5;9merror[EC03022][0m[1m: invalid usage position[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:22
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!(p.issued<[0m[31mpolicy::supply[0m(&p.definition),1);p.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m                      [0m[31m^^^^^^^^^^^^^^[0m [0m[31mInvalid module access. Expected a type, but found function 'supply' in module '(soulidity_model=0x0)::policy'[0m
+
+[0m[1m[38;5;9merror[EC01002][0m[1m: unexpected token[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:36
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!(p.issued<policy::supply[0m[31m([0m&p.definition),1);p.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m                                    [0m[31m^[0m
+   [0m[34m│[0m                                    [0m[31m│[0m
+   [0m[34m│[0m                                    [0m[31mUnexpected '('[0m
+   [0m[34m│[0m                                    [0m[34mExpected ',' or '>'[0m
+
+[0m[1m[38;5;9merror[EC01002][0m[1m: unexpected token[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:52
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!(p.issued<policy::supply(&p.definition),[0m[31m1[0m);p.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m                                                    [0m[31m^[0m [0m[31mExpected '::' after the anonymous address in this module access chain[0m
+
+[0m[1m[38;5;9merror[EC01002][0m[1m: unexpected token[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:54
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!(p.issued<policy::supply(&p.definition),1)[0m[31m;[0mp.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m                     [0m[34m-[0m                                [0m[31m^[0m [0m[31mExpected '>'[0m
+   [0m[34m│[0m                     [0m[34m│[0m                                 
+   [0m[34m│[0m                     [0m[34mTo match this '<'[0m
+
+[0m[1m[38;5;9merror[EC01002][0m[1m: unexpected token[0m
+   [0m[34m┌─[0m ./sources/producer.move:20:54
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m     assert!(p.issued<policy::supply(&p.definition),1)[0m[31m;[0mp.issued=p.issued+1;let source=preview(p);
+   [0m[34m│[0m                                                      [0m[31m^[0m
+   [0m[34m│[0m                                                      [0m[31m│[0m
+   [0m[34m│[0m                                                      [0m[31mUnexpected ';'[0m
+   [0m[34m│[0m                                                      [0m[34mExpected '('[0m
+

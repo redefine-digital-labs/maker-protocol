@@ -1,0 +1,31 @@
+{
+  "proof": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/summary.json",
+  "guard_limitation": "lock_graph assert guards removed by -O/-OO; v1 run executed exact pinned Python3.12.14 default mode. Source/build/test proof retained as historical; v2 controls will use explicit guards.",
+  "files": [
+    {
+      "original_path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/lock_graph.py",
+      "preserved_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/lock_graph.py",
+      "sha256": "677a966229f26c5059b5c636fb89ff5624f5a34e543217a21304d0b9d0aa44cf"
+    },
+    {
+      "original_path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/verify_maker_publication.py",
+      "preserved_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/verify_maker_publication.py",
+      "sha256": "185dbb0029ffeb26ab1313e03650ba66efe0742fe118cfbc4a4193c34fd28986"
+    },
+    {
+      "original_path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verification-config.json",
+      "preserved_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/verification-config.json",
+      "sha256": "63838f3760e1d3b7a62a7accf6496fb91eb54a30d3f313157adc1a5fa157979d"
+    },
+    {
+      "original_path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verification-seal.json",
+      "preserved_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/verification-seal.json",
+      "sha256": "0b2edde0ac33a543ccb9f6cad0cc56ff204df4671acbea706fc7ea0d8b47b8ba"
+    },
+    {
+      "original_path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/frozen-candidate.json",
+      "preserved_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/frozen-candidate.json",
+      "sha256": "936fdcdaf84d2c783d4c08ef4bddc1e96f7005cbc50d58c0e937bb37eba51477"
+    }
+  ]
+}

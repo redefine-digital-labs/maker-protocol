@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "commit": "5a980fab04c0e9bc4af506d2b4262c26632d80ab",
+  "public_main_verified": true,
+  "fresh_complete_tree_exact": true,
+  "explicit_files": 640,
+  "actual_registered_ci": "PASS",
+  "production_artifacts_exact": 147,
+  "tests": {
+    "maker": 49,
+    "pack": 57,
+    "focused": 9
+  },
+  "keyless_runtime": {
+    "active_address": null,
+    "empty_keystore": true,
+    "generated_recovery_phrase": false
+  },
+  "receipt_sha256": "2f1b66b2707bfbf45490e0c6af9ccf36ccb2beea67543e2ecbe69ea3edffeff1",
+  "actions_enabled": false,
+  "independent_release": false,
+  "local_journal_restored_by_git": false
+}

@@ -1,0 +1,363 @@
+{
+  "config": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/verification-config.json",
+  "config_sha256": "8255119c7b8643707796df6e7d196688a513f390dda7c1c7cda7fa759bdab5ef",
+  "inputs": [
+    {
+      "root": "MakerDirectConsumer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "c6573fddac9e15c722744ee8e2373c333bee942dad21e378fd6bd3f7d6af656b"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/sources/consumer.move",
+      "relative": "sources/consumer.move",
+      "sha256": "9e40d1fe5d98e3dd6795c599a38208c66593eb497cc8d953ac0ae02f5d5ad940"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/tests/runtime.move",
+      "relative": "tests/runtime.move",
+      "sha256": "39bfc9c35a9c48f94e650eb18426192700d70e315c224f6703c0adf5c10d2c25"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "606bab8fcea5874bf248752e246b76b8505715f2249506d383bdf35ddbf9209e"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/binder.move",
+      "relative": "sources/binder.move",
+      "sha256": "a948c7a1775707cb146388b9b18f26d455eccc89e3bcdbe3637e26cea400694c"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/catalog.move",
+      "relative": "sources/catalog.move",
+      "sha256": "7bbfd3ad7e3e166ccd23f0bc088353711a655c555b7623b32abff3204c4597d0"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/market.move",
+      "relative": "sources/market.move",
+      "sha256": "fe473aa71ae33922a5de1e9312230ced90ca7d957e5a8f17d7e73b8eb59d93ee"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/operator.move",
+      "relative": "sources/operator.move",
+      "sha256": "498cae4624b1f2c85bed74ce72f92d6ce6b58b2c331fe653985bf1acc753d879"
+    },
+    {
+      "root": "RefuseCopyBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "976df5b7f0d335a9490db0afb746feab0b8ea93110b0fb12c9745f2d0b77b5c8"
+    },
+    {
+      "root": "RefuseCopyBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "d6557283e044268c8610e218cd826ec9424a6522c3ff1fa10d0b7daaf0d058b2"
+    },
+    {
+      "root": "RefuseCopyContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "229243210f0f3b9ebbd2da32f0ea656bcc0f54d6d14edfd4849fcb8e2106d70a"
+    },
+    {
+      "root": "RefuseCopyContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "e0d50da07b7cfac2daa6960adc55fa6835419ef0076c152d7a9b45f819ca050e"
+    },
+    {
+      "root": "RefuseCopyGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "0faaefa045ef443186567b24cd7b1abe0b907ac0376d7b3bb33a4c083d02012b"
+    },
+    {
+      "root": "RefuseCopyGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "979531721971ca32bc12538b4a998a3c51ae8931c1157bbf196802b78ab05409"
+    },
+    {
+      "root": "RefuseDropBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "6ef02f4b0fa6f77bf05df7df7c01f6b3c9337ff2b6d20ef4f2731248ae0b22ab"
+    },
+    {
+      "root": "RefuseDropBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "cc08930735b9cf22336974faec398d285959ff9e209d303860f9150f3f0d7ae9"
+    },
+    {
+      "root": "RefuseDropContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "bd77375939ac05a5f01726b11936e3fc624d3bb4e522712db12da635725d77e7"
+    },
+    {
+      "root": "RefuseDropContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "981ced8c45c42fe406483064bf0419b916e4629e74152993b47e912b7d9c06a2"
+    },
+    {
+      "root": "RefuseDropGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "fd87b2fe530e80147bdd539b3a7e6a488a55ed827748003303fd9bc6e2b06fc1"
+    },
+    {
+      "root": "RefuseDropGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "c71a446e24e319e78fc30d2a7dbeb8d364da2807c71e57f0eca48c3df15d61dc"
+    },
+    {
+      "root": "RefuseMetadataToGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "e2030ea92a69977db285570ca4fe83d113120f326ffd45bc7c762b0a65f4a5a1"
+    },
+    {
+      "root": "RefuseMetadataToGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "469f919804d57325c9c6153f15d9446edecba534c87b3ea9551589410cae7a6f"
+    },
+    {
+      "root": "RefuseOldBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "03a1e15449b7c20b2535d7a6865e0dee40fdc2519ab0111cf42747b3d678b7ce"
+    },
+    {
+      "root": "RefuseOldBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "65b749159c674cafffae034aa23c89e87d8c6f3f0bce72736ba32fb9ac5bd0ef"
+    },
+    {
+      "root": "RefuseOldProof",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "fa2fafb84a2aefc555aad63db1dc8f113d49bd23b206b60b27b0486e9557e34b"
+    },
+    {
+      "root": "RefuseOldProof",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "28b9ffdb20c3325b7ae6a3207c7341f1c99f205420b2147119ca5130b3e9fc0a"
+    },
+    {
+      "root": "RefuseOldRates",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "e72f312656c23ca6e4a52b0516d6ee7a6f304c9d4ebcdb6ee3b6cfee8ece0b22"
+    },
+    {
+      "root": "RefuseOldRates",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "83d6b1753c20154e1a38ec862dc13dd4bd67edaaa4907d5ddfc2142fec694a7a"
+    },
+    {
+      "root": "RefusePrivateBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "a878fa8295dfd5bebd430531473c411069393536354ffc0fe11ea4e0f049afcd"
+    },
+    {
+      "root": "RefusePrivateBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "3b51a30414d7a20c8e4ff3cc347df67e7f923548cdb5404cf76010e6c9fdb002"
+    },
+    {
+      "root": "RefusePrivateContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "37a6239baced5148f484a18e692bb32c6024171659558e852f2b5bd178b60801"
+    },
+    {
+      "root": "RefusePrivateContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "2dfcd9f02db4997412963bcd2906bd6eb6e048909f46e2530b2255946fc96362"
+    },
+    {
+      "root": "RefusePrivateGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "d5933a0577c3d71ad5ab4a15abf18f2f134b502e5c77d0155f00cf408fcfc53e"
+    },
+    {
+      "root": "RefusePrivateGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "8859e9efbcc05fa576e1e0dc1e723079a657c6446829bcf0af27788f7dc09b1c"
+    },
+    {
+      "root": "RefuseQuoteToAdmission",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "b6baa481a593da04815da0cd5ee4940a0a36b7b8769863968de7e8eddd4b7de8"
+    },
+    {
+      "root": "RefuseQuoteToAdmission",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "8140ef93dd5cbb0a6ff37c0949cf15f4d128644d12c9ecaecd933fa7780bd7c7"
+    },
+    {
+      "root": "RefuseStoreBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "47c0d7dc0a3614f160ed4bc3a2814baf1e1716d598b6ccf7091ebc945fc6218e"
+    },
+    {
+      "root": "RefuseStoreBinding",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "bcc2923faa0d752dd584525d688c4c7340c55b8a864428160c930e1e0426d4dc"
+    },
+    {
+      "root": "RefuseStoreContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "10c83f7f691b295f4d6c8137081f3bf4c644902a7b24a78d7ce039145369c6ce"
+    },
+    {
+      "root": "RefuseStoreContribution",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "aa51b6de6d2e5977eea3d977519ad798f6eb68e38330de6026a94690850a6430"
+    },
+    {
+      "root": "RefuseStoreGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/Move.toml",
+      "relative": "Move.toml",
+      "sha256": "9bb43b38d404d000e5c6fb0e287cac91f0d5f558541cad9ef10393391436de0f"
+    },
+    {
+      "root": "RefuseStoreGenesis",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/sources/refusal.move",
+      "relative": "sources/refusal.move",
+      "sha256": "2d53ff09507d475e8165c81e19623ea2a13683cec62721999af793cdd382b538"
+    }
+  ],
+  "negative_cases_historical": [
+    {
+      "root": "RefuseCopyBinding",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/sources/refusal.move",
+      "purpose": "Linear Binding cannot be copied"
+    },
+    {
+      "root": "RefuseDropBinding",
+      "primary_code": "EC06001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/sources/refusal.move",
+      "purpose": "Linear Binding cannot be discarded"
+    },
+    {
+      "root": "RefuseStoreBinding",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/sources/refusal.move",
+      "purpose": "Linear Binding cannot be persistently wrapped"
+    },
+    {
+      "root": "RefusePrivateBinding",
+      "primary_code": "EC04001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/sources/refusal.move",
+      "purpose": "Private Binding fields cannot be read by foreign code"
+    },
+    {
+      "root": "RefuseCopyGenesis",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/sources/refusal.move",
+      "purpose": "Linear Genesis cannot be copied"
+    },
+    {
+      "root": "RefuseDropGenesis",
+      "primary_code": "EC06001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/sources/refusal.move",
+      "purpose": "Linear Genesis cannot be discarded"
+    },
+    {
+      "root": "RefuseStoreGenesis",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/sources/refusal.move",
+      "purpose": "Linear Genesis cannot be persistently wrapped"
+    },
+    {
+      "root": "RefusePrivateGenesis",
+      "primary_code": "EC04001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/sources/refusal.move",
+      "purpose": "Private Genesis fields cannot be read by foreign code"
+    },
+    {
+      "root": "RefuseCopyContribution",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/sources/refusal.move",
+      "purpose": "Linear Contribution cannot be copied"
+    },
+    {
+      "root": "RefuseDropContribution",
+      "primary_code": "EC06001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/sources/refusal.move",
+      "purpose": "Linear Contribution cannot be discarded"
+    },
+    {
+      "root": "RefuseStoreContribution",
+      "primary_code": "EC05001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/sources/refusal.move",
+      "purpose": "Linear Contribution cannot be persistently wrapped"
+    },
+    {
+      "root": "RefusePrivateContribution",
+      "primary_code": "EC04001",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/sources/refusal.move",
+      "purpose": "Private Contribution fields cannot be read by foreign code"
+    },
+    {
+      "root": "RefuseOldRates",
+      "primary_code": "EC03003",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/sources/refusal.move",
+      "purpose": "Application imported alias is not an external type reexport"
+    },
+    {
+      "root": "RefuseOldProof",
+      "primary_code": "EC03003",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/sources/refusal.move",
+      "purpose": "Application imported alias is not an external type reexport"
+    },
+    {
+      "root": "RefuseOldBinding",
+      "primary_code": "EC03003",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/sources/refusal.move",
+      "purpose": "Application imported alias is not an external type reexport"
+    },
+    {
+      "root": "RefuseQuoteToAdmission",
+      "primary_code": "EC04007",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/sources/refusal.move",
+      "purpose": "Copyable physical Quote cannot substitute for linear admission Binding"
+    },
+    {
+      "root": "RefuseMetadataToGenesis",
+      "primary_code": "EC04007",
+      "source_file": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/sources/refusal.move",
+      "purpose": "Copyable physical Proof cannot substitute for actual Genesis"
+    }
+  ],
+  "scope": "19 previous fixture roots pinned and independently copied; DirectConsumer10 will rerun; previous17 compiler proof remains historical unless separately replayed."
+}

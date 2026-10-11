@@ -1,0 +1,17 @@
+# MAKER maintenance contract
+
+Nature: an independent asset and producer protocol. Manufacturing roots/versions/Drafts/supply, rights, and asset income each have one actual write authority; authoring tools and distribution channels are replaceable. The complete Maker kernel should not require Soul, Soulidity, or Animacraft; Soul consumption contracts are separated into an issuance adapter.
+
+This repository is the sole maintainer of five implementation sources, forming three unpublished Move units: Terms (actual economic terms), SoulAdmission (Soul issuance adapter), and Publication (passive output data and publication validation). There are 178 public function declarations and 27 type declarations; declaration counts do not establish business acceptance. See module.json.release_units, source_extraction, and the current CI summary for exact sources, dependencies, and artifacts.
+
+Model authorization now uses actual generic T:key; private same-module producer witnesses, source type/ID/rights, and linear target ID checks remain. Model, Terms, and Publication have Standard-free compiled closures. Terms still depends on Foundation/Model/Visual and enforces Config/role3/revision/income/exact payment/rounding and operational-gate obligations. SoulAdmission directly consumes Soul. ContentKinds Registry/AdminCap/initialization belongs to CONTENT; compilation independence does not eliminate governance, operation, or funds obligations.
+
+Complete manufacturing Product/Version/Control, supply/income, private source proofs, independent operational gates, Soul distribution, and NativeBinder/Operator same-package authority still await separation. The current package DAG has no compilation cycle. New types, events, and nested identities belong to the unpublished target; actual package addresses, UpgradeCaps, upgrade policies, old-writer rejection, and independent upgrades still await Gate0 and release verification.
+
+The current Code/Build/Test increment is verified: 26 builds match the reviewed candidate, Core1038 + foreign22 + the 10 original focused checks pass with default VM limits, and 16 counterexamples have their expected first diagnostics. This is staged actual-input replay; the CLI does not write directly to actual source paths. Current combined CI is construction integration evidence; future permanent independent CI should narrow to actual consumption contracts, with cross-repository combinations owned by Integration.
+
+Writes are restricted to this repository; original Owners and scope records remain unchanged. The sole integration coordinator adapts consumers in other repositories according to the authorized list. Source maintenance, version release, production deployment, and on-chain control require separate authorization; settlement roles do not confer upgrade authority. No on-chain administrative permissions were granted in this increment.
+
+Record stage, status, evidence, and exit criteria in original Delivery/DEV/BUG records, without creating a new board. Handbook v1.0 applies to §1–4, 5, 6 payment precision, 7, 8.3–8.4, 9, and 12; the review is evidence/maker-publication-extraction/PRODUCT_ENGINEERING_REVIEW_CN.md. Internal independent AI review does not replace qualified human release acceptance or external audit.
+
+Local source transition has frozen inputs, independent before copies, and complete recovery material; it did not switch on-chain issuers/writers. D26, B0/CASE-19, original complete journeys, and Release/Deploy still await acceptance.

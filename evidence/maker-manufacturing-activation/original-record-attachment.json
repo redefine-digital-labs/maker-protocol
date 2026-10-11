@@ -1,0 +1,28 @@
+{
+  "original_records": [
+    "DOF-001 F0C7JBQ5JF6/Rec0C78FYL0KD",
+    "P01 F0C6ZRFR6VD/Rec0C7JUHDK1A",
+    "P09 F0C6ZRFR6VD/Rec0C6ZSKKRPH"
+  ],
+  "owner_reassigned": false,
+  "handbook_version": "1.0",
+  "sections": [
+    "1-5",
+    "7",
+    "8.3",
+    "8.4",
+    "9",
+    "12"
+  ],
+  "stage_evidence": {
+    "Code": "627 guarded owning-source operations applied",
+    "Build": "147 exact production artifact hashes",
+    "Test": "Maker49/Pack57/focused9; independent23controls/21recovery checks",
+    "Release": "Unverified",
+    "Deploy": "No chain publication/production deployment",
+    "Operate": "Local source recovery journal preserved",
+    "Monitor": "Hosted automation unverified"
+  },
+  "status": "in-progress",
+  "full157_responsibilities_accepted": false
+}

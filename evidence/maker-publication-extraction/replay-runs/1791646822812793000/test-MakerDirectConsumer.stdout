@@ -1,0 +1,22 @@
+INCLUDING DEPENDENCY MakerDirectProducer
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING MakerDirectConsumer
+Running Move unit tests
+[ PASS    ] maker_consumer::leaf_runtime::actual_collection_ceil_is_per_component
+[ PASS    ] maker_consumer::leaf_runtime::actual_primary_genesis_and_contribution_conserve_coins
+[ PASS    ] maker_consumer::leaf_runtime::actual_secondary_gross_floor_pays_distinct_recipients_and_config_income
+[ PASS    ] maker_consumer::leaf_runtime::additive_u64_overflow_rejected
+[ PASS    ] maker_consumer::leaf_runtime::binding_rejects_wrong_operator_type
+[ PASS    ] maker_consumer::leaf_runtime::copyable_quote_and_primitive_witness_do_not_authorize_funds
+[ PASS    ] maker_consumer::leaf_runtime::copyable_receipt_for_different_rights_rejected
+[ PASS    ] maker_consumer::leaf_runtime::genesis_rejects_copyable_metadata_mismatch
+[ PASS    ] maker_consumer::leaf_runtime::physical_proof_is_copyable_untrusted_facts
+[ PASS    ] maker_consumer::leaf_runtime::wrong_exact_coin_rejected
+Test result: OK. Total tests: 10; passed: 10; failed: 0

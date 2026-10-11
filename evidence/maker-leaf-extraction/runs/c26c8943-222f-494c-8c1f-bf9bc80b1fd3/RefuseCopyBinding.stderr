@@ -1,0 +1,36 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING RefuseCopyBinding
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:53
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun duplicate(v:&Binding):(Binding,Binding){([0m[31m*v[0m,*v)}
+   [0m[34m│[0m                         [0m[34m-------[0m                     [0m[31m^^[0m [0m[31mInvalid dereference. Dereference requires the 'copy' ability[0m
+   [0m[34m│[0m                         [0m[34m│[0m                            
+   [0m[34m│[0m                         [0m[34mThe type '(soulidity_maker_admission=0x0)::maker_issuance::Binding' does not have the ability 'copy'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move:11:15
+   [0m[34m│[0m
+[0m[34m11[0m [0m[34m│[0m public struct Binding {config:ID,operator:TypeName}
+   [0m[34m│[0m               [0m[34m-------[0m [0m[34mTo satisfy the constraint, the 'copy' ability would need to be added here[0m
+
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:56
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun duplicate(v:&Binding):(Binding,Binding){(*v,[0m[31m*v[0m)}
+   [0m[34m│[0m                         [0m[34m-------[0m                        [0m[31m^^[0m [0m[31mInvalid dereference. Dereference requires the 'copy' ability[0m
+   [0m[34m│[0m                         [0m[34m│[0m                               
+   [0m[34m│[0m                         [0m[34mThe type '(soulidity_maker_admission=0x0)::maker_issuance::Binding' does not have the ability 'copy'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move:11:15
+   [0m[34m│[0m
+[0m[34m11[0m [0m[34m│[0m public struct Binding {config:ID,operator:TypeName}
+   [0m[34m│[0m               [0m[34m-------[0m [0m[34mTo satisfy the constraint, the 'copy' ability would need to be added here[0m
+

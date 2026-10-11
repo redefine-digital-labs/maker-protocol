@@ -1,0 +1,203 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityOriginProtocol
+INCLUDING DEPENDENCY SoulidityTransport
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING SoulidityMakerManufacturing
+Running Move unit tests
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::activation_does_not_open_primary_gate
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::certificate_foreign_original_lineage_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::copied_snapshot_cannot_fund_different_actual_product
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::certificate_metadata_does_not_enable_service
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::certificate_role_selection_requires_new_callable_marker_and_version
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::certificate_version_downgrade_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::funded_session_refuses_changed_current_config
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::enabled_service_cannot_register_from_certificate
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::finalizer_rejects_other_instances_admin
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::funded_session_refuses_expiry_after_begin
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::finalizer_requires_original_instance_creator
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::global_stop_refuses_manufacturing
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::fresh_service_has_exact_certificates_catalog_and_explicit_activation
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::included_pack_cannot_bypass_parent_via_ordinary_begin
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::new_service_preserves_old_instance_economic_snapshot_and_nonzero_income
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::old_foundation_callable_cannot_register_from_certificate
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::included_pack_completion_requires_actual_selection
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::other_instance_admin_cannot_select_release_certificate
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_latest_callable_mismatch
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_wrong_publisher_module
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_zero_latest_cap
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::independent_material_cap_refused_without_touching_oc_supply
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::register_from_certificate_wrong_cas_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_keeps_absent_native_primary_refusal
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::register_from_certificate_wrong_commitment_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_keeps_original_native_enable_refusal
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::same_or_stale_release_certificate_refused
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::two_ordinary_creators_get_distinct_admin_configs_ledgers_and_terms
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::wrong_private_module_refused_by_real_attest
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_access_route
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::wrong_role_kind_refused
+[ PASS    ] soulidity_maker_manufacturing::open_service_tests::zero_version_certificate_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_funded_route
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_physical_binding
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_physical_settlement
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_player_route
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::manufacturing_attempt_replay_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::non_soul_free_full_factory_without_native
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::non_soul_paid_full_factory_income_donation_and_pause_exit
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::paid_action_cannot_be_taken_twice
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::paid_action_refuses_wrong_execution_revision
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::paid_manufacturing_overpayment_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::paid_manufacturing_underpayment_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::paid_parent_pack_player_select_and_finish_without_native
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::physical_actual_coin_underpayment_refused
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::physical_typed_registry_settlement_separates_material_and_oc_supply
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::real_paid_action_refuses_other_actual_target
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::real_session_rechecks_system_epoch_at_completion
+[ PASS    ] soulidity_maker_manufacturing::manufacturing_tests::real_session_refuses_selection_on_other_actual_target
+
+Test Statistics:
+
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────┬───────────────────────────┐
+│                                                         Test Name                                                          │    Time    │         Gas Used          │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::copied_snapshot_cannot_fund_different_actual_product                   │   0.416    │      49999995592355       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::funded_session_refuses_changed_current_config                          │   0.087    │      49999995440034       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::funded_session_refuses_expiry_after_begin                              │   0.085    │      49999995435592       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::global_stop_refuses_manufacturing                                      │   0.074    │      49999995320696       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::included_pack_cannot_bypass_parent_via_ordinary_begin                  │   0.103    │      49999995621891       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::included_pack_completion_requires_actual_selection                     │   0.110    │      49999995659042       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::independent_material_cap_refused_without_touching_oc_supply            │   0.084    │      49999995432321       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_keeps_absent_native_primary_refusal           │   0.073    │      49999995316370       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_keeps_original_native_enable_refusal          │   0.074    │      49999995320766       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_access_route                   │   0.079    │      49999995337969       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_funded_route                   │   0.091    │      49999995450125       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_physical_binding               │   0.074    │      49999995328600       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_physical_settlement            │   0.073    │      49999995372555       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_activation_refuses_native_player_route                   │   0.073    │      49999995329269       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::manufacturing_attempt_replay_refused                                   │   0.093    │      49999995516966       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::non_soul_free_full_factory_without_native                              │   0.095    │      49999995498264       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::non_soul_paid_full_factory_income_donation_and_pause_exit              │   0.090    │      49999995482374       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::paid_action_cannot_be_taken_twice                                      │   0.083    │      49999995436129       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::paid_action_refuses_wrong_execution_revision                           │   0.084    │      49999995435680       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::paid_manufacturing_overpayment_refused                                 │   0.084    │      49999995437197       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::paid_manufacturing_underpayment_refused                                │   0.086    │      49999995437197       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::paid_parent_pack_player_select_and_finish_without_native               │   0.116    │      49999995765801       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::physical_actual_coin_underpayment_refused                              │   0.076    │      49999995376720       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::physical_typed_registry_settlement_separates_material_and_oc_supply    │   0.083    │      49999995441644       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::real_paid_action_refuses_other_actual_target                           │   0.085    │      49999995435868       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::real_session_rechecks_system_epoch_at_completion                       │   0.085    │      49999995469897       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::manufacturing_tests::real_session_refuses_selection_on_other_actual_target                  │   0.084    │      49999995432043       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::activation_does_not_open_primary_gate                                   │   0.382    │      49999995185492       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::certificate_foreign_original_lineage_refused                            │   0.000    │      49999995000077       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::certificate_metadata_does_not_enable_service                            │   0.065    │      49999995151711       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::certificate_role_selection_requires_new_callable_marker_and_version     │   0.000    │      49999995000079       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::certificate_version_downgrade_refused                                   │   0.001    │      49999995000161       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::enabled_service_cannot_register_from_certificate                        │   0.065    │      49999995178837       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::finalizer_rejects_other_instances_admin                                 │   0.066    │      49999995204651       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::finalizer_requires_original_instance_creator                            │   0.067    │      49999995177976       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::fresh_service_has_exact_certificates_catalog_and_explicit_activation    │   0.069    │      49999995198969       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::new_service_preserves_old_instance_economic_snapshot_and_nonzero_income │   0.071    │      49999995240195       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::old_foundation_callable_cannot_register_from_certificate                │   0.065    │      49999995154998       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::other_instance_admin_cannot_select_release_certificate                  │   0.066    │      49999995177659       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_latest_callable_mismatch                            │   0.001    │      49999995000101       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_wrong_publisher_module                              │   0.001    │      49999995000101       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::real_attest_refuses_zero_latest_cap                                     │   0.001    │      49999995000101       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::register_from_certificate_wrong_cas_refused                             │   0.064    │      49999995151746       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::register_from_certificate_wrong_commitment_refused                      │   0.065    │      49999995152041       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::same_or_stale_release_certificate_refused                               │   0.065    │      49999995155100       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::two_ordinary_creators_get_distinct_admin_configs_ledgers_and_terms      │   0.071    │      49999995230538       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::wrong_private_module_refused_by_real_attest                             │   0.000    │      49999995000036       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::wrong_role_kind_refused                                                 │   0.065    │      49999995151528       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_maker_manufacturing::open_service_tests::zero_version_certificate_refused                                        │   0.000    │      49999995000074       │
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────┴───────────────────────────┘
+
+Test result: OK. Total tests: 49; passed: 49; failed: 0
+2026-10-11T09:42:23.412991Z  WARN sui_package_alt::sui_flavor: Failed to query protocol version: Failed to query protocol config. Falling back to protocol version 137.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/maker_catalog.move:97:32
+   │
+93 │ fun create<C>(cfg:&Config<C>,market:MarketPolicy,control_royalty_bps:u16,primary:PrimaryPolicy,maker:Option<ID>,parent_version:u64,parent_snapshot:Option<ParentSnapshot>,ctx:&mut TxContext):ID {
+   │                                                                                                                                                                                               -- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+   ·
+97 │     let product=object::id(&p);transfer::public_transfer(Control{id:object::new(ctx),product},ctx.sender());transfer::share_object(p);product
+   │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                │                                                              │
+   │                                │                                                              Transaction sender address coming from here
+   │                                Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL02008]: struct with id but missing key ability
+   ┌─ ./sources/maker_release.move:45:1
+   │
+45 │ public struct Custody has store {id:UID}
+   │ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Struct's first field has an 'id' field of type 'sui::object::UID' but is missing the 'key' ability.
+   │
+   = This warning can be suppressed with '#[allow(lint(missing_key))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./sources/maker_release.move:146:228
+    │
+146 │     assert!(d.header.actor==ctx.sender(),EActor);assert!(paged_store::length(&d.rows)-d.returned<=30,EBounds);let Draft{mut id,header:_,expected:_,rows,index:_,revision:_,canceling:_,returned}=d;let DraftVersion{id:metadata_id,version}=dof::remove(&mut id,MetadataKey{});metadata_id.delete();let mut blobs=vector[blob_custody::take_document(&mut id,0),blob_custody::take_document(&mut id,1)];let mut i=returned;while(i < paged_store::length(&rows)){blobs.push_back(blob_custody::take(&mut id,i));i=i+1};paged_store::destroy(rows);id.delete();blobs
+    │                                                                                                                                                                                                                                    ^^^^^^^ Unused local variable 'version'. Consider removing or prefixing with an underscore: '_version'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Please report feedback on the linter warnings at https://forums.sui.io
+

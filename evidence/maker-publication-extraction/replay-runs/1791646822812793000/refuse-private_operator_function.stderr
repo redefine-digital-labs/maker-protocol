@@ -1,0 +1,31 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityApplication
+INCLUDING DEPENDENCY SoulidityCommunity
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityCustody
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityNative
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+INCLUDING DEPENDENCY soulidity_v1
+BUILDING Refuse_private_operator_function
+[0m[1m[38;5;9merror[EC04001][0m[1m: restricted visibility[0m
+  [0m[34m┌─[0m ./sources/refusal.move:2:74
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m public fun bad():soulidity_v1::application_operator::ApplicationOperator{[0m[31msoulidity_v1::application_operator::operator()[0m}
+  [0m[34m│[0m                                                                          [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mInvalid call to 'public(package)' visible function '(soulidity_v1=0x0)::application_operator::operator'[0m
+  [0m[34m│[0m
+  [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_v1/sources/application_operator.move:5:1
+  [0m[34m│[0m
+[0m[34m5[0m [0m[34m│[0m public(package) fun operator():ApplicationOperator{ApplicationOperator{}}
+  [0m[34m│[0m [0m[34m---------------[0m [0m[34mA 'public(package)' function can only be called from the same address and package as module '(soulidity_v1=0x0)::application_operator' in package 'soulidity_v1'. This call is from address '(refuse=0x0)' in package 'Refuse_private_operator_function'[0m
+

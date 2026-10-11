@@ -1,0 +1,57 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING SoulidityContent
+warning[WC09001]: unused alias
+  ┌─ ./sources/document.move:5:19
+  │
+5 │ use std::string::{Self,String};
+  │                   ^^^^ Unused 'use' of alias 'string'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09011]: unused constant
+  ┌─ ./sources/document.move:8:7
+  │
+8 │ const EName:u64=1;
+  │       ^^^^^ The constant 'EName' is never used. Consider removing it.
+  │
+  = This warning can be suppressed with '#[allow(unused_const)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/kind_registry.move:4:113
+  │
+4 │ use soulidity_content_kinds::content_kind_registry::{Self as canonical,KindDescriptor,KindRegistry,KindAdminCap,KindRegistryCreated,KindRegistered,KindDeprecated,KindReactivated};
+  │                                                                                                                 ^^^^^^^^^^^^^^^^^^^ Unused 'use' of alias 'KindRegistryCreated'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/kind_registry.move:4:133
+  │
+4 │ use soulidity_content_kinds::content_kind_registry::{Self as canonical,KindDescriptor,KindRegistry,KindAdminCap,KindRegistryCreated,KindRegistered,KindDeprecated,KindReactivated};
+  │                                                                                                                                     ^^^^^^^^^^^^^^ Unused 'use' of alias 'KindRegistered'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/kind_registry.move:4:148
+  │
+4 │ use soulidity_content_kinds::content_kind_registry::{Self as canonical,KindDescriptor,KindRegistry,KindAdminCap,KindRegistryCreated,KindRegistered,KindDeprecated,KindReactivated};
+  │                                                                                                                                                    ^^^^^^^^^^^^^^ Unused 'use' of alias 'KindDeprecated'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/kind_registry.move:4:163
+  │
+4 │ use soulidity_content_kinds::content_kind_registry::{Self as canonical,KindDescriptor,KindRegistry,KindAdminCap,KindRegistryCreated,KindRegistered,KindDeprecated,KindReactivated};
+  │                                                                                                                                                                   ^^^^^^^^^^^^^^^ Unused 'use' of alias 'KindReactivated'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+

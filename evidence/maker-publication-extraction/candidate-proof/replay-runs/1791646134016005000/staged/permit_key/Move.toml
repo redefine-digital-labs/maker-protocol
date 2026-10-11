@@ -1,0 +1,11 @@
+[package]
+name = "Refuse_permit_key"
+edition = "2024"
+
+[dependencies]
+SoulidityMakerPublication = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_maker_publication" }
+SoulidityContentKinds = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_content_kinds" }
+SoulidityModel = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_model" }
+
+[addresses]
+refuse = "0x0"

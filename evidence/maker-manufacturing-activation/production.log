@@ -1,0 +1,47 @@
+2026-10-11T09:42:22.713181Z  WARN sui_package_alt::sui_flavor: Failed to query protocol version: Failed to query protocol config. Falling back to protocol version 137.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityOriginProtocol
+INCLUDING DEPENDENCY SoulidityTransport
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING SoulidityMakerManufacturing
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/maker_catalog.move:97:32
+   │
+93 │ fun create<C>(cfg:&Config<C>,market:MarketPolicy,control_royalty_bps:u16,primary:PrimaryPolicy,maker:Option<ID>,parent_version:u64,parent_snapshot:Option<ParentSnapshot>,ctx:&mut TxContext):ID {
+   │                                                                                                                                                                                               -- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+   ·
+97 │     let product=object::id(&p);transfer::public_transfer(Control{id:object::new(ctx),product},ctx.sender());transfer::share_object(p);product
+   │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                │                                                              │
+   │                                │                                                              Transaction sender address coming from here
+   │                                Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL02008]: struct with id but missing key ability
+   ┌─ ./sources/maker_release.move:45:1
+   │
+45 │ public struct Custody has store {id:UID}
+   │ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Struct's first field has an 'id' field of type 'sui::object::UID' but is missing the 'key' ability.
+   │
+   = This warning can be suppressed with '#[allow(lint(missing_key))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./sources/maker_release.move:146:228
+    │
+146 │     assert!(d.header.actor==ctx.sender(),EActor);assert!(paged_store::length(&d.rows)-d.returned<=30,EBounds);let Draft{mut id,header:_,expected:_,rows,index:_,revision:_,canceling:_,returned}=d;let DraftVersion{id:metadata_id,version}=dof::remove(&mut id,MetadataKey{});metadata_id.delete();let mut blobs=vector[blob_custody::take_document(&mut id,0),blob_custody::take_document(&mut id,1)];let mut i=returned;while(i < paged_store::length(&rows)){blobs.push_back(blob_custody::take(&mut id,i));i=i+1};paged_store::destroy(rows);id.delete();blobs
+    │                                                                                                                                                                                                                                    ^^^^^^^ Unused local variable 'version'. Consider removing or prefixing with an underscore: '_version'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Please report feedback on the linter warnings at https://forums.sui.io
+

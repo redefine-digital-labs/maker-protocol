@@ -1,0 +1,10 @@
+{
+  "candidate_and_payload_inputs": 254,
+  "payload_map_sha256": "2b7bcc86059a284aa2c3aab77216986df4c5ea6bfb99d2c1693d18db94a08548",
+  "candidate_source_and_payload_changed": false,
+  "config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+  "seal_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1",
+  "v1_historical_metadata": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verifier-v1/frozen-candidate.json",
+  "v2_changes": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/v2-control-changes.json",
+  "actual_writes": 0
+}

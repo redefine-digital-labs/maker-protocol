@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "mode": "normal",
+      "command": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/offline_control_checks.py",
+        "--child",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/normal"
+      ],
+      "exit": 0,
+      "summary": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/normal/summary.json"
+    },
+    {
+      "mode": "O",
+      "command": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/offline_control_checks.py",
+        "--child",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/O"
+      ],
+      "exit": 0,
+      "summary": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/O/summary.json"
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/offline_control_checks.py",
+        "--child",
+        "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/OO"
+      ],
+      "exit": 0,
+      "summary": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/OO/summary.json"
+    }
+  ],
+  "sui_invocations": 0
+}

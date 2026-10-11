@@ -1,0 +1,211 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:6:54
+  │
+6 │ use soulidity_content_kinds::content_kind_registry::{Self,KindRegistry,KindAdminCap};
+  │                                                      ^^^^ Unused 'use' of alias 'content_kind_registry'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:8:53
+  │
+8 │ use soulidity_maker_publication::output_data::{Self,Policy,Intent,InitialRule,Selection,RecipeSlot,PayLine};
+  │                                                     ^^^^^^ Unused 'use' of alias 'Policy'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:8:60
+  │
+8 │ use soulidity_maker_publication::output_data::{Self,Policy,Intent,InitialRule,Selection,RecipeSlot,PayLine};
+  │                                                            ^^^^^^ Unused 'use' of alias 'Intent'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:9:34
+  │
+9 │ use soulidity_maker_publication::publication_validation;
+  │                                  ^^^^^^^^^^^^^^^^^^^^^^ Unused 'use' of alias 'publication_validation'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:25:40
+   │
+25 │  let mut sc=test_scenario::begin(@0xa);kind_registry::init_for_testing(sc.ctx());let(c,a)=foreign_publication_producer::native_binding::create<USD>(sc.ctx());economics::share_config_for_testing(c,a,sc.ctx());sc.next_tx(@0xa);
+   │                                        ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/tests.move:29:13
+   │
+29 │ fun publish(sc:&mut Scenario,p:Product,t:Target){transfer::public_transfer(p,@0xa);transfer::public_transfer(t,@0xa)}
+   │             ^^ Unused parameter 'sc'. Consider removing or prefixing with an underscore: '_sc'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:122
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                          ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:158
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                              ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:209
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                 ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:326
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:390
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:459
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:496
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:43:542
+   │
+43 │ #[test]fun registry_builtin_and_custom_reactivation_preserves_descriptor(){let(mut sc,mut r,mut cap,cfg)=setup();assert!(kind_registry::next_kind(&r)==16 && kind_registry::registry_version(&r)==1,0);let kind=kind_registry::register_kind(&mut r,&mut cap,string::utf8(b"custom"),1,3,false,false,2,sc.ctx());assert!(kind==16 && kind_registry::kind_for_name(&r,string::utf8(b"custom"))==16,1);kind_registry::deprecate_kind(&mut r,&mut cap,kind,sc.ctx());assert!(kind_registry::descriptor_deprecated(kind_registry::borrow_descriptor(&r,kind)),2);kind_registry::reactivate_kind(&mut r,&mut cap,kind,sc.ctx());let rule=output_data::initial_rule(&r,kind,string::utf8(b"custom"),3,0);assert!(output_data::rule_kind(&rule)==16 && output_data::rule_read(&rule)==3,3);end(sc,r,cap,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:45:102
+   │
+45 │ fun cap_registry_mismatch_rejected_before_name_validation(){let(mut sc,mut r,cap,cfg)=setup();let id=kind_registry::registry_id(&r);test_scenario::return_shared(r);sc.return_to_sender(cap);sc.next_tx(@0xb);kind_registry::init_for_testing(sc.ctx());sc.next_tx(@0xb);let mut r:KindRegistry=sc.take_shared_by_id(id);let mut other:KindAdminCap=sc.take_from_sender();let _=kind_registry::register_kind(&mut r,&mut other,string::utf8(b"!"),0,1,false,false,0,sc.ctx());end(sc,r,other,cfg)}
+   │                                                                                                      ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:45:207
+   │
+45 │ fun cap_registry_mismatch_rejected_before_name_validation(){let(mut sc,mut r,cap,cfg)=setup();let id=kind_registry::registry_id(&r);test_scenario::return_shared(r);sc.return_to_sender(cap);sc.next_tx(@0xb);kind_registry::init_for_testing(sc.ctx());sc.next_tx(@0xb);let mut r:KindRegistry=sc.take_shared_by_id(id);let mut other:KindAdminCap=sc.take_from_sender();let _=kind_registry::register_kind(&mut r,&mut other,string::utf8(b"!"),0,1,false,false,0,sc.ctx());end(sc,r,other,cfg)}
+   │                                                                                                                                                                                                               ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:45:369
+   │
+45 │ fun cap_registry_mismatch_rejected_before_name_validation(){let(mut sc,mut r,cap,cfg)=setup();let id=kind_registry::registry_id(&r);test_scenario::return_shared(r);sc.return_to_sender(cap);sc.next_tx(@0xb);kind_registry::init_for_testing(sc.ctx());sc.next_tx(@0xb);let mut r:KindRegistry=sc.take_shared_by_id(id);let mut other:KindAdminCap=sc.take_from_sender();let _=kind_registry::register_kind(&mut r,&mut other,string::utf8(b"!"),0,1,false,false,0,sc.ctx());end(sc,r,other,cfg)}
+   │                                                                                                                                                                                                                                                                                                                                                                                 ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:59:88
+   │
+59 │ fun deprecated_kind_precedes_invalid_read_mask(){let(mut sc,mut r,mut cap,cfg)=setup();kind_registry::deprecate_kind(&mut r,&mut cap,3,sc.ctx());let _=output_data::initial_rule(&r,3,string::utf8(b"image"),0,9);end(sc,r,cap,cfg)}
+   │                                                                                        ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:83:10
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │          ^^^^^^^^^^^^^^^^^ Could not resolve the name 'publication_rules'
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:83:66
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                  ^^^^^^^^^^^^^^^^^ Could not resolve the name 'publication_rules'
+
+error[EC04010]: cannot infer type
+   ┌─ ./tests/tests.move:83:131
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                   ^^^^ Could not infer this type. Try adding an annotation
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:83:142
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                              ^^^^^^^^^^^^^^^^^ Could not resolve the name 'publication_rules'
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/tests.move:83:243
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                                                                                                                                   ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+error[EC04023]: invalid method call
+   ┌─ ./tests/tests.move:83:248
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                   ----                                                                                                                 ^^^^^^^^^^^^^ Invalid method call
+   │                                                                                                                                   │                                                                                                                     
+   │                                                                                                                                   Unable to infer type for method call. Try annotating this type
+
+error[EC03006]: unexpected name in this position
+   ┌─ ./tests/tests.move:83:268
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                                                                                                                                                            ^^^^^^^^^^^^^^^^^ Could not resolve the name 'publication_rules'
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/tests.move:83:330
+   │
+83 │  assert!(publication_rules::validate_outputs(&vector[out])==0 && publication_rules::validate_outputs(&vector[out,out])==9,11);let(rows,code)=publication_rules::expected_assets(&vector[definition(0),definition(1),definition(2)]);assert!(code==0 && rows.length()==1 && publication_rules::expected_lookup(&rows,h(11))==option::some(1024),12);publish(&mut sc,p,t);end(sc,r,cap,cfg)
+   │                                                                                                                                                                                                                                                                                                                                          ^^^^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:16:14
+   │
+16 │     assert!(!kind_registry::descriptor_deprecated(d),EOperation);
+   │              ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:17:17
+   │
+17 │     let allowed=kind_registry::descriptor_read_mode_mask(d);
+   │                 ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:18:77
+   │
+18 │     assert!(read_mask>0 && (read_mask & allowed)==read_mask && (read_mask & kind_registry::read_owner())!=0,ERead);
+   │                                                                             ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:19:16
+   │
+19 │     assert!(if(kind_registry::descriptor_requires_download_policy(d))download_policy<=2 else download_policy==0,ERead);
+   │                ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:20:21
+   │
+20 │     if((read_mask & kind_registry::read_public())!=0)assert!(download_policy==0,ERead);
+   │                     ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+
+error[EC03006]: unexpected name in this position
+   ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication/sources/output_data.move:24:68
+   │
+24 │     document::assert_name(kind,&name);document::assert_read_policy(kind_registry::borrow_descriptor(registry,kind),read_mask,download_policy);
+   │                                                                    ^^^^^^^^^^^^^ Could not resolve the name 'kind_registry'
+

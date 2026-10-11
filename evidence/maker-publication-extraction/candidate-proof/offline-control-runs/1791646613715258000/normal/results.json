@@ -1,0 +1,104 @@
+[
+  {
+    "case": "valid-sealed-controls-pinned-Python-and-Sui",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "valid-42-generated-lock-roots",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "bad-manifest-digest",
+    "passed": true,
+    "error": "Generated manifest digest mismatch: /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/normal/bad-manifest-digest:SoulidityModel",
+    "expected_error": "Generated manifest digest mismatch"
+  },
+  {
+    "case": "bad-local-edge",
+    "passed": true,
+    "error": "Local edge mismatch: /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/normal/bad-local-edge:SoulidityFoundation",
+    "expected_error": "Local edge mismatch"
+  },
+  {
+    "case": "unknown-local-locator",
+    "passed": true,
+    "error": "Unknown local locator: /unknown/producer",
+    "expected_error": "Unknown local locator"
+  },
+  {
+    "case": "unsupported-dependency-fields",
+    "passed": true,
+    "error": "Unsupported dependency fields: {'local': '/a', 'unexpected': True}",
+    "expected_error": "Unsupported dependency fields"
+  },
+  {
+    "case": "retarget-bad-digest",
+    "passed": true,
+    "error": "Retarget source digest mismatch",
+    "expected_error": "Retarget source digest mismatch"
+  },
+  {
+    "case": "config-seal-tamper",
+    "passed": true,
+    "error": "Reviewed config seal mismatch",
+    "expected_error": "Reviewed config seal mismatch"
+  },
+  {
+    "case": "control-source-tamper",
+    "passed": true,
+    "error": "Reviewed control mismatch: /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/normal/control-source-tamper/source-control.py",
+    "expected_error": "Reviewed control mismatch"
+  },
+  {
+    "case": "wrong-Python-binary",
+    "passed": true,
+    "error": "Pinned Python binary identity changed",
+    "expected_error": "Pinned Python binary identity changed"
+  },
+  {
+    "case": "wrong-Python-version",
+    "passed": true,
+    "error": "Pinned Python version mismatch",
+    "expected_error": "Pinned Python version mismatch"
+  },
+  {
+    "case": "right-first-location-valid",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "wrong-first-right-secondary-refused",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "wrong-code-refused",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "ANSI-primary-location-valid",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "all-16-real-first-locations-and-source-SHAs",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  },
+  {
+    "case": "all-217-installed-original-pins-derived-exactly",
+    "passed": true,
+    "error": null,
+    "expected_error": null
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "permit_drop",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop/sources/refusal.move",
+    "source_sha256": "4054f4cf4af78a09468f85590840b6e96c6e3a17bad68dd9c6a9bb822886fed0",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+      "--install-dir",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scratch-build",
+      "--dump-bytecode-as-base64",
+      "--with-unpublished-dependencies",
+      "--no-tree-shaking"
+    ],
+    "exit": 1,
+    "duration_seconds": 4.128622667165473,
+    "diagnostic_codes": [
+      "EC05001"
+    ],
+    "primary_source_locations": [
+      "./sources/refusal.move",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model/sources/components.move"
+    ],
+    "passed": true
+  }
+]

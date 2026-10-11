@@ -1,0 +1,233 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+[NOTE] Updating dependencies for `mainnet` environment because "./Move.toml" has been changed since the last update.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING SoulidityApplication
+warning[WC09001]: unused alias
+  ┌─ ./sources/output.move:5:100
+  │
+5 │ use soulidity_maker_publication::output_data::{Self,InitialRule,Policy,Intent,Selection,RecipeSlot,Recipe,Namespace,PayLine,Receipt};
+  │                                                                                                    ^^^^^^ Unused 'use' of alias 'Recipe'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/output.move:5:107
+  │
+5 │ use soulidity_maker_publication::output_data::{Self,InitialRule,Policy,Intent,Selection,RecipeSlot,Recipe,Namespace,PayLine,Receipt};
+  │                                                                                                           ^^^^^^^^^ Unused 'use' of alias 'Namespace'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+   ┌─ ./sources/output.move:13:24
+   │
+13 │ use soulidity_content::document;
+   │                        ^^^^^^^^ Unused 'use' of alias 'document'. Consider removing it
+   │
+   = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+   ┌─ ./sources/output.move:14:62
+   │
+14 │ use soulidity_content_kinds::content_kind_registry::{Self as kind_registry,KindRegistry};
+   │                                                              ^^^^^^^^^^^^^ Unused 'use' of alias 'kind_registry'. Consider removing it
+   │
+   = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+   ┌─ ./sources/output.move:16:39
+   │
+16 │ use soulidity_foundation::economics::{Self,PrimaryReceipt};
+   │                                       ^^^^ Unused 'use' of alias 'economics'. Consider removing it
+   │
+   = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09011]: unused constant
+   ┌─ ./sources/output.move:22:7
+   │
+22 │ const EPolicy:u64=1;const EIntent:u64=2;const ERecipe:u64=3;const EProtection:u64=4;
+   │       ^^^^^^^ The constant 'EPolicy' is never used. Consider removing it.
+   │
+   = This warning can be suppressed with '#[allow(unused_const)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:4:10
+  │
+4 │ use std::bcs;
+  │          ^^^ Unused 'use' of alias 'bcs'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:5:31
+  │
+5 │ use soulidity_model::policy::{Self,Source};
+  │                               ^^^^ Unused 'use' of alias 'policy'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:7:39
+  │
+7 │ use soulidity_foundation::economics::{Self,MarketPolicy};
+  │                                       ^^^^ Unused 'use' of alias 'economics'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:8:51
+  │
+8 │ use soulidity_maker_terms::maker_resale::{Self as resale,Rates};
+  │                                                   ^^^^^^ Unused 'use' of alias 'resale'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:9:67
+  │
+9 │ use soulidity_maker_terms::maker_physical_metadata::{Self as leaf,Authorization,Quote,Proof,Provenance,Registration,SalePolicy,RuleCommitment,Snapshot,SaleReceipt};
+  │                                                                   ^^^^^^^^^^^^^ Unused 'use' of alias 'Authorization'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:9:81
+  │
+9 │ use soulidity_maker_terms::maker_physical_metadata::{Self as leaf,Authorization,Quote,Proof,Provenance,Registration,SalePolicy,RuleCommitment,Snapshot,SaleReceipt};
+  │                                                                                 ^^^^^ Unused 'use' of alias 'Quote'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:9:93
+  │
+9 │ use soulidity_maker_terms::maker_physical_metadata::{Self as leaf,Authorization,Quote,Proof,Provenance,Registration,SalePolicy,RuleCommitment,Snapshot,SaleReceipt};
+  │                                                                                             ^^^^^^^^^^ Unused 'use' of alias 'Provenance'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/physical_metadata.move:9:128
+  │
+9 │ use soulidity_maker_terms::maker_physical_metadata::{Self as leaf,Authorization,Quote,Proof,Provenance,Registration,SalePolicy,RuleCommitment,Snapshot,SaleReceipt};
+  │                                                                                                                                ^^^^^^^^^^^^^^ Unused 'use' of alias 'RuleCommitment'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./sources/character.move:141:35
+    │
+141 │     let n=(if(reference.is_some())1 else 0)+(if(item.is_some())1 else 0)+(if(bound.is_some())1 else 0);assert!(n==1,ERights);
+    │                                   ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:4:10
+  │
+4 │ use std::bcs;
+  │          ^^^ Unused 'use' of alias 'bcs'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:5:17
+  │
+5 │ use sui::coin::{Self,Coin};
+  │                 ^^^^ Unused 'use' of alias 'coin'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:6:10
+  │
+6 │ use sui::event;
+  │          ^^^^^ Unused 'use' of alias 'event'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:7:22
+  │
+7 │ use soulidity_model::policy;
+  │                      ^^^^^^ Unused 'use' of alias 'policy'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:8:39
+  │
+8 │ use soulidity_foundation::economics::{Self,Config};
+  │                                       ^^^^ Unused 'use' of alias 'economics'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/resale.move:9:79
+  │
+9 │ use soulidity_maker_terms::maker_resale::{Self as leaf,Rates,Snapshot,Receipt,Settled};
+  │                                                                               ^^^^^^^ Unused 'use' of alias 'Settled'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/issuance.move:4:22
+  │
+4 │ use std::type_name::{Self,TypeName};
+  │                      ^^^^ Unused 'use' of alias 'type_name'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/issuance.move:5:39
+  │
+5 │ use soulidity_foundation::economics::{Self,Config,PrimaryReceipt};
+  │                                       ^^^^ Unused 'use' of alias 'economics'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/issuance.move:6:32
+  │
+6 │ use soulidity_standard::soul::{Self,Soul};
+  │                                ^^^^ Unused 'use' of alias 'soul'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/issuance.move:7:22
+  │
+7 │ use soulidity_model::policy;
+  │                      ^^^^^^ Unused 'use' of alias 'policy'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+   ┌─ ./sources/forms.move:14:22
+   │
+14 │ use soulidity_model::policy;
+   │                      ^^^^^^ Unused 'use' of alias 'policy'. Consider removing it
+   │
+   = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/publication_rules.move:5:86
+  │
+5 │ use soulidity_maker_publication::publication_validation::{Self as canonical,Expected,AdapterKey};
+  │                                                                                      ^^^^^^^^^^ Unused 'use' of alias 'AdapterKey'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+

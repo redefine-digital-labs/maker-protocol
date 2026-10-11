@@ -1,0 +1,24 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING RefuseStoreGenesis
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:40
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public struct Cached has store {ticket:[0m[31mGenesis[0m}
+   [0m[34m│[0m                                        [0m[31m^^^^^^^[0m
+   [0m[34m│[0m                                        [0m[31m│[0m
+   [0m[34m│[0m                                        [0m[31mInvalid field type. The struct was declared with the ability 'store' so all fields require the ability 'store'[0m
+   [0m[34m│[0m                                        [0m[34mThe type '(soulidity_maker_admission=0x0)::maker_issuance::Genesis' does not have the ability 'store'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move:12:15
+   [0m[34m│[0m
+[0m[34m12[0m [0m[34m│[0m public struct Genesis {config:ID,root:ID,source:ID,version:u64,policy:vector<u8>,actor:address,metadata:vector<u8>,operator:TypeName}
+   [0m[34m│[0m               [0m[34m-------[0m [0m[34mTo satisfy the constraint, the 'store' ability would need to be added here[0m
+

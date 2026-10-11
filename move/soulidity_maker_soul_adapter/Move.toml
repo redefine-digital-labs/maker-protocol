@@ -1,0 +1,17 @@
+[package]
+name = "SoulidityMakerSoulAdapter"
+edition = "2024"
+
+[dependencies]
+SoulidityApplication = { local = "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application" }
+SoulidityMakerAdmission = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission" }
+SoulidityMakerManufacturing = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_manufacturing" }
+
+Sui = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework", override = true}
+Walrus = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus" }
+
+[dev-dependencies]
+MakerSoulNativeOperatorFixture = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_soul_adapter/test-fixtures/native_operator" }
+
+[addresses]
+soulidity_maker_soul_adapter = "0x0"

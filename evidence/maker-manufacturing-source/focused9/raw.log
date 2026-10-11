@@ -1,0 +1,478 @@
+2026-10-11T09:23:51.718153Z  WARN sui_package_alt::sui_flavor: Failed to query protocol version: Failed to query protocol config. Falling back to protocol version 137.
+[NOTE] Updating dependencies for `mainnet` environment because "../soulidity_standard/test-fixtures/foreign_soul/Move.toml" has been changed since the last update.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY AccountSourceHandler
+INCLUDING DEPENDENCY ForeignSameNameSoul
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY PrivateSource
+INCLUDING DEPENDENCY SoulidityApplication
+INCLUDING DEPENDENCY SoulidityCollection
+INCLUDING DEPENDENCY SoulidityCommunity
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityCustody
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerManufacturing
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityMarket
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityNative
+INCLUDING DEPENDENCY SoulidityOriginProtocol
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityTransport
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING soulidity_v1
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/forms_tests.move:80:84
+   │
+80 │     let old=forms::commitment(forms::snapshot(forms::journal(&s),first));let mut i=1;
+   │                                                                                    ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./sources/physical.move:50:78
+   │
+50 │ fun registry_value<C>(maker:&mut Product<C>,control:&mut Control,version:u64,cfg:&Config<C>,ctx:&mut TxContext):Registry<C> {
+   │                                                                              ^^^ Unused parameter 'cfg'. Consider removing or prefixing with an underscore: '_cfg'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+    ┌─ ./sources/physical.move:218:55
+    │
+218 │     assert!(expiry>clock::timestamp_ms(clock),EQuote);sale_amounts(&asset.sale,price);
+    │                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+    │
+    = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+    = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+   ┌─ ./tests/account_source_exit_tests.move:19:5
+   │
+19 │ fun roundtrip(sc:&mut Scenario,k:&mut Kiosk,a:&mut Account,s:Soul,cfg:&Config<USD>):Soul {
+   │     ^^^^^^^^^ The non-'public', non-'entry' function 'roundtrip' is never called. Consider removing it.
+   │
+   = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/visual_tests.move:162:325
+    │
+162 │ fun reset_uses_frozen_creator_layout_and_user_transform_reaches_plan(){let(mut sc,id)=setup(0);let root=mint(&mut sc,id,false);let mut s:Soul=sc.take_from_sender_by_id(root);soul::tune(&mut s,b"free",policy::layout_signed(true,1000,false,2000,1500000,true,45000,vector[]),0);let layers=soul::render_plan(&s);let mut matched=0;layers.do_ref!(|l|{let(x,y,scale,rotation)=visual::transform_parts(&visual::layer_user(l));let(nx,mx)=visual::signed_parts(&x);let(ny,my)=visual::signed_parts(&y);let(nr,mr)=visual::signed_parts(&rotation);if(nx && mx==1000){assert!(!ny && my==2000 && scale==1500000 && nr && mr==45000,0);matched=matched+1}});assert!(matched==2,1);soul::reset_layout(&mut s,b"free",1);assert!(soul::binding_layout(&soul::binding(&s,b"free").destroy_some())==fixtures::layout(),2);sc.return_to_sender(s);sc.end();}
+    │                                                                                                                                                                                                                                                                                                                                     ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/nested_vault_tests.move:23:207
+   │
+23 │ fun exact_depth_sixteen_rotates_deepest_tool(){let mut sc=test_scenario::begin(@0xb);let mut child=bare(&mut sc);attach_tool(&mut sc,&mut child,73);let id=object::id(&child);let mut path=vector[];let mut i=0;while(i < 16){let mut parent=bare(&mut sc);path.push_back(object::id(&child));standard::nest(&mut parent,child,0);child=parent;i=i+1};vault::prepare_handover(&mut child);let mut p=&child;let mut i=16;while(i > 0){i=i-1;p=standard::nested(p,path[i])};assert!(object::id(p)==id && vault::privacy_generation(vault::tool(p))==1 && vault::coin_balance<USD>(p)==73,0);transfer::public_transfer(child,@0xb);sc.end();}
+   │                                                                                                                                                                                                               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/nested_vault_tests.move:25:158
+   │
+25 │ fun depth_seventeen_rejects_before_handover(){let mut sc=test_scenario::begin(@0xb);let mut child=bare(&mut sc);attach_tool(&mut sc,&mut child,73);let mut i=0;while(i < 17){let mut parent=bare(&mut sc);standard::nest(&mut parent,child,0);child=parent;i=i+1};vault::prepare_handover(&mut child);transfer::public_transfer(child,@0xb);sc.end();}
+   │                                                                                                                                                              ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/standard_business_tests.move:64:248
+   │
+64 │     let mut sc=fixtures::setup(0,0,0,0,0,0);let parent=fixtures::mint(&mut sc,20,0);sc.next_tx(@0xb);let mut s:Soul=sc.take_from_sender_by_id(parent);let (seed,mut branch)=growth::bare_soul(sc.ctx());transfer::public_transfer(seed,@0xb);let mut n=0;while(n < 16){let(seed,mut next)=growth::bare_soul(sc.ctx());transfer::public_transfer(seed,@0xb);standard::nest(&mut next,branch,0);branch=next;n=n+1};let rev=standard::revision(&s);standard::nest(&mut s,branch,rev);soul::handover(s,@0xc,0);sc.end();
+   │                                                                                                                                                                                                                                                        ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./sources/issuer.move:107:9
+    │
+107 │     let version=b.contributions[index].version;
+    │         ^^^^^^^ Unused local variable 'version'. Consider removing or prefixing with an underscore: '_version'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+   ┌─ ./tests/application_manifest_read_oracle_tests.move:69:5
+   │
+69 │ fun mint_without_a(f:F):(Scenario,Product<USD>,Product<USD>,Product<USD>,Config<USD>,Clock,Player,ID){mint_impl(f,false,true)}
+   │     ^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'mint_without_a' is never called. Consider removing it.
+   │
+   = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:102:5
+    │
+102 │ fun publish_adapter(f:&mut F){
+    │     ^^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'publish_adapter' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:110:5
+    │
+110 │ fun register_physical(f:&mut F,mode:u8):Registry<USD>{
+    │     ^^^^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'register_physical' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:115:5
+    │
+115 │ fun claim_visual(f:&mut F,r:&mut Registry<USD>,attempt:u8):Asset{
+    │     ^^^^^^^^^^^^ The non-'public', non-'entry' function 'claim_visual' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:121:5
+    │
+121 │ fun materialize_visual(f:&mut F,r:&mut Registry<USD>,s:&mut Soul):Asset{
+    │     ^^^^^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'materialize_visual' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:136:5
+    │
+136 │ fun expect_no_items(items:vector<Item>){items.destroy_empty()}
+    │     ^^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'expect_no_items' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+    ┌─ ./tests/application_manifest_read_oracle_tests.move:137:5
+    │
+137 │ fun paid_enhancement():(Scenario,Product<USD>,Product<USD>,Product<USD>,Config<USD>,Clock,Player,ID){
+    │     ^^^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'paid_enhancement' is never called. Consider removing it.
+    │
+    = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:30:15
+   │
+30 │     let mut n=0;while(n < 4){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);n=n+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:56:15
+   │
+56 │     let mut i=0;while(i < 3){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);i=i+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:67:15
+   │
+67 │     let mut i=0;while(i < 3){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);i=i+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/pack_player_tests.move:44:301
+   │
+44 │ fun own_palette_change_does_not_recolor_another_same_name_pack(){let mut f=setup();select(&mut f,true,b"pack-style");select(&mut f,false,b"pack-style");let a=scope(&f.a);let b=scope(&f.b);player::set_pack_colors(&mut f.p,a,colors(true),3,f.sc.ctx());let layers=player::render_plan(&f.p);let mut gold=0;let mut silver=0;layers.do_ref!(|l|{if(visual::track_key(visual::layer_track(l))==b"glow"){let name=visual::swatch_key(&visual::layer_color(l).destroy_some());if(name==b"gold")gold=gold+1;if(name==b"silver")silver=silver+1}});assert!(gold==1 && silver==1 && player::pack_colors(&f.p,a)!=player::pack_colors(&f.p,b),0);end(f)}
+   │                                                                                                                                                                                                                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/pack_player_tests.move:44:318
+   │
+44 │ fun own_palette_change_does_not_recolor_another_same_name_pack(){let mut f=setup();select(&mut f,true,b"pack-style");select(&mut f,false,b"pack-style");let a=scope(&f.a);let b=scope(&f.b);player::set_pack_colors(&mut f.p,a,colors(true),3,f.sc.ctx());let layers=player::render_plan(&f.p);let mut gold=0;let mut silver=0;layers.do_ref!(|l|{if(visual::track_key(visual::layer_track(l))==b"glow"){let name=visual::swatch_key(&visual::layer_color(l).destroy_some());if(name==b"gold")gold=gold+1;if(name==b"silver")silver=silver+1}});assert!(gold==1 && silver==1 && player::pack_colors(&f.p,a)!=player::pack_colors(&f.p,b),0);end(f)}
+   │                                                                                                                                                                                                                                                                                                                              ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09008]: unused function
+   ┌─ ./tests/pack_soul_tests.move:68:5
+   │
+68 │ fun buy_definition(sc:&mut Scenario,s:&mut Soul,maker:&Product<USD>,pack:&mut Product<USD>,cfg:&mut Config<USD>,clock:&Clock,definition:vector<u8>,attempt:u8):vector<Item>{
+   │     ^^^^^^^^^^^^^^ The non-'public', non-'entry' function 'buy_definition' is never called. Consider removing it.
+   │
+   = This warning can be suppressed with '#[allow(unused_function)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/pack_soul_tests.move:275:299
+    │
+275 │ fun fresh_free_purchase_uses_exact_published_supply_and_returns_every_old_id(){let(mut sc,maker,mut a,b,mut cfg,clock,p,id)=fresh_enhancement(2);let mut s:Soul=sc.take_from_sender_by_id(id);let d=policy::definition_hash(&definition(&scene(true),b"pack-style",2));let mut old_ids=vector[];let mut i=0;while(i < 10){let items=buy_choice(&mut sc,&mut s,&maker,&mut a,&mut cfg,&clock,b"pack-style",100+(i as u8));items.do!(|it|{old_ids.push_back(object::id(&it));transfer::public_transfer(it,@0xb)});i=i+1};let current=soul::free_id(&soul::binding_scoped(&s,key(&a)).destroy_some()).destroy_some();assert!(old_ids.length()==9 && !old_ids.contains(&current) && catalog::issued_count(&a,1,d)==10 && catalog::wallet_completes(&a,1,@0xb)==10 && soul::enhancement_count(&s)==10,0);sc.return_to_sender(s);sc.next_tx(@0xb);assert!(sc.ids_for_sender<Item>().length()==9,1);end(F{sc,maker,a,b,cfg,clock,p})}
+    │                                                                                                                                                                                                                                                                                                           ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/pack_soul_tests.move:277:180
+    │
+277 │ fun post_mint_fresh_free_cannot_exceed_published_supply(){let(mut sc,maker,mut a,b,mut cfg,clock,p,id)=fresh_enhancement(2);let mut s:Soul=sc.take_from_sender_by_id(id);let mut i=0;while(i < 11){buy_choice(&mut sc,&mut s,&maker,&mut a,&mut cfg,&clock,b"pack-style",110+(i as u8)).do!(|it|transfer::public_transfer(it,@0xb));i=i+1};sc.return_to_sender(s);end(F{sc,maker,a,b,cfg,clock,p})}
+    │                                                                                                                                                                                    ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:47:41
+   │
+47 │ fun exact_payment_required(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,36);finish(sc,sys,clock)}
+   │                                         ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:50:53
+   │
+50 │ fun committed_attempt_cannot_buy_twice(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,40);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)}
+   │                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:84:53
+   │
+84 │ fun perpetual_entry_cannot_be_rebought(){let(mut sc,root,_id,sys,clock)=setup(5,option::none());buy(&mut sc,&clock,40,40);sc.next_tx(@0x8);buy(&mut sc,&clock,41,40);finish(sc,sys,clock)}
+   │                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:95:16
+   │
+95 │     let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));sc.next_tx(@0xa);let mut cfg:Config<USD> = sc.take_shared();let mut admin:Admin=sc.take_from_sender();economics::configure(&mut cfg,&mut admin,0,1000,500,0,@0xf,true);test_scenario::return_shared(cfg);sc.return_to_sender(admin);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)
+   │                ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:106:69
+    │
+106 │ fun original_ask_alone_cannot_buy_additional_fee_offer(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,37);finish(sc,sys,clock)}
+    │                                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:109:64
+    │
+109 │ fun overpayment_is_rejected_without_partial_issue(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,41);finish(sc,sys,clock)}
+    │                                                                ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:112:44
+    │
+112 │ fun primary_total_cannot_overflow(){let(sc,root,_id,sys,clock)=setup(5,option::some(1000));let cfg:Config<USD> = sc.take_shared();economics::primary_total(&cfg,18446744073709551615);test_scenario::return_shared(cfg);finish(sc,sys,clock)}
+    │                                            ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:115:61
+    │
+115 │ fun old_fee_revision_cannot_pay_under_new_rate(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));sc.next_tx(@0xa);let mut cfg:Config<USD> = sc.take_shared();let mut admin:Admin=sc.take_from_sender();economics::configure(&mut cfg,&mut admin,0,2000,500,0,@0xf,false);test_scenario::return_shared(cfg);sc.return_to_sender(admin);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)}
+    │                                                             ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/package_role_tests.move:26:69
+   │
+26 │     let value=native_binding::catalog_for_testing(&c,1,s.ctx());let h=native_binding::commitment(&value);let p=native_binding::installation_for_testing(&c,&mut a,1,economics::commitment(&c),&value);
+   │                                                                     ^ Unused local variable 'h'. Consider removing or prefixing with an underscore: '_h'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:235:109
+    │
+235 │ fun runtime_expired_actual_maker_cannot_create_player(){let mut f=setup();runtime_ready(&mut f,0);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};runtime_player(&mut f);end(f)}
+    │                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:241:125
+    │
+241 │ fun runtime_expired_actual_certificate_cannot_collect_access_payment(){let mut f=setup();runtime_ready(&mut f,15);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};let hash=catalog::policy_hash(catalog::published(&f.p,1));let rev=economics::revision(&f.cfg);let expiry=clock::timestamp_ms(&f.clock)+1000;let payment=coin::mint_for_testing<USD>(15,f.sc.ctx());{let F{out:_,sc,p,cfg,clock,cap:_,sys,nodes:_}=&mut f;soulidity_v1::runtime::buy_access(p,cfg,1,hash,rev,expiry,fixtures::h(94),payment,clock,sys,sc.ctx())};end(f)}
+    │                                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:243:641
+    │
+243 │ fun runtime_already_owned_free_item_can_exit_after_maker_expiry(){let mut f=setup();runtime_ready(&mut f,0);f=advance(f);let id=runtime_player(&mut f);f=advance(f);let mut p:soulidity_maker_manufacturing::maker_player::Player=f.sc.take_from_sender_by_id(id);runtime_choose(&mut f,&mut p);let soul=runtime_complete(&mut f,&p);soulidity_v1::player::close(p,1,f.sc.ctx());f=advance(f);let mut s:soulidity_standard::soul::Soul=f.sc.take_from_sender_by_id(soul);let before=soulidity_application::character::free_id(&soulidity_application::character::binding(&s,b"free").destroy_some()).destroy_some();transfer::public_transfer(s,@0xa);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};f=advance(f);let mut s:soulidity_standard::soul::Soul=f.sc.take_from_sender_by_id(soul);let rev=soulidity_application::character::revision(&s);let item=soulidity_application::character::detach(&mut s,b"free",rev);assert!(object::id(&item)==before,0);transfer::public_transfer(item,@0xb);transfer::public_transfer(s,@0xa);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:275:120
+    │
+275 │ fun runtime_pack_seal_rejects_expired_parent_even_with_live_pack(){let mut f=setup();runtime_ready(&mut f,0);let mut n=0;while(n < 2){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};let(mut f,pack,cap)=runtime_pack(f,0,0,0);storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);release::assert_current(&pack,&f.cfg,1,&f.sys);release::seal_approve_pack(release::seal_scope(object::id(&f.cfg),object::id(&pack),1,fixtures::h(11)),&pack,&f.p,&f.cfg,1,&f.sys,&f.clock,f.sc.ctx());test_scenario::return_shared(pack);f.sc.return_to_sender(cap);end(f)}
+    │                                                                                                                        ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:294:384
+    │
+294 │ fun runtime_expired_creator_cannot_issue_physical_from_old_player(){let mut f=setup();let rid=runtime_physical_ready(&mut f,0,0);let id=runtime_player(&mut f);f=advance(f);let mut p:soulidity_maker_manufacturing::maker_player::Player=f.sc.take_from_sender_by_id(id);let mut r:soulidity_v1::physical::Registry<USD> =f.sc.take_shared_by_id(rid);runtime_choose(&mut f,&mut p);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};soulidity_v1::physical::deliver(runtime_physical_issue(&mut f,&mut r,&p,0));test_scenario::return_shared(r);f.sc.return_to_sender(p);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:319:27
+    │
+319 │     if(expired){let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1}};
+    │                           ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:397:55
+    │
+397 │     release::archive(&mut f.p,&mut f.cap,1);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};
+    │                                                       ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:421:61
+    │
+421 │     assert!(32+std::bcs::to_bytes(&blobs).length()==4225 && 4225 <245760,1);
+    │                                                             ^^^^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/access.move:81:88
+   │
+77 │ public fun withdraw(k:&mut Kiosk,a:&mut Account,id:ID,expected:u64,expected_soul:u64,ctx:&TxContext){
+   │            -------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+   ·
+81 │     soul::clear_authorizations(&mut s);vault::prepare_handover(&mut s);changed(k,id,1);transfer::public_transfer(s,ctx.sender())
+   │                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                                                                        │                           │
+   │                                                                                        │                           Transaction sender address coming from here
+   │                                                                                        Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/scene_variant_tests.move:139:68
+    │
+139 │ fun maker_control_cannot_sign_a_pack_pose(){let(sc,m,p,mc,pc,state,e)=pack_setup();let _=catalog::visual_variant(&p,&mc,1,pack_pose(catalog::scene(catalog::published(&p,1)),true),vector[]);pack_end(sc,m,p,mc,pc,state)}
+    │                                                                    ^ Unused local variable 'e'. Consider removing or prefixing with an underscore: '_e'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:208:61
+    │
+208 │     {let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut l,registry,maker,ticket,cfg,pay,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};assert!(physical::listing_state(&l)==1 && physical::listing_receipt(&l)==option::some(fixtures::h(41)),0);test_scenario::return_shared(l);f.sc.next_tx(@0xc);
+    │                                                             ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:222:409
+    │
+222 │ fun self_purchase_rejected_before_child_receive(){let(mut f,lid,asset_id)=listed();let mut l:Listing<USD> = f.sc.take_shared_by_id(lid);let ticket=test_scenario::receiving_ticket_by_id<Asset>(asset_id);let hash=physical::listing_hash(&l);let quote=physical::sale_quote_hash(&l,&f.cfg,f.sc.sender());let coin=coin::mint_for_testing<USD>(101,f.sc.ctx());{let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut l,registry,maker,ticket,cfg,coin,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(l);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:256:54
+    │
+256 │     {let F{sc,maker,registry,player,cfg,clock}=f;let fee_revision=economics::revision(cfg);physical::purchase_pack(registry,maker,pack,player,b"bound",cfg,coin,4,1,0,0,1000,q,fixtures::h(31),clock,sc.ctx())}
+    │                                                      ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:338:61
+    │
+338 │     {let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut listing,registry,maker,ticket,cfg,payment,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(listing);f.sc.next_tx(@0xb);end(f)
+    │                                                             ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:396:730
+    │
+396 │ fun pack_physical_sale_keeps_maker_creator_and_its_own_source_income(){let mut f=setup(0,0,3,true);let mut pack=add_pack(&mut f,1,37,2);select_pack(&mut f,&pack);let a=pack_purchase(&mut f,&mut pack);let id=object::id(&a);let pack_id=object::id(&pack);let p=physical::asset_sale(&a);assert!(physical::sale_creator(&p)==@0xa && physical::sale_source_recipient(&p)==@0xe,0);let lid=physical::list(&f.registry,&f.maker,&pack,a,&f.cfg,101,1000,0,0,&f.clock,f.sc.ctx());f.sc.next_tx(@0xc);let mut l:Listing<USD> = f.sc.take_shared_by_id(lid);let q=physical::sale_quote_hash(&l,&f.cfg,@0xc);let h=physical::listing_hash(&l);let t=test_scenario::receiving_ticket_by_id<Asset>(id);{let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy_pack(&mut l,registry,maker,&mut pack,t,cfg,coin::mint_for_testing<USD>(101,sc.ctx()),0,h,q,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(l);test_scenario::return_shared(pack);f.sc.next_tx(@0xe);assert!(fixtures::product_income(&f.sc,pack_id)==39 && coin_sum(&f.sc)==0,1);f.sc.next_tx(@0xa);assert!(coin_sum(&f.sc)==5,2);f.sc.next_tx(@0xf);assert!(soulidity_foundation::revenue::balance(economics::income(&f.cfg))==5 && coin_sum(&f.sc)==0,3);f.sc.next_tx(@0xb);assert!(coin_sum(&f.sc)==89,4);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Running Move unit tests
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::additive_native_api_cannot_use_foreign_role_witness
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::combined_quote_error_precedes_foreign_role_error
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::expired_session_precedes_underfunding
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::manufacturing_api_cannot_bypass_missing_release_identity
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::native_atomic_session_still_rejects_overfunding
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::native_atomic_session_still_rejects_underfunding
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::original_quote_error_precedes_foreign_role_error
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::stale_global_package_precedes_quote_and_role_errors
+[ PASS    ] soulidity_v1::maker_validation_atomic_tests::stale_revision_precedes_expiry_and_underfunding
+
+Test Statistics:
+
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────┬───────────────────────────┐
+│                                               Test Name                                               │    Time    │         Gas Used          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::additive_native_api_cannot_use_foreign_role_witness      │   0.824    │      49999995209111       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::combined_quote_error_precedes_foreign_role_error         │   0.091    │      49999995208984       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::expired_session_precedes_underfunding                    │   0.099    │      49999995253156       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::manufacturing_api_cannot_bypass_missing_release_identity │   0.098    │      49999995208554       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::native_atomic_session_still_rejects_overfunding          │   0.102    │      49999995304506       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::native_atomic_session_still_rejects_underfunding         │   0.108    │      49999995304506       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::original_quote_error_precedes_foreign_role_error         │   0.096    │      49999995208950       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::stale_global_package_precedes_quote_and_role_errors      │   0.269    │      49999995209813       │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_v1::maker_validation_atomic_tests::stale_revision_precedes_expiry_and_underfunding          │   0.108    │      49999995253152       │
+└───────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────┴───────────────────────────┘
+
+Test result: OK. Total tests: 9; passed: 9; failed: 0
+Please report feedback on the linter warnings at https://forums.sui.io
+

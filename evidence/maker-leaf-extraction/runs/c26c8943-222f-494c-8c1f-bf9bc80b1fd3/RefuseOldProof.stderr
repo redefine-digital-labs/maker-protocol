@@ -1,0 +1,37 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityApplication
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING RefuseOldProof
+[0m[1m[38;5;9merror[EC03003][0m[1m: unbound module member[0m
+  [0m[34m┌─[0m ./sources/refusal.move:2:47
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m use soulidity_application::physical_metadata::[0m[31mProof[0m;
+  [0m[34m│[0m                                               [0m[31m^^^^^[0m [0m[31mInvalid 'use'. Unbound member 'Proof' in module '(soulidity_application=0x0)::physical_metadata'[0m
+  [0m[34m│[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move:3:31
+  [0m[34m│[0m
+[0m[34m3[0m [0m[34m│[0m module soulidity_application::physical_metadata;
+  [0m[34m│[0m                               [0m[34m-----------------[0m [0m[34mModule '(soulidity_application=0x0)::physical_metadata' declared here[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m ./sources/refusal.move:3:23
+  [0m[34m│[0m
+[0m[34m3[0m [0m[34m│[0m public fun identity(v:[0m[31mProof[0m):Proof{v}
+  [0m[34m│[0m                       [0m[31m^^^^^[0m [0m[31mUnbound type 'Proof' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m ./sources/refusal.move:3:30
+  [0m[34m│[0m
+[0m[34m3[0m [0m[34m│[0m public fun identity(v:Proof):[0m[31mProof[0m{v}
+  [0m[34m│[0m                              [0m[31m^^^^^[0m [0m[31mUnbound type 'Proof' in current scope[0m
+

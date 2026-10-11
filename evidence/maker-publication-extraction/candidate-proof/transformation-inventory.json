@@ -1,0 +1,190 @@
+{
+  "canonical_types": [
+    {
+      "name": "InitialRule",
+      "start": 1036,
+      "end": 1137,
+      "source": "public struct InitialRule has copy,drop,store {kind:u32,name:String,read_mask:u64,download_policy:u8}"
+    },
+    {
+      "name": "Policy",
+      "start": 1138,
+      "end": 1324,
+      "source": "public struct Policy has copy,drop,store {key:vector<u8>,protected:bool,scope:vector<u8>,renderer:vector<u8>,all_packs:bool,allowed_packs:vector<vector<u8>>,initials:vector<InitialRule>}"
+    },
+    {
+      "name": "Intent",
+      "start": 1325,
+      "end": 1575,
+      "source": "public struct Intent has copy,drop,store {\n    domain:vector<u8>,schema:u16,protocol:ID,maker:ID,maker_version:u64,policy_hash:vector<u8>,output_policy_hash:vector<u8>,actor:address,attempt:vector<u8>,name:String,recipe:vector<u8>,nonce:vector<u8>,\n}"
+    },
+    {
+      "name": "Selection",
+      "start": 1576,
+      "end": 1673,
+      "source": "public struct Selection has copy,drop,store {source:Source,layout:Layout,adapter:Option<Adapter>}"
+    },
+    {
+      "name": "RecipeSlot",
+      "start": 1674,
+      "end": 1761,
+      "source": "public struct RecipeSlot has copy,drop,store {part:PartKey,selection:Option<Selection>}"
+    },
+    {
+      "name": "Recipe",
+      "start": 1762,
+      "end": 1935,
+      "source": "public struct Recipe has copy,drop,store {domain:vector<u8>,schema:u16,scene:vector<u8>,colors:vector<ColorChoice>,profiles:vector<ProfileSnapshot>,slots:vector<RecipeSlot>}"
+    },
+    {
+      "name": "Namespace",
+      "start": 1936,
+      "end": 2049,
+      "source": "public struct Namespace has copy,drop,store {domain:vector<u8>,schema:u16,intent:vector<u8>,kind:u32,name:String}"
+    },
+    {
+      "name": "PayLine",
+      "start": 2050,
+      "end": 2162,
+      "source": "public struct PayLine has copy,drop,store {product:ID,version:u64,policy_hash:vector<u8>,receipt:PrimaryReceipt}"
+    },
+    {
+      "name": "Receipt",
+      "start": 2163,
+      "end": 2283,
+      "source": "public struct Receipt has copy,drop,store {lines:vector<PayLine>,total:u128,platform_recipient:address,fee_revision:u64}"
+    }
+  ],
+  "output_functions": [
+    "initial_rule",
+    "policy",
+    "policy_key",
+    "policy_hash",
+    "protected",
+    "scope",
+    "renderer",
+    "allows_all_packs",
+    "allowed_packs",
+    "initials",
+    "rule_kind",
+    "rule_name",
+    "rule_read",
+    "rule_download",
+    "rule",
+    "assert_pack",
+    "intent",
+    "intent_hash",
+    "intent_protocol",
+    "intent_maker",
+    "intent_version",
+    "intent_policy",
+    "intent_output_policy",
+    "intent_actor",
+    "intent_attempt",
+    "intent_name",
+    "intent_recipe",
+    "intent_nonce",
+    "assert_intent",
+    "selection",
+    "slot",
+    "scoped_slot",
+    "slot_part",
+    "slot_selection",
+    "selection_source",
+    "selection_layout",
+    "selection_adapter",
+    "recipe_hash",
+    "profile_recipe_hash",
+    "content_id",
+    "render_id",
+    "recovery_id",
+    "pay_line",
+    "receipt",
+    "total_paid",
+    "pay_lines",
+    "platform_recipient",
+    "fee_revision",
+    "line_product",
+    "line_version",
+    "line_policy_hash",
+    "line_beneficiary",
+    "line_gross",
+    "line_platform",
+    "line_fixed",
+    "line_receipt",
+    "receipt_hash"
+  ],
+  "registry_functions": [
+    "kind_soul_doc",
+    "kind_memory",
+    "kind_skill",
+    "kind_sprite",
+    "kind_audio",
+    "first_custom_kind",
+    "op_append",
+    "op_delete",
+    "op_purge",
+    "op_active_bind",
+    "read_owner",
+    "read_grant",
+    "read_paid",
+    "read_public",
+    "descriptor_kind",
+    "protocol_version",
+    "descriptor_version",
+    "descriptor_name",
+    "descriptor_op_mask",
+    "descriptor_read_mode_mask",
+    "descriptor_has_active_binding",
+    "descriptor_requires_download_policy",
+    "descriptor_default_grant_scope_mask",
+    "descriptor_deprecated",
+    "registry_id",
+    "registry_version",
+    "next_kind",
+    "contains_kind",
+    "contains_name",
+    "borrow_descriptor",
+    "kind_for_name",
+    "register_kind",
+    "deprecate_kind",
+    "reactivate_kind",
+    "assert_kind_active",
+    "init_for_testing",
+    "destroy_admin_cap_for_testing"
+  ],
+  "document_policy_functions": [
+    "assert_name",
+    "assert_read_policy",
+    "memory_name",
+    "soul_doc_name"
+  ],
+  "private_field_rewrites": {
+    "intent.maker": "intent_maker(intent)",
+    "intent.maker_version": "intent_version(intent)",
+    "intent.policy_hash": "intent_policy(intent)",
+    "intent.actor": "intent_actor(intent)"
+  },
+  "extra_private_field_rewrites": [
+    "intent.output_policy_hash -> intent_output_policy(&intent)",
+    "intent.recipe -> intent_recipe(&intent)",
+    "policy.renderer -> renderer(&policy)",
+    "policy.protected -> protected(&policy)",
+    "a.policy.protected -> protected(&a.policy)"
+  ],
+  "namespace_changes": [
+    "soulidity_content::kind_registry -> soulidity_content_kinds::kind_registry",
+    "soulidity_application::output data -> soulidity_maker_publication::output_data",
+    "soulidity_application::publication_rules -> soulidity_maker_publication::publication_rules"
+  ],
+  "published_compatibility": false,
+  "canonical_name_collision_resolution": {
+    "reason": "Combined unpublished packages resolve all named addresses to 0x0; old delegates and new canonical modules require distinct module names. First real combined build rejected duplicate module identity EC02001.",
+    "mapping": {
+      "soulidity_content_kinds::kind_registry": "soulidity_content_kinds::content_kind_registry",
+      "soulidity_content_kinds::permissions": "soulidity_content_kinds::content_permissions",
+      "soulidity_maker_publication::publication_rules": "soulidity_maker_publication::publication_validation"
+    },
+    "invented_nonzero_addresses": false
+  }
+}

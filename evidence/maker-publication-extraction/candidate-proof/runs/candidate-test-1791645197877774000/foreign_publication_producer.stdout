@@ -1,0 +1,51 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING ForeignPublicationProducer
+Running Move unit tests
+[ PASS    ] foreign_publication_producer::tests::all_nine_canonical_bcs_fields_domains_and_hashes_match_exact_preimages
+[ PASS    ] foreign_publication_producer::tests::cap_registry_mismatch_rejected_before_name_validation
+[ PASS    ] foreign_publication_producer::tests::copied_foreign_source_rejects_other_actual_product
+[ PASS    ] foreign_publication_producer::tests::copied_source_is_not_producer_witness
+[ PASS    ] foreign_publication_producer::tests::deprecated_kind_precedes_invalid_read_mask
+[ PASS    ] foreign_publication_producer::tests::duplicate_initials_rejected
+[ PASS    ] foreign_publication_producer::tests::foreign_bound_target_consumes_supply_without_item
+[ PASS    ] foreign_publication_producer::tests::foreign_free_target_consumes_supply_and_issues_exact_source
+[ PASS    ] foreign_publication_producer::tests::foreign_reference_target_consumes_supply_without_item
+[ PASS    ] foreign_publication_producer::tests::founding_name_cannot_fork
+[ PASS    ] foreign_publication_producer::tests::missing_kind_rejects_actual_registry
+[ PASS    ] foreign_publication_producer::tests::owner_mode_required
+[ PASS    ] foreign_publication_producer::tests::private_kind_requires_zero_download
+[ PASS    ] foreign_publication_producer::tests::private_memory_cannot_request_public
+[ FAIL    ] foreign_publication_producer::tests::protected_policy_requires_scope
+[ PASS    ] foreign_publication_producer::tests::public_read_requires_public_download
+[ PASS    ] foreign_publication_producer::tests::registry_builtin_and_custom_reactivation_preserves_descriptor
+[ PASS    ] foreign_publication_producer::tests::same_named_foreign_module_witness_rejected
+[ PASS    ] foreign_publication_producer::tests::wrong_target_id_rejects_consumption
+
+Test failures:
+
+Failures in foreign_publication_producer::tests:
+
+┌── protected_policy_requires_scope ──────
+│ error[EC11001]: test failure
+│    ┌─ /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model/sources/policy.move:46:43
+│    │
+│ 46 │ public fun assert_key(key: &vector<u8>) { assert!(!key.is_empty() && key.length() <= 64, EInvalid) }
+│    │            ----------                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Test did not error as expected. Expected test to abort with code 1 originating in the module soulidity_maker_publication::output_data but instead it aborted with code 1 originating in the module soulidity_model::policy rooted here
+│    │            │                               
+│    │            In this function in soulidity_model::policy
+│ 
+│ 
+│ stack trace
+│ 	output_data::policy(/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication/sources/output_data.move:29)
+│ 	tests::protected_policy_requires_scope(./tests/tests.move:63)
+│ 
+└──────────────────
+
+Test result: FAILED. Total tests: 19; passed: 18; failed: 1

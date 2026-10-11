@@ -1,0 +1,842 @@
+[
+  {
+    "root": "foreign_publication_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer",
+      "--install-dir",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scratch-build"
+    ],
+    "returncode": 1,
+    "duration_seconds": 6.054593625012785,
+    "bytecode": [
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/address.mv",
+        "sha256": "57a72efbe7e51223ebc985cd50d5e639ec82eecc8609b66b05793e7b5f0f3a68"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/ascii.mv",
+        "sha256": "c776f30a0976f2d63ed07ef3e09a3d4283e7b508a4ffad74e8a3784d82e752e1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/ascii_tests.mv",
+        "sha256": "2e690abb2ce9f899fa85b2656afb89444bd9bfb538e96d266b91fcc924d5dd05"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bcs.mv",
+        "sha256": "98d59a872e8d93f6a380dee5a81a634a9e286ec45f8955655a6e0251d7494c25"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bcs_tests.mv",
+        "sha256": "73a21975dbf4211e526b1b7dad17e6c44cb838c943af68a2b4c17997cc69bdf7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bit_vector.mv",
+        "sha256": "8b382890039c59e18b9f03ed194be23458be57a76f76db0b29b8a438ac67aa12"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bit_vector_tests.mv",
+        "sha256": "046318ff21af5d60d4bbe9eec3873c47c90474bdcdb014c37d282dbbf1c0783f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bool.mv",
+        "sha256": "79cb2014c95dfead9378f44a40bc8ac28a9364cd43c40b01e312a405fdf576cf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/debug.mv",
+        "sha256": "ce89b6c60eeca2cc6b3f058d09d934cdb96e7954640bc5422395292da341bf53"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/fixed_point32.mv",
+        "sha256": "06f350681148fc364132bd287e9eb529870d1318714bb0805dedd0eae714b742"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/fixed_point32_tests.mv",
+        "sha256": "d7da3cd9e7c672f47026d3cdea1d9bd8a10c496affbc40263ba6d74a167bdc3d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/hash.mv",
+        "sha256": "939871753a6ada94329e82237502cc64bb99d64d855bd7007e625bffc9c89cf8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/hash_tests.mv",
+        "sha256": "ed286e75593fdeed7c9c37b2ad4ed77383877589832b6bf107a7ada21ce5570e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/integer_tests.mv",
+        "sha256": "6809d9d3157296d778972ee0e40e361d6f49e2eff348bc36159c06a170eca9d2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/internal.mv",
+        "sha256": "52f16ed840bd341771ccecfbe4fac9805a4d007576c5c9d1ba0e415549538b77"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/macros.mv",
+        "sha256": "66de6647d83ca6a7a2d3657cbd904a1f3a3279cb8651c2f6fa8fadeda59c21a7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/option.mv",
+        "sha256": "d5bbb0429cb10932e06ededabeb35fbe247a8e90e6096b691f3e05c092d255ae"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/option_tests.mv",
+        "sha256": "97a9a5c56efb498e9fd933efa46a24d96e8120ea5b9de3e28178d4da4effd614"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/string.mv",
+        "sha256": "abd43ab32b4f2c5a3fef6545d57ec78b313f9b052562f5b896d4fd766037dc96"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/string_tests.mv",
+        "sha256": "fbc19411460c0e2acf683a49c63928a9b8d9e0f608f983c1a85191c60190a91e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/type_name.mv",
+        "sha256": "4a99db45380cd9ef08b4eae8f87ddeed0d79e8f24bdda2a0e7471f631f52b1b0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/type_name_tests.mv",
+        "sha256": "a4e189263f83e40c2a146bda97a66d1a8ec746b8f0026594d7d0f53024641e2d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u128.mv",
+        "sha256": "9c489c10729c161300c6fb092d4122aa690b0790abbaea1a65edcc3e047eccf0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u128_tests.mv",
+        "sha256": "0db45bbe0746c55349fa49f2adb570fb5d7547c6ad6ce7c5490b5773caea15ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u16.mv",
+        "sha256": "9812885a591f7026ce6de94f120133fb7c22f5431d75194855d7775e1bc907e3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u16_tests.mv",
+        "sha256": "42412138843c97d357d6e8933b967fc47b3fdc650b5e44c54ccfe411c2d2b013"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u256.mv",
+        "sha256": "c15c7a573c9b1b845d8317f78b66ce2ca4083b35971082c7ca9911423d88fa87"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u256_tests.mv",
+        "sha256": "9a0845b4f684d2027b757edbb8eaaf5e3c58d9b01470317a737f9b57f3d94d7a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u32.mv",
+        "sha256": "ad64103e8d666e9b752cbe73d8b7f2fdf3115dce0236311974728f7757f9b5e0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u32_tests.mv",
+        "sha256": "1f31637facce8a21818cef0ad7d33388de31e57db8fa9b5d9e9a85f11e7e0d1f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u64.mv",
+        "sha256": "a4f091d6541cf6106197e682b48d81e153f97a5760f9b0147da21add8b5a76aa"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u64_tests.mv",
+        "sha256": "c3d37ac0ad3876bffbaf06c9b23fac46227654e3c60f523ccdec475600db785b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u8.mv",
+        "sha256": "f0a95e3657806ddad7e198410b1d7691be2ae7e914f00a8eba5b1b629fe17dfe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u8_tests.mv",
+        "sha256": "8d28d74fce11dc10769affa8cd836e14c9f9e423d8391b027311ca6f256102c0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/unit_test.mv",
+        "sha256": "26e23964a6a170a1249b714f3a5be843a6a80ca07a84f2a0b9b701f337fd1776"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq32_32.mv",
+        "sha256": "3d8cb785516321a36a785581704bbcbb70baa9e616c734012babd24653846a2e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq32_32_tests.mv",
+        "sha256": "e2d7f4f09ba83fe0564b99bf8bf8f5225b0bcfb79e6435fb5fe029e330ed9d0a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq64_64.mv",
+        "sha256": "6654947f94058e39cb55d971e53d42389bb21bfc9402d3334c89a094d628635f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq64_64_tests.mv",
+        "sha256": "96e7aeb8719faaa570880afd07283239ddb02bd899aeb20b031561805910d43b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/vector.mv",
+        "sha256": "bf8afbceb35d981a45bdde3d5c9da25ce67916442f89c4621fbd85f9b653a7d4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/vector_tests.mv",
+        "sha256": "c3b0c43de4871eb0990f7c77cf67406a3978266c528dbc473cbb6bc634e4d56f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/content_kind_registry.mv",
+        "sha256": "04d414175d2a8439f6697c33c2fd3b93e746fc4083ecea4db0a753196012b982"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/content_permissions.mv",
+        "sha256": "832de1746c5b402d1ee6d47419c4c73cfaded26806cea09947824b560cb6a0fb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/document_policy.mv",
+        "sha256": "b5d9e92a3481386f606a8533eb1a39516a9923413935ff0cf3d8e09cac07853a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/economics.mv",
+        "sha256": "8c18d9694ea827cc6ecad981973256a3d5ce71fc1b39bd84da158d5bbb7528ac"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/package_roles.mv",
+        "sha256": "70443dc7e65e466aa5d2c638df2bc49a942c5cb1774abdf2dbfd091cdc02a0ce"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/revenue.mv",
+        "sha256": "1b8f5ce6f15d8eb574af7e11311ff279b1894aadc3a1ce254e0471b38291b690"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/source_authority.mv",
+        "sha256": "75e862363f0d25b49d09fc7a14b6eeee5eb85ccd73e8879ad86f3ee9f5df6eaf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerPublication/output_data.mv",
+        "sha256": "420ee77030723a71e52df95fa2acbd3749c65e4b1e3bb341052e116f697810ba"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerPublication/publication_validation.mv",
+        "sha256": "2781086f5e500c3e1dee31654db582e8c48c93132411b7ba0a2d84d684e48945"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerTerms/maker_physical_metadata.mv",
+        "sha256": "6767d0c38b745cc131a0ca7cf377b71a50991c005339841b02717550ef76c1af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerTerms/maker_resale.mv",
+        "sha256": "e7416fb95c18ac6f9271d61ff2495fdf111439dc76e779b498999a34baff9de3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/assembly.mv",
+        "sha256": "8d465cb7e9e998285e7efaa0a06e9b0c371ed50d6066d74a5bce2f16fe3aabf2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/components.mv",
+        "sha256": "3be5fd683a8962980509928bbb2f9a56aa444b8f1694d661b50b51e1cf3cd72a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/material_policy.mv",
+        "sha256": "527ab3d21005fab357b189153787a69f6ee0af395516dd373bf62dfb544f5089"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/policy.mv",
+        "sha256": "64685169a70c18b3fc09da2507f18c5f67176f4195454a57c7e036b4aa7db2af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityVisual/visual.mv",
+        "sha256": "1f164f1d2fbe74cfbed74386bbe3d2b7632a75ca554ff9181e68923799171f1b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator.mv",
+        "sha256": "13f1e245063ecc1968951d3ad09c08aa71a986812cc81ba5e0934494357ae71e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator_metadata.mv",
+        "sha256": "d25e4fefc9cf5c3bda8669a92ae2094a3d2dc5b894210ecd3d6893b4ced7596d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator_settlement.mv",
+        "sha256": "0295d713fa20798808689a203a9a707ecb7f1dac562d6654b74d039b838fdbe2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address.mv",
+        "sha256": "128c053b504010ca059b3e74371446dbab14c64d6d6aa8d602da34aa7a6a26a4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address_alias.mv",
+        "sha256": "2db8c12e7fb0bbcf7eff4e0caacb6017342d62ce0b748aaf6a13d6b916bfa19c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address_tests.mv",
+        "sha256": "265debd04698a951b0ab7715775144f7d747ac3dd26f3830fd281abc368cf795"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/authenticator_state.mv",
+        "sha256": "f55a3c026f333077d7843d80e4ebbb907319705a8b5e508876fc8dee031309ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/authenticator_state_tests.mv",
+        "sha256": "5194d9cfea59e05304dc41f01d4e337f7906769e8983184071888d34474d9650"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bag.mv",
+        "sha256": "6cade8b408db865838497a93a8fc5d9ed65b482f47d2e99c1b1253bdd6d7e387"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bag_tests.mv",
+        "sha256": "be53483d26893272680f39d0461c85dae64327321a606cc72794d5cfff4df1c3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/balance.mv",
+        "sha256": "636798e1303aa14b00ddca0e3646f1194fba88464f658959a1563827ce705552"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/balance_tests.mv",
+        "sha256": "fe84a07f73d435e02f911644346059ea93a048ff12999638ccfa52a605adb0bf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bcs.mv",
+        "sha256": "aee6224830bee30d01fffa4ac213cdc6030d47d06ea1560bd4640cf037ad8d53"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bcs_tests.mv",
+        "sha256": "5dd3377285a93f002303be168fa3675f7eac97f06e6fce99bf56030ed11aca0a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bls12381.mv",
+        "sha256": "7613030e117fc5f158a79ba47d2795b777dfb158ef546419509b2364a0089466"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bls12381_tests.mv",
+        "sha256": "c92a6dc6f5be9814c284b8aefcf549d105f8421b8730a4782db162d5824c97ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/borrow.mv",
+        "sha256": "0bee4b4536ad7c5088879ccbeec282edbd9e6b9d92abfbc1cdb9337178356cf0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bulletproofs_tests.mv",
+        "sha256": "62f105ee506ea195eeae34779135cf9111415bdef0a07cbcba45ef3c55eb1eba"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/clock.mv",
+        "sha256": "534b85438ad5091b5e939d9abdbf4ac4dcef4e08db26c7582e60939afd61bf8e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/clock_tests.mv",
+        "sha256": "c9395acc0e6b8e7474eb498d84ae124d762609c98380e8d50a13494b1e9670b4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin.mv",
+        "sha256": "83fb85686ddd3200f3b2f82d33e93884e847d5ec0a3036cca555fcdc4ccc0a8e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_registry.mv",
+        "sha256": "ea91cb76dca83c428ef864d9ee90c98cd1ff52675aefd89ca54f77642ffe63d0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_registry_tests.mv",
+        "sha256": "dd1960022c29dd0414ee435d6cade6c7620127380e487533856e22f3f0d0096f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_tests.mv",
+        "sha256": "aed3a07a65094a2d5c8bacb0cfd362ecaeee3d3dcb2de9d2e3bc13bfdb836f29"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/config.mv",
+        "sha256": "9631636ac246bd4563f4fbd78f387b74927e9062791ed8d33a4a2ae4b448e664"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/config_tests.mv",
+        "sha256": "7153615377c1bc57559b1d7c1459b09b61e392bf32b8912dec5dfe1ad08d1fb3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/deny_list.mv",
+        "sha256": "8239887b70e99dd396f99d6c1ccacb2e49e1927b757aaed4f45cd322f69859af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/deny_list_tests.mv",
+        "sha256": "5e1f278cc15afaa4b7384b052bb139c73616c0cff8eded35e8e593a3792f89b9"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/derived_object.mv",
+        "sha256": "9c95e6417337b079d5929eedb559c1d631967789d2980ef2342c35dcb3267ce5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/derived_object_tests.mv",
+        "sha256": "999348d1ff08d62e68f0d8970c9ab9cefc2d2d46e6ad5456c196f87618e35583"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display.mv",
+        "sha256": "4b528a26329f77988f37d68229248f515e4f6b397a0c5327867f5d58ea65b593"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_registry.mv",
+        "sha256": "0b624a5f2f5ac05d6bf7309176ac5feb399e8bd3539f081b1cb604203630be1a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_registry_tests.mv",
+        "sha256": "390f869d6e0b67b78b321e31cc4e5b135d0050a3f55361388a09fc0d044a5812"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_tests.mv",
+        "sha256": "bf86ca28473ece2c210e337df8976671b04267e206ddfa468ace931dd6553f83"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dummy_policy.mv",
+        "sha256": "2bcafd4c84562d030d8e014a7eca99f2983621f5bd35c391a81157b53622db79"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_field.mv",
+        "sha256": "7769b0ae701339cd601bbae01610078aeb0897f4119681b39589157bda45dcc0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_field_tests.mv",
+        "sha256": "3465a7de16047336a260dedd88c7cd60ea347eafc470396bd8fc99c7d0ea0b60"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_object_field.mv",
+        "sha256": "eea9191dc71785fd1deadf92f469cf16d073e4768bccdf6e75108acc67b7a71f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_object_field_tests.mv",
+        "sha256": "3dfbf847c9575b1f91c12dda24cf68dff96d5af01a54aaaf124830d1f68fc318"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_k1.mv",
+        "sha256": "1b78da5c7eca6bb1e302112e250df650051c26d76dcfd81bfa1da3a146d38f0f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_k1_tests.mv",
+        "sha256": "ad99e3365bde1683a45e052c0ae033cfc955b16e4a52c2c31fe25843a48dfbee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_r1.mv",
+        "sha256": "b993b1d05108aa4ea91a71950f4d3e61ecdccedf56d2fed28e02e29014c0a584"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_r1_tests.mv",
+        "sha256": "8bfee4e544f1ae6e4d6509641159c0f64d4eaabe37cb8c3da9f619cc40a5ff38"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecvrf.mv",
+        "sha256": "570e26e8941747e4baaf9dd1d8b0a417ecc806154e305615e990397427b8a381"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecvrf_tests.mv",
+        "sha256": "3acdb5288bb577ce7fb32d3a7790f7536407bb26269fb4e895b5182950a8ca71"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ed25519.mv",
+        "sha256": "3de1b9607aea50993f336b3ab3614fedcc5f386e4ffa03823a0347b2b7566474"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ed25519_tests.mv",
+        "sha256": "7c6ec143ea67e9bd38d55ffb9951a3720818d51e2461ff92616b30d435e91ce1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/event.mv",
+        "sha256": "15e35587957fbc980f933aee5e767a7a7e20b7b5c88966045c933b293d13c03d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/event_tests.mv",
+        "sha256": "396b71162e71941f80decb1e6a8e8d61a9d4e7a0dc6be3453596cc7e922a930f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/fixed_commission.mv",
+        "sha256": "3d316a3d3eef0bb6394bb6cf16e31e86984fa47eb11f0a4aa44f1608cfb3c0e0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/forwarding_address.mv",
+        "sha256": "80b4fc9140433bbcc55f6e6086a8805582b91b5b81f03be7cc5519340abaa788"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/funds_accumulator.mv",
+        "sha256": "79c872dc395201c5758bb4b52fcf8bfcad07c423ce652252b71c5ee67796cd2a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/funds_accumulator_tests.mv",
+        "sha256": "f8c507821ac9db741dde266bcada22779d4ddd625c2efa91d0381720faffe212"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/groth16.mv",
+        "sha256": "fa308d24a44503440a8f4e1fd25dfd6e08c4d0986c168d52cc76c04dae414eb6"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/groth16_tests.mv",
+        "sha256": "06ed00150289f5219a8d55ede568af2a04b51f97c1a4f5aafd7e9a88e7d4620c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/group_ops.mv",
+        "sha256": "a4c27e9d6da6b13e08f82178e3df2d21427dd1f062c82b3b759784fc253bc9ef"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hash.mv",
+        "sha256": "19686db92ef8115683c40d87e32531d91e6bd83c7c2441ab3c94b952258fd78a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hash_tests.mv",
+        "sha256": "5f6bd1d0493493c3e1220190f3881a59994a93c1026ae0da53763b96b3415bbc"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hex.mv",
+        "sha256": "3f63781bedafb3e0bc771f1708ee14b739c21284fd3745e1099290a924929832"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hex_tests.mv",
+        "sha256": "4defb28deebb84ab837fa91a4889b2e97b7f3ece88fbe531055edd6d1ca71bda"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hmac.mv",
+        "sha256": "3b7672d728d97193716ae791bf7179865c2b87857c8d1d2532d25115c4a28ebe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hmac_tests.mv",
+        "sha256": "ca557af2fdb13e92c513dae74363863c8cdcaa7067cd70a0b4ddfa51bd57bc80"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/id_tests.mv",
+        "sha256": "e81b8293f22a08ef1e7ee47ded5ed61d0acdee6d7aad152b861eeeef49913d85"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/item_locked_policy.mv",
+        "sha256": "587120579bd1e843b0061f39551850d0949c0e41053a050ff9d5dc67df8694fd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk.mv",
+        "sha256": "527ca98efdd60a81e48af2210b57033af670e93f3765b0a59a93e04dd967db5b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_borrow_tests.mv",
+        "sha256": "98b7d4bedb483b925572b16a8360b55a988e4b97b3ecd35b21a031589ea035ed"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_extension.mv",
+        "sha256": "e5c4c58fba43511fd58558cd35aae58d312f22295c8b1c696dbc3115168d732f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_extensions_tests.mv",
+        "sha256": "db873cda604c2189c686b861deebb2442a2fe50399d4e265f0f89fcc3bc867ee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_locked_test.mv",
+        "sha256": "11eb0cc9f5fdf3b62c0fce5d491098c06198dac70debac3af9f3a23c2ce80c02"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_marketplace_ext.mv",
+        "sha256": "775bc308a789dccdb9009586590d7e66cfbd49c1c88db3ff6fe86052c237af09"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_test_utils.mv",
+        "sha256": "8c87f81f500ed8c0ad29bfc3bb078927a6953204042e28fc74a7acfb7a2966b4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_tests.mv",
+        "sha256": "76f03d57efdf0b861d2d7405fb32367d5ca3178dd1498f19a1bb620c657b47a7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/linked_table.mv",
+        "sha256": "104544ddf61b575d9a1fb6b915c6c2d67b5cf694f564c0e632758ca4dcc5b464"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/linked_table_tests.mv",
+        "sha256": "8db8553409fb9b7b9c0d383ff020d4721ad77effacbffbe2b90343667b2e4729"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/malicious_policy.mv",
+        "sha256": "a3d9d88086e7c3e0e09f0c2bb1c99b0f3fac310b4874331290e136e8663dba6a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/math.mv",
+        "sha256": "156d911ad9affa75c595f7867e24905aa831a0685eddf2116abbdeeaff72cf50"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/math_tests.mv",
+        "sha256": "4c1d3c1da12558eee71a00bc69f6d93e10c04eb47b1a266bcfdf7ee7a5dba2d7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/nitro_attestation.mv",
+        "sha256": "b74e224000c727b19fc4f45e54ff64e66c37f5de84cce6210204d8f0778531d2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/nitro_attestation_tests.mv",
+        "sha256": "a544e753643a04b1ee1843a13795e0dd2f67a63247cb70ac2226a6f6a59e302f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object.mv",
+        "sha256": "25663803bea7cafcd9b37f86773d7a05f8ed8483203fd2c6fe7c9065b07b941c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_bag.mv",
+        "sha256": "4ce1da3c08636868df5fbbc3c1c69b6c5daac61d990028b68fef091bcfd9e9c5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_bag_tests.mv",
+        "sha256": "a16bd6f402c8761fbc1c8af11d454cfae01c9ddcedc1c23010d367b3d87d39f2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_table.mv",
+        "sha256": "b1c1c40dc1affd0eb4fa624267a33ba5c27f90c5915c74889e415eae3b844553"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_table_tests.mv",
+        "sha256": "99c763d5ff917d16bc0137cfa1fe6221fcc21537e24f72815fe1edee032734a4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_tests.mv",
+        "sha256": "b474fe79abb161e184c12858920e4bfc2750d2b42649512ce22f88cbc513d6bb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/package.mv",
+        "sha256": "1ac60139d24de5c4acaef94f7ae0e2d55e114468bfe775c6243a4103ed3c8105"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/package_tests.mv",
+        "sha256": "b98aa2733d15662536822e9bc77d19fc0e5a79aa0f39fe3bcfc3cb71c7442822"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/party.mv",
+        "sha256": "c49d7624c9c04a172ac776005a60e9d6910ac1c9fc581a43927f6f786fa1be89"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/pay.mv",
+        "sha256": "213a8a8a49376a8a89e181841c4a9807a676f0e281f69ed4911f74445443b626"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/pay_tests.mv",
+        "sha256": "f4f57795b39e8bdcee0281a47743c914aaa4ab6b79fb498ab87aba4d86f906b7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/poseidon.mv",
+        "sha256": "77a73ed44bad95a4adf56d586fec5db64c5ad0b71159bec259a44a49e53fbdc2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/poseidon_tests.mv",
+        "sha256": "8c4f7f92c93c4279f1e96f2355e472b2c9caf5a242696aef2462a5929f6c63f2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/priority_queue.mv",
+        "sha256": "eb2bd24627ef63b6de44d109d9b43a35d63c8c4f39384b280fa13d6a29d809c2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/protocol_config.mv",
+        "sha256": "4a152ee802a78110d4b99f94f041a18bc80283b703f1581e8bdac911c5bf7c4e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/protocol_config_tests.mv",
+        "sha256": "c447ec01157bd3ccf0c79664b306c7af52e8e8624cd7f48412508229ec7f5cde"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/prover.mv",
+        "sha256": "a36a4e18b735bcee79c05d7c11bb4e840dab0300e37d1daa90326faffb4da80b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/prover_tests.mv",
+        "sha256": "9ae532879b33d078f658b36053d88581c63af8d388c1e79a653377abb613b2ca"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/random.mv",
+        "sha256": "8f9db8f996b67f59c8aca49f8e3d12d216f91f68c7f16ecdaa1a80892ca5f44d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/random_tests.mv",
+        "sha256": "3e6ae6be23b528ce86002afa269890419d3560d9ffdd5a23f1fc2cf3e1840844"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/rangeproofs.mv",
+        "sha256": "2193154fa4e803fc687974da9f3ed2c351ecdb976554dd169bdd92396d62950c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ristretto255.mv",
+        "sha256": "54bc4ef8f4ea13df2cc77c6ac4f04f9919061fc07c1be47c9c370423f9ee5a84"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ristretto255_tests.mv",
+        "sha256": "0260d7dff878484524fb99b1e308fb8158aa1181778b30463b4ce35e06860355"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/royalty_policy.mv",
+        "sha256": "025e10b58eb4d7f94d52ca2c3b18229f90afbb3af8c25bfc9ed928fa327670f8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/royalty_policy_tests.mv",
+        "sha256": "77632aa7933ad845275125280ee84737a69eb0396b65cd4ee4ca67a02336947d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/scratch.mv",
+        "sha256": "05fdb72b98d22dcd919f3287ecc8ba752cb370a6eac2ddd25022698d06415ea4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/scratch_tests.mv",
+        "sha256": "47f9148359caff3d6d087446380d9f94de2b7da0dba3f2600506f5cde9f14c8c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/sui.mv",
+        "sha256": "ce5b97b80d8e9e7a641a78095296c428527a935e1ecd516081458d88f0e69862"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table.mv",
+        "sha256": "d0dc502d8536f95b25c4d8baa79156ff1e8bccaf89859b24263694a4dbaf297e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_tests.mv",
+        "sha256": "de5c1f6fd32968cb8deec8a507be5cf8946cec360aa808bb053980c98f89ddcf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_vec.mv",
+        "sha256": "5bde34a14e63a1d3ca288c6327052bf195f2b199be54555940e84301f1a506bd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_vec_tests.mv",
+        "sha256": "a6f9322ad3fd48a14da0654ac1e3defc117ff500bfd50c01c6cec3dff6b91410"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_random.mv",
+        "sha256": "c141e4fbece5e1e7fee8aed179922437e74b89f171d71aaa75dbc1c543902aeb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_random_tests.mv",
+        "sha256": "f64bfad7369b0d9a87fd02cdc62fcdcad9403ba6b941007a8e96c40b1e119629"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_scenario.mv",
+        "sha256": "8821b3b83a9801619c32b4956dc200b3bbfbf1bab5e656f9f09db5907bd84d60"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_scenario_tests.mv",
+        "sha256": "9a2c636ed7958cd5cdca5f7241b0466143bc32b558b324995f8765b9f8e46f37"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_utils.mv",
+        "sha256": "1cddac6c0ba1fe0f5ad6ec91c9c101d7a006f5c7c4447ae4f0efd2fafb876957"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token.mv",
+        "sha256": "d6826085e30d66eb128ba42aacea6f0fd22455d904b30f46ab88b1acc8be4014"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_actions_tests.mv",
+        "sha256": "88e534042adf293106390fe76220d902ec360942c8ea2fbb7a7a63d2d80baeb1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_config_tests.mv",
+        "sha256": "de5c578c2751e87f276c93d33220bf40ef471c28a7b22a0da5fbebe8ddee2ee3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_public_actions_tests.mv",
+        "sha256": "0b5a6eb97ce74177458d25a492592ae93f31869fa8a3ce397d9b12e4656ad0ee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_request_tests.mv",
+        "sha256": "150130ff9dda811fc77822169804ef09423bc937767f7fd819d656173f92c8a3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_test_utils.mv",
+        "sha256": "db7aa3bb31288fa0bc18e1c0eeb7b4a213e10204a10192bf94766504913ae201"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_treasury_cap_tests.mv",
+        "sha256": "2647dff5b8b591417f91bbbf7119d7033d7f71601a012b30550263a42bc30597"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer.mv",
+        "sha256": "d82de0c7a0a516d6d8e2796b0cdd637cf8fc8de6baf057c8da8df378ae73fa88"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer_policy.mv",
+        "sha256": "1a9c58d9914f5d4174eab6c9e44f6e1da8277797b8bafc4f2cabebc105083b7a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer_policy_tests.mv",
+        "sha256": "239250dcb2d91ec454d65665e0922af7277f611bda8a4f642dbcdf49e87cfaf4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/tx_context.mv",
+        "sha256": "807dba34356fdec361e8f0cc6a77d9dd50272335f784bf4378f2ed7073f7612a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/tx_context_tests.mv",
+        "sha256": "7ea7ef6593223526aec3dcb82583972fe98b0bba985866778caee68c6761e033"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/types.mv",
+        "sha256": "93fba99a595a289f2c6b10a3eeaa2037ed9465ca89323ca11f6d9b8ddf2adbc3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/url.mv",
+        "sha256": "45299ada786c8a227d3b9b400c7aadbed9be72ed40b9f999c204849b2e9e1a40"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/url_tests.mv",
+        "sha256": "5e3810b1d3f3390235f849a69fae97b0bcd0b15d40643a12aa9635e9e163ea23"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vdf.mv",
+        "sha256": "22e5f2bf7e100568246a42965a96f72bb6919fdf5caa2001a865268767d00719"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vdf_tests.mv",
+        "sha256": "0d2652f127ceb5674630230cecdbb971421f2dd86d04883ebd35529ece55d2fe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_map.mv",
+        "sha256": "d4ed3516e1c45764ff7cafad6b062b5c3af6a85bcff7ed54f24f218fd1928bc0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_map_tests.mv",
+        "sha256": "b256b5392e859429b70f67355fffaeff3e6b570e5ee80e29843f03d628e2c59e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_set.mv",
+        "sha256": "be1d9a5056a4e9e7f5d194e14821515e33f47fc70afbaaf82efb624d8770328a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_set_tests.mv",
+        "sha256": "f6fb461e43ae3f2256126d20d6826347948e60a0d8e71b78c4c17d21a6579b81"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/verifier_tests.mv",
+        "sha256": "13ef433da1d9512bd4acae302bb339f3871ee0417ba9bcd1c08103cb79183cc8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/versioned.mv",
+        "sha256": "c91a31473de0c7cf808907c357c2a770723ae24ada8360c19a533b9aba3a4cbd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/versioned_tests.mv",
+        "sha256": "ab6af21d9842b15c5aed5f7e2dcb2a92b7a820fe4d025717fc40b927816cfdcd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/witness_policy.mv",
+        "sha256": "e6469b0c28e7cc1080d5fa467ec0ac3408657193d9033794db63a666bbb73845"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/witness_policy_tests.mv",
+        "sha256": "9521fdb3894370afbf446475b9b036878533a779d801adda40d14b69d7e9b677"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_id.mv",
+        "sha256": "a44b28291839b7206b6f811be8e840e376507c4f3f958b60bb568588f3982ccf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_id_tests.mv",
+        "sha256": "136daf9d983dcd672a7534daf1c39e045833db4551d6fcc7eb5e769a23f94dc6"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_issuer.mv",
+        "sha256": "2eb4270287ed5ddbdd43d9e967091f5d4723d426c2af236470779e6391b9f5cb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_issuer_tests.mv",
+        "sha256": "a0f485e668e7ff6c119e64eafe809ae0b7d1897eac54c00bac7e87eb44239125"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/native_binding.mv",
+        "sha256": "92416215e2b551acdda0d17fd771bceb0e48f4b53e94122d365f9b39361d80b5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/producer.mv",
+        "sha256": "411105e7301759a189101d4a9511542278a6daa62c32a64c3a2ecd2deabb1007"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/tests.mv",
+        "sha256": "3e7bb5940732463cf6a377556fd9e6b411b6a9baf527d6813ba8e9c6037d3197"
+      }
+    ]
+  }
+]

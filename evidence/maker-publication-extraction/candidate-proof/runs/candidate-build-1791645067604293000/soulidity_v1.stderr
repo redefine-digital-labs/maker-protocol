@@ -1,0 +1,427 @@
+[NOTE] Updating dependencies for `mainnet` environment because "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml" has been changed since the last update.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityApplication
+INCLUDING DEPENDENCY SoulidityCommunity
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityCustody
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityNative
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING soulidity_v1
+[0m[1m[38;5;9merror[EC02001][0m[1m: duplicate declaration, item, or annotation[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/permissions.move:2:8
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m module [0m[31msoulidity_content_kinds::permissions[0m;
+  [0m[34m│[0m        [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mDuplicate definition for module '(soulidity_content_kinds=0x0)::permissions'[0m
+  [0m[34m│[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/permissions.move:2:8
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m module soulidity_content::permissions;
+  [0m[34m│[0m        [0m[34m------------------------------[0m [0m[34mModule previously defined here, with '(soulidity_content=0x0)::permissions'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/document.move:30:19
+   [0m[34m│[0m
+[0m[34m30[0m [0m[34m│[0m public fun new(d:&[0m[31mKindDescriptor[0m,name:String,version:u64,reference:Reference,read_mask:u64,download_policy:u8,nonce:vector<u8>,envelope:vector<u8>,created_at_ms:u64,initial:bool):Record {
+   [0m[34m│[0m                   [0m[31m^^^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindDescriptor' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/document.move:43:37
+   [0m[34m│[0m
+[0m[34m43[0m [0m[34m│[0m public fun new_initial_invariant(d:&[0m[31mKindDescriptor[0m,name:String,version:u64,reference:Reference,read_mask:u64,download_policy:u8,nonce:vector<u8>,envelope:vector<u8>,created_at_ms:u64):Record {
+   [0m[34m│[0m                                     [0m[31m^^^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindDescriptor' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/document.move:67:34
+   [0m[34m│[0m
+[0m[34m67[0m [0m[34m│[0m public fun assert_read_policy(d:&[0m[31mKindDescriptor[0m,read_mask:u64,download_policy:u8) { document_policy::assert_read_policy(d,read_mask,download_policy) }
+   [0m[34m│[0m                                  [0m[31m^^^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindDescriptor' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/output.move:61:35
+   [0m[34m│[0m
+[0m[34m61[0m [0m[34m│[0m public fun initial_rule(registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8):InitialRule { output_data::initial_rule(registry,kind,name,read_mask,download_policy) }
+   [0m[34m│[0m                                   [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC02001][0m[1m: duplicate declaration, item, or annotation[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/kind_registry.move:1:8
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m module [0m[31msoulidity_content_kinds::kind_registry[0m;
+  [0m[34m│[0m        [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mDuplicate definition for module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+  [0m[34m│[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:2:8
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m module soulidity_content::kind_registry;
+  [0m[34m│[0m        [0m[34m--------------------------------[0m [0m[34mModule previously defined here, with '(soulidity_content=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/runtime.move:89:58
+   [0m[34m│[0m
+[0m[34m89[0m [0m[34m│[0m public fun append_initial_content(b:&mut Build,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,blob:Blob,system:&System,sha256:vector<u8>,envelope:vector<u8>,clock:&Clock,ctx:&TxContext):u64 {
+   [0m[34m│[0m                                                          [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:417:60
+    [0m[34m│[0m
+[0m[34m417[0m [0m[34m│[0m fun state_append_content(s:&mut ApplicationState,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected_version:u64,expected_soul:u64,attempt:vector<u8>,clock:&Clock):u64 {
+    [0m[34m│[0m                                                            [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:421:65
+    [0m[34m│[0m
+[0m[34m421[0m [0m[34m│[0m fun state_append_content_impl(s:&mut ApplicationState,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected_version:u64,expected_soul:u64,attempt:vector<u8>,clock:&Clock,initial:bool):u64 {
+    [0m[34m│[0m                                                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:502:60
+    [0m[34m│[0m
+[0m[34m502[0m [0m[34m│[0m fun state_configure_paid(s:&mut ApplicationState,registry:&[0m[31mKindRegistry[0m,kind:u32,price:u64,scope:u64,duration:Option<u64>,expected_ledger:u64,expected_soul:u64,ctx:&TxContext) {
+    [0m[34m│[0m                                                            [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:509:61
+    [0m[34m│[0m
+[0m[34m509[0m [0m[34m│[0m fun state_add_paid_access(s:&mut ApplicationState,registry:&[0m[31mKindRegistry[0m,kind:u32,buyer:address,scope:u64,expiry:Option<u64>,expected_ledger:u64,expected_entry:Option<vector<u8>>,expected_soul:u64,clock:&Clock,ctx:&TxContext) {
+    [0m[34m│[0m                                                             [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:553:75
+    [0m[34m│[0m
+[0m[34m553[0m [0m[34m│[0m fun state_append_initial_output_content(s:&mut ApplicationState,registry:&[0m[31mKindRegistry[0m,rule:&InitialRule,intent:&Intent,blob:Blob,system:&System,sha256:vector<u8>,envelope:vector<u8>,clock:&Clock):u64 {
+    [0m[34m│[0m                                                                           [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:839:49
+    [0m[34m│[0m
+[0m[34m839[0m [0m[34m│[0m public fun append_content(s:&mut Soul,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected_version:u64,expected_soul:u64,attempt:vector<u8>,clock:&Clock):u64 { let (mut state,ticket)=open(s); let result=state_append_content(&mut state,registry,kind,name,read_mask,download_policy,blob,system,sha256,nonce,envelope,expected_version,expected_soul,attempt,clock); close(s,ticket,state); result }
+    [0m[34m│[0m                                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:865:49
+    [0m[34m│[0m
+[0m[34m865[0m [0m[34m│[0m public fun configure_paid(s:&mut Soul,registry:&[0m[31mKindRegistry[0m,kind:u32,price:u64,scope:u64,duration:Option<u64>,expected_ledger:u64,expected_soul:u64,ctx:&TxContext) { let (mut state,ticket)=open(s); state_configure_paid(&mut state,registry,kind,price,scope,duration,expected_ledger,expected_soul,ctx); close(s,ticket,state) }
+    [0m[34m│[0m                                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:867:50
+    [0m[34m│[0m
+[0m[34m867[0m [0m[34m│[0m public fun add_paid_access(s:&mut Soul,registry:&[0m[31mKindRegistry[0m,kind:u32,buyer:address,scope:u64,expiry:Option<u64>,expected_ledger:u64,expected_entry:Option<vector<u8>>,expected_soul:u64,clock:&Clock,ctx:&TxContext) { let (mut state,ticket)=open(s); state_add_paid_access(&mut state,registry,kind,buyer,scope,expiry,expected_ledger,expected_entry,expected_soul,clock,ctx); close(s,ticket,state) }
+    [0m[34m│[0m                                                  [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/character.move:895:73
+    [0m[34m│[0m
+[0m[34m895[0m [0m[34m│[0m public fun append_initial_output_content(d:&Draft,s:&mut Soul,registry:&[0m[31mKindRegistry[0m,rule:&InitialRule,intent:&Intent,blob:Blob,system:&System,sha256:vector<u8>,envelope:vector<u8>,clock:&Clock,ctx:&TxContext):u64 { assert_draft(d,s,ctx); let (mut state,ticket)=open(s); let result=state_append_initial_output_content(&mut state,registry,rule,intent,blob,system,sha256,envelope,clock); close(s,ticket,state); result }
+    [0m[34m│[0m                                                                         [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/release.move:43:67
+   [0m[34m│[0m
+[0m[34m43[0m [0m[34m│[0m public struct Draft has key {id:UID,header:Header,expected:vector<[0m[31mExpected[0m>,rows:Store<Asset>,index:vector<u64>,revision:u64,canceling:bool,returned:u64}
+   [0m[34m│[0m                                                                   [0m[31m^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'Expected' in module '(soulidity_maker_publication=0x0)::publication_rules'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/release.move:48:131
+   [0m[34m│[0m
+[0m[34m48[0m [0m[34m│[0m public struct Certificate has key,store {id:UID,custody:Custody,header:Header,policy:vector<u8>,rows:Store<Asset>,expected:vector<[0m[31mExpected[0m>,index:vector<u64>,commitment:vector<u8>}
+   [0m[34m│[0m                                                                                                                                   [0m[31m^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'Expected' in module '(soulidity_maker_publication=0x0)::publication_rules'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/release.move:73:33
+   [0m[34m│[0m
+[0m[34m73[0m [0m[34m│[0m fun expected(v:&Version):vector<[0m[31mExpected[0m>{
+   [0m[34m│[0m                                 [0m[31m^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'Expected' in module '(soulidity_maker_publication=0x0)::publication_rules'[0m
+
+[0m[1m[38;5;11mwarning[WC09002][0m[1m: unused variable[0m
+    [0m[34m┌─[0m ./sources/release.move:146:228
+    [0m[34m│[0m
+[0m[34m146[0m [0m[34m│[0m     assert!(d.header.actor==ctx.sender(),EActor);assert!(paged_store::length(&d.rows)-d.returned<=30,EBounds);let Draft{mut id,header:_,expected:_,rows,index:_,revision:_,canceling:_,returned}=d;let DraftVersion{id:metadata_id,[0m[33mversion[0m}=dof::remove(&mut id,MetadataKey{});metadata_id.delete();let mut blobs=vector[blob_custody::take_document(&mut id,0),blob_custody::take_document(&mut id,1)];let mut i=returned;while(i < paged_store::length(&rows)){blobs.push_back(blob_custody::take(&mut id,i));i=i+1};paged_store::destroy(rows);id.delete();blobs
+    [0m[34m│[0m                                                                                                                                                                                                                                    [0m[33m^^^^^^^[0m [0m[33mUnused local variable 'version'. Consider removing or prefixing with an underscore: '_version'[0m
+    [0m[34m│[0m
+    [0m[34m=[0m This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+[0m[1m[38;5;9merror[EC02001][0m[1m: duplicate declaration, item, or annotation[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication/sources/publication_rules.move:4:8
+  [0m[34m│[0m
+[0m[34m4[0m [0m[34m│[0m module [0m[31msoulidity_maker_publication::publication_rules[0m;
+  [0m[34m│[0m        [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mDuplicate definition for module '(soulidity_maker_publication=0x0)::publication_rules'[0m
+  [0m[34m│[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:2:8
+  [0m[34m│[0m
+[0m[34m2[0m [0m[34m│[0m module soulidity_application::publication_rules;
+  [0m[34m│[0m        [0m[34m----------------------------------------[0m [0m[34mModule previously defined here, with '(soulidity_application=0x0)::publication_rules'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/access.move:89:64
+   [0m[34m│[0m
+[0m[34m89[0m [0m[34m│[0m public fun configure_paid(k:&mut Kiosk,a:&mut Account,id:ID,r:&[0m[31mKindRegistry[0m,kind:u32,price:u64,scope:u64,duration:Option<u64>,expected_ledger:u64,expected:u64,expected_soul:u64,ctx:&TxContext){
+   [0m[34m│[0m                                                                [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m ./sources/access.move:95:65
+   [0m[34m│[0m
+[0m[34m95[0m [0m[34m│[0m public fun add_paid_access(k:&mut Kiosk,a:&mut Account,id:ID,r:&[0m[31mKindRegistry[0m,kind:u32,buyer:address,scope:u64,expiry:Option<u64>,expected_ledger:u64,previous:Option<vector<u8>>,expected:u64,expected_soul:u64,clock:&Clock,ctx:&TxContext){
+   [0m[34m│[0m                                                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m ./sources/access.move:127:66
+    [0m[34m│[0m
+[0m[34m127[0m [0m[34m│[0m public fun append_content_as_delegate(k:&mut Kiosk,root_id:ID,r:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected_version:u64,expected:u64,expected_soul:u64,attempt:vector<u8>,clock:&Clock,ctx:&TxContext):u64{
+    [0m[34m│[0m                                                                  [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:19:32
+   [0m[34m│[0m
+[0m[34m19[0m [0m[34m│[0m public fun descriptor_kind(d: &[0m[31mKindDescriptor[0m): u32 { canonical::descriptor_kind(d) }
+   [0m[34m│[0m                                [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:21:35
+   [0m[34m│[0m
+[0m[34m21[0m [0m[34m│[0m public fun descriptor_version(d: &[0m[31mKindDescriptor[0m): u64 { canonical::descriptor_version(d) }
+   [0m[34m│[0m                                   [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:22:32
+   [0m[34m│[0m
+[0m[34m22[0m [0m[34m│[0m public fun descriptor_name(d: &[0m[31mKindDescriptor[0m): &String { canonical::descriptor_name(d) }
+   [0m[34m│[0m                                [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:23:35
+   [0m[34m│[0m
+[0m[34m23[0m [0m[34m│[0m public fun descriptor_op_mask(d: &[0m[31mKindDescriptor[0m): u64 { canonical::descriptor_op_mask(d) }
+   [0m[34m│[0m                                   [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:24:42
+   [0m[34m│[0m
+[0m[34m24[0m [0m[34m│[0m public fun descriptor_read_mode_mask(d: &[0m[31mKindDescriptor[0m): u64 { canonical::descriptor_read_mode_mask(d) }
+   [0m[34m│[0m                                          [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:25:46
+   [0m[34m│[0m
+[0m[34m25[0m [0m[34m│[0m public fun descriptor_has_active_binding(d: &[0m[31mKindDescriptor[0m): bool { canonical::descriptor_has_active_binding(d) }
+   [0m[34m│[0m                                              [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:26:52
+   [0m[34m│[0m
+[0m[34m26[0m [0m[34m│[0m public fun descriptor_requires_download_policy(d: &[0m[31mKindDescriptor[0m): bool { canonical::descriptor_requires_download_policy(d) }
+   [0m[34m│[0m                                                    [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:27:52
+   [0m[34m│[0m
+[0m[34m27[0m [0m[34m│[0m public fun descriptor_default_grant_scope_mask(d: &[0m[31mKindDescriptor[0m): u64 { canonical::descriptor_default_grant_scope_mask(d) }
+   [0m[34m│[0m                                                    [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:28:38
+   [0m[34m│[0m
+[0m[34m28[0m [0m[34m│[0m public fun descriptor_deprecated(d: &[0m[31mKindDescriptor[0m): bool { canonical::descriptor_deprecated(d) }
+   [0m[34m│[0m                                      [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:29:31
+   [0m[34m│[0m
+[0m[34m29[0m [0m[34m│[0m public fun registry_id(self: &[0m[31mKindRegistry[0m): ID { canonical::registry_id(self) }
+   [0m[34m│[0m                               [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:30:36
+   [0m[34m│[0m
+[0m[34m30[0m [0m[34m│[0m public fun registry_version(self: &[0m[31mKindRegistry[0m): u64 { canonical::registry_version(self) }
+   [0m[34m│[0m                                    [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:31:29
+   [0m[34m│[0m
+[0m[34m31[0m [0m[34m│[0m public fun next_kind(self: &[0m[31mKindRegistry[0m): u32 { canonical::next_kind(self) }
+   [0m[34m│[0m                             [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:32:33
+   [0m[34m│[0m
+[0m[34m32[0m [0m[34m│[0m public fun contains_kind(self: &[0m[31mKindRegistry[0m, kind: u32): bool { canonical::contains_kind(self,kind) }
+   [0m[34m│[0m                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:33:33
+   [0m[34m│[0m
+[0m[34m33[0m [0m[34m│[0m public fun contains_name(self: &[0m[31mKindRegistry[0m, name: String): bool { canonical::contains_name(self,name) }
+   [0m[34m│[0m                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:34:37
+   [0m[34m│[0m
+[0m[34m34[0m [0m[34m│[0m public fun borrow_descriptor(self: &[0m[31mKindRegistry[0m, kind: u32): &KindDescriptor { canonical::borrow_descriptor(self,kind) }
+   [0m[34m│[0m                                     [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:34:64
+   [0m[34m│[0m
+[0m[34m34[0m [0m[34m│[0m public fun borrow_descriptor(self: &KindRegistry, kind: u32): &[0m[31mKindDescriptor[0m { canonical::borrow_descriptor(self,kind) }
+   [0m[34m│[0m                                                                [0m[31m^^^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindDescriptor' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:35:33
+   [0m[34m│[0m
+[0m[34m35[0m [0m[34m│[0m public fun kind_for_name(self: &[0m[31mKindRegistry[0m, name: String): u32 { canonical::kind_for_name(self,name) }
+   [0m[34m│[0m                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:37:20
+   [0m[34m│[0m
+[0m[34m37[0m [0m[34m│[0m     registry: &mut [0m[31mKindRegistry[0m,
+   [0m[34m│[0m                    [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:38:15
+   [0m[34m│[0m
+[0m[34m38[0m [0m[34m│[0m     cap: &mut [0m[31mKindAdminCap[0m,
+   [0m[34m│[0m               [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindAdminCap' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:48:20
+   [0m[34m│[0m
+[0m[34m48[0m [0m[34m│[0m     registry: &mut [0m[31mKindRegistry[0m,
+   [0m[34m│[0m                    [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:49:15
+   [0m[34m│[0m
+[0m[34m49[0m [0m[34m│[0m     cap: &mut [0m[31mKindAdminCap[0m,
+   [0m[34m│[0m               [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindAdminCap' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:54:20
+   [0m[34m│[0m
+[0m[34m54[0m [0m[34m│[0m     registry: &mut [0m[31mKindRegistry[0m,
+   [0m[34m│[0m                    [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:55:15
+   [0m[34m│[0m
+[0m[34m55[0m [0m[34m│[0m     cap: &mut [0m[31mKindAdminCap[0m,
+   [0m[34m│[0m               [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindAdminCap' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/kind_registry.move:59:42
+   [0m[34m│[0m
+[0m[34m59[0m [0m[34m│[0m public fun assert_kind_active(registry: &[0m[31mKindRegistry[0m, kind: u32) { canonical::assert_kind_active(registry,kind) }
+   [0m[34m│[0m                                          [0m[31m^^^^^^^^^^^^[0m [0m[31mUnbound type 'KindRegistry' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/paid_access.move:49:27
+   [0m[34m│[0m
+[0m[34m49[0m [0m[34m│[0m fun assert_kind(registry:&[0m[31mKindRegistry[0m,kind:u32,scope:u64) {
+   [0m[34m│[0m                           [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/paid_access.move:53:48
+   [0m[34m│[0m
+[0m[34m53[0m [0m[34m│[0m fun internal_configure(l:&mut Ledger,registry:&[0m[31mKindRegistry[0m,kind:u32,price:u64,scope:u64,duration:Option<u64>,owner:address,generation:u64,expected:u64) {
+   [0m[34m│[0m                                                [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/paid_access.move:84:42
+   [0m[34m│[0m
+[0m[34m84[0m [0m[34m│[0m fun internal_add(l:&mut Ledger,registry:&[0m[31mKindRegistry[0m,kind:u32,buyer:address,scope:u64,expiry:Option<u64>,owner:address,generation:u64,expected:u64,expected_entry:Option<vector<u8>>,clock:&Clock) {
+   [0m[34m│[0m                                          [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/paid_access.move:116:58
+    [0m[34m│[0m
+[0m[34m116[0m [0m[34m│[0m public fun configure<W:drop>(w:W,l:&mut Ledger,registry:&[0m[31mKindRegistry[0m,kind:u32,price:u64,scope:u64,duration:Option<u64>,owner:address,generation:u64,expected:u64) {
+    [0m[34m│[0m                                                          [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/paid_access.move:131:52
+    [0m[34m│[0m
+[0m[34m131[0m [0m[34m│[0m public fun add<W:drop>(w:W,l:&mut Ledger,registry:&[0m[31mKindRegistry[0m,kind:u32,buyer:address,scope:u64,expiry:Option<u64>,owner:address,generation:u64,expected:u64,expected_entry:Option<vector<u8>>,clock:&Clock) {
+    [0m[34m│[0m                                                    [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_native/sources/birth.move:73:47
+   [0m[34m│[0m
+[0m[34m73[0m [0m[34m│[0m public fun append_initial(d:&mut Draft,kinds:&[0m[31mKindRegistry[0m,kind:u32,name:String,read:u64,download:u8,
+   [0m[34m│[0m                                               [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+    [0m[34m┌─[0m ./sources/issuer.move:114:67
+    [0m[34m│[0m
+[0m[34m114[0m [0m[34m│[0m public(package) fun append_initial_content(b:&mut Build,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,blob:Blob,system:&System,sha256:vector<u8>,envelope:vector<u8>,clock:&Clock,ctx:&TxContext):u64 {
+    [0m[34m│[0m                                                                   [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:6:69
+  [0m[34m│[0m
+[0m[34m6[0m [0m[34m│[0m public fun expected_assets(definitions:&vector<Definition>):(vector<[0m[31mExpected[0m>,u64){ canonical::expected_assets(definitions) }
+  [0m[34m│[0m                                                                     [0m[31m^^^^^^^^[0m [0m[31mUnbound type 'Expected' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:7:31
+  [0m[34m│[0m
+[0m[34m7[0m [0m[34m│[0m public fun expected_digest(r:&[0m[31mExpected[0m):vector<u8>{ canonical::expected_digest(r) }
+  [0m[34m│[0m                               [0m[31m^^^^^^^^[0m [0m[31mUnbound type 'Expected' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:8:29
+  [0m[34m│[0m
+[0m[34m8[0m [0m[34m│[0m public fun expected_size(r:&[0m[31mExpected[0m):u64{ canonical::expected_size(r) }
+  [0m[34m│[0m                             [0m[31m^^^^^^^^[0m [0m[31mUnbound type 'Expected' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+  [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:9:40
+  [0m[34m│[0m
+[0m[34m9[0m [0m[34m│[0m public fun expected_index(rows:&vector<[0m[31mExpected[0m>,asset:vector<u8>):Option<u64>{ canonical::expected_index(rows,asset) }
+  [0m[34m│[0m                                        [0m[31m^^^^^^^^[0m [0m[31mUnbound type 'Expected' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/sources/publication_rules.move:10:41
+   [0m[34m│[0m
+[0m[34m10[0m [0m[34m│[0m public fun expected_lookup(rows:&vector<[0m[31mExpected[0m>,asset:vector<u8>):Option<u64>{ canonical::expected_lookup(rows,asset) }
+   [0m[34m│[0m                                         [0m[31m^^^^^^^^[0m [0m[31mUnbound type 'Expected' in current scope[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/founding_library.move:60:42
+   [0m[34m│[0m
+[0m[34m60[0m [0m[34m│[0m fun append_impl(l:&mut Library,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read:u64,download:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected:u64,set_active:bool,clock:&Clock,initial:bool):u64 {
+   [0m[34m│[0m                                          [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/founding_library.move:76:65
+   [0m[34m│[0m
+[0m[34m76[0m [0m[34m│[0m public fun append_initial<W:drop>(w:W,f:&mut Founding,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read:u64,download:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected:u64,set_active:bool,clock:&Clock,ctx:&TxContext):u64 {
+   [0m[34m│[0m                                                                 [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/sources/founding_library.move:89:56
+   [0m[34m│[0m
+[0m[34m89[0m [0m[34m│[0m public fun append<W:drop>(w:W,l:&mut Library,registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read:u64,download:u8,blob:Blob,system:&System,sha256:vector<u8>,nonce:vector<u8>,envelope:vector<u8>,expected:u64,set_active:bool,clock:&Clock):u64 {
+   [0m[34m│[0m                                                        [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/document_policy.move:15:34
+   [0m[34m│[0m
+[0m[34m15[0m [0m[34m│[0m public fun assert_read_policy(d:&[0m[31mKindDescriptor[0m,read_mask:u64,download_policy:u8) {
+   [0m[34m│[0m                                  [0m[31m^^^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindDescriptor' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+
+[0m[1m[38;5;9merror[EC03004][0m[1m: unbound type[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication/sources/output_data.move:23:35
+   [0m[34m│[0m
+[0m[34m23[0m [0m[34m│[0m public fun initial_rule(registry:&[0m[31mKindRegistry[0m,kind:u32,name:String,read_mask:u64,download_policy:u8):InitialRule {
+   [0m[34m│[0m                                   [0m[31m^^^^^^^^^^^^[0m [0m[31mInvalid module access. Unbound type 'KindRegistry' in module '(soulidity_content_kinds=0x0)::kind_registry'[0m
+

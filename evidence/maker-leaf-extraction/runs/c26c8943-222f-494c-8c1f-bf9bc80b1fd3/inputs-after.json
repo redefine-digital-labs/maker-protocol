@@ -1,0 +1,2642 @@
+[
+  {
+    "root": "MakerDirectConsumer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/Move.toml",
+    "sha256": "c6573fddac9e15c722744ee8e2373c333bee942dad21e378fd6bd3f7d6af656b"
+  },
+  {
+    "root": "MakerDirectConsumer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/sources/consumer.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/sources/consumer.move",
+    "sha256": "9e40d1fe5d98e3dd6795c599a38208c66593eb497cc8d953ac0ae02f5d5ad940"
+  },
+  {
+    "root": "MakerDirectConsumer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/tests/runtime.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/tests/runtime.move",
+    "sha256": "39bfc9c35a9c48f94e650eb18426192700d70e315c224f6703c0adf5c10d2c25"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/Move.toml",
+    "sha256": "606bab8fcea5874bf248752e246b76b8505715f2249506d383bdf35ddbf9209e"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/binder.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/binder.move",
+    "sha256": "a948c7a1775707cb146388b9b18f26d455eccc89e3bcdbe3637e26cea400694c"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/catalog.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/catalog.move",
+    "sha256": "7bbfd3ad7e3e166ccd23f0bc088353711a655c555b7623b32abff3204c4597d0"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/market.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/market.move",
+    "sha256": "fe473aa71ae33922a5de1e9312230ced90ca7d957e5a8f17d7e73b8eb59d93ee"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/operator.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/operator.move",
+    "sha256": "498cae4624b1f2c85bed74ce72f92d6ce6b58b2c331fe653985bf1acc753d879"
+  },
+  {
+    "root": "RefuseCopyBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/Move.toml",
+    "sha256": "976df5b7f0d335a9490db0afb746feab0b8ea93110b0fb12c9745f2d0b77b5c8"
+  },
+  {
+    "root": "RefuseCopyBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding/sources/refusal.move",
+    "sha256": "d6557283e044268c8610e218cd826ec9424a6522c3ff1fa10d0b7daaf0d058b2"
+  },
+  {
+    "root": "RefuseCopyContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/Move.toml",
+    "sha256": "229243210f0f3b9ebbd2da32f0ea656bcc0f54d6d14edfd4849fcb8e2106d70a"
+  },
+  {
+    "root": "RefuseCopyContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution/sources/refusal.move",
+    "sha256": "e0d50da07b7cfac2daa6960adc55fa6835419ef0076c152d7a9b45f819ca050e"
+  },
+  {
+    "root": "RefuseCopyGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/Move.toml",
+    "sha256": "0faaefa045ef443186567b24cd7b1abe0b907ac0376d7b3bb33a4c083d02012b"
+  },
+  {
+    "root": "RefuseCopyGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis/sources/refusal.move",
+    "sha256": "979531721971ca32bc12538b4a998a3c51ae8931c1157bbf196802b78ab05409"
+  },
+  {
+    "root": "RefuseDropBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/Move.toml",
+    "sha256": "6ef02f4b0fa6f77bf05df7df7c01f6b3c9337ff2b6d20ef4f2731248ae0b22ab"
+  },
+  {
+    "root": "RefuseDropBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding/sources/refusal.move",
+    "sha256": "cc08930735b9cf22336974faec398d285959ff9e209d303860f9150f3f0d7ae9"
+  },
+  {
+    "root": "RefuseDropContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/Move.toml",
+    "sha256": "bd77375939ac05a5f01726b11936e3fc624d3bb4e522712db12da635725d77e7"
+  },
+  {
+    "root": "RefuseDropContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution/sources/refusal.move",
+    "sha256": "981ced8c45c42fe406483064bf0419b916e4629e74152993b47e912b7d9c06a2"
+  },
+  {
+    "root": "RefuseDropGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/Move.toml",
+    "sha256": "fd87b2fe530e80147bdd539b3a7e6a488a55ed827748003303fd9bc6e2b06fc1"
+  },
+  {
+    "root": "RefuseDropGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis/sources/refusal.move",
+    "sha256": "c71a446e24e319e78fc30d2a7dbeb8d364da2807c71e57f0eca48c3df15d61dc"
+  },
+  {
+    "root": "RefuseMetadataToGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/Move.toml",
+    "sha256": "e2030ea92a69977db285570ca4fe83d113120f326ffd45bc7c762b0a65f4a5a1"
+  },
+  {
+    "root": "RefuseMetadataToGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis/sources/refusal.move",
+    "sha256": "469f919804d57325c9c6153f15d9446edecba534c87b3ea9551589410cae7a6f"
+  },
+  {
+    "root": "RefuseOldBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/Move.toml",
+    "sha256": "03a1e15449b7c20b2535d7a6865e0dee40fdc2519ab0111cf42747b3d678b7ce"
+  },
+  {
+    "root": "RefuseOldBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding/sources/refusal.move",
+    "sha256": "65b749159c674cafffae034aa23c89e87d8c6f3f0bce72736ba32fb9ac5bd0ef"
+  },
+  {
+    "root": "RefuseOldProof",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/Move.toml",
+    "sha256": "fa2fafb84a2aefc555aad63db1dc8f113d49bd23b206b60b27b0486e9557e34b"
+  },
+  {
+    "root": "RefuseOldProof",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof/sources/refusal.move",
+    "sha256": "28b9ffdb20c3325b7ae6a3207c7341f1c99f205420b2147119ca5130b3e9fc0a"
+  },
+  {
+    "root": "RefuseOldRates",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/Move.toml",
+    "sha256": "e72f312656c23ca6e4a52b0516d6ee7a6f304c9d4ebcdb6ee3b6cfee8ece0b22"
+  },
+  {
+    "root": "RefuseOldRates",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates/sources/refusal.move",
+    "sha256": "83d6b1753c20154e1a38ec862dc13dd4bd67edaaa4907d5ddfc2142fec694a7a"
+  },
+  {
+    "root": "RefusePrivateBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/Move.toml",
+    "sha256": "a878fa8295dfd5bebd430531473c411069393536354ffc0fe11ea4e0f049afcd"
+  },
+  {
+    "root": "RefusePrivateBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding/sources/refusal.move",
+    "sha256": "3b51a30414d7a20c8e4ff3cc347df67e7f923548cdb5404cf76010e6c9fdb002"
+  },
+  {
+    "root": "RefusePrivateContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/Move.toml",
+    "sha256": "37a6239baced5148f484a18e692bb32c6024171659558e852f2b5bd178b60801"
+  },
+  {
+    "root": "RefusePrivateContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution/sources/refusal.move",
+    "sha256": "2dfcd9f02db4997412963bcd2906bd6eb6e048909f46e2530b2255946fc96362"
+  },
+  {
+    "root": "RefusePrivateGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/Move.toml",
+    "sha256": "d5933a0577c3d71ad5ab4a15abf18f2f134b502e5c77d0155f00cf408fcfc53e"
+  },
+  {
+    "root": "RefusePrivateGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis/sources/refusal.move",
+    "sha256": "8859e9efbcc05fa576e1e0dc1e723079a657c6446829bcf0af27788f7dc09b1c"
+  },
+  {
+    "root": "RefuseQuoteToAdmission",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/Move.toml",
+    "sha256": "b6baa481a593da04815da0cd5ee4940a0a36b7b8769863968de7e8eddd4b7de8"
+  },
+  {
+    "root": "RefuseQuoteToAdmission",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission/sources/refusal.move",
+    "sha256": "8140ef93dd5cbb0a6ff37c0949cf15f4d128644d12c9ecaecd933fa7780bd7c7"
+  },
+  {
+    "root": "RefuseStoreBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/Move.toml",
+    "sha256": "47c0d7dc0a3614f160ed4bc3a2814baf1e1716d598b6ccf7091ebc945fc6218e"
+  },
+  {
+    "root": "RefuseStoreBinding",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding/sources/refusal.move",
+    "sha256": "bcc2923faa0d752dd584525d688c4c7340c55b8a864428160c930e1e0426d4dc"
+  },
+  {
+    "root": "RefuseStoreContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/Move.toml",
+    "sha256": "10c83f7f691b295f4d6c8137081f3bf4c644902a7b24a78d7ce039145369c6ce"
+  },
+  {
+    "root": "RefuseStoreContribution",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution/sources/refusal.move",
+    "sha256": "aa51b6de6d2e5977eea3d977519ad798f6eb68e38330de6026a94690850a6430"
+  },
+  {
+    "root": "RefuseStoreGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/Move.toml",
+    "sha256": "9bb43b38d404d000e5c6fb0e287cac91f0d5f558541cad9ef10393391436de0f"
+  },
+  {
+    "root": "RefuseStoreGenesis",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/sources/refusal.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis/sources/refusal.move",
+    "sha256": "2d53ff09507d475e8165c81e19623ea2a13683cec62721999af793cdd382b538"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml",
+    "sha256": "bf7682fe803ae2176ad95d4ddde92808310b842fc392fae0592fc538dd574a2d"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.lock",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.lock",
+    "sha256": "9214f5e1fd7c614f0807ef34008f725a62f5822fb4e4111922faf84efbce4c04"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/character.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/character.move",
+    "sha256": "87dbb52d6c2d7d168ca4bf0540f032cc994b542e4f8a504deaff40bd895f8c2f"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/forms.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/forms.move",
+    "sha256": "7783031039c648434fcc29e3f9c2effc75c8ba805c45989ec15065491bf75a3e"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/growth.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/growth.move",
+    "sha256": "0c0a5a80b1f6c7fd72753a05aa714e0312f26933d0dc639b1723ebd2f0a2364e"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/issuance.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/issuance.move",
+    "sha256": "68163ee70e8cd9179ac723cbe288a70684d770d8796dcbfb66290a897f61c7b2"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/output.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/output.move",
+    "sha256": "42e683f8d5e3db5751751b52ac4a27d26d10fd8d19d4b4d8ba248af9167da55f"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move",
+    "sha256": "3d1b7917b61024bccd38585d57274ff34924d780c55355b5eda0a9609992c9e1"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/publication_rules.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/publication_rules.move",
+    "sha256": "72e321f34146431585611a4cbbf310cc08229b8e7d3abf551241604bb7a9b79d"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/resale.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/resale.move",
+    "sha256": "5c3d4af66f03f9ddb3bc08790c44bfbb9f2f33cb12808e6c8fbac3a8aaf8fa30"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/vault.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/vault.move",
+    "sha256": "71956d436461659e164f15803466e833122d356a82f5b841878ce10a04cb7624"
+  },
+  {
+    "root": "SoulidityApplication",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/visual_capture.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/visual_capture.move",
+    "sha256": "e86cf85752d74832ddeafa9706aecad4b2ba144ad875757ab6ee6074128c39fe"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.toml",
+    "sha256": "bbfd44ba3aaf33b48739d0048750f9982448d6b086866d41a620ea795d06270f"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.lock",
+    "sha256": "82e94d5b85f588ef553fbdb98c2e0f1095ab735d9acfc15965ad8fe061b2f15d"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_posts.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_posts.move",
+    "sha256": "993255715aa8e0c4508d59995ff04d8928f2496c0b2fcdcce2b26184ecb426da"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_votes.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_votes.move",
+    "sha256": "31c7cfa43ff8ef823911a6568ad11904811ed99d4dacfb8522c963eb98e6a4c9"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/profile.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/profile.move",
+    "sha256": "b8fff3b0145e8697902a35f7069451a0986d54fc63d16d8096145c815f633aee"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/social.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/social.move",
+    "sha256": "deece68caa07ef6d925093ebb716c98a536b1bdbd6ac5be0257cc713d6dd28fd"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_posts_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_posts_tests.move",
+    "sha256": "e06e147264bc157fb3740e84a9c225c2327aa73bce49681beb3e31d265f9d2ce"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_votes_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_votes_tests.move",
+    "sha256": "177b25f0d0742d418c1c889b32273e140854a4668f3ecbbcbaeeff7c35360290"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_social_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_social_tests.move",
+    "sha256": "ffc533db4200e7788fcc4362578e7fedcd3fcf6b39c3e92240324424b2709a27"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/private_bookmarks_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/private_bookmarks_tests.move",
+    "sha256": "3026299317a56ead1d0725ba99fe8a6b67a4d14bcdf8f2344035cfb021e6be54"
+  },
+  {
+    "root": "SoulidityCommunity",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/profile_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/profile_tests.move",
+    "sha256": "9b43f04106be2595cfcddb15420abb6266c6155a2f2909a7c79c9644a85200fc"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/Move.toml",
+    "sha256": "fc045039346481ccf318f6693e4ff7d642b1be882eb05fef4b35c4ace18abc64"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authority.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authority.move",
+    "sha256": "72b14a54093a542ffc065553920481cdffc3383eb6cb2f7d05f36c2355e97bfe"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authorization.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authorization.move",
+    "sha256": "e1e337cd3e940f26f5eabad5c0fd486b192a0b6cf8327688c62e91ff310cb0dd"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/blob_custody.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/blob_custody.move",
+    "sha256": "81ab5b2b929a7b67c74ab6c6bafea67891d56ce751ada2da99ebf0690eca2737"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/document.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/document.move",
+    "sha256": "449575a36d14411276ad5c814ccdaeb4eff07d662d4b8bffeb72068e7bdb39e0"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/founding_library.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/founding_library.move",
+    "sha256": "bcb8c19a0b2647bf568bbac269f02edc920192cef215d39b66a17114a157f461"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/kind_registry.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/kind_registry.move",
+    "sha256": "9fa9db9d6d391bc27257ff7cb22552744b01e12ac7cf902a19adbbd0a08cad57"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/loadout.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/loadout.move",
+    "sha256": "4ded2bd91fc5557c126db78ae8cbb4abc9807bb34957e230ce46f94309ba7d63"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paged_store.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paged_store.move",
+    "sha256": "33d15484e8d5868d0202654373577a024077b8d43ae680ee68e974fbfe7fda0a"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paid_access.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paid_access.move",
+    "sha256": "3b39ce29771d0a22f668958b2198aafaa82deb75d5121d83a76882be47408c09"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/permissions.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/permissions.move",
+    "sha256": "5b0bf758bfed7bd53ad1af4618beb4552a0125e1fcccc8c49e830f370f786dff"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/state_configuration.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/state_configuration.move",
+    "sha256": "89963eee546f1b5a5be4a5dbced26b7beb25950a1001ca6498cef4bd15a836ad"
+  },
+  {
+    "root": "SoulidityContent",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/storage.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/storage.move",
+    "sha256": "dba26fb0baac1a181363a43fb05353e77f078f527984442f79ca4647f25851ee"
+  },
+  {
+    "root": "SoulidityCustody",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.toml",
+    "sha256": "5079fe1ac9383ad11f4cbe87a26eb3dcc1388a51da090877f6312314301a5773"
+  },
+  {
+    "root": "SoulidityCustody",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.lock",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.lock",
+    "sha256": "1526127ff49f6d872385964fa2a477442e7ca15303421c9bd44ac52d6a9cc042"
+  },
+  {
+    "root": "SoulidityCustody",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/custody.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/custody.move",
+    "sha256": "920e8b3ccfa14428440f3459822c347a1ba29af5eb6f6cfdcacf59e4f63da5c7"
+  },
+  {
+    "root": "SoulidityCustody",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/native_creation.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/native_creation.move",
+    "sha256": "deb89b4e6081842ba100b3fa202ba2fd07354e93a78da70f3af73e40aec6a421"
+  },
+  {
+    "root": "SoulidityCustody",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/tests/custody_namespace_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/tests/custody_namespace_tests.move",
+    "sha256": "7e70f5ec44720a00cac4506b9a193bc345528faceea40d7255f73bee7a7f29cb"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.toml",
+    "sha256": "b9af9eec5599828254b2e398848028cbb9c62abb879be7e41c41858f0fdfb763"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.lock",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.lock",
+    "sha256": "5c6ddee0be90a667c14029867ce966a797aa4cd7f367b9f2ccb60742fb0683fa"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/economics.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/economics.move",
+    "sha256": "18a683402ff9438f5945e8070426a33e532ef851b5b4b810d7be5c85e98de039"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/package_roles.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/package_roles.move",
+    "sha256": "4569fb705519bf0fed418083c38b2d98fab001d25f1a0cc9b06ce9f50003e229"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/revenue.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/revenue.move",
+    "sha256": "9e307e4d6c944419179bc9e4fbcc39e006e6e118c9d6d083ee3e23189515fdaa"
+  },
+  {
+    "root": "SoulidityFoundation",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/source_authority.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/source_authority.move",
+    "sha256": "e2b4ee56df6962bba16695ca4cec4f6e1816c6fa6dd9b83cd8eeb8147c32883b"
+  },
+  {
+    "root": "SoulidityMakerAdmission",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.toml",
+    "sha256": "2ebf7b0bfa6e07b6dc51217ebc7448abd883b485cf23dd2715b8a9f44fe31a4e"
+  },
+  {
+    "root": "SoulidityMakerAdmission",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.lock",
+    "sha256": "a5226ac4417db423013ae5baa7b8a8134f9b42cb39e16fd47f6b6131a61118e4"
+  },
+  {
+    "root": "SoulidityMakerAdmission",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move",
+    "sha256": "83c721d5793b07fcd85487b2f2575d26a9562fe481ab806cf96ddd2ddb25f0df"
+  },
+  {
+    "root": "SoulidityMakerTerms",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.toml",
+    "sha256": "244fdca5fa695ac4cab157d3500295f06aa662758805ae245d7a224e4f485cbe"
+  },
+  {
+    "root": "SoulidityMakerTerms",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.lock",
+    "sha256": "9867cab7fc52ef9c44987a5220b89c58a1ac89441d7534a7e7898307cc57f0ce"
+  },
+  {
+    "root": "SoulidityMakerTerms",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_physical_metadata.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_physical_metadata.move",
+    "sha256": "d6938e21a8c7a53d90eea3f96087766487bf1f9e87097d1180c10ac21ca82916"
+  },
+  {
+    "root": "SoulidityMakerTerms",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_resale.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_resale.move",
+    "sha256": "c408d1e0cd72ce13f08bf2fda5f10e4c88f9d420171a640b3dc173f18da3aa34"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.toml",
+    "sha256": "2aae4da8aed70c27e80a43865a72cf05cbe68198f23d2cb59da38a1d95c47077"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.lock",
+    "sha256": "cd9b56c842ea85a2028ccc576a7125393e0b554f6e81cf93cfc04228b79cb579"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/assembly.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/assembly.move",
+    "sha256": "348b6ce070acb56d73f5940e9c1eb0897f95213b1416213b34f7135dbdd3fe98"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/components.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/components.move",
+    "sha256": "2c7cd53d70fb85b87c3d15ad79a5c31a18e39d05d1ee373a4485108d7d68fd05"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/material_policy.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/material_policy.move",
+    "sha256": "d3c40174c015a92567fb51965ee6691bb6586dbf1c23823994e9785607322448"
+  },
+  {
+    "root": "SoulidityModel",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/policy.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/policy.move",
+    "sha256": "78654d1cd083c0a85f9d9de5b36b0bbd8bab595e1d85fcc4ca534ebff51a7614"
+  },
+  {
+    "root": "SoulidityNative",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.toml",
+    "sha256": "abb5b2b4f9faedef767659765fb9e11be5d1b473893dea3f7dd5738e63448cd3"
+  },
+  {
+    "root": "SoulidityNative",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.lock",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.lock",
+    "sha256": "bd1a441d92bb36ab160b77f7d583e0524f022d4c682d71249f41d4f629716d3c"
+  },
+  {
+    "root": "SoulidityNative",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/birth.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/birth.move",
+    "sha256": "fdc12d752c0519db2cb219cf76108f8d6fea06d8c105e00d8c4e8592f7b39921"
+  },
+  {
+    "root": "SoulidityNative",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/registry.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/registry.move",
+    "sha256": "23d5a95aeae16216666f70e294e92ba68582edceb69b712452333ac7f5cf7b96"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+    "sha256": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+    "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+    "sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+    "sha256": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+    "sha256": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1"
+  },
+  {
+    "root": "SoulidityStandard",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+    "sha256": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540"
+  },
+  {
+    "root": "SoulidityVisual",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.toml",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.toml",
+    "sha256": "7027feff701a9cc7c47bc794b6aaa97fd34a89b3ef3bcd1064c9b4f521f16616"
+  },
+  {
+    "root": "SoulidityVisual",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.lock",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.lock",
+    "sha256": "0c9cdce18044b83bde071e8c715c6cebdf60d8ab4768474e53d6f2acc6aea86e"
+  },
+  {
+    "root": "SoulidityVisual",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/sources/visual.move",
+    "writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/sources/visual.move",
+    "sha256": "9240f2ef85506b38761afd5c801d1c7c4104a2ca3a4aac86f2e183ad9e433751"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/Move.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/Move.toml",
+    "sha256": "ed8aa8b67d47eff5566d4ed827b79c4137371b089ce57c877089ea2f69cd7698"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/Move.lock",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/Move.lock",
+    "sha256": "7b70558c2b3e850c617b47732a077ed1bdcb07d54b99e73722f78e3991f2cd5a"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/address.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/address.move",
+    "sha256": "d71f1b77cf1bf4f07a53bb99a84bf1ca6a41800f1d469468ac6a09e5c382da97"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/ascii.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/ascii.move",
+    "sha256": "d6215e52c6ac68fd03a604a16d085b9c239037aa2406e55f8d5f3b02a823a980"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bcs.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bcs.move",
+    "sha256": "22c967d0786cd0ab7fa29a7160ba33a9add8c7d958368096658c1b0725c92f18"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bit_vector.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bit_vector.move",
+    "sha256": "627d05d5c9213de5cb5a0a90687c2888ce3a2381b5d4edc5caac4ce7fe266416"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bool.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/bool.move",
+    "sha256": "671b254e3bb07a5b3d95575ff326298f2ff0a878c231e28ef0e48b85fff30e27"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/debug.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/debug.move",
+    "sha256": "8227c24198a355ca4fae76357f8615b005983c799a1ca445950d51667cf7e6d4"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/fixed_point32.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/fixed_point32.move",
+    "sha256": "f5efb755f10cd8e89094fc1f1ad1c61cf321a190bc9c1f2e9aaf4e6e98493279"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/hash.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/hash.move",
+    "sha256": "b45325a9a03489099b8a74d21442cbcd65123122957220a3f1c3b05258a299bd"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/internal.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/internal.move",
+    "sha256": "1e64f67dda05c373a7cc0b31f07eeb8d52772e44b48f7648ffcfb93797bb28d5"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/macros.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/macros.move",
+    "sha256": "366b5d72200ba8fe126a735080d43322c906c293a92dd750b68003872e43f698"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/option.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/option.move",
+    "sha256": "26ee90edc479f5df17d570b34d4f5fee255ce53c1dda024effc95562d34576a2"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/string.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/string.move",
+    "sha256": "81004398e62e604f55f9bf40ddb0a8f253f8e51f9bb0dc0f2b0f094606b1eb09"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/type_name.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/type_name.move",
+    "sha256": "2f587d2524dd3ac1341beeaec4297fe31bd0cd4ee22510e55696158a1b3b166c"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u128.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u128.move",
+    "sha256": "18bc0ee5580b852db78e1188f2d594aa218ac712bd8a72256d8e38a7c3788953"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u16.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u16.move",
+    "sha256": "5d0dfca4ba9db9895274ba3550919deea57294de1e353b12894d9d9d4e054488"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u256.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u256.move",
+    "sha256": "2794429e56a883ff4327e3a1d09aaf910bdfb4100b8de2aad4ee596ab5462528"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u32.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u32.move",
+    "sha256": "de21fa0ea826436ec8730dddf2c720015689e5f407fbd157de338ca20b323795"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u64.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u64.move",
+    "sha256": "5167050da2a02fa3a99a9e512a09f52ccb841f4e5d057e4a79c45d299d6f8ffc"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u8.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/u8.move",
+    "sha256": "f6d0e875084846733e2dc23e8348a9d6743876838ac36e468a2694462e397962"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/unit_test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/unit_test.move",
+    "sha256": "d479d1576e81fe69f1d182445427e6fee775aa159bf594fae1f7faa864a57292"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/uq32_32.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/uq32_32.move",
+    "sha256": "f8b97a6b5dd4ee388321ca7f5fac2b0de8e69e0b1b11381340951bdca8206e3b"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/uq64_64.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/uq64_64.move",
+    "sha256": "6c2b57202de661bf34287c108af09c5200325e32e4798353b9e7e58eb0f7be9e"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/vector.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/sources/vector.move",
+    "sha256": "bfc84b8f37c41626059fabf9bcc49f4299ad1af065056fdf1f24249fe88e7646"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/ascii_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/ascii_tests.move",
+    "sha256": "38c4b078e35e881c3757ef859d922c1ca644a9e77623cdc25a3098f8ad7d38fd"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/bcs_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/bcs_tests.move",
+    "sha256": "1c8e9f41f3d6e279d3aadd8b9b96b810fc2bf5a58d93e3e5802bc83da039ad81"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/bit_vector_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/bit_vector_tests.move",
+    "sha256": "b95e206ce047b110f85af9ad88e76b9af51b102645e1f3c57b11138682f87c11"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/fixedpoint32_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/fixedpoint32_tests.move",
+    "sha256": "a5279f923380456f42de6cffa875661c62e0d21f085447ef987382a6191ca830"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/hash_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/hash_tests.move",
+    "sha256": "7ea5544202ee64584a2ebae7277f9a6980596d8177d1298d0cb14fb8a876d2b0"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/integer_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/integer_tests.move",
+    "sha256": "a091f65723d9a0f555aaada65354ff8b412b159f7451f7ccc0da7ef7e224f602"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/option_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/option_tests.move",
+    "sha256": "de13732caf256cd1a130d8fa954382ed6bd01170fd6d275d5a9ba92c7f5247d8"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/string_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/string_tests.move",
+    "sha256": "b5a5499b08b34a0e5c77b1afeafe23a95846d48529a780098ccc400c7e6880b7"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/type_name_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/type_name_tests.move",
+    "sha256": "cf5a8651e9f4ccb82c539260fe424bb06ef42808d86d64ba42c756ecef1a81f2"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u128_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u128_tests.move",
+    "sha256": "2f44d512dc20480f800d99bb2ac5e0c0de33d94d2f18a6fd9a7ccc83b264a08d"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u16_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u16_tests.move",
+    "sha256": "57fb1c5622fc1ed94780966da15b00e95ae9b6dd8bbe630bda8ea2c4a5619430"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u256_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u256_tests.move",
+    "sha256": "25e023f0f54df995edc45caa99b9013a5dc0b82c8c3a2b1e91aa40eb70515f1f"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u32_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u32_tests.move",
+    "sha256": "72b94ae58926d2babf566563d422967b9d98629694c0fe498845f1a3f43c3a06"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u64_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u64_tests.move",
+    "sha256": "a9ad567df136f9a819c584910cee7253ee79ca271331e2d5f9441a6b64aaf15f"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u8_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/u8_tests.move",
+    "sha256": "016fac641e1b479c31034a32d8565fbc390e8aeb987acbcc6a5ac58158e4bb5f"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/uq32_32_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/uq32_32_tests.move",
+    "sha256": "54edf1cef2dd3b41a68da10ec0264eeacb923595a5cad1d78169414780d9103e"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/uq64_64_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/uq64_64_tests.move",
+    "sha256": "30a97cf6e37f9be68cc9d56016540329559df51d65bda8ffd64e2aeff881ab49"
+  },
+  {
+    "root": "VendorStdlib",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/vector_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib/tests/vector_tests.move",
+    "sha256": "bc09a91d65bc85a825fd92d4fe5429c469662f5d2d5b6e15358283893ea619ff"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/Move.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/Move.toml",
+    "sha256": "cba85554db7a2bad8a88db1c60462f9a7364bcf7dd7e61a4d42dd8e32713f193"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/Move.lock",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/Move.lock",
+    "sha256": "a2eab870582482cb418c326cd7212fa44da205f0860857e8f563e00433593e60"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator.move",
+    "sha256": "76369a48ed9e5623f28b12ff2136cf900ff859939dfeaa670c4f43c59e695069"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator_metadata.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator_metadata.move",
+    "sha256": "98d00f6962ddabd47da1638f25e1a2e620b38908f78f307a9b2627656fe1924c"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator_settlement.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/accumulator_settlement.move",
+    "sha256": "8d5ae68ab12e0c979bb322e414365ed24e694012e1849ae333bb419c06d7a03c"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/address.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/address.move",
+    "sha256": "79e8640c01323708fc6400cf86c7dc1be309c574c20449e5f6765c7f149e270e"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/address_alias.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/address_alias.move",
+    "sha256": "7f2fc895fe6c7cfaaff4470144b96290afdef33697ed9372e8ff14dc2440fd85"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/authenticator_state.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/authenticator_state.move",
+    "sha256": "ace84aacfca3bcb43c86c73c6f771df084acd020747bda061718571a07141bba"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/bag.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/bag.move",
+    "sha256": "93c3ff2e6802b3d941445d38313a7702cf7eb14ec06c7537789b7a74eb00233e"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/balance.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/balance.move",
+    "sha256": "4ff2678af3e4e67af3cf7876e1450f8f062e310e500ca75988798873a766a1ce"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/bcs.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/bcs.move",
+    "sha256": "181618e27406e4ce5ca6e5d04a8e20189b6e345e373ac8e63847def1f8fcbcf3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/borrow.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/borrow.move",
+    "sha256": "dc1c16ad8733f82a5e8cb9ef161b6000c25a8535927e46712f5ada1406b3b51a"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/clock.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/clock.move",
+    "sha256": "7fcf0ee904f7269d870eb9d911175556a5637da163666139020f0d7e4475c835"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/coin.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/coin.move",
+    "sha256": "89a6acba362f52eb210d2c3b48144415aeb6589913c002dbedda3ad67ba0bcbb"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/config.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/config.move",
+    "sha256": "c8faffbd0c26e910a9cba9350955835ccee4d74690888b3968a32fc5c4e66599"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/bls12381.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/bls12381.move",
+    "sha256": "104026006462a5b92805e05b36e87e61e9cc8cfe1c24b94fd726cb2c0114eb48"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecdsa_k1.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecdsa_k1.move",
+    "sha256": "66b1c12aa1b42b5587df93cd43988ccb918783cef24f05cfdd3e8e790f1fc6b4"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecdsa_r1.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecdsa_r1.move",
+    "sha256": "73f396d0e9af475fa3c0a8ec3c20b542f9bd478cbb0a87fed1413db7a50cf642"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecvrf.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ecvrf.move",
+    "sha256": "dfa785e40b154a759e6783b5e1cc751d14259d07d47acf68aad916d3d3bda85b"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ed25519.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ed25519.move",
+    "sha256": "a8c60d2014d6c05e8658cdd287005261573c7058712bf69e34628c4c880881a5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/groth16.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/groth16.move",
+    "sha256": "71b513568eaecea5982e8c7e7c346464b3a087c63011a2ec1367358d00c0ffc3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/group_ops.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/group_ops.move",
+    "sha256": "9fdb0b885a2f21461b174b5258ab47f314fccda20527ba9cc4b7a0d1af117e27"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/hash.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/hash.move",
+    "sha256": "d61cbcce22bccdfe46c198dd3e92cadd7d181242d078985a76d82b6b3b302057"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/hmac.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/hmac.move",
+    "sha256": "8d4881c7949fbf805753a4dd83adea9db6a44e737ab7d36fffb2a06384118468"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/nitro_attestation.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/nitro_attestation.move",
+    "sha256": "de4d4f5bbf74daa5f40fe1e5fc36e201ffa8fde1fc1e46785f46ab75afbb28fa"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/poseidon.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/poseidon.move",
+    "sha256": "059245812dfa9e47f7b01f8513b4d948ec3192fa9340d68b1674f93f9cd4b4e8"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/rangeproofs.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/rangeproofs.move",
+    "sha256": "a07c3ee2410656a0e0b9ae66a7c14dc0a21cbc16256e2091e45958d29c374517"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ristretto255.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/ristretto255.move",
+    "sha256": "d8782d9824ca9d67fd049b95da7392adc9e2c3342ff5e0834af12a5cdc76a1bb"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/vdf.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/vdf.move",
+    "sha256": "d414f91d231ec857b0ee9a997a77647b78b0d28ef7249f43f4d35806b47a029d"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/zklogin_verified_id.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/zklogin_verified_id.move",
+    "sha256": "0ee24edecd5c76f06c0c275bc1fcb26573ab8dfd18b5e2c3b7f8359f27039b60"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/zklogin_verified_issuer.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/crypto/zklogin_verified_issuer.move",
+    "sha256": "1143693ca3e99d211cf75798e60d05f7e0345500dc85cfc7254815d5ebb484c1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/deny_list.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/deny_list.move",
+    "sha256": "40f866cd5bc2fe74783909261ccc602d5c762094c58edcb27c5bcb22a71ce3fc"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/derived_object.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/derived_object.move",
+    "sha256": "fece962d9e80cf53045e9bd546eb8599ef9d16fe7ad8deb45a64c70ae9d6f259"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/display.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/display.move",
+    "sha256": "55af32a05c793472d72312bcf55bb984af0c938b0de9f14beef80a43207f6ced"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_field.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_field.move",
+    "sha256": "423818c572638143f3de05896c209df82b51c287b7e567d8e50808f467c56f07"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move",
+    "sha256": "aac0f317aac47de5fa7c1143586182ecf4282736f30e9a68a1d3bf4653ef869a"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/event.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/event.move",
+    "sha256": "d8c4ace728a0566ac9d78b86ed592501e95576f51582dc3b32ab0c17ab9a9681"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/forwarding_address.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/forwarding_address.move",
+    "sha256": "c3a5feb72f3db2d6c9b0e40f011aeae1d3a98ded696c8ccfc9766d5db788fb81"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/funds_accumulator.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/funds_accumulator.move",
+    "sha256": "0879f4f8198fba05e7471959ceaced70afde9f16dfd4de48d3c6268a8d02c34b"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/hex.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/hex.move",
+    "sha256": "88668252e93376bb5e95890ad9b8e4fd9a822726cb70ed0a037f750ff70b7c61"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move",
+    "sha256": "894551834729eff904a0e9075aa0bf77481919c2352870b4de4d8b831350db85"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk_extension.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk_extension.move",
+    "sha256": "397a9be3ccde3e8bd3151d77247f128d319d0ff0bfb86c6046a06646797744bf"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move",
+    "sha256": "b042d85ecf88f11b504f87bff1e2625bb9fce24c159ee43f1c273f9061066b33"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/linked_table.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/linked_table.move",
+    "sha256": "1aad6f85673900cb0af40586bbcef804296bfec7c3f0cb512af47af2657e34b5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/math.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/math.move",
+    "sha256": "1213303013c1786c196e5f2462242c30adc4e20427214e802be83b2eb2859f26"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object.move",
+    "sha256": "9db85c5dd68bf6bd44fe1792bb6f3a5254f16da739c68c2bd65370168d4fcfc0"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object_bag.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object_bag.move",
+    "sha256": "a4c9727c2cf12e275a3da86c1ee00c4bcf97046c43976a6f7620139b7b1085a3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object_table.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/object_table.move",
+    "sha256": "0750dc08d430a2be58552e1e44fb18f5b4afe24dac5679bd17e276e9b877aaa1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/package.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/package.move",
+    "sha256": "c0691c8011d0bdb119d43013e8a09591b0cbcb855fdb8558a76ce7db46c9492c"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/party.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/party.move",
+    "sha256": "431d51d3694debab65ff1147aae6c818381fe12351fda0ae62b9ec67db7abed1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/pay.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/pay.move",
+    "sha256": "a6a54cd0665673cc29e9123765469b8c45cc6b60d2081131afe488b95fa5fc00"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/priority_queue.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/priority_queue.move",
+    "sha256": "5f4f7c7100125108ece89b9eea92b6260cd39037c0911da2c11e76aaf1a12182"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/protocol_config.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/protocol_config.move",
+    "sha256": "2861ee704e490b3c6022a14d258ae82b38ad57da6f0ff0bfb3b617c7e6b9deb6"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/prover.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/prover.move",
+    "sha256": "35ef0413c16850c64bd8c2e9e53491d95329ec977917ae5604c7d76cbdbf22bb"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/random.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/random.move",
+    "sha256": "0698d0395486980a7745432cb7bd7f8d69ebe917094d0e25fa18481c4e2406aa"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/registries/coin_registry.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/registries/coin_registry.move",
+    "sha256": "6325698d3936710a7fa9df94c9bfc81b50e0213e4bac3442279d94ad50c841d9"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/registries/display_registry.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/registries/display_registry.move",
+    "sha256": "a1d1512e159820dc570fcdd1ff94373d476c9787dc0edd3b6e7ac66de80241a4"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/scratch.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/scratch.move",
+    "sha256": "622c023d0d4de509e16682ac428239f95448f2c23cad3fd3edd656a354d36b78"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/sui.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/sui.move",
+    "sha256": "7be8ede4076784b16664aeb1b094a844165fce033eb6252483255b16e520dc04"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/table.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/table.move",
+    "sha256": "058e4679b90a03c76ee8ac7d59210cee8aae365b8603b552dd0184db1a8e329f"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/table_vec.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/table_vec.move",
+    "sha256": "0058421a0ada17ff8f533ba19588d4636fd04a959607417849036548eace409f"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/test/test_scenario.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/test/test_scenario.move",
+    "sha256": "613aaf849fc412ff15335f98fc3b35e4462a175343278c6a21325c0963bab679"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/test/test_utils.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/test/test_utils.move",
+    "sha256": "e156b2ca016ec82936bc891f6d0bc50ba54a9e2705e14084300e8fb43eacb4d5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/token.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/token.move",
+    "sha256": "d28a9996208f0a6369ce40d6dbfd023d1e4944e0a863b33398136ab218027293"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/transfer.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/transfer.move",
+    "sha256": "3ec5a78be55b2972a120a998a39e373cce1eef27186737b977d897da668e93db"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/tx_context.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/tx_context.move",
+    "sha256": "05308a38774bf3a23896bad90cc8d3536ea887a0224ed62d9684ea2fb38b6385"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/types.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/types.move",
+    "sha256": "3f0dd52b488e391090d4a373f426b1d49999464597f7091402d8aded1226ee30"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/url.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/url.move",
+    "sha256": "71054151b750d5d1680d70e69b288379990f8b74ad0e3b15b649184134f1a8e3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/vec_map.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/vec_map.move",
+    "sha256": "af152baac748e02f6c6c156a052f3162ccb2b8854326b5fc3e2b0e0334266cf1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/vec_set.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/vec_set.move",
+    "sha256": "6f3d44f12261eb98a8a52db9642907629b08855dfe17639c295b15531607363b"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/versioned.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/versioned.move",
+    "sha256": "cd23ac088c7e9e2c22106e1f767ed92429d67cae3cd9b2ffc014457e28f9cd18"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/address_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/address_tests.move",
+    "sha256": "2ecd7ff724bf366eafc35b7ac80dcb1d4d79695ae73e8c6f508fb9db70cc91f1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/authenticator_state_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/authenticator_state_tests.move",
+    "sha256": "d07e0e2e60bfd13bc2fa05da833a473cee5f868c3a1c216e0111d822bb7a11ff"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/bag_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/bag_tests.move",
+    "sha256": "757f8747b76bc48e5ff109c8f291f9558b45082fe40eeec0b57cf11aafcdbdf2"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/balance_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/balance_tests.move",
+    "sha256": "7924a581a8b423e48b6d49cb13bed37c9afe468e49ea7d1b99acf26b7ba8d7aa"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/bcs_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/bcs_tests.move",
+    "sha256": "47fae36b72a17423b5e9c25b749931e3cad2a3503f20503bced1ae6e709f1d1c"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/clock_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/clock_tests.move",
+    "sha256": "3964a45e500604047afb79e1c883a0fbc133ff3b3b53d30f22dc492d0b625361"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/coin_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/coin_tests.move",
+    "sha256": "938dc507b14ac076a3d9c89c55cebbe485fcbcfa2ad0fb97003e815e8a50f401"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/config_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/config_tests.move",
+    "sha256": "c43f31fa460897860d6bbdbdc22876ab1806c38450a36e4fae594c1dfffba1b2"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/bls12381_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/bls12381_tests.move",
+    "sha256": "47b9ae3a3f8da674ce38f32fcda83e4d3366d65a1c12417be22de09117329ec5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecdsa_k1_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecdsa_k1_tests.move",
+    "sha256": "801d68489c116e54fe53f3b16c94f9562f1b37f6107fb5dcbbf5abb616c566af"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecdsa_r1_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecdsa_r1_tests.move",
+    "sha256": "e79b17c7810a9e9df7a3406b389f8bee95b374510a7525dddc9b10e0104e4d97"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecvrf_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ecvrf_tests.move",
+    "sha256": "ca7e730c884aa4f1d283ffb413bb3de23958a541066b9fab506c26583a3e7023"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ed25519_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ed25519_tests.move",
+    "sha256": "9b64bdd6175b4ed510682ab8da5f0b40b7f8784dc7c9c639af3973974dacb250"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/groth16_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/groth16_tests.move",
+    "sha256": "0d5955430d054bbd8ec6f6c96ebb7e06a2169fe29b0ea1fef2598c50d49ed4ec"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/hash_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/hash_tests.move",
+    "sha256": "f21611481c7ffec94cddfbed1011eec6f2f0dfab2f1e174e910d853b1aa385ca"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/hmac_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/hmac_tests.move",
+    "sha256": "f7331bdf56954fe5481eada8dabd37848b844c172f3712afe8a056095b83ae37"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/nitro_attestation_test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/nitro_attestation_test.move",
+    "sha256": "81c6f8a75cbe801226d846013c102075e5b3790cc9388fbd3c7f80a0b86d1786"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/poseidon_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/poseidon_tests.move",
+    "sha256": "118860120223e0bbd83c06c880b2050031ce44146ef6c95bb1c6bfccda5afaac"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/rangeproofs_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/rangeproofs_tests.move",
+    "sha256": "37ed2599f88e85b17980bfe13ff305eb778be0a495688e1a2572d152628249a0"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ristretto255_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/ristretto255_tests.move",
+    "sha256": "499f7af0849738ac616fe176ada1fe3e966cec339083c479fac48b5cb496e9cb"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/vdf_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/vdf_tests.move",
+    "sha256": "ce628987179e184d39e332b8de3498e75da1ebeb285cf5ea224f745e9085a3e3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/zklogin_verified_id_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/zklogin_verified_id_tests.move",
+    "sha256": "e99b92375d4a000f0e66d3e132c72f5f5032dd95f3537f56825164ae4bc3ace1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/zklogin_verified_issuer_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/crypto/zklogin_verified_issuer_tests.move",
+    "sha256": "0dd6ea7f71aac05635857b71b774b0ae52c505c3f037265a9e20c1ed9a5d9f97"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/deny_list_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/deny_list_tests.move",
+    "sha256": "a2748c5ea1c7a829cb36a505c98624967ea088ae47480b6f649329144fa969c5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/derived_object_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/derived_object_tests.move",
+    "sha256": "6a539194ea39ac983c2e95041b710bcfeae255657ff737633f52afa1d571fbd7"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/display_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/display_tests.move",
+    "sha256": "e2c3e742662747857bb7f1cd024c4b36c474b8636163feaac62c4c904ce75858"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/dynamic_field_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/dynamic_field_tests.move",
+    "sha256": "c3711871ede14de4e3febb3cb7586ed785f02f6a4a7b9730a259506f3349fd74"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/dynamic_object_field_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/dynamic_object_field_tests.move",
+    "sha256": "5fbc6ce0a4aca029cfaa674914c02bf158ae27c7157349ee76cdafef378ba454"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/event_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/event_tests.move",
+    "sha256": "ad1956fc2138724bca9b23f461cb99499d3ebb155f88a79c89de5de1139bf224"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/funds_accumulator_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/funds_accumulator_tests.move",
+    "sha256": "9b5dd1ea0e96b7933060805704c385b278dfad0ffe40d350d96cadebcb83aa57"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/hex_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/hex_tests.move",
+    "sha256": "19be935c083ede484c5c2715d5e303cc213cbcce45c419187f5558155ed0620a"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/id_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/id_tests.move",
+    "sha256": "cf5fa3a2a10234f2d02bae4a642c0cf337f3f1e621ec3fbfcd2b09b47dae2c0f"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_borrow_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_borrow_tests.move",
+    "sha256": "0e2e39dcbebf4f0853a5601dd1ebedc9cb66827b1360c6c2d9a1ceca12930ff4"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_extension_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_extension_tests.move",
+    "sha256": "a5254b8a8bbe6a66dbb8e0a01c38bd5a95cd4b49e1878a414c65c45d8de0d332"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_locked_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_locked_tests.move",
+    "sha256": "a1cb0ab2ad279dfd0ac1ff5c5cba323c582114ba7241bd675a66c54257f0d8a9"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_test_utils.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_test_utils.move",
+    "sha256": "ce2a0687b2cbb2eb7b65bf777898cdaaa71f851a2f09c450cbcfee2ad5f829c2"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/kiosk_tests.move",
+    "sha256": "fc40686e521cfc5814944306d953906f93f07196ee50d35386350ea0d0ac229a"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/dummy_policy.test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/dummy_policy.test.move",
+    "sha256": "9a105fbf2797bce5a9862f44e81f4df4c700ae155972eab6426254e0d5046e58"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/fixed_commission_policy.test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/fixed_commission_policy.test.move",
+    "sha256": "621c9679bfbe2bfe477458f34e6a7f551b68accbad16ca3d466f9e29b7e20950"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/item_placed_policy.test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/item_placed_policy.test.move",
+    "sha256": "b85f8a8386ca6641cfeed9c1292362b1d68a780e55314d74cbd23a11ece38760"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/royalty_policy.test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/royalty_policy.test.move",
+    "sha256": "6d00629fd455920c8ba8ee81534ea7e754234451d4f8d675dca035f84281f76e"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/witness_policy.test.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/policies/witness_policy.test.move",
+    "sha256": "898e2a4d48045a6b9ab6d679c0e981918406224df2729f15575d0c95159e59ff"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/transfer_policy_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/kiosk/transfer_policy_tests.move",
+    "sha256": "a6fa7f660453bc47be80d126cce72a18243c26020e8240e72d11b9318b27fa1d"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/linked_table_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/linked_table_tests.move",
+    "sha256": "beb133c14aa1cfb5c354d6039612f8f37a0c9115e59353ac6becb969dbe0cc49"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/math_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/math_tests.move",
+    "sha256": "de48863bd5f45d23e41dc8a85336735cd885f68b21e64f62d1fb10087e4ea477"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_bag_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_bag_tests.move",
+    "sha256": "f29edd86dd9f3a0bbce22b11f257add111cbf14964df73ee091476e57a8dcead"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_table_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_table_tests.move",
+    "sha256": "2ce2af5de8a70dc50173ede0484fd583fe7d8caa8d8cb05df99f654306ebe8a2"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/object_tests.move",
+    "sha256": "4ed7a1f0f96ee4f87cc9ffda28f603fc4cb34f4cf876d6c51fb9c7606538e16b"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/package_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/package_tests.move",
+    "sha256": "97523bebdcd377d054110ce43af0e321ada26731fbdff635d963734e379c51ee"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/pay_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/pay_tests.move",
+    "sha256": "3b6265bdf225835195852edfabc2e13bf684c25691f1e75b3a8bf7fe50719942"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/protocol_config_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/protocol_config_tests.move",
+    "sha256": "6617ad548e144cf1894ad919c0510e253c7cb03d6a722721aa05406498ddb746"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/prover_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/prover_tests.move",
+    "sha256": "9a625ca321cb94bbff0102d2c2288dda7df75124b8684df9a86dc60a3465fb0d"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/random_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/random_tests.move",
+    "sha256": "a52420fbf0af23b5352992937368d77a12fef3816243907c03926835d976ebc6"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/registries/coin_registry_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/registries/coin_registry_tests.move",
+    "sha256": "6d9af8b5f79935af8342f7a38a8b6acc069a1a3d8e96ba97082b76cf5b1364ae"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/registries/display_registry_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/registries/display_registry_tests.move",
+    "sha256": "40f4403dfc62dde1998518aa6d3c2fcfabb2d1e05b4e5f6d2c8dc6d920beb157"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/scratch_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/scratch_tests.move",
+    "sha256": "2fc8a666c888081943632723a512fa07202b51a76ffbd805c33d4cfc13d662c7"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/table_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/table_tests.move",
+    "sha256": "8214bf59c736b5d7107e83a2dd7808130fbfdd440a336d08dd43694748c2a9ed"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/table_vec_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/table_vec_tests.move",
+    "sha256": "b553666961cfaa3749534aea22df8052658701e3ed176765ab8f5591e7ad71c3"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_random.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_random.move",
+    "sha256": "aab8769f8177f480657e209f52acdfe6d4573b8f572bf1e5bcd034d82acec074"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_random_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_random_tests.move",
+    "sha256": "6358659b91241951ff3effd184fe82357e2621009440fae9679a9dff927e07bc"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_scenario_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/test_scenario_tests.move",
+    "sha256": "1ff28f802d7b5d22aed7b4f6e0989e9e2e3182c3b6d056a4708c2f74ac30065f"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_actions_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_actions_tests.move",
+    "sha256": "b0b040bef1d6d1858cf575b44daf57e9eba252644f3928d2d1554a1c64d9a6dd"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_config_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_config_tests.move",
+    "sha256": "08761951638cee5d790ab107b45caa45563ece6ec1a9bafe6f48753ac845fb4c"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_public_actions_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_public_actions_tests.move",
+    "sha256": "af34b6a75dda84ffef269357b0ddc582c4c9ae4d7b711ac6e2a7b9e33af1bbad"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_request_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_request_tests.move",
+    "sha256": "a9b2c8bc9e424b90e4ef3014e69a42dc021ebaef30e716c94af43a75f0a67cfc"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_test_utils.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_test_utils.move",
+    "sha256": "d9b4e0b74950f7e40a5d80ec2885e899d67f04299813101e3768cea39edb1ad1"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_treasury_cap_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/token/token_treasury_cap_tests.move",
+    "sha256": "b6e788d93d66c7196fa6e9907c22eea8f9cb8095853303503534fe7410e7a8e5"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/tx_context_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/tx_context_tests.move",
+    "sha256": "5129089493ea53d34d98f6f3495ef1a073d26ed3b0523d5b349f87769453bba0"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/url_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/url_tests.move",
+    "sha256": "b82239b7e5e057b42623a466a54e987111756f4b7be41e8ecbf37ef60728ed13"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/vec_map_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/vec_map_tests.move",
+    "sha256": "7bc8bd5dd2a5571f747a34b4a5776fcc0029f101dd1cf41e58b112c3f2affe17"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/vec_set_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/vec_set_tests.move",
+    "sha256": "080a4f819137fb471996e9cda6a924431a692f2b7d15a11fedea1f8b99ac4ae8"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/verifier_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/verifier_tests.move",
+    "sha256": "0c08a2d9a82507d9d26c65752bbe0d102557dd4ea3bc6ec71db4d6e7a1ff6869"
+  },
+  {
+    "root": "VendorSui",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/versioned_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/tests/versioned_tests.move",
+    "sha256": "5a72172c6a5bec9c7ea9c8aca87769ec5a3b0008867a984ca6ec13a6a57f998d"
+  },
+  {
+    "root": "VendorWal",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Move.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Move.toml",
+    "sha256": "3d99015fef6f72b0c5eb3c5d15d0e05f07df89a5dc07b1ce1b85a8b387fa1b86"
+  },
+  {
+    "root": "VendorWal",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Move.lock",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Move.lock",
+    "sha256": "3ef4243a6697685c512837722f729b612a295c1fda00fdf2ea764104b88c335d"
+  },
+  {
+    "root": "VendorWal",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Published.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/Published.toml",
+    "sha256": "d0346969429cf343075b953ae549428c38fccc0ab7fe4fb96c6646eb30ff8839"
+  },
+  {
+    "root": "VendorWal",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/sources/wal.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal/sources/wal.move",
+    "sha256": "4d02345a5ee29ec9070519db89886fc5665f8fc42dbbe83a53e681d58cdb9445"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Move.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Move.toml",
+    "sha256": "e8c01b2eae30c7ecffacb5957026e3b57c31d8a855a96ffaa4e5dda440483ae6"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Move.lock",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Move.lock",
+    "sha256": "7395c0a5ddd844890e7feadc9e426c2dfbcd199fbe3b4ec929f57a137b0e6f0d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Published.toml",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/Published.toml",
+    "sha256": "febc68cba9dd6524da90f43e20d8bfbe5627ccd5488b7e0669b309e0aa7f7425"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/display.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/display.move",
+    "sha256": "d3696dd88a9d4eda2c1600f998564911d0b96623c34912e6fc7daa60d8cf64a0"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/init.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/init.move",
+    "sha256": "2ccc0601867b7011b7277427436c75fdb0648a6b162d4266080db8ac06bfeaaf"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/active_set.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/active_set.move",
+    "sha256": "2b9b55e6c143ff9b538ce05aefa96309ea33a39a5b6f04cb5e829c276a2bedf8"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/apportionment_queue.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/apportionment_queue.move",
+    "sha256": "789edc8d533f9a39259f2a1a44f4e6f2eae4dd3fde326d7b238b462dea48b769"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/auth.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/auth.move",
+    "sha256": "77ab64ef72a4cb6f64b32e6b6b92428c747924596c6d83343d16300e763d672a"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/committee.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/committee.move",
+    "sha256": "15a3743a5941cc6951a1fbb701674973a36eb3233b9215f29b317e6efa9c9b26"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/exchange_rate.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/exchange_rate.move",
+    "sha256": "d2227a22e4f92d78bb49934ffc36be4c2201ee94af56329fdaf4b67e9b424b0d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/node_metadata.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/node_metadata.move",
+    "sha256": "3ddbb4eb351fdfd39aee3f18b26c33fce7f7f4ccab89e6eb238a06b0c7a3f51d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/pending_values.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/pending_values.move",
+    "sha256": "4f7d70c5b5615d0b8d1b56ced2c5c73c4d2757452bd1ac0bbe8dd2625d73b5f6"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staked_wal.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staked_wal.move",
+    "sha256": "b750f62e86f663fddcc3b4116658b2874216a86627e0d1a46e9ac46d39d052a6"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staking_inner.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staking_inner.move",
+    "sha256": "6d359ea7051e3faa349182d1369c8f0537754fccfc9b7c72267107a1f31d9860"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staking_pool.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/staking_pool.move",
+    "sha256": "df36cff35b4e0dadf8c74a87b2aee87b6031a82d221e4fecb67c066404df31ee"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/storage_node.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/storage_node.move",
+    "sha256": "9bf11c56e1d75c7914039af2e7f1a4266142f834200f11b48ff877c24cf2d253"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/walrus_context.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking/walrus_context.move",
+    "sha256": "d069394174e983ae3f855858294673f24692e072b16dfbad67c2b378a90f0e24"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/staking.move",
+    "sha256": "a2ff639065472bcff6b77c54ab67ccc2c660ac4ae81d49f3ff867e56bef3092d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/blob.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/blob.move",
+    "sha256": "c9ebde0f68e9b433f774111731f1259685fc9777280602e721ff2fdc0dacc2bc"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/bls_aggregate.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/bls_aggregate.move",
+    "sha256": "2826b878ea7ca1bb5601dee85e21c6a8f12121ca5320b6de31a95492308540bb"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/encoding.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/encoding.move",
+    "sha256": "f0870a5ae6232d6bacac6578596f708844f1e6e4cd34514ed977d98ffe65826f"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/epoch_parameters.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/epoch_parameters.move",
+    "sha256": "c9a9d9df4531ad97e81bf2bdd16805c9e8af65162151e469a81f9c819049de41"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/event_blob.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/event_blob.move",
+    "sha256": "717535e940fb4450e55b55562af7c802c83271ffb71ea46d5e9f0bddc427e36c"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/events.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/events.move",
+    "sha256": "8dbebda0da67a7d5036d8e39f21a20e97931e0da0cb584b84d5e4b332ee84dab"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/messages.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/messages.move",
+    "sha256": "f2749e6fec67135cc01492e80a086c88590a1e2fb27b4fd920a91315749cb85a"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/metadata.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/metadata.move",
+    "sha256": "8ce669ac59a1dda720b65abdaa2ad6375b2d20ad63893b8a57ae57e145514642"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/redstuff.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/redstuff.move",
+    "sha256": "02dab22793056f6a2bfb13f03c6779153167d4e029d8a8ff8c3511be77d8a5d0"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/shared_blob.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/shared_blob.move",
+    "sha256": "6dca559f7cb4f0fe7ee7060ad617da5faacb25c348efce3505a7ba5c58600f64"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/storage_accounting.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/storage_accounting.move",
+    "sha256": "3468532136fcc3d7845e51300dba6c16eb655f436fb85fbd79c258f206fd4dc3"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/storage_resource.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/storage_resource.move",
+    "sha256": "90f9565f4962874d8aa997ec6938590e407ddb68eba4fee2fe9c785ab6a46976"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/system_state_inner.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system/system_state_inner.move",
+    "sha256": "89613ab9e1766c832a1f24a8b010cc7b7966b0333dd2e907d13c28fb6954ac67"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/system.move",
+    "sha256": "f02b618daa8b7a04f7e916429327926d473cb91e68783a8e65fe78124f62481b"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/upgrade.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/upgrade.move",
+    "sha256": "30e732dac2c1b99b8a409d616b59567e360d249e8d8d25d6e2c1f150223bdd1d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/utils/extended_field.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/utils/extended_field.move",
+    "sha256": "6e3926d844fdb28d34f77daca18e89f805d5b732d3bd5a2772b65a535ab66c83"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/utils/sort.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/sources/utils/sort.move",
+    "sha256": "03e6fd29ae18e2a671d8523ff60e5013567040dfe618090e039f2f4046f76e8f"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/e2e_runner.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/e2e_runner.move",
+    "sha256": "7ac9c27230b8d0240ffaeaece0e95d78d4f63e0ab69192f42f01cfb60eaeff1e"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/e2e_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/e2e_tests.move",
+    "sha256": "71f2ae1703d67b274d633c8b06e71406ef1e1dffe276ba0cd46140e6eabd5a8d"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/active_set_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/active_set_tests.move",
+    "sha256": "0c417ec1343e065d450889e45fe6f6e03d8f23654602c0f96d7c25d599c341c5"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/committee_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/committee_tests.move",
+    "sha256": "206aa66e015c7a7b9fb413ba26930e3ed2351307cb590585ff3d2cfd0c94c72f"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staked_wal_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staked_wal_tests.move",
+    "sha256": "92b4b404bb49ae234171e73a375a17af5e34591e3a2e09956911455cf4805eff"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_inner_compute_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_inner_compute_tests.move",
+    "sha256": "15e289b5dc1869dc31a37ca8d67fc686e31d58ca65c60c51fb617d32a55ff348"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_inner_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_inner_tests.move",
+    "sha256": "22010b7c6a304063c7c9a2345539e0abea2a873c2cb0f0b394550c15ae09253c"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_commission_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_commission_tests.move",
+    "sha256": "461817419133e5cb6b8da13fc5f8767cd0b551f480d7dc50b2b3766d40507cfc"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_direct_withdraw_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_direct_withdraw_tests.move",
+    "sha256": "630d47d81cf342b7c9870b4dd2ecec6e31a22448c1cd52dfbbc9de368eca4f05"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_early_withdraw_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_early_withdraw_tests.move",
+    "sha256": "7cdd45a1cb480f1d13c10cd41417d1bd285c0cf3dca7fc8e69add4645040870c"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_rounding_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/pool_rounding_tests.move",
+    "sha256": "ed3f7ea56890e21fa579ecf3d61ca7157481bac050d503eccad523a3ef9ab92c"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/staking_pool_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/staking_pool/staking_pool_tests.move",
+    "sha256": "0815a439c90b0463e19f20be790e20e9af3e9102ddf96cecc0c6a99a6eef2eeb"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/walrus_context_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/staking/walrus_context_tests.move",
+    "sha256": "6ed70d5ddd7edb270ec5d1d83ba17c854d579ef570989756f379e7494aeb6d84"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/blob_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/blob_tests.move",
+    "sha256": "9d1ba766ae3019c93dd3748b462945c388c3ed652d9768dc6be3fda9fab3cd67"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/bls_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/bls_tests.move",
+    "sha256": "7325d7fd253c6e64ede88eb52018cb7ca8c9c9ad27811d5a93e9f455242e4ed5"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/deny_list_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/deny_list_tests.move",
+    "sha256": "952e09a5a3b5a28c294ec3e97353a0f72434587aebb1ca600a53c44bc76793b9"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/event_blob_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/event_blob_tests.move",
+    "sha256": "28b4491035d457a588150bd5cf22df28eb80ee0b243a18a9d6a0d35b7b167471"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/invalid_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/invalid_tests.move",
+    "sha256": "24fa43a0cfcf7e79c80891d10a9f76770cc7be7e22fd0f12d8898d1ce11d0c6b"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/metadata_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/metadata_tests.move",
+    "sha256": "e8c4fe8a205e2425ebe50cd941f13f098613df40aaaac053b101c0c480460d12"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/ringbuffer_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/ringbuffer_tests.move",
+    "sha256": "6d9a5577dd151045324db200c12aa87d3322b4a8e358457ed7aed35e6679dae0"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/storage_resource_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/storage_resource_tests.move",
+    "sha256": "84bdd76187b4df644dcc8a47b8682fba8cbf031ac2d786bd5db0092b4d7391b3"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/system_state_inner_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/system/system_state_inner_tests.move",
+    "sha256": "cef935cad725f7425a0e61769d96579cffd1d1432aaaabd70fd72f289227dad7"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/test_node.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/test_node.move",
+    "sha256": "8e97a580c67c870584abfd2e5ab86ae737b9cd566e6ff4adef34c76dfd9d49ad"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/test_utils.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/test_utils.move",
+    "sha256": "ef7ae1bfb96e22df825d66c670c1b2cbf31a5a3c25b31f4a479d50e775e83294"
+  },
+  {
+    "root": "VendorWalrus",
+    "path": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/upgrade_tests.move",
+    "writer": "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus/tests/upgrade_tests.move",
+    "sha256": "14e80b335559b1e7d4c7ce477788e27bdaa5d4450b7f869ec853e03380cf7e60"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.toml",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.toml",
+    "sha256": "ab7842c583b36e0c5a633eb2fb4d761e38f515f7af068c2106457ee1fb364022"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.lock",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.lock",
+    "sha256": "b291ff9232692bcc10e23e032183ae26ea2489f956bb2764af776bf4da97a473"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/access.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/access.move",
+    "sha256": "dae72793ec949532cddc31cc82f7be1b66f62d6ac93480795ee9cc9279fd6ac3"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/application_operator.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/application_operator.move",
+    "sha256": "1e8efc8a77b34d466eacc8b69fa3457038e27cfcdbf55609be97bcbd1bdc0dbd"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/catalog.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/catalog.move",
+    "sha256": "813b8c620910729a92da6c81fd568686147faca5cd544a9511d4aa57ab0706e3"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/collection.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/collection.move",
+    "sha256": "76a4427af7d241dd3b40402e7d1d7c42249d216a47dde2da0d14334660f6a59c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/custody.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/custody.move",
+    "sha256": "90be42b6991ef1576a078980236ddc36b646abec56ce1b37e6fe71432f463b86"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/issuer.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/issuer.move",
+    "sha256": "eb8852a3d4858880704621ab807f4dae35affbf256fb279bd8894579a2c5e6c2"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/market.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/market.move",
+    "sha256": "180999b23ef9c55d4cb065756b279167fc8883a5df67d1f3d89398bf240b311f"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/metadata.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/metadata.move",
+    "sha256": "fb1539b676270af550a734921ed464018eaab15e63776089eca0142475434cdf"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_binding.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_binding.move",
+    "sha256": "49ba1521049cb28b5c087e22f79a30ca7e94bbefc8b9431cee8e28974097a39b"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_creation.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_creation.move",
+    "sha256": "774636501dbb833981da155d3bf48cb0ae687e22e12c9d18720ac150031511f0"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/physical.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/physical.move",
+    "sha256": "3b1417367373a54810ca86aad3902260170dde4a95dde931587e91490797a416"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/player.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/player.move",
+    "sha256": "a817058e8ebde66aec0d2edb3cac85c64017f8837a1e487eb3343d0d377df2b1"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/release.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/release.move",
+    "sha256": "abe22e624f30b6659d1b770abd9ff9c879f5161b84178af247deac5189f9f759"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/runtime.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/runtime.move",
+    "sha256": "5106e3dbfd93b7e95f9d29e2192a01885854423d073b40d77c4f04b3c5380a05"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/access_security_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/access_security_tests.move",
+    "sha256": "d35f17e65ffd12944ccea1e6bb789daa5fb7eb3923995995d93cd5ef82eae6dc"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/authorization_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/authorization_tests.move",
+    "sha256": "53a8a4298b6ff9af0bd4473402f6a42d33d71da4995f7799a7ea14a94af414c6"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/capacity_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/capacity_tests.move",
+    "sha256": "7912e2423083accbf30b7be6ca4f81a8cd21d31890c274728a5d026fa54f8111"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/character_boundary_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/character_boundary_tests.move",
+    "sha256": "bbf905163c638ef07123447b4c3141908b2ece62f579267a6d9471f7e23962f0"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_metadata_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_metadata_tests.move",
+    "sha256": "c3e22374c212b4f93e325403d8a09f85dcb060bed975b210d34a8d2402d58de2"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_tests.move",
+    "sha256": "f53f10d2f8a3f5ceafb1a6a38d40fd3391df0b03f2f6ba48bb8cc7a6f308d2ef"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/commerce_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/commerce_tests.move",
+    "sha256": "54cb64b277aba15526c661996f1f3dff69f5c16ee5bba1701b148898d14f583c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/community_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/community_tests.move",
+    "sha256": "09fb218e499031e9c5048a1baebd1c456fb95b43900fbafe8ad177ce12573335"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/compact_binding_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/compact_binding_tests.move",
+    "sha256": "cd83a5faa9c56e0799c10e97fe5bef5c29092ec100a09d1331a3c49ee1596fef"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/completion_cap_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/completion_cap_tests.move",
+    "sha256": "3abd4bf9a323d994791467dfb20997c48f33d9b091847a5f50622d4b7a07fa9c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/component_issuance_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/component_issuance_tests.move",
+    "sha256": "7922111b988e4b5f5f79035986a5fa437bc1799c7f573eb86f30d2ee761f479a"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/config_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/config_tests.move",
+    "sha256": "573e97ec20b6ca9b68205e9691943e2ab168ff709a7de5b2ea096c96c2e002ee"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_boundary_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_boundary_tests.move",
+    "sha256": "5dcabd5c4b8d7909fed70f9a9db04aad9fee761a29dd462ea16d2d4caee6312b"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_tests.move",
+    "sha256": "64f6d56cc63c703028fd923c5e5b37bd37d3ca7a5b0ce46e80e2e93601f0babd"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/custody_creation_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/custody_creation_tests.move",
+    "sha256": "9db87a0aaade6d7ede1cfd63ea310f5d0a94f10ce28ef3aff7f0d78bb1d0342e"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/entitlement_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/entitlement_tests.move",
+    "sha256": "b7554ac40467deeb254c8deea864f76ba418309167f567c918192fcaf5638568"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/financial_domain_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/financial_domain_tests.move",
+    "sha256": "bfbd2d4cfe45ef1587c70767954b39458aed1e1a146de789a03f162ca5d88730"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/fixtures.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/fixtures.move",
+    "sha256": "562459a2113aabb40f8c38ab19a848cea2acb9fc3e18a9cb0c3a04aa19c68e63"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/forms_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/forms_tests.move",
+    "sha256": "00651b73ef2b39ec1769a6b26219885a9b742c62fe6be359c458fe58c41d54f5"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/foundation_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/foundation_tests.move",
+    "sha256": "19350f4c9c173b6cdd96f554eb8f607ef97a2f5a70a9569e39e11c45656771e3"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/founding_library_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/founding_library_tests.move",
+    "sha256": "f3e393d16c201353593c14813e6b9419f8478abd69380512233ebec3515f865c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/growth_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/growth_tests.move",
+    "sha256": "d7374baef0400fa6b2bd57ea51d886c95997bf69376e0db511c89ab77903ff3a"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/income_routing_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/income_routing_tests.move",
+    "sha256": "98341faedf9a4b5b1da10c0259cccd6b1c3d5b0e4fc03cdf7b21e7de319f9934"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/installation_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/installation_tests.move",
+    "sha256": "7f7e27a47c471386a79ba3dd94198d6e6d3056915bd00f8b8fc594441fdc1016"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/issuance_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/issuance_tests.move",
+    "sha256": "919fd0f641b171f7b81a1636d1b176205d4a44b647aa237dc9e55aec8b95ba48"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/loadout_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/loadout_tests.move",
+    "sha256": "3cd228f787b0bacee8f58ef2bc02b310e110b2c1977db4ce1af8e755b5a6c912"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_global_gate_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_global_gate_tests.move",
+    "sha256": "cf3a247feb445538936893fa0905f6f2f03ab4cc256041d541b84473e3401711"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_independent_gate_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_independent_gate_tests.move",
+    "sha256": "e444bb35a8ade08a6ff6ebcbd1f14b48d369ae46838cb51a08e6649a8ebe58ab"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_tests.move",
+    "sha256": "7213a9a20f85c84ef1592d5ad4e883d18f582138e946da6affe05afd601c5a35"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/model_source_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/model_source_tests.move",
+    "sha256": "7575ee264ddc38d499836a54da4c5caa5249662544ed8af8292b449487b6272c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_binding_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_binding_tests.move",
+    "sha256": "d0ac90f3ee2abe4ebc18dc02722d0096de282a0d7359f756bbe79da0a01d616f"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_birth_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_birth_tests.move",
+    "sha256": "5d7b52bb82e08392870767eb0f6a1d9b8b0e25bb1f730c5fcb8887a65e980a8c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_registry_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_registry_tests.move",
+    "sha256": "461f58cd7da41b152b935986313c7ff65bb7361a71a65849926bc8bb9eff7cf3"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_revision_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_revision_tests.move",
+    "sha256": "9ac14b930aa45eeb898d52e3c1188a67aed9c759e1c64a3c056ae72880b39b46"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/nested_vault_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/nested_vault_tests.move",
+    "sha256": "2880e8a5d4355fe812c6dcbb9bd28ea3da8dae92b0c2b98aad6e7ccec25161ec"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_boundary_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_boundary_tests.move",
+    "sha256": "04eb4996dd29471f9c2269b7af55581fc07b153617aea84e3d730f0cda551250"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_tests.move",
+    "sha256": "72890d90e5f4047a61970dbfdd1268be193c3fef6f69647b1d6bd0e02a93ae28"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_player_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_player_tests.move",
+    "sha256": "d70db223381ed00631a742efae85da110c21f60f4147c3c22c0f09c8c6c0eaf7"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_publication_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_publication_tests.move",
+    "sha256": "ce1fcd4b51822c4a7961e35b276d90b0652145f307e972425248aecd55aa2420"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_soul_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_soul_tests.move",
+    "sha256": "cfd35e7c6dab058e7f04362cb37c323ebe682e8b09c8a13521349caf9352cab2"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_tests.move",
+    "sha256": "fcdbe5a1bf1dcaffd7b52e1cde0485e00c5e75ce7a7e933b21596fcebd6751df"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/package_role_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/package_role_tests.move",
+    "sha256": "c53622bc1cdc34750b777307d3bc82ab3e0342eb5505caec92d722da41b4f3b8"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/paid_access_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/paid_access_tests.move",
+    "sha256": "c092fdfc978b345a14442b3cda3d3327164b37b1842f574f005f5122b19fefc9"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/physical_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/physical_tests.move",
+    "sha256": "1b32582ee776988dc42d4f9752bd126f888d57713defb14428ec100384fd871a"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/primary_snapshot_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/primary_snapshot_tests.move",
+    "sha256": "3ed278b0e1f5b418c075d4c942ddeae5d4d0be7cdc67611ac2c412d35957630f"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/release_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/release_tests.move",
+    "sha256": "a5d1e97a3de3985a0115044cc6a7ef8bfb835818c8c86ee04a0ad3fb6a8877de"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/revenue_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/revenue_tests.move",
+    "sha256": "25f3b646b711d18a9345cffaf73df6e09a62e38ace034de8bfb3e076cbf0282c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/royalty_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/royalty_tests.move",
+    "sha256": "973ba94893d9eb06a96bb4240eb9f1ccefee306b041e3a26201314bfb32ae2c9"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/scene_variant_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/scene_variant_tests.move",
+    "sha256": "4d7b02d52776480cb4b7daa46d0e7a7ec194acb44051d6f740074fdd12467463"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_business_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_business_tests.move",
+    "sha256": "6cba955b476f4ac9ac28f7abfd726e82a08fad04774d50dadeb5b40849d48568"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_extension_fixture.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_extension_fixture.move",
+    "sha256": "f0d2b39b18a095b2a777b1e294f5a09b05fd78c73a9040f6530454ff616be4e0"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/state_configuration_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/state_configuration_tests.move",
+    "sha256": "8fd995dc7b29cd1942d68614123c05c9d49d56e0b46249b274e1c588f0fed779"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_epoch_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_epoch_tests.move",
+    "sha256": "1af40bd4c861719861ac6dcfc780a67b23070823b05dd703241f0d1c445469d8"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_fixture.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_fixture.move",
+    "sha256": "f40f43ab556fc42bc9f2e58b10eade068f66221057f1838fc115d8bbb3de462c"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/upgrade_schema_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/upgrade_schema_tests.move",
+    "sha256": "94536081b9dafb61f7b17d4567f7329696c5dbca20a3e9a776857ff72d1bdd64"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_edit_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_edit_tests.move",
+    "sha256": "3ac7b76075aaafc5697c2f46419b3dde66bde128784b27f3ac6faf50bf9d14b3"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_tests.move",
+    "sha256": "3da675a940163e3a2863c167779380f0f2382e77154fda6a9132a1d882cbbd01"
+  },
+  {
+    "root": "soulidity_v1",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/visual_tests.move",
+    "writer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/visual_tests.move",
+    "sha256": "6431074f0858d1f0406c17d3421d5615b77478b69fbdd051898677ed7e3ccad4"
+  }
+]

@@ -1,0 +1,11 @@
+[package]
+name = "StandardInteropTests"
+edition = "2024"
+
+[dependencies]
+IndependentMaker = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/maker" }
+IndependentAbility = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/ability" }
+IndependentContainer = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/container" }
+
+[addresses]
+interop_tests = "0x0"

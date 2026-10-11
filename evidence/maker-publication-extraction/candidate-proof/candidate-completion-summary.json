@@ -1,0 +1,75 @@
+{
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "candidate_source_and_payload_validation": "PASS",
+  "peer_review": "PENDING",
+  "source_candidate": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate",
+  "payload_map": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/payload-map.json",
+  "import_entry": "Import only payload-map rows with requires_import=true to their resolved actual_target paths after independent PASS; preserve all existing symlinks. Root owns import.",
+  "payload_classification": {
+    "sources_and_tests": 63,
+    "manifests": 33,
+    "generated_coherent_locks": 38,
+    "total_changed_or_new": 134,
+    "all_candidate_and_payload_inputs": 254
+  },
+  "frozen_v1_proof": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/summary.json",
+  "frozen_v1_45_commands_pass": true,
+  "independent_builds_with_exact_byte_and_raw_dump_equality": 26,
+  "runtime_tests": {
+    "originalCore": 1038,
+    "foreignProducer": 22,
+    "originalMakerConsumer": 10
+  },
+  "intended_first_compiler_refusals": 16,
+  "v2_controls": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/v2-control-changes.json",
+  "v2_offline_proof": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/summary.json",
+  "v2_offline_cases_per_mode": [
+    17,
+    17,
+    17
+  ],
+  "v2_offline_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "v2_offline_all_pass": true,
+  "current_config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+  "current_seal_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1",
+  "current_control_count": 39,
+  "python_tool": {
+    "invoked_python": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "resolved_binary": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "binary_sha256": "2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb",
+    "minimum_supported_version": "3.11",
+    "default_python3_compatibility_claimed": false,
+    "version_info": [
+      3,
+      12,
+      14
+    ]
+  },
+  "candidate254_inputs_unchanged": true,
+  "payload254_inputs_unchanged": true,
+  "original217_inputs_unchanged_before_import": true,
+  "cache20268_inputs_unchanged": true,
+  "all13_existing_symlinks_unchanged": true,
+  "original_source_or_ecosystem_writes": 0,
+  "rpc_calls": 0,
+  "signatures": 0,
+  "commits": 0,
+  "pushes": 0,
+  "PRs": 0,
+  "full_manufacture_complete": false,
+  "published_compatibility_proven": false,
+  "remaining_boundaries": [
+    "Catalog Product/Version/Control and unique supply/income ownership",
+    "Source-origin/private role2 request authority",
+    "Native Config operational gates and scoped native-free activation",
+    "Transport/publication installation and full creator product journeys",
+    "Qualified Release/Deploy and published address/linkage/upgrade review"
+  ],
+  "handoff": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/CONSTRUCTION_HANDOFF.md",
+  "current_ci_integration": "Register current v2 sealed verifier/config, pinned Python launcher/runtime, payload source/lock maps and reviewed build inventories/dumps; old Maker leaf frozen closure remains historical."
+}

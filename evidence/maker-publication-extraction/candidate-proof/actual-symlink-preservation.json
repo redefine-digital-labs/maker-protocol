@@ -1,0 +1,85 @@
+{
+  "links": [
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_community",
+      "link_text": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community",
+      "kind": "whole-package"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authority.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authority.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authority.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authorization.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authorization.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authorization.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/blob_custody.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/blob_custody.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/blob_custody.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/document.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/document.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/document.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/kind_registry.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/kind_registry.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/kind_registry.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paged_store.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paged_store.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paged_store.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paid_access.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paid_access.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paid_access.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/permissions.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/permissions.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/permissions.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/storage.move",
+      "link_text": "../../../../../../../Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/storage.move",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/storage.move",
+      "kind": "source-file"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_model",
+      "link_text": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model",
+      "kind": "whole-package"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_standard",
+      "link_text": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard",
+      "kind": "whole-package"
+    },
+    {
+      "logical": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_visual",
+      "link_text": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual",
+      "resolved": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual",
+      "kind": "whole-package"
+    }
+  ],
+  "instruction": "Write payload-map actual_target regular canonical targets; preserve these existing symlink entries byte-for-byte.",
+  "whole_package_links": 4,
+  "per_file_links": 9
+}

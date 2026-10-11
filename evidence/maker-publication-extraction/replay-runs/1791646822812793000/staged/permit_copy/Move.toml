@@ -1,0 +1,12 @@
+[package]
+name = "Refuse_permit_copy"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "2a0becb2fcc6989e492981104af67f62f2c9511a", override = true }
+SoulidityMakerPublication = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_publication" }
+SoulidityContentKinds = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_content_kinds" }
+SoulidityModel = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_model" }
+
+[addresses]
+refuse = "0x0"

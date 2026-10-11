@@ -1,0 +1,10 @@
+[package]
+name = "IndependentModelProducer"
+edition = "2024"
+
+[dependencies]
+SoulidityModel = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_model" }
+SoulidityStandard = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_standard" }
+
+[addresses]
+independent_model_producer = "0x0"
