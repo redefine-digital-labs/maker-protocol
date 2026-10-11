@@ -1,7 +1,9 @@
 **/build/
-.deps/
 output/
 __pycache__/
 .DS_Store
 .env*
 *.key
+
+# Keep local source CAS journals/backups private. Pinned .deps inputs are source backup material.
+.cas/

@@ -1,0 +1,93 @@
+# Independent local closure; exact frozen remote blocks retained.
+[move]
+version = 4
+
+[pinned.mainnet.MoveStdlib]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib" }
+use_environment = "mainnet"
+manifest_digest = "C4FE4C91DE74CBF223B2E380AE40F592177D21870DC2D7EB6227D2D694E05363"
+deps = {}
+
+[pinned.mainnet.MoveStdlib_1]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_eddf9c94dfcc9b86e5c4966748252148d73bb217/crates/sui-framework/packages/move-stdlib" }
+use_environment = "mainnet"
+manifest_digest = "C4FE4C91DE74CBF223B2E380AE40F592177D21870DC2D7EB6227D2D694E05363"
+deps = {}
+
+[pinned.mainnet.Sui]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework" }
+use_environment = "mainnet"
+manifest_digest = "CD547CB1ACCE0880C835DAED2D8FFCB91D56C833AE5240D3AA5B918398263195"
+deps = { MoveStdlib = "MoveStdlib" }
+
+[pinned.mainnet.Sui_1]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_eddf9c94dfcc9b86e5c4966748252148d73bb217/crates/sui-framework/packages/sui-framework" }
+use_environment = "mainnet"
+manifest_digest = "CD547CB1ACCE0880C835DAED2D8FFCB91D56C833AE5240D3AA5B918398263195"
+deps = { MoveStdlib = "MoveStdlib_1" }
+
+[pinned.mainnet.WAL]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal" }
+use_environment = "mainnet"
+manifest_digest = "08D7F4F08A90745595084EF351C2DC663EB302DA8C5AAE8A4E23B508AF951A80"
+deps = { Sui = "Sui_1" }
+
+[pinned.mainnet.Walrus]
+source = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus" }
+use_environment = "mainnet"
+manifest_digest = "F5EE3601B0F0F292A09B1CF6BFF941E8BCD70C7624692070796849E0B7FB337B"
+deps = { Sui = "Sui_1", WAL = "WAL" }
+
+[pinned.mainnet.SoulidityContentKinds]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_content_kinds" }
+use_environment = "mainnet"
+manifest_digest = "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+deps = { Sui = "Sui" }
+
+[pinned.mainnet.SoulidityFoundation]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_foundation" }
+use_environment = "mainnet"
+manifest_digest = "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+deps = { Sui = "Sui" }
+
+[pinned.mainnet.SoulidityMakerManufacturing]
+source = { root = true }
+use_environment = "mainnet"
+manifest_digest = "98A505D7E0459413C793B93E612C44A0252189EF6CB37B0278DE703A68BC388A"
+deps = { SoulidityFoundation = "SoulidityFoundation", SoulidityMakerPublication = "SoulidityMakerPublication", SoulidityMakerTerms = "SoulidityMakerTerms", SoulidityModel = "SoulidityModel", SoulidityOriginProtocol = "SoulidityOriginProtocol", SoulidityTransport = "SoulidityTransport", SoulidityVisual = "SoulidityVisual", Sui = "Sui", Walrus = "Walrus" }
+
+[pinned.mainnet.SoulidityMakerPublication]
+source = { local = "../soulidity_maker_publication" }
+use_environment = "mainnet"
+manifest_digest = "0F38579EB97450DDE772BACF576F7C66E42E7EF7425DCC380D0D6FF3562C3AC9"
+deps = { SoulidityContentKinds = "SoulidityContentKinds", SoulidityFoundation = "SoulidityFoundation", SoulidityMakerTerms = "SoulidityMakerTerms", SoulidityModel = "SoulidityModel", SoulidityVisual = "SoulidityVisual", Sui = "Sui" }
+
+[pinned.mainnet.SoulidityMakerTerms]
+source = { local = "../soulidity_maker_terms" }
+use_environment = "mainnet"
+manifest_digest = "28CEC2FCD00593C25CA977BE27CF07FD83254F09AA45904C16E825C864091799"
+deps = { SoulidityFoundation = "SoulidityFoundation", SoulidityModel = "SoulidityModel", Sui = "Sui" }
+
+[pinned.mainnet.SoulidityModel]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_model" }
+use_environment = "mainnet"
+manifest_digest = "E2A8845FB613C81F7DF3F7929EA1A91DAA365AC662C5C66790752D3810150DA1"
+deps = { SoulidityFoundation = "SoulidityFoundation", SoulidityVisual = "SoulidityVisual", Sui = "Sui" }
+
+[pinned.mainnet.SoulidityOriginProtocol]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_origin_protocol" }
+use_environment = "mainnet"
+manifest_digest = "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+deps = { Sui = "Sui" }
+
+[pinned.mainnet.SoulidityTransport]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_transport" }
+use_environment = "mainnet"
+manifest_digest = "79D69D99AC7575EF5E1260F3D1CCC0833188BADDBA8170EAE6CA2AFCC17560D2"
+deps = { Sui = "Sui", Walrus = "Walrus" }
+
+[pinned.mainnet.SoulidityVisual]
+source = { local = "../../.deps/maker-ae467539/production/move/soulidity_visual" }
+use_environment = "mainnet"
+manifest_digest = "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+deps = { Sui = "Sui" }

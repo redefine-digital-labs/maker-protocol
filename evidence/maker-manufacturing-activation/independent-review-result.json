@@ -1,0 +1,97 @@
+{
+  "acceptance": {
+    "accepted_original_inputs": 1681,
+    "actual_baseline_exact_files": 1949,
+    "default_budget": true,
+    "focused9": 9,
+    "fresh_keyless_runtime": {
+      "active_address": null,
+      "empty_keystore": true,
+      "generated_recovery_phrase": false
+    },
+    "fresh_registered_owning_ci": "PASS",
+    "frozen_inputs": 655,
+    "independent_control_checks": 23,
+    "independent_current_recovery_checks": 21,
+    "initial_historical_recovery_checks": 24,
+    "maker49": 49,
+    "manifest_path_only_relocations": 53,
+    "manufacturing_modules": 5,
+    "operations": 627,
+    "pack57": 57,
+    "production_artifacts_exact": 147,
+    "protected_files": 29,
+    "selected_move_bodies_byte_exact": 563,
+    "terminal_inputs": 52
+  },
+  "actual_mutations": 0,
+  "actual_source_applied": false,
+  "approval_binding": "New Root approval must bind exact reviewed_bindings and review result path/hash, target, action and existing human source authorization. CAS pins approval bytes in journal; strings do not independently authenticate human/reviewer identity. No older approvals accepted by this review.",
+  "candidate_mutations": 0,
+  "canonical_core_cutover": false,
+  "chain_transactions": 0,
+  "commits": 0,
+  "created_utc": "2026-10-11T09:38:31.129015+00:00",
+  "evidence": {
+    "PRODUCT_ENGINEERING_REVIEW.md": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/PRODUCT_ENGINEERING_REVIEW.md",
+      "sha256": "098abbb5f27300d2a3af8495447923c21508b592b7ae3f929603d34ed22c1a6e"
+    },
+    "REPORT.md": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/REPORT.md",
+      "sha256": "517ef22384ab9a2fd9c7705676171d9864cf7012936d2f7796b94a16a19de650"
+    },
+    "actual-readonly-check.log": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/actual-readonly-check.log",
+      "sha256": "3ec8b0df0a6f0853ef2b76c3ee86768eba58f4a56b0d65d6fee4fab2d02a2fe0"
+    },
+    "control-verification.json": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/control-verification.json",
+      "sha256": "eb2ac1c7965fe13ce021895052fb04c4dedd1a75f20de596b533d0880a7d4111"
+    },
+    "fresh-keyless-reproduction.json": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/fresh-keyless-reproduction.json",
+      "sha256": "4fff378b3b6da222859b2300960ee6b71030ac50a8872232b9e52e284ee2e524"
+    },
+    "fresh-registered-ci.log": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/fresh-registered-ci.log",
+      "sha256": "cdc849bce4003b9604f159ce2aab90ab7020a8c7337fcabd86677a7770890ad6"
+    },
+    "input-verification.json": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/input-verification.json",
+      "sha256": "ca5738b3bea35f1d303d24d03b3d9a1a101cdae949df2ad91bbf9c8517a310c4"
+    },
+    "reproduction-result.json": {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-readonly-review-v1/reproduction-result.json",
+      "sha256": "16ff6d6d8d1b4d2dfdba61e62ffdbda36867ae97455cc2ea477cc99944249095"
+    }
+  },
+  "findings": [],
+  "functional_blockers": [],
+  "goal_complete": false,
+  "qualified_release_or_audit": false,
+  "remaining": [
+    "Root new exact source approval, actual apply and owning CI",
+    "Canonical Core body/global consumer/provider migration",
+    "Held Standard-dependent actual Admission",
+    "Publication/type origins/linkage/old callable/effective authority and real-chain money/custody rollback",
+    "Original UI/full original journeys; independent releases and hosted product CI; qualified audit/full157/30"
+  ],
+  "remote_calls": 0,
+  "reviewed_bindings": {
+    "accepted_manifest_sha256": "ae46753969065c00edc443888eef11fb82a8333ab44eb68adc599baee1d85a39",
+    "actual_baseline_sha256": "0c48c2b23a001a29308627badc9819cf8dce403b9e8973630c9bd24655336c4d",
+    "candidate": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/maker-source-activation-candidate-v1",
+    "control_sha256": "1201864c13dcf9308e41688f4ecf9bf51783aafba914e649b08da1a4a4890cdb",
+    "frozen_manifest_sha256": "be89f9c4a42c7142d554be79e58f3c358d4fe4cfcad63dbf23106dc0a65293c7",
+    "operations_sha256": "530dfdfe50b4f9a2264d8c5fa70134fcf1ad56ca16762bfc6978dd3e6b7c3b98",
+    "source_pins_sha256": "75d2828ea5b68bd09e5d3d134e5feb17f6c6ad968ae2a4d5e42274966981fbed",
+    "target": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol",
+    "terminal_manifest_sha256": "cd2694cf2109d837d0e03da7963b3d727e00b0a199c6c4a24fc7753b1436cd58"
+  },
+  "reviewer": "maker-source-activation-readonly-review-v1",
+  "schema": "maker-source-independent-review-v1",
+  "scope": "scopedStandaloneSource",
+  "signatures": 0,
+  "status": "SCOPED_PASS"
+}

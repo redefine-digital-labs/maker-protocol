@@ -1,0 +1,31 @@
+[package]
+name = "soulidity_v1"
+edition = "2024"
+
+[dependencies]
+SoulidityMarket = { local = "../soulidity_market" }
+SoulidityCollection = { local = "../soulidity_collection" }
+SoulidityOriginProtocol = { local = "../../../production/move/soulidity_origin_protocol" }
+SoulidityTransport = { local = "../../../production/move/soulidity_transport" }
+SoulidityMakerManufacturing = { local = "../../../../../move/soulidity_maker_manufacturing" }
+SoulidityMakerPublication = { local = "../../../../../move/soulidity_maker_publication" }
+SoulidityContentKinds = { local = "../../../production/move/soulidity_content_kinds" }
+SoulidityMakerTerms = { local = "../../../../../move/soulidity_maker_terms" }
+SoulidityMakerAdmission = { local = "../soulidity_maker_admission" }
+SoulidityCustody = { local = "../soulidity_custody" }
+SoulidityNative = { local = "../soulidity_native" }
+SoulidityApplication = { local = "../soulidity_application" }
+SoulidityContent = { local = "../soulidity_content" }
+SoulidityModel = { local = "../../../production/move/soulidity_model" }
+SoulidityStandard = { local = "../soulidity_standard" }
+SoulidityFoundation = { local = "../../../production/move/soulidity_foundation" }
+SoulidityVisual = { local = "../../../production/move/soulidity_visual" }
+SoulidityCommunity = { local = "../soulidity_community" }
+Sui = { local = "../../../production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework", override = true}
+Walrus = { local = "../../../production/fixed-deps/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus" }
+
+[addresses]
+soulidity_v1 = "0x0"
+
+[dev-dependencies]
+AccountSourceHandler = { local = "../account_source_handler" }

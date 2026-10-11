@@ -1,0 +1,14 @@
+[package]
+name = "SoulidityStandard"
+edition = "2024"
+
+[dev-dependencies]
+PrivateSource = { local = "../private_source" }
+ForeignSameNameSoul = { local = "test-fixtures/foreign_soul" }
+
+[dependencies]
+SoulidityOriginProtocol = { local = "../../../production/move/soulidity_origin_protocol" }
+Sui = { local = "../../../production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework", override = true}
+
+[addresses]
+soulidity_standard = "0x0"

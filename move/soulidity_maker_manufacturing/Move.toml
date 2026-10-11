@@ -1,0 +1,17 @@
+[package]
+name = "SoulidityMakerManufacturing"
+edition = "2024"
+
+[dependencies]
+SoulidityOriginProtocol = { local = "../../.deps/maker-ae467539/production/move/soulidity_origin_protocol" }
+SoulidityMakerPublication = { local = "../soulidity_maker_publication" }
+SoulidityMakerTerms = { local = "../soulidity_maker_terms" }
+SoulidityModel = { local = "../../.deps/maker-ae467539/production/move/soulidity_model" }
+SoulidityVisual = { local = "../../.deps/maker-ae467539/production/move/soulidity_visual" }
+SoulidityFoundation = { local = "../../.deps/maker-ae467539/production/move/soulidity_foundation" }
+SoulidityTransport = { local = "../../.deps/maker-ae467539/production/move/soulidity_transport" }
+Sui = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework", override = true}
+Walrus = { local = "../../.deps/maker-ae467539/production/fixed-deps/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus" }
+
+[addresses]
+soulidity_maker_manufacturing = "0x0"

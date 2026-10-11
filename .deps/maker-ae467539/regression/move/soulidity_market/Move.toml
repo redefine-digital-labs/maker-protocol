@@ -1,0 +1,18 @@
+[package]
+name = "SoulidityMarket"
+edition = "2024"
+
+[dependencies]
+SoulidityCollection = { local = "../soulidity_collection" }
+SoulidityApplication = { local = "../soulidity_application" }
+SoulidityFoundation = { local = "../../../production/move/soulidity_foundation" }
+SoulidityModel = { local = "../../../production/move/soulidity_model" }
+SoulidityStandard = { local = "../soulidity_standard" }
+SoulidityMakerManufacturing = { local = "../../../../../move/soulidity_maker_manufacturing" }
+SoulidityMakerTerms = { local = "../../../../../move/soulidity_maker_terms" }
+SoulidityCustody = { local = "../soulidity_custody" }
+Sui = { local = "../../../production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework", override = true }
+MoveStdlib = { local = "../../../production/fixed-deps/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib", override = true }
+
+[addresses]
+soulidity_market = "0x10d"

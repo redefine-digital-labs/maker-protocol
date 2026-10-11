@@ -1,0 +1,41 @@
+{
+  "actual_ci_result_sha256": "fc55095e16e585bdb8728a15935ff10c36fe35aef168a8f9eb5ca26bbb06d03f",
+  "actual_source_applied": true,
+  "admission_source_activation": false,
+  "candidate_manifest_sha256": "be89f9c4a42c7142d554be79e58f3c358d4fe4cfcad63dbf23106dc0a65293c7",
+  "canonical_core_cutover": false,
+  "created_utc": "2026-10-11T09:44:57.196693+00:00",
+  "default_budget": true,
+  "full_goal_complete": false,
+  "keyless_runtime": {
+    "active_address": null,
+    "empty_keystore": true,
+    "generated_recovery_phrase": false
+  },
+  "local_journal_status": "applied",
+  "operations_sha256": "530dfdfe50b4f9a2264d8c5fa70134fcf1ad56ca16762bfc6978dd3e6b7c3b98",
+  "operations_verified": 627,
+  "production_artifacts_exact": 147,
+  "production_deployment": false,
+  "protected_files_verified_before_prose_correction": 29,
+  "publication_or_upgrade_transactions": 0,
+  "release_or_audit_complete": false,
+  "remaining": [
+    "Canonical Core/global provider-consumer migration",
+    "Current Standard-dependent Admission coherence",
+    "Actual type origins/linkage/effective authority/old callable and transaction rollback",
+    "Business SDK/original UI journeys",
+    "Independent releases/hosted CI/forms/agent automation"
+  ],
+  "review_result_sha256": "dbd3405101c3531ca593a23f5ce2b38ce56a38ad7278171dcc115ac8672df4ad",
+  "schema": "maker-actual-source-activation-v1",
+  "scope": "Standalone owning manufacturing source; canonical Core consumers still pending",
+  "source_and_manifest_stable": true,
+  "status": "PASS",
+  "target": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol",
+  "tests": {
+    "focused": 9,
+    "maker": 49,
+    "pack": 57
+  }
+}
