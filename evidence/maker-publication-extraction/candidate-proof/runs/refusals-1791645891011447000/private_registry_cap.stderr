@@ -1,0 +1,21 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING Refuse_private_registry_cap
+[0m[1m[38;5;9merror[EC04001][0m[1m: restricted visibility[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:49
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun bad(ctx:&mut TxContext):KindAdminCap{[0m[31mKindAdminCap{id:object::new(ctx),registry:object::id_from_address(@0x1)}[0m}
+   [0m[34m│[0m                                                 [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mStruct '(soulidity_content_kinds=0x0)::content_kind_registry::KindAdminCap' can only be instantiated within its defining module '(soulidity_content_kinds=0x0)::content_kind_registry'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/sources/content_kind_registry.move:94:15
+   [0m[34m│[0m
+[0m[34m94[0m [0m[34m│[0m public struct KindAdminCap has key, store {
+   [0m[34m│[0m               [0m[34m------------[0m [0m[34mStruct defined in module '(soulidity_content_kinds=0x0)::content_kind_registry'[0m
+

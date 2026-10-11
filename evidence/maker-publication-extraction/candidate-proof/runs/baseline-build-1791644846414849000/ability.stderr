@@ -1,0 +1,5 @@
+[NOTE] Updating dependencies for `mainnet` environment because "./Move.toml" has been changed since the last update.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+BUILDING IndependentAbility

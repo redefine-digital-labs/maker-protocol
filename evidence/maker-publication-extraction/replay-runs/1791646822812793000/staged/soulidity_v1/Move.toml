@@ -1,0 +1,23 @@
+[package]
+name = "soulidity_v1"
+edition = "2024"
+
+[dependencies]
+SoulidityMakerPublication = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_publication" }
+SoulidityContentKinds = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_content_kinds" }
+SoulidityMakerTerms = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_terms" }
+SoulidityMakerAdmission = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_admission" }
+SoulidityCustody = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_custody" }
+SoulidityNative = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_native" }
+SoulidityApplication = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_application" }
+SoulidityContent = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_content" }
+SoulidityModel = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_model" }
+SoulidityStandard = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_standard" }
+SoulidityFoundation = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_foundation" }
+SoulidityVisual = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_visual" }
+SoulidityCommunity = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_community" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "2a0becb2fcc6989e492981104af67f62f2c9511a", override = true }
+Walrus = { git = "https://github.com/MystenLabs/walrus.git", subdir = "mainnet-contracts/walrus", rev = "a19764ff77f501a79db88dc6d922a2c73848e989" }
+
+[addresses]
+soulidity_v1 = "0x0"

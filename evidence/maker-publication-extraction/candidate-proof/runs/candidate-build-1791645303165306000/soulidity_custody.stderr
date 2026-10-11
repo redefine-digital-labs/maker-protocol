@@ -1,0 +1,65 @@
+[NOTE] Updating dependencies for `mainnet` environment because "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml" has been changed since the last update.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityApplication
+INCLUDING DEPENDENCY SoulidityContent
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityNative
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY WAL
+INCLUDING DEPENDENCY Walrus
+BUILDING SoulidityCustody
+warning[WSL02001]: possible owned object share
+    ┌─ ./sources/custody.move:22:5
+    │
+ 20 │ public fun finalize(mut k:Kiosk,mut a:Account,ctx:&TxContext):ID {
+    │                         - A potentially owned object coming from here
+ 21 │     assert_access(&mut k,&mut a,ctx);let id=object::id(&k);
+ 22 │     transfer::public_share_object(k);transfer::transfer(a,ctx.sender());id
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │     │                             │
+    │     │                             Creating a fresh object and sharing it within the same function will ensure this does not abort.
+    │     Potential abort from a (potentially) owned object created by a different transaction.
+    │
+    ┌─ /Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move:132:30
+    │
+132 │ public struct Kiosk has key, store {
+    │                              ----- Potentially an owned object because 'store' grants access to public transfers
+    │
+    = This warning can be suppressed with '#[allow(lint(share_owned))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/custody.move:35:89
+   │
+34 │ public fun withdraw_profits(k:&mut Kiosk,a:&mut Account,amount:Option<u64>,ctx:&mut TxContext) {
+   │            ---------------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+35 │     assert_access(k,a,ctx);let profits:Coin<SUI> = kiosk::withdraw(k,&a.cap,amount,ctx);transfer::public_transfer(profits,ctx.sender())
+   │                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                                                                         │                                 │
+   │                                                                                         │                                 Transaction sender address coming from here
+   │                                                                                         Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/custody.move:42:171
+   │
+41 │ public fun withdraw_soul(k:&mut Kiosk,a:&mut Account,id:ID,expected:u64,ctx:&TxContext) {
+   │            ------------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+42 │     assert_access(k,a,ctx);let mut s=kiosk::take<Soul>(k,&a.cap,id);soul::assert_revision(&s,expected);soul::clear_authorizations(&mut s);vault::prepare_handover(&mut s);transfer::public_transfer(s,ctx.sender())
+   │                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                                                                                                                                                           │                           │
+   │                                                                                                                                                                           │                           Transaction sender address coming from here
+   │                                                                                                                                                                           Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Please report feedback on the linter warnings at https://forums.sui.io
+

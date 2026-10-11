@@ -1,0 +1,816 @@
+{
+  "status": "PASS scoped actual unpublished source checks",
+  "config": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/verification-config.json",
+  "config_sha256": "8255119c7b8643707796df6e7d196688a513f390dda7c1c7cda7fa759bdab5ef",
+  "tool_sha256": "1d7baa7c7314113671415acfa20279b1eedb6ae6d04f286988a00da285e769c3",
+  "verifier_sha256": "9ceb39529c49a920165aa242753c09f3c0e5cebb60c7c8058015ae38d2c46d18",
+  "input_files": 440,
+  "inputs_unchanged": true,
+  "control_inputs_unchanged": true,
+  "combined": true,
+  "results": [
+    {
+      "label": "SoulidityMakerTerms",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-SoulidityMakerTerms",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityMakerTerms.stdout",
+      "stdout_sha256": "37d5f781ca267675e2a71140e5cf2a1e52cf4704e9112002a7963550edadd971",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityMakerTerms.stderr",
+      "stderr_sha256": "c119ae7abf69d2a72151d3f2e9098b1c8f31c7187f23a9cbe78a6f17637bd1d4",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 101,
+      "passed": true
+    },
+    {
+      "label": "SoulidityMakerAdmission",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-SoulidityMakerAdmission",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityMakerAdmission.stdout",
+      "stdout_sha256": "48d0d4cfb3b681230ec17e93000508648b00f75e8f6bad3dfe9045e377ec4a21",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityMakerAdmission.stderr",
+      "stderr_sha256": "62f3e4d683f18bfe236cb95aba4f5dc93aaf7ac55cf8afb4d9bf1c66dcb7eb5e",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 100,
+      "passed": true
+    },
+    {
+      "label": "MakerDirectConsumer",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-MakerDirectConsumer",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/MakerDirectConsumer.stdout",
+      "stdout_sha256": "8b6618a91b6c485dbb5a8902b8a8a0a3564110522d436a914f5d9fec74d1cae4",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/MakerDirectConsumer.stderr",
+      "stderr_sha256": "457f7ce19f0edb5e30ca0c63fe907367f7a3dbff298e34313ae0973ba2703bb6",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 107,
+      "passed": true
+    },
+    {
+      "label": "SoulidityApplication",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-SoulidityApplication",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityApplication.stdout",
+      "stdout_sha256": "b4662c90d7f65e5b0809cf550b45e203e5ef5b363eedd8610a93b87b8cc3d5d7",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityApplication.stderr",
+      "stderr_sha256": "8d990aa48f36ea60efb8e67c0e2bdbee033665899e332dae1baa3d2fe90747e2",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 157,
+      "passed": true
+    },
+    {
+      "label": "soulidity_v1",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-soulidity_v1",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/soulidity_v1.stdout",
+      "stdout_sha256": "02d43b30c7889b0c4345f50752de73fe1c354061b6056c5c41feee365cc3653a",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/soulidity_v1.stderr",
+      "stderr_sha256": "8958187928ec63ef21ed771f77944af032ff478b3a2cda8da36b8d35362c0d06",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 179,
+      "passed": true
+    },
+    {
+      "label": "SoulidityCustody",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-SoulidityCustody",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityCustody.stdout",
+      "stdout_sha256": "7c29bcdb512bbbf5a07c570c7ea9531d0afb8518c7ee39dbd9053e2bf308ef79",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityCustody.stderr",
+      "stderr_sha256": "b9f8c3230fccb8a691cb780989c8f80e3c75f6a4fed851f50723c09b85fbb23b",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 161,
+      "passed": true
+    },
+    {
+      "label": "SoulidityNative",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-SoulidityNative",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityNative.stdout",
+      "stdout_sha256": "56496c5687b7a66f883d20c77191d0830a1a9b067393dd217a7bed71db6ff600",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/SoulidityNative.stderr",
+      "stderr_sha256": "9c338044c8b40825a69b517e9bedb8ea1b2ce85cbaf4592823ab4997bb96a527",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "candidate_module_bytes_equal": true,
+      "candidate_raw_dump_equal": true,
+      "modules": 141,
+      "passed": true
+    },
+    {
+      "label": "focused-runtime",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "test",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-focused-runtime"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/focused-runtime.stdout",
+      "stdout_sha256": "e05e3cd306091c4169e5f4ac48278deb9108147ab779e690fc6c0393d9ced4c2",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/focused-runtime.stderr",
+      "stderr_sha256": "a41576351f9ff5e195c462469ebf64464bb868841eb8b60f493f005342030f35",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "counts": [
+        10,
+        10,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseCopyBinding",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyBinding",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseCopyBinding",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyBinding.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyBinding.stderr",
+      "stderr_sha256": "8b39396fab209e33dc6cb0bc3d9f7bf5a47b3e072f2227adc15192aae62c2133",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001",
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseDropBinding",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropBinding",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseDropBinding",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropBinding.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropBinding.stderr",
+      "stderr_sha256": "1f8f43fa6657f9b3ffd8b71f9c6617b095dda2f13b707411efd7d22650301d1d",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC06001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseStoreBinding",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreBinding",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseStoreBinding",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreBinding.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreBinding.stderr",
+      "stderr_sha256": "6b30a2dc9735dcf4f4948dfaf8c5fe34b0e182d4ee8fbc658409797799f97635",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefusePrivateBinding",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateBinding",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefusePrivateBinding",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateBinding.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateBinding.stderr",
+      "stderr_sha256": "b358a0f6122f431f0310ed20a131f47597d8744242bd1323d8328c548200b1d3",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC04001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseCopyGenesis",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyGenesis",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseCopyGenesis",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyGenesis.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyGenesis.stderr",
+      "stderr_sha256": "e31e1a8e472966296068a49f838a9db93ebb664676b3c36c542b5b5227c03e2d",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001",
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseDropGenesis",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropGenesis",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseDropGenesis",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropGenesis.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropGenesis.stderr",
+      "stderr_sha256": "a77df66b985a6c038c5520b9e9b62799dbac0aa8966e3b43b2c3368641d3bebe",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC06001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseStoreGenesis",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreGenesis",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseStoreGenesis",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreGenesis.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreGenesis.stderr",
+      "stderr_sha256": "8fa401eb0175afd37c4bfb7563d04a293eb7e7e000d23d9cad34eb117176903c",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefusePrivateGenesis",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateGenesis",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefusePrivateGenesis",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateGenesis.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateGenesis.stderr",
+      "stderr_sha256": "06e187707968206b16cfc73f24cb0592e780268d6be0efe6c13771f0741d32dd",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC04001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseCopyContribution",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseCopyContribution",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseCopyContribution",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyContribution.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseCopyContribution.stderr",
+      "stderr_sha256": "e25368841a11472edccfc9db44b7ac41352ad77a7db957fab28bbebecde42016",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001",
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseDropContribution",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseDropContribution",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseDropContribution",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropContribution.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseDropContribution.stderr",
+      "stderr_sha256": "21a09b1bc5c3d1e8ec5ad07e3557d41c5dfab3cf3ab60cbc51e8b0dc0ce96147",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC06001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseStoreContribution",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseStoreContribution",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseStoreContribution",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreContribution.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseStoreContribution.stderr",
+      "stderr_sha256": "5f738d9e4c54ceb696d7e40182d1168e85e182cdf8d12876418cadaab26aff01",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC05001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefusePrivateContribution",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefusePrivateContribution",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefusePrivateContribution",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateContribution.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefusePrivateContribution.stderr",
+      "stderr_sha256": "e685282f5278172630f17273f68fdc875d6b632b3e223ebd9d94e5d3000bd9e3",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC04001"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseOldRates",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldRates",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseOldRates",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldRates.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldRates.stderr",
+      "stderr_sha256": "00b42c9ce7f153c4bb33d77b70f085fb27cce53522f2f1ecdd0ea7ebd332dd0e",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC03003",
+        "EC03004",
+        "EC03004"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/resale.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseOldProof",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldProof",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseOldProof",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldProof.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldProof.stderr",
+      "stderr_sha256": "d83a55204154e02c597f3dac19eec769dc3d0b73e333f2b1dbea26e9f248976f",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC03003",
+        "EC03004",
+        "EC03004"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseOldBinding",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseOldBinding",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseOldBinding",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldBinding.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseOldBinding.stderr",
+      "stderr_sha256": "63b7ad5cd17e0965daeeada104d2bca5dec77c80baf080798c376786f395f051",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC03003",
+        "EC03004",
+        "EC03004"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/issuance.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseQuoteToAdmission",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseQuoteToAdmission",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseQuoteToAdmission",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseQuoteToAdmission.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseQuoteToAdmission.stderr",
+      "stderr_sha256": "2c9e6c8433f6b67cbe86ddd487fe5109f624302a645e39b91ad3e7339cf68e7f",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC04007"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "RefuseMetadataToGenesis",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "build",
+        "--path",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/RefuseMetadataToGenesis",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-RefuseMetadataToGenesis",
+        "--dump-bytecode-as-base64",
+        "--with-unpublished-dependencies",
+        "--no-tree-shaking"
+      ],
+      "exit": 1,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseMetadataToGenesis.stdout",
+      "stdout_sha256": "06c3b68b50da1248b99444fdf2564307152e1f9046f6a1a7f56f56779962c4ba",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/RefuseMetadataToGenesis.stderr",
+      "stderr_sha256": "02f8a8650622fdb3f0de609c6e970892c7bc613ff93d5a6234eeb06cce298e02",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "diagnostic_codes": [
+        "EC04007"
+      ],
+      "primary_source_locations": [
+        "./sources/refusal.move"
+      ],
+      "passed": true
+    },
+    {
+      "label": "original-Core",
+      "command": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+        "move",
+        "test",
+        "--path",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1",
+        "--install-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/scratch-original-Core"
+      ],
+      "exit": 0,
+      "stdout": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/original-Core.stdout",
+      "stdout_sha256": "2a460f0691ff8ad04d9fa06d839ab5b86f560c0db38cfa2ad024742bac21ea75",
+      "stderr": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3/original-Core.stderr",
+      "stderr_sha256": "a75b122e2a171c9d3720c021874dbe50d785755d1e43e83a9df74a54fe4b3043",
+      "gas_limit_override": null,
+      "package_size_override": null,
+      "input_unchanged": true,
+      "control_inputs_unchanged": true,
+      "counts": [
+        1038,
+        1038,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "rpc_calls": 0,
+  "signed_transactions": 0,
+  "published_compatibility_proven": false,
+  "full_Gate0_complete": false,
+  "full_product_acceptance": false
+}

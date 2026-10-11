@@ -1,0 +1,37 @@
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:8:53
+  │
+8 │ use soulidity_maker_publication::output_data::{Self,Policy,Intent,InitialRule,Selection,RecipeSlot,PayLine};
+  │                                                     ^^^^^^ Unused 'use' of alias 'Policy'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./tests/tests.move:8:60
+  │
+8 │ use soulidity_maker_publication::output_data::{Self,Policy,Intent,InitialRule,Selection,RecipeSlot,PayLine};
+  │                                                            ^^^^^^ Unused 'use' of alias 'Intent'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+error[EC04007]: incompatible types
+    ┌─ ./tests/tests.move:28:161
+    │
+ 28 │ fun end(sc:Scenario,r:KindRegistry,cap:KindAdminCap,cfg:Config<USD>){test_scenario::return_shared(r);sc.return_to_sender(cap);test_scenario::return_shared(cfg);sc.end()}
+    │     ---                                                                                                                                                         ^^^^^^^^ Invalid return expression
+    │     │                                                                                                                                                            
+    │     Expected: '()'
+    │
+    ┌─ /Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_b0535f1f3a3310e71790e90d8ae4e8ca840c897e/crates/sui-framework/packages/sui-framework/sources/test/test_scenario.move:363:37
+    │
+363 │ public fun end(scenario: Scenario): TransactionEffects {
+    │                                     ------------------ Given: 'sui::test_scenario::TransactionEffects'
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/tests.move:29:13
+   │
+29 │ fun publish(sc:&mut Scenario,p:Product,t:Target){transfer::public_transfer(p,@0xa);transfer::public_transfer(t,@0xa)}
+   │             ^^ Unused parameter 'sc'. Consider removing or prefixing with an underscore: '_sc'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+

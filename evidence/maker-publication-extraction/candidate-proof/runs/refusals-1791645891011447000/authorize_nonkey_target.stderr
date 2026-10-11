@@ -1,0 +1,22 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING Refuse_authorize_nonkey_target
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/refusal.move:4:73
+   [0m[34m│[0m
+[0m[34m 4[0m [0m[34m│[0m public fun bad<W:drop,P:key>(w:W,p:&P,target:&u64,source:Source):Permit{[0m[31msoulidity_model::components::authorize(w,p,target,source)[0m}
+   [0m[34m│[0m                                               [0m[34m---[0m                       [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31m'key' constraint not satisifed[0m
+   [0m[34m│[0m                                               [0m[34m│[0m                          
+   [0m[34m│[0m                                               [0m[34mThe type 'u64' does not have the ability 'key'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model/sources/components.move:20:37
+   [0m[34m│[0m
+[0m[34m20[0m [0m[34m│[0m public fun authorize<W:drop,P:key,T:key>(witness:W,product:&P,target:&T,source:Source):Permit{
+   [0m[34m│[0m                                     [0m[34m---[0m [0m[34m'key' constraint declared here[0m
+

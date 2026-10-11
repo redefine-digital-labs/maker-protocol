@@ -1,0 +1,30 @@
+[
+  {
+    "name": "permit_key",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_key",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "lock_sha256": "c6b0376e5089449ed5c987562aee6978941c72d226e99f57b0d83afa2455bc40"
+  },
+  {
+    "name": "authorize_nonkey_target",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/authorize_nonkey_target",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "lock_sha256": "19db39bfa37991c8e5468defca32978970e9ff21969713d22d0b7e3f79845f40"
+  }
+]

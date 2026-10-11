@@ -1,0 +1,1526 @@
+[
+  {
+    "root": "MakerDirectConsumer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/Move.toml",
+    "sha256": "c6573fddac9e15c722744ee8e2373c333bee942dad21e378fd6bd3f7d6af656b"
+  },
+  {
+    "root": "MakerDirectConsumer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/Move.lock",
+    "sha256": "b92cbd649a7bb98685527d82a52f5633cdf91d347b2cb6ab7cd9617867bfb9ba"
+  },
+  {
+    "root": "MakerDirectConsumer",
+    "relative": "sources/consumer.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/sources/consumer.move",
+    "sha256": "9e40d1fe5d98e3dd6795c599a38208c66593eb497cc8d953ac0ae02f5d5ad940"
+  },
+  {
+    "root": "MakerDirectConsumer",
+    "relative": "tests/runtime.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectConsumer/tests/runtime.move",
+    "sha256": "39bfc9c35a9c48f94e650eb18426192700d70e315c224f6703c0adf5c10d2c25"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/Move.toml",
+    "sha256": "606bab8fcea5874bf248752e246b76b8505715f2249506d383bdf35ddbf9209e"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/Move.lock",
+    "sha256": "d7d1e54cb721c14c324b3124a4f0e67340a8c60602db151d09b1db5cab20ab3f"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "sources/binder.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/binder.move",
+    "sha256": "a948c7a1775707cb146388b9b18f26d455eccc89e3bcdbe3637e26cea400694c"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "sources/catalog.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/catalog.move",
+    "sha256": "7bbfd3ad7e3e166ccd23f0bc088353711a655c555b7623b32abff3204c4597d0"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "sources/market.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/market.move",
+    "sha256": "fe473aa71ae33922a5de1e9312230ced90ca7d957e5a8f17d7e73b8eb59d93ee"
+  },
+  {
+    "root": "MakerDirectProducer",
+    "relative": "sources/operator.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-verification/fixtures/MakerDirectProducer/sources/operator.move",
+    "sha256": "498cae4624b1f2c85bed74ce72f92d6ce6b58b2c331fe653985bf1acc753d879"
+  },
+  {
+    "root": "ability",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/ability/Move.toml",
+    "sha256": "db5a476c264eb9bb758b2f42c4ac191b222c0359bf8d0dc1d06933b78567a87b"
+  },
+  {
+    "root": "ability",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/ability/Move.lock",
+    "sha256": "9de9b64d3038eb083881261de38a0d29ca63eecbc9395ed59734c21855746374"
+  },
+  {
+    "root": "ability",
+    "relative": "sources/ability.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/ability/sources/ability.move",
+    "sha256": "ca6d1e341765f09bc543d131b08047fbad523556ea50dcb4d54ec64f240dc648"
+  },
+  {
+    "root": "authorize_nonkey_target",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/authorize_nonkey_target/Move.toml",
+    "sha256": "79f6b5b3808222129b87373779775551276ba13cca1f79bb7f3e81f126cd23f9"
+  },
+  {
+    "root": "authorize_nonkey_target",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/authorize_nonkey_target/Move.lock",
+    "sha256": "71aaf692d1c63e1b356b9b4fdfb850dd4c8138105506487b34708f7494ac136f"
+  },
+  {
+    "root": "authorize_nonkey_target",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/authorize_nonkey_target/sources/refusal.move",
+    "sha256": "131e1ea687e7c0ab211ccc2cf093543931ca5799b8311598f422d9ef95290d87"
+  },
+  {
+    "root": "container",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/container/Move.toml",
+    "sha256": "92772cee8b495481cb950183074e7637d0b5afece65454b91df65ab62f65b840"
+  },
+  {
+    "root": "container",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/container/Move.lock",
+    "sha256": "8f011f6f8e2f86aa5df017682b1268a93f86e90b959ee41948e91c7e64de99a3"
+  },
+  {
+    "root": "container",
+    "relative": "sources/container.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/container/sources/container.move",
+    "sha256": "42ed112e3981dd6c65ed8ee939087fc293f8e09825bea4b274078af903c652c7"
+  },
+  {
+    "root": "content_controller",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/content_controller/Move.toml",
+    "sha256": "921829bcf433e75e3a7b48801d70f7cbafbbeb9429e5abfb194009c9071db758"
+  },
+  {
+    "root": "content_controller",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/content_controller/Move.lock",
+    "sha256": "e50bbee89cc6f09bb61e4dd5fa687650fa686f3328bc2746565747eb04510573"
+  },
+  {
+    "root": "content_controller",
+    "relative": "sources/extension.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/content_controller/sources/extension.move",
+    "sha256": "93f1bc16da42e32cc171233f1e4213edcd807b1a0b156466f6a87834c0412a90"
+  },
+  {
+    "root": "content_controller",
+    "relative": "sources/tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/content_controller/sources/tests.move",
+    "sha256": "e3194aae28dc8424f091046917ffb441d6cee783b954f22ef32d12c9235181bf"
+  },
+  {
+    "root": "foreign_publication_producer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/fixtures/ForeignPublicationProducer/Move.toml",
+    "sha256": "fffc8e31b86be35c09de9fbac053441091ad86bf7a943a5267f165ea38fee06d"
+  },
+  {
+    "root": "foreign_publication_producer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/fixtures/ForeignPublicationProducer/Move.lock",
+    "sha256": "544fe6ac387d76f1bf5b63689d571c089a8701ba88ee2b2beb5b54d05343de0f"
+  },
+  {
+    "root": "foreign_publication_producer",
+    "relative": "sources/producer.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/fixtures/ForeignPublicationProducer/sources/producer.move",
+    "sha256": "1cdd6eb1cebc96c96008032249fe3cb3b234fbb0344a832463921487a8e5f5b2"
+  },
+  {
+    "root": "foreign_publication_producer",
+    "relative": "tests/native_binding.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/fixtures/ForeignPublicationProducer/tests/native_binding.move",
+    "sha256": "f3e892c370d6880cab59ad34b166ce13b92a8607c633958f922d20dc3f8e6867"
+  },
+  {
+    "root": "foreign_publication_producer",
+    "relative": "tests/tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/fixtures/ForeignPublicationProducer/tests/tests.move",
+    "sha256": "85d55049bdfc1680fc3a7c3477a4b97a9f809d7f115f5057780591a4ca262ee5"
+  },
+  {
+    "root": "integration",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/integration/Move.toml",
+    "sha256": "f59b8eb9d04dbc34f659f15c91144aecfaa96f7673ef2d0aa61bdcacbb935c47"
+  },
+  {
+    "root": "integration",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/integration/Move.lock",
+    "sha256": "41fc71af330df2e64df880db34c9982c9c7216249626d40a21bcdccdbf071848"
+  },
+  {
+    "root": "integration",
+    "relative": "tests/interop_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/integration/tests/interop_tests.move",
+    "sha256": "f3dddf150d6299f3acb9fa926f52d422f1e1c7af457608b0d0b21d2d83305045"
+  },
+  {
+    "root": "maker",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/maker/Move.toml",
+    "sha256": "6f7f323ecd329cb74d518fdac18556e026e12ed84898abaa513250c4bf3f7461"
+  },
+  {
+    "root": "maker",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/maker/Move.lock",
+    "sha256": "4b359cbdc3bcb2cc331f38b71214ff468787be9586eab08d53e0503d742326bc"
+  },
+  {
+    "root": "maker",
+    "relative": "sources/maker.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/maker/sources/maker.move",
+    "sha256": "c9a829e802ef55f3f88475a245687b328f75529c83299f3c53c33c1ef00cd0c9"
+  },
+  {
+    "root": "model_producer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/model_producer/Move.toml",
+    "sha256": "025cdc8b44e06def2509e0b160292f5810109d1156bde40b60a9f8deef7c8436"
+  },
+  {
+    "root": "model_producer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/model_producer/Move.lock",
+    "sha256": "ee750b60701c248c34d9bf63d04b867a2116c03de0851e118fbff6e94e6c5eb8"
+  },
+  {
+    "root": "model_producer",
+    "relative": "sources/producer.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/model_producer/sources/producer.move",
+    "sha256": "37e8c77bbae73b291bc55f9cdcea379064aadfdbefbefa0e05c5f59f997723ad"
+  },
+  {
+    "root": "output_extension",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/Move.toml",
+    "sha256": "25f0dc32c3cf68088e74159d1eaeaede4918f5f9fcb4d8f014384446c2b478fb"
+  },
+  {
+    "root": "output_extension",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/Move.lock",
+    "sha256": "c6abfd940f6c6e5ab182142a14de504045f14c6a1fa4074606dd1ac35dfbbcd6"
+  },
+  {
+    "root": "output_extension",
+    "relative": "sources/extension.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/sources/extension.move",
+    "sha256": "8b6ec6aef61922e4c5fc90f4c0995afa59cd9d507fcd61b1cbf4c9b06d97a25f"
+  },
+  {
+    "root": "output_extension",
+    "relative": "sources/producer.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/sources/producer.move",
+    "sha256": "9eafe12f0330b0a3f0ea55b064052c6600478f02b8273bebeba5eb99c0a60792"
+  },
+  {
+    "root": "output_extension",
+    "relative": "tests/storage_fixture.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/tests/storage_fixture.move",
+    "sha256": "ae2dcb98130f27ba5e0525aa44352133fb614c2a4ff6e51d663ecbb10ecb8eba"
+  },
+  {
+    "root": "output_extension",
+    "relative": "tests/tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/output_extension/tests/tests.move",
+    "sha256": "4f9a847cdb2d0ad9c9dc731f0929e83b830f937490e67ce130415803d2c69fdf"
+  },
+  {
+    "root": "permit_copy",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_copy/Move.toml",
+    "sha256": "734d51fc689c2d7b4097e6ca51cb598ba665a6985502ffdc14092273baf100e2"
+  },
+  {
+    "root": "permit_copy",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_copy/Move.lock",
+    "sha256": "a6a363bc1c052b556f4bd8006495038554e76da3cd4aefe6bed1e2a53b6adf0a"
+  },
+  {
+    "root": "permit_copy",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_copy/sources/refusal.move",
+    "sha256": "946861485c16a3cc953b8b0e01d813ecbeeca51c2106404f410d5f8343fe83ea"
+  },
+  {
+    "root": "permit_drop",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_drop/Move.toml",
+    "sha256": "0591208784ba39e6aeabd2f74a39cae81ee91da7f52073b959343d00352f55f9"
+  },
+  {
+    "root": "permit_drop",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_drop/Move.lock",
+    "sha256": "b7377a2d98f4b652abaec415afe1cf00d9d72d99a28b69ac7c2201cdef15f29f"
+  },
+  {
+    "root": "permit_drop",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_drop/sources/refusal.move",
+    "sha256": "4054f4cf4af78a09468f85590840b6e96c6e3a17bad68dd9c6a9bb822886fed0"
+  },
+  {
+    "root": "permit_key",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_key/Move.toml",
+    "sha256": "3622364f46b01483d4818ae29f8f60d5fcc196b45d71131a8d4256a40391d465"
+  },
+  {
+    "root": "permit_key",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_key/Move.lock",
+    "sha256": "e40378fb3dca91ac4f249ff8445f9665d94369e29967db93203d69e4071ccbee"
+  },
+  {
+    "root": "permit_key",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_key/sources/refusal.move",
+    "sha256": "c9700f4509b32cbbf9818fc21fc6cb8d8d280cd50a17f678c9b31fcb6be8421a"
+  },
+  {
+    "root": "permit_store",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_store/Move.toml",
+    "sha256": "7ab9b20d9a144a44044a4f0cd34d2a554774a8a27dc435db0c69e202d853db26"
+  },
+  {
+    "root": "permit_store",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_store/Move.lock",
+    "sha256": "cfd0b6d2b9d402f478c54ffe412afe96a512880c943f835bfb4efb5d827882a3"
+  },
+  {
+    "root": "permit_store",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_store/sources/refusal.move",
+    "sha256": "73e6261f2027e95e21b78813a68d0d265db3b9a5b94135d8fc2d914912d1c321"
+  },
+  {
+    "root": "permit_type_substitution",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_type_substitution/Move.toml",
+    "sha256": "4d0def2ef0be1399ffe8813a0757e5e147981f658080de4e088eee95554f1dfc"
+  },
+  {
+    "root": "permit_type_substitution",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_type_substitution/Move.lock",
+    "sha256": "a16891899771ee43b3fb83be49d347d06968bbd317be18bbc21508b05926c13b"
+  },
+  {
+    "root": "permit_type_substitution",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/permit_type_substitution/sources/refusal.move",
+    "sha256": "e87ed04723a1c9044bbc444402758755a8dc189d209950f6d91f71abcf8e2b6a"
+  },
+  {
+    "root": "private_component_producer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_component_producer/Move.toml",
+    "sha256": "29803f965eee28494787567206e063a705801a68953834e38cb36dcce9354af5"
+  },
+  {
+    "root": "private_component_producer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_component_producer/Move.lock",
+    "sha256": "332010a0104b1b61a6864f253af9b16772d6c993f543f1e93d36528cd6080d57"
+  },
+  {
+    "root": "private_component_producer",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_component_producer/sources/refusal.move",
+    "sha256": "f2997fd47999b2df4a117831c4f9a9c015340ad97a52ee6ca1b9a468c949ce4d"
+  },
+  {
+    "root": "private_expected",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_expected/Move.toml",
+    "sha256": "7ea7d5488f13e75423d9fe5c705ba066df644f209670ace82d42903a690b470f"
+  },
+  {
+    "root": "private_expected",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_expected/Move.lock",
+    "sha256": "461d4cb529a27e59877c49ee91b969076895e5c45382a27921d58369eab31a87"
+  },
+  {
+    "root": "private_expected",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_expected/sources/refusal.move",
+    "sha256": "4dc88d8b1a497e583d3856e9d3a850249082b25c25c0291fd03e60d8445f7199"
+  },
+  {
+    "root": "private_initial_rule",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_initial_rule/Move.toml",
+    "sha256": "4063c4918eb19423d51e7414cc8f4152de35864a19d40f51e3268bcdfaf03c70"
+  },
+  {
+    "root": "private_initial_rule",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_initial_rule/Move.lock",
+    "sha256": "382ef9fed7b68c225c1e56dd39dfd6faff5a7a4985fe74adcdadf6e05e80ead7"
+  },
+  {
+    "root": "private_initial_rule",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_initial_rule/sources/refusal.move",
+    "sha256": "f5763194f4e6b710c135979fdbacceb33f1998d659719aff803b98e562cc61fe"
+  },
+  {
+    "root": "private_operator_function",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_function/Move.toml",
+    "sha256": "978f126f0928bd64fac709e27f05473ac7631ad5e40085eb9e1ca65e0e43681b"
+  },
+  {
+    "root": "private_operator_function",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_function/Move.lock",
+    "sha256": "3e8f0431e26e68681a2e0298d97664e4c540891ae7a4c9182519ba9e2bf3d649"
+  },
+  {
+    "root": "private_operator_function",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_function/sources/refusal.move",
+    "sha256": "7f4ad1dd2cfee549df343613ce40a13babc5d614274a0873c038bd5eafb7786e"
+  },
+  {
+    "root": "private_operator_struct",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_struct/Move.toml",
+    "sha256": "28ad0b54a4c42325b87e6f86244976860bb11fc4de9b0d4342a4604ab2547b48"
+  },
+  {
+    "root": "private_operator_struct",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_struct/Move.lock",
+    "sha256": "1a7ffae89203a262f973448ccb1fd5789100cad66f2ed8396e6d16b5213a6ca7"
+  },
+  {
+    "root": "private_operator_struct",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_operator_struct/sources/refusal.move",
+    "sha256": "978987aa271147a3c522eddb7b170e5ad86a404b3e42d0f5c958e1bdfe3a1f94"
+  },
+  {
+    "root": "private_permit",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_permit/Move.toml",
+    "sha256": "ffa11fdeabf1577dcfd65e22844cb1e732d9dd1eac0ece4c0376deeb7c2349e9"
+  },
+  {
+    "root": "private_permit",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_permit/Move.lock",
+    "sha256": "af3e7e975d6bcc1df13d387baf0b2b7ec35abab9bf8cbff9f5cc12e744cc6d56"
+  },
+  {
+    "root": "private_permit",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_permit/sources/refusal.move",
+    "sha256": "27b42754ba15548a3b8d066c9bd197e5b4a01370a494f89a3494d3fefa631c66"
+  },
+  {
+    "root": "private_policy",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy/Move.toml",
+    "sha256": "0d1e9988710442d3255e96e152ff9923f41fade60c64e7a000a60ed7c0c8b053"
+  },
+  {
+    "root": "private_policy",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy/Move.lock",
+    "sha256": "72dc195dcece03f660571a4c7cffd3d20b9c191983efb57433d977f3f639d793"
+  },
+  {
+    "root": "private_policy",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy/sources/refusal.move",
+    "sha256": "f0e222bbde27eb15514f879b60bd509423813cfdd777a0605e0252e1be37d587"
+  },
+  {
+    "root": "private_policy_producer",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy_producer/Move.toml",
+    "sha256": "146848122e4691c382d911e87077807255f22a339ccbdabd2373f85d92f04136"
+  },
+  {
+    "root": "private_policy_producer",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy_producer/Move.lock",
+    "sha256": "16f80106da034d6fde8eef68e787250c077cf919c716eae36acc516ae54934bf"
+  },
+  {
+    "root": "private_policy_producer",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_policy_producer/sources/refusal.move",
+    "sha256": "84bf9d0e9a32034a4d55a684f35f00693229116681286484abfa3d60e8d966e7"
+  },
+  {
+    "root": "private_registry_cap",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_cap/Move.toml",
+    "sha256": "0fff6b2991864c06f964c22c7f9d7065c662f2d197aa966d7b213ba14eddc7b0"
+  },
+  {
+    "root": "private_registry_cap",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_cap/Move.lock",
+    "sha256": "8897199fc15369206c1e94b8b03a50dd833556d8df4dcb6411f5465db25f056a"
+  },
+  {
+    "root": "private_registry_cap",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_cap/sources/refusal.move",
+    "sha256": "34e9cfe36333a0fe06e7839b8daa84c4c22aeaa36aa2029453acfd892acda6b1"
+  },
+  {
+    "root": "private_registry_descriptor",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_descriptor/Move.toml",
+    "sha256": "eff4357ff89760676697fd48ba105dd1174d64ec4f4e286c49f7f1e75d0ecf72"
+  },
+  {
+    "root": "private_registry_descriptor",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_descriptor/Move.lock",
+    "sha256": "98f54a6079d98a5c4c28c5d59174ae0221849082902400cf61823e66a7068dfb"
+  },
+  {
+    "root": "private_registry_descriptor",
+    "relative": "sources/refusal.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-verification/refusals/private_registry_descriptor/sources/refusal.move",
+    "sha256": "221db88e1ca8725e7d237d3bc63e6ee0c60c5d8f548d99b0183f4a67d28420f2"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml",
+    "sha256": "5a4d81da77e106dd1ecb8ed5e1d04721b064c5fc89aeec69a1c32ed5dc3bf5b4"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.lock",
+    "sha256": "276bef01ebccd39dcab5f736ce231718556f659c2c464fff6c1496124818b73c"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/character.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/character.move",
+    "sha256": "498d97cf5bc725abd233a45db65270a1f75fb5da91289487a905ccaf663f78af"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/forms.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/forms.move",
+    "sha256": "7783031039c648434fcc29e3f9c2effc75c8ba805c45989ec15065491bf75a3e"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/growth.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/growth.move",
+    "sha256": "0c0a5a80b1f6c7fd72753a05aa714e0312f26933d0dc639b1723ebd2f0a2364e"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/issuance.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/issuance.move",
+    "sha256": "68163ee70e8cd9179ac723cbe288a70684d770d8796dcbfb66290a897f61c7b2"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/output.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/output.move",
+    "sha256": "1bf8bfc11e3f3efe1d72bd4baf59541fdd82778a7b6503a799f787ab6f609b5c"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/physical_metadata.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move",
+    "sha256": "3d1b7917b61024bccd38585d57274ff34924d780c55355b5eda0a9609992c9e1"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/publication_rules.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/publication_rules.move",
+    "sha256": "a6b6ac79081af259d3613b967eff927fd0b018d5f90373b31ef386473d5394d4"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/resale.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/resale.move",
+    "sha256": "5c3d4af66f03f9ddb3bc08790c44bfbb9f2f33cb12808e6c8fbac3a8aaf8fa30"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/vault.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/vault.move",
+    "sha256": "71956d436461659e164f15803466e833122d356a82f5b841878ce10a04cb7624"
+  },
+  {
+    "root": "soulidity_application",
+    "relative": "sources/visual_capture.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/visual_capture.move",
+    "sha256": "37b5d8e1e08742cb539665acd2f53f964dc482701d9f785d755988e44db65bf9"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.toml",
+    "sha256": "bbfd44ba3aaf33b48739d0048750f9982448d6b086866d41a620ea795d06270f"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/Move.lock",
+    "sha256": "82e94d5b85f588ef553fbdb98c2e0f1095ab735d9acfc15965ad8fe061b2f15d"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "sources/community_posts.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_posts.move",
+    "sha256": "993255715aa8e0c4508d59995ff04d8928f2496c0b2fcdcce2b26184ecb426da"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "sources/community_votes.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/community_votes.move",
+    "sha256": "31c7cfa43ff8ef823911a6568ad11904811ed99d4dacfb8522c963eb98e6a4c9"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "sources/profile.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/profile.move",
+    "sha256": "b8fff3b0145e8697902a35f7069451a0986d54fc63d16d8096145c815f633aee"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "sources/social.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/sources/social.move",
+    "sha256": "deece68caa07ef6d925093ebb716c98a536b1bdbd6ac5be0257cc713d6dd28fd"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "tests/original_community_posts_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_posts_tests.move",
+    "sha256": "e06e147264bc157fb3740e84a9c225c2327aa73bce49681beb3e31d265f9d2ce"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "tests/original_community_votes_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_community_votes_tests.move",
+    "sha256": "177b25f0d0742d418c1c889b32273e140854a4668f3ecbbcbaeeff7c35360290"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "tests/original_social_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/original_social_tests.move",
+    "sha256": "ffc533db4200e7788fcc4362578e7fedcd3fcf6b39c3e92240324424b2709a27"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "tests/private_bookmarks_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/private_bookmarks_tests.move",
+    "sha256": "3026299317a56ead1d0725ba99fe8a6b67a4d14bcdf8f2344035cfb021e6be54"
+  },
+  {
+    "root": "soulidity_community",
+    "relative": "tests/profile_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-community/move/soulidity_community/tests/profile_tests.move",
+    "sha256": "9b43f04106be2595cfcddb15420abb6266c6155a2f2909a7c79c9644a85200fc"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/Move.toml",
+    "sha256": "c3ce867952d303ac1be39816beb421db52993633516641bbd471292a38babf66"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/Move.lock",
+    "sha256": "5ba135775ea05af1cdd882b277fcfa089d7d1b03353d18e28e63debde5b34106"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/authority.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authority.move",
+    "sha256": "72b14a54093a542ffc065553920481cdffc3383eb6cb2f7d05f36c2355e97bfe"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/authorization.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authorization.move",
+    "sha256": "e1e337cd3e940f26f5eabad5c0fd486b192a0b6cf8327688c62e91ff310cb0dd"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/blob_custody.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/blob_custody.move",
+    "sha256": "81ab5b2b929a7b67c74ab6c6bafea67891d56ce751ada2da99ebf0690eca2737"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/document.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/document.move",
+    "sha256": "c97cda851d7fe7337d7ee417f2041fa0ea12c000dec86cd6d3605c1ef0bbb0e9"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/founding_library.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/founding_library.move",
+    "sha256": "96908cbbf5a70ae9ee3073d2d26382a813a13c02f4e5eac5d5d798b995d90641"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/kind_registry.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/kind_registry.move",
+    "sha256": "f23a055a01655eb569c897dd1cf6432890c9d98990cd8e2b13157a7e02355351"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/loadout.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/loadout.move",
+    "sha256": "4ded2bd91fc5557c126db78ae8cbb4abc9807bb34957e230ce46f94309ba7d63"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/paged_store.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paged_store.move",
+    "sha256": "33d15484e8d5868d0202654373577a024077b8d43ae680ee68e974fbfe7fda0a"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/paid_access.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paid_access.move",
+    "sha256": "d741d6522a4758315fbd1ffb506cf4e589008904cb82ceb610956730bec62ae9"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/permissions.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/permissions.move",
+    "sha256": "ca7f784a35545193e0d10379178de806c9038594329d94bcfce1a1ea226f3937"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/state_configuration.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/state_configuration.move",
+    "sha256": "89963eee546f1b5a5be4a5dbced26b7beb25950a1001ca6498cef4bd15a836ad"
+  },
+  {
+    "root": "soulidity_content",
+    "relative": "sources/storage.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/storage.move",
+    "sha256": "dba26fb0baac1a181363a43fb05353e77f078f527984442f79ca4647f25851ee"
+  },
+  {
+    "root": "soulidity_content_kinds",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/Move.toml",
+    "sha256": "441743dec7f4d5a8fb18264b26b22f70c231c8df8496904a89c086c4e3238f86"
+  },
+  {
+    "root": "soulidity_content_kinds",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/Move.lock",
+    "sha256": "d18bb1135d517064c42c4ebbc4b8e0727c2b97cfedecf0a0c74324b4925bcd2d"
+  },
+  {
+    "root": "soulidity_content_kinds",
+    "relative": "sources/content_kind_registry.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/content_kind_registry.move",
+    "sha256": "9d5fcbafab4b22aaa332c53b5169f94dda2a9855890e6cb67e2913e59ed7f72c"
+  },
+  {
+    "root": "soulidity_content_kinds",
+    "relative": "sources/content_permissions.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/content_permissions.move",
+    "sha256": "c6124808bcceb5c4c563a3884558c29cad9e364dd429194736b39b4a5ae7be76"
+  },
+  {
+    "root": "soulidity_content_kinds",
+    "relative": "sources/document_policy.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/document_policy.move",
+    "sha256": "4d450bebb3cbcca1c0980c4da966da39318714248d5dbb0ea620adabfd164e8f"
+  },
+  {
+    "root": "soulidity_custody",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.toml",
+    "sha256": "5079fe1ac9383ad11f4cbe87a26eb3dcc1388a51da090877f6312314301a5773"
+  },
+  {
+    "root": "soulidity_custody",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/Move.lock",
+    "sha256": "512227efe6a98d799d8b43c9aa5b694ee98980ea0ea7b325026c6df1ea051953"
+  },
+  {
+    "root": "soulidity_custody",
+    "relative": "sources/custody.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/custody.move",
+    "sha256": "920e8b3ccfa14428440f3459822c347a1ba29af5eb6f6cfdcacf59e4f63da5c7"
+  },
+  {
+    "root": "soulidity_custody",
+    "relative": "sources/native_creation.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/sources/native_creation.move",
+    "sha256": "deb89b4e6081842ba100b3fa202ba2fd07354e93a78da70f3af73e40aec6a421"
+  },
+  {
+    "root": "soulidity_custody",
+    "relative": "tests/custody_namespace_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_custody/tests/custody_namespace_tests.move",
+    "sha256": "7e70f5ec44720a00cac4506b9a193bc345528faceea40d7255f73bee7a7f29cb"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.toml",
+    "sha256": "b9af9eec5599828254b2e398848028cbb9c62abb879be7e41c41858f0fdfb763"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/Move.lock",
+    "sha256": "5c6ddee0be90a667c14029867ce966a797aa4cd7f367b9f2ccb60742fb0683fa"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "sources/economics.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/economics.move",
+    "sha256": "18a683402ff9438f5945e8070426a33e532ef851b5b4b810d7be5c85e98de039"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "sources/package_roles.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/package_roles.move",
+    "sha256": "4569fb705519bf0fed418083c38b2d98fab001d25f1a0cc9b06ce9f50003e229"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "sources/revenue.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/revenue.move",
+    "sha256": "9e307e4d6c944419179bc9e4fbcc39e006e6e118c9d6d083ee3e23189515fdaa"
+  },
+  {
+    "root": "soulidity_foundation",
+    "relative": "sources/source_authority.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation/sources/source_authority.move",
+    "sha256": "e2b4ee56df6962bba16695ca4cec4f6e1816c6fa6dd9b83cd8eeb8147c32883b"
+  },
+  {
+    "root": "soulidity_maker_admission",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.toml",
+    "sha256": "2ebf7b0bfa6e07b6dc51217ebc7448abd883b485cf23dd2715b8a9f44fe31a4e"
+  },
+  {
+    "root": "soulidity_maker_admission",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/Move.lock",
+    "sha256": "c9a9dd7169d495fd72e8742a22fea5643b30b07d9437e5fef1cb4def1afb9e6b"
+  },
+  {
+    "root": "soulidity_maker_admission",
+    "relative": "sources/maker_issuance.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move",
+    "sha256": "83c721d5793b07fcd85487b2f2575d26a9562fe481ab806cf96ddd2ddb25f0df"
+  },
+  {
+    "root": "soulidity_maker_publication",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/Move.toml",
+    "sha256": "4179789487c656e730898bd0ae901071ca10bb318e43c2db622e4f971ea6cdb7"
+  },
+  {
+    "root": "soulidity_maker_publication",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/Move.lock",
+    "sha256": "0406f890d95e63ac01d7d03086707a10a21d83e4d512ef0c23e63c0b7d75d8f0"
+  },
+  {
+    "root": "soulidity_maker_publication",
+    "relative": "sources/output_data.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/sources/output_data.move",
+    "sha256": "0ceef171186662894fb405ae7b9cb7755e24c1422ef3dc7a7b3353194bacb4b0"
+  },
+  {
+    "root": "soulidity_maker_publication",
+    "relative": "sources/publication_validation.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/sources/publication_validation.move",
+    "sha256": "e54f40dc840ca6c5f11ebe017c164cd91934d62b8b463785e073b2a93e68c9fa"
+  },
+  {
+    "root": "soulidity_maker_terms",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.toml",
+    "sha256": "244fdca5fa695ac4cab157d3500295f06aa662758805ae245d7a224e4f485cbe"
+  },
+  {
+    "root": "soulidity_maker_terms",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/Move.lock",
+    "sha256": "7d93eadec0b8adc2f5475d23dff2e52d7d4c19e4ca1d68be5743e833acd7afca"
+  },
+  {
+    "root": "soulidity_maker_terms",
+    "relative": "sources/maker_physical_metadata.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_physical_metadata.move",
+    "sha256": "d6938e21a8c7a53d90eea3f96087766487bf1f9e87097d1180c10ac21ca82916"
+  },
+  {
+    "root": "soulidity_maker_terms",
+    "relative": "sources/maker_resale.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_terms/sources/maker_resale.move",
+    "sha256": "c408d1e0cd72ce13f08bf2fda5f10e4c88f9d420171a640b3dc173f18da3aa34"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.toml",
+    "sha256": "3e4153335616dbe72d69d7ee04090bbaf29a8c2ec7eca7eaa1dd6cfee4f3a219"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/Move.lock",
+    "sha256": "ab4634f66e7d9216d4bf20ebf010867ad1d9cbb7e629607c3061b4d740e76dcd"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "sources/assembly.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/assembly.move",
+    "sha256": "348b6ce070acb56d73f5940e9c1eb0897f95213b1416213b34f7135dbdd3fe98"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "sources/components.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/components.move",
+    "sha256": "fc0fd1db722bcfdc25b793e545c7bcd35c9b0aaa3f6e7e6fa0f76e1b04bc4fa5"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "sources/material_policy.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/material_policy.move",
+    "sha256": "d3c40174c015a92567fb51965ee6691bb6586dbf1c23823994e9785607322448"
+  },
+  {
+    "root": "soulidity_model",
+    "relative": "sources/policy.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_model/sources/policy.move",
+    "sha256": "78654d1cd083c0a85f9d9de5b36b0bbd8bab595e1d85fcc4ca534ebff51a7614"
+  },
+  {
+    "root": "soulidity_native",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.toml",
+    "sha256": "c17808bd7f1a4d99312ce523f25b1f929882df9523b4ddaa69057612cf331932"
+  },
+  {
+    "root": "soulidity_native",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/Move.lock",
+    "sha256": "55a8723ac9f713a0d2548419a4c8964f7c15272fd9d38fb13798f417dbf103cb"
+  },
+  {
+    "root": "soulidity_native",
+    "relative": "sources/birth.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/birth.move",
+    "sha256": "17d189c7c7272948c38540a693ca2995bbaf0ecce00464a091337951fd75deff"
+  },
+  {
+    "root": "soulidity_native",
+    "relative": "sources/registry.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_native/sources/registry.move",
+    "sha256": "23d5a95aeae16216666f70e294e92ba68582edceb69b712452333ac7f5cf7b96"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+    "sha256": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+    "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "sources/soul.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+    "sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "tests/foreign.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+    "sha256": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "tests/kernel_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+    "sha256": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1"
+  },
+  {
+    "root": "soulidity_standard",
+    "relative": "tests/publisher_tests.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+    "sha256": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.toml",
+    "sha256": "fb2563b7238705ff2d8849b5f33f869565c64aa8b63d6d410a30d0b9e19dac4c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/Move.lock",
+    "sha256": "d8ef928cf72e79cc40016b4c78192e59d4cdd6c5d1d8b2e131c616937556b681"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/access.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/access.move",
+    "sha256": "d85070347d32caf38c7763e47651160f2ff91d9f83f7704f7d3ebd41909d189e"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/application_operator.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/application_operator.move",
+    "sha256": "1e8efc8a77b34d466eacc8b69fa3457038e27cfcdbf55609be97bcbd1bdc0dbd"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/catalog.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/catalog.move",
+    "sha256": "50122a9b91749a430707ddeaf755c418cd7d2645940a4bacd1286f603f6539b0"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/collection.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/collection.move",
+    "sha256": "76a4427af7d241dd3b40402e7d1d7c42249d216a47dde2da0d14334660f6a59c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/custody.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/custody.move",
+    "sha256": "90be42b6991ef1576a078980236ddc36b646abec56ce1b37e6fe71432f463b86"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/issuer.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/issuer.move",
+    "sha256": "889e054b7cc8351b1832716695293ea0803ea801a070b9c26ff229a95c004543"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/market.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/market.move",
+    "sha256": "180999b23ef9c55d4cb065756b279167fc8883a5df67d1f3d89398bf240b311f"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/metadata.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/metadata.move",
+    "sha256": "fb1539b676270af550a734921ed464018eaab15e63776089eca0142475434cdf"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/native_binding.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_binding.move",
+    "sha256": "49ba1521049cb28b5c087e22f79a30ca7e94bbefc8b9431cee8e28974097a39b"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/native_creation.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/native_creation.move",
+    "sha256": "774636501dbb833981da155d3bf48cb0ae687e22e12c9d18720ac150031511f0"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/physical.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/physical.move",
+    "sha256": "3b1417367373a54810ca86aad3902260170dde4a95dde931587e91490797a416"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/player.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/player.move",
+    "sha256": "5d94f1cfb3e1f7a93a5b751fbdeead321de2e56ba07d585600f14a3a7dd74991"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/release.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/release.move",
+    "sha256": "73aeb8d6b4f12a7778942136c9ec1540fa99d1bc53570427ce16d9093c5e4adc"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "sources/runtime.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/sources/runtime.move",
+    "sha256": "e8f33b8a5886adfe0b1a0fe9f71a33af61dff0dafcc2f66f388dea209548ecfd"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/access_security_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/access_security_tests.move",
+    "sha256": "d35f17e65ffd12944ccea1e6bb789daa5fb7eb3923995995d93cd5ef82eae6dc"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/authorization_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/authorization_tests.move",
+    "sha256": "53a8a4298b6ff9af0bd4473402f6a42d33d71da4995f7799a7ea14a94af414c6"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/capacity_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/capacity_tests.move",
+    "sha256": "7912e2423083accbf30b7be6ca4f81a8cd21d31890c274728a5d026fa54f8111"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/character_boundary_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/character_boundary_tests.move",
+    "sha256": "bbf905163c638ef07123447b4c3141908b2ece62f579267a6d9471f7e23962f0"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/collection_metadata_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_metadata_tests.move",
+    "sha256": "c3e22374c212b4f93e325403d8a09f85dcb060bed975b210d34a8d2402d58de2"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/collection_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/collection_tests.move",
+    "sha256": "f53f10d2f8a3f5ceafb1a6a38d40fd3391df0b03f2f6ba48bb8cc7a6f308d2ef"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/commerce_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/commerce_tests.move",
+    "sha256": "b23a9f19068eed1eac3d80f25252299f09312e18adb9f1a54e4677ff60f52635"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/community_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/community_tests.move",
+    "sha256": "09fb218e499031e9c5048a1baebd1c456fb95b43900fbafe8ad177ce12573335"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/compact_binding_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/compact_binding_tests.move",
+    "sha256": "cd83a5faa9c56e0799c10e97fe5bef5c29092ec100a09d1331a3c49ee1596fef"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/completion_cap_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/completion_cap_tests.move",
+    "sha256": "eb32a503e703c194a1890f8c1a9081477e28158f84adb2426ab4526b21f126cd"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/component_issuance_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/component_issuance_tests.move",
+    "sha256": "7922111b988e4b5f5f79035986a5fa437bc1799c7f573eb86f30d2ee761f479a"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/config_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/config_tests.move",
+    "sha256": "573e97ec20b6ca9b68205e9691943e2ab168ff709a7de5b2ea096c96c2e002ee"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/content_boundary_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_boundary_tests.move",
+    "sha256": "5dcabd5c4b8d7909fed70f9a9db04aad9fee761a29dd462ea16d2d4caee6312b"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/content_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/content_tests.move",
+    "sha256": "93c7a56ef9883b7a85f81e5ab1cf7c62b10ae3deb53cb703ab4a055abcaf0f64"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/custody_creation_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/custody_creation_tests.move",
+    "sha256": "9db87a0aaade6d7ede1cfd63ea310f5d0a94f10ce28ef3aff7f0d78bb1d0342e"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/entitlement_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/entitlement_tests.move",
+    "sha256": "b7554ac40467deeb254c8deea864f76ba418309167f567c918192fcaf5638568"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/financial_domain_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/financial_domain_tests.move",
+    "sha256": "f982ed22d53af53cb985bb8f0a99295ba79fa3833c57455369a862d51b8d80e8"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/fixtures.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/fixtures.move",
+    "sha256": "3040d38b5b3b50c391a4a0ef87a68023f763d773b4c5914af8fc11f780ed40ee"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/forms_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/forms_tests.move",
+    "sha256": "00651b73ef2b39ec1769a6b26219885a9b742c62fe6be359c458fe58c41d54f5"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/foundation_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/foundation_tests.move",
+    "sha256": "19350f4c9c173b6cdd96f554eb8f607ef97a2f5a70a9569e39e11c45656771e3"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/founding_library_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/founding_library_tests.move",
+    "sha256": "3e42997cb39b2407162fd897d7818f0f4d6b8e776d61fb895e9aadf75405cb2c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/growth_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/growth_tests.move",
+    "sha256": "d7374baef0400fa6b2bd57ea51d886c95997bf69376e0db511c89ab77903ff3a"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/income_routing_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/income_routing_tests.move",
+    "sha256": "98341faedf9a4b5b1da10c0259cccd6b1c3d5b0e4fc03cdf7b21e7de319f9934"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/installation_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/installation_tests.move",
+    "sha256": "7f7e27a47c471386a79ba3dd94198d6e6d3056915bd00f8b8fc594441fdc1016"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/issuance_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/issuance_tests.move",
+    "sha256": "919fd0f641b171f7b81a1636d1b176205d4a44b647aa237dc9e55aec8b95ba48"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/loadout_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/loadout_tests.move",
+    "sha256": "98ff1256f0544906e67a2ced64a46ebb73c8d67b5a461d1421faab5c7d652a95"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/market_global_gate_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_global_gate_tests.move",
+    "sha256": "cf3a247feb445538936893fa0905f6f2f03ab4cc256041d541b84473e3401711"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/market_independent_gate_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_independent_gate_tests.move",
+    "sha256": "e444bb35a8ade08a6ff6ebcbd1f14b48d369ae46838cb51a08e6649a8ebe58ab"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/market_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/market_tests.move",
+    "sha256": "7213a9a20f85c84ef1592d5ad4e883d18f582138e946da6affe05afd601c5a35"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/model_source_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/model_source_tests.move",
+    "sha256": "7575ee264ddc38d499836a54da4c5caa5249662544ed8af8292b449487b6272c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/native_binding_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_binding_tests.move",
+    "sha256": "d0ac90f3ee2abe4ebc18dc02722d0096de282a0d7359f756bbe79da0a01d616f"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/native_birth_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_birth_tests.move",
+    "sha256": "3b0f8350f9c1c6484f700ef07d4eb067fb95f0bb934686de2678aa7dedec1f01"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/native_registry_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_registry_tests.move",
+    "sha256": "8cd48c1f7f9f2dce6a419464e4c4ec22431ac8cbdfc53979a1990079078638a2"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/native_revision_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/native_revision_tests.move",
+    "sha256": "9ac14b930aa45eeb898d52e3c1188a67aed9c759e1c64a3c056ae72880b39b46"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/nested_vault_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/nested_vault_tests.move",
+    "sha256": "2880e8a5d4355fe812c6dcbb9bd28ea3da8dae92b0c2b98aad6e7ccec25161ec"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/output_boundary_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_boundary_tests.move",
+    "sha256": "dd27ebc4f17cdec974623626b51d1f912fc077ffb55683c66a3d621c13cb6ed5"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/output_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/output_tests.move",
+    "sha256": "67107c955322cc67c28ced6deb9f10ed817c3780e5c5401bdb4ca19468dc512e"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/pack_player_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_player_tests.move",
+    "sha256": "d70db223381ed00631a742efae85da110c21f60f4147c3c22c0f09c8c6c0eaf7"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/pack_publication_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_publication_tests.move",
+    "sha256": "c259e2050d64296aafb26f60750e16df4cb5b13cfa15f00d9e8aa610fdceac85"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/pack_soul_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_soul_tests.move",
+    "sha256": "cfd35e7c6dab058e7f04362cb37c323ebe682e8b09c8a13521349caf9352cab2"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/pack_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/pack_tests.move",
+    "sha256": "1927ce92c43515607c5c31306f8728b2994631e76e10a88306e4601f9528a90a"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/package_role_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/package_role_tests.move",
+    "sha256": "c53622bc1cdc34750b777307d3bc82ab3e0342eb5505caec92d722da41b4f3b8"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/paid_access_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/paid_access_tests.move",
+    "sha256": "c04bfa07e73531b6e8fda6fa209a279c97d332baa3dce1507e009d93cfe1e7f2"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/physical_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/physical_tests.move",
+    "sha256": "4602e8dbe7b0632b73caf2ece5912364c297596d0935f48756ef66779bbb285f"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/primary_snapshot_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/primary_snapshot_tests.move",
+    "sha256": "057590eb79331e3334c9727705a55abdbe2c5363529d6a1b20af0b0a63a96e89"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/release_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/release_tests.move",
+    "sha256": "f02ed5b7cc980d81f3072ec3a1b2de44bfa56bb0feda74df88c5787ab937ad6d"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/revenue_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/revenue_tests.move",
+    "sha256": "25f3b646b711d18a9345cffaf73df6e09a62e38ace034de8bfb3e076cbf0282c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/royalty_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/royalty_tests.move",
+    "sha256": "98abfe44d58dafca2eba9bef82e8cdd516f3985400fdcff9bd4a2ab8a7f5f808"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/scene_variant_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/scene_variant_tests.move",
+    "sha256": "4d7b02d52776480cb4b7daa46d0e7a7ec194acb44051d6f740074fdd12467463"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/standard_business_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_business_tests.move",
+    "sha256": "6cba955b476f4ac9ac28f7abfd726e82a08fad04774d50dadeb5b40849d48568"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/standard_extension_fixture.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/standard_extension_fixture.move",
+    "sha256": "f0d2b39b18a095b2a777b1e294f5a09b05fd78c73a9040f6530454ff616be4e0"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/state_configuration_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/state_configuration_tests.move",
+    "sha256": "8fd995dc7b29cd1942d68614123c05c9d49d56e0b46249b274e1c588f0fed779"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/storage_epoch_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_epoch_tests.move",
+    "sha256": "1af40bd4c861719861ac6dcfc780a67b23070823b05dd703241f0d1c445469d8"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/storage_fixture.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/storage_fixture.move",
+    "sha256": "f40f43ab556fc42bc9f2e58b10eade068f66221057f1838fc115d8bbb3de462c"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/upgrade_schema_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/upgrade_schema_tests.move",
+    "sha256": "94536081b9dafb61f7b17d4567f7329696c5dbca20a3e9a776857ff72d1bdd64"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/vault_edit_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_edit_tests.move",
+    "sha256": "3ac7b76075aaafc5697c2f46419b3dde66bde128784b27f3ac6faf50bf9d14b3"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/vault_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/vault_tests.move",
+    "sha256": "5becfd2bf590fe4b1cbb311653a04f3d9b49d6a34d486a8fa0fea3a05fa1ebd6"
+  },
+  {
+    "root": "soulidity_v1",
+    "relative": "tests/visual_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_v1/tests/visual_tests.move",
+    "sha256": "fb31175777e22d587fae692d9f79934fdd677b1867b5f30531fefe493d8b6c9c"
+  },
+  {
+    "root": "soulidity_visual",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.toml",
+    "sha256": "7027feff701a9cc7c47bc794b6aaa97fd34a89b3ef3bcd1064c9b4f521f16616"
+  },
+  {
+    "root": "soulidity_visual",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/Move.lock",
+    "sha256": "0c9cdce18044b83bde071e8c715c6cebdf60d8ab4768474e53d6f2acc6aea86e"
+  },
+  {
+    "root": "soulidity_visual",
+    "relative": "sources/visual.move",
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-extensions/move/soulidity_visual/sources/visual.move",
+    "sha256": "9240f2ef85506b38761afd5c801d1c7c4104a2ca3a4aac86f2e183ad9e433751"
+  },
+  {
+    "root": "vault_tool",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/vault_tool/Move.toml",
+    "sha256": "0b8af43a18d3152d8fad4cc9f16864c3a940889a635ad0743b87691413c8f318"
+  },
+  {
+    "root": "vault_tool",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/vault_tool/Move.lock",
+    "sha256": "30b9496616bf1aaa0ed906eb705e47cfaf5d79673f0d38042f394c7913637e63"
+  },
+  {
+    "root": "vault_tool",
+    "relative": "sources/producer.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/vault_tool/sources/producer.move",
+    "sha256": "beab660011db7bd007c506a8a2e235b12c2b719e9ca277487eaf23501c49c690"
+  },
+  {
+    "root": "vault_tool",
+    "relative": "tests/storage_fixture.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/vault_tool/tests/storage_fixture.move",
+    "sha256": "68d01f1c2d25da6a375836d7a6d5de0a040a32f71ea74b1030a19c0ac20fb30a"
+  },
+  {
+    "root": "vault_tool",
+    "relative": "tests/vault_tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/vault_tool/tests/vault_tests.move",
+    "sha256": "c2951d788d93f05c2f58b9034d456455b5faf9f170dcfd7c198230b9ad9e5fa4"
+  },
+  {
+    "root": "visual_capture_extension",
+    "relative": "Move.toml",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/visual_capture_extension/Move.toml",
+    "sha256": "9f7ff86578054a9193b9c2b9fa5f527443914178e6a122a6e58cec3bfcf7d560"
+  },
+  {
+    "root": "visual_capture_extension",
+    "relative": "Move.lock",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/visual_capture_extension/Move.lock",
+    "sha256": "d7910871d4b909b7abab9bdb75d12dee6b17b7ccec9e2159aaf27a6c1dfe3601"
+  },
+  {
+    "root": "visual_capture_extension",
+    "relative": "sources/extension.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/visual_capture_extension/sources/extension.move",
+    "sha256": "e415b434f256c217cf60d9a57a76e037d665d7e4ac0540275d64ef7b3be2681b"
+  },
+  {
+    "root": "visual_capture_extension",
+    "relative": "tests/tests.move",
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/standard_examples/visual_capture_extension/tests/tests.move",
+    "sha256": "5b169dbee1cb3f764dcc585991cfcde32ccc0e910cb72bba53e028e15e3c710e"
+  }
+]

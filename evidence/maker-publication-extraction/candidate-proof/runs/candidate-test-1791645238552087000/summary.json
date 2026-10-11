@@ -1,0 +1,2354 @@
+[
+  {
+    "root": "foreign_publication_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer",
+      "--install-dir",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scratch-build"
+    ],
+    "returncode": 0,
+    "duration_seconds": 7.344864333048463,
+    "bytecode": [
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/address.mv",
+        "sha256": "57a72efbe7e51223ebc985cd50d5e639ec82eecc8609b66b05793e7b5f0f3a68"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/ascii.mv",
+        "sha256": "c776f30a0976f2d63ed07ef3e09a3d4283e7b508a4ffad74e8a3784d82e752e1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/ascii_tests.mv",
+        "sha256": "2e690abb2ce9f899fa85b2656afb89444bd9bfb538e96d266b91fcc924d5dd05"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bcs.mv",
+        "sha256": "98d59a872e8d93f6a380dee5a81a634a9e286ec45f8955655a6e0251d7494c25"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bcs_tests.mv",
+        "sha256": "73a21975dbf4211e526b1b7dad17e6c44cb838c943af68a2b4c17997cc69bdf7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bit_vector.mv",
+        "sha256": "8b382890039c59e18b9f03ed194be23458be57a76f76db0b29b8a438ac67aa12"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bit_vector_tests.mv",
+        "sha256": "046318ff21af5d60d4bbe9eec3873c47c90474bdcdb014c37d282dbbf1c0783f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/bool.mv",
+        "sha256": "79cb2014c95dfead9378f44a40bc8ac28a9364cd43c40b01e312a405fdf576cf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/debug.mv",
+        "sha256": "ce89b6c60eeca2cc6b3f058d09d934cdb96e7954640bc5422395292da341bf53"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/fixed_point32.mv",
+        "sha256": "06f350681148fc364132bd287e9eb529870d1318714bb0805dedd0eae714b742"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/fixed_point32_tests.mv",
+        "sha256": "d7da3cd9e7c672f47026d3cdea1d9bd8a10c496affbc40263ba6d74a167bdc3d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/hash.mv",
+        "sha256": "939871753a6ada94329e82237502cc64bb99d64d855bd7007e625bffc9c89cf8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/hash_tests.mv",
+        "sha256": "ed286e75593fdeed7c9c37b2ad4ed77383877589832b6bf107a7ada21ce5570e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/integer_tests.mv",
+        "sha256": "6809d9d3157296d778972ee0e40e361d6f49e2eff348bc36159c06a170eca9d2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/internal.mv",
+        "sha256": "52f16ed840bd341771ccecfbe4fac9805a4d007576c5c9d1ba0e415549538b77"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/macros.mv",
+        "sha256": "66de6647d83ca6a7a2d3657cbd904a1f3a3279cb8651c2f6fa8fadeda59c21a7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/option.mv",
+        "sha256": "d5bbb0429cb10932e06ededabeb35fbe247a8e90e6096b691f3e05c092d255ae"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/option_tests.mv",
+        "sha256": "97a9a5c56efb498e9fd933efa46a24d96e8120ea5b9de3e28178d4da4effd614"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/string.mv",
+        "sha256": "abd43ab32b4f2c5a3fef6545d57ec78b313f9b052562f5b896d4fd766037dc96"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/string_tests.mv",
+        "sha256": "fbc19411460c0e2acf683a49c63928a9b8d9e0f608f983c1a85191c60190a91e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/type_name.mv",
+        "sha256": "4a99db45380cd9ef08b4eae8f87ddeed0d79e8f24bdda2a0e7471f631f52b1b0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/type_name_tests.mv",
+        "sha256": "a4e189263f83e40c2a146bda97a66d1a8ec746b8f0026594d7d0f53024641e2d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u128.mv",
+        "sha256": "9c489c10729c161300c6fb092d4122aa690b0790abbaea1a65edcc3e047eccf0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u128_tests.mv",
+        "sha256": "0db45bbe0746c55349fa49f2adb570fb5d7547c6ad6ce7c5490b5773caea15ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u16.mv",
+        "sha256": "9812885a591f7026ce6de94f120133fb7c22f5431d75194855d7775e1bc907e3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u16_tests.mv",
+        "sha256": "42412138843c97d357d6e8933b967fc47b3fdc650b5e44c54ccfe411c2d2b013"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u256.mv",
+        "sha256": "c15c7a573c9b1b845d8317f78b66ce2ca4083b35971082c7ca9911423d88fa87"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u256_tests.mv",
+        "sha256": "9a0845b4f684d2027b757edbb8eaaf5e3c58d9b01470317a737f9b57f3d94d7a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u32.mv",
+        "sha256": "ad64103e8d666e9b752cbe73d8b7f2fdf3115dce0236311974728f7757f9b5e0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u32_tests.mv",
+        "sha256": "1f31637facce8a21818cef0ad7d33388de31e57db8fa9b5d9e9a85f11e7e0d1f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u64.mv",
+        "sha256": "a4f091d6541cf6106197e682b48d81e153f97a5760f9b0147da21add8b5a76aa"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u64_tests.mv",
+        "sha256": "c3d37ac0ad3876bffbaf06c9b23fac46227654e3c60f523ccdec475600db785b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u8.mv",
+        "sha256": "f0a95e3657806ddad7e198410b1d7691be2ae7e914f00a8eba5b1b629fe17dfe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/u8_tests.mv",
+        "sha256": "8d28d74fce11dc10769affa8cd836e14c9f9e423d8391b027311ca6f256102c0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/unit_test.mv",
+        "sha256": "26e23964a6a170a1249b714f3a5be843a6a80ca07a84f2a0b9b701f337fd1776"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq32_32.mv",
+        "sha256": "3d8cb785516321a36a785581704bbcbb70baa9e616c734012babd24653846a2e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq32_32_tests.mv",
+        "sha256": "e2d7f4f09ba83fe0564b99bf8bf8f5225b0bcfb79e6435fb5fe029e330ed9d0a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq64_64.mv",
+        "sha256": "6654947f94058e39cb55d971e53d42389bb21bfc9402d3334c89a094d628635f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/uq64_64_tests.mv",
+        "sha256": "96e7aeb8719faaa570880afd07283239ddb02bd899aeb20b031561805910d43b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/vector.mv",
+        "sha256": "bf8afbceb35d981a45bdde3d5c9da25ce67916442f89c4621fbd85f9b653a7d4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/MoveStdlib/vector_tests.mv",
+        "sha256": "c3b0c43de4871eb0990f7c77cf67406a3978266c528dbc473cbb6bc634e4d56f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/content_kind_registry.mv",
+        "sha256": "04d414175d2a8439f6697c33c2fd3b93e746fc4083ecea4db0a753196012b982"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/content_permissions.mv",
+        "sha256": "832de1746c5b402d1ee6d47419c4c73cfaded26806cea09947824b560cb6a0fb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityContentKinds/document_policy.mv",
+        "sha256": "b5d9e92a3481386f606a8533eb1a39516a9923413935ff0cf3d8e09cac07853a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/economics.mv",
+        "sha256": "8c18d9694ea827cc6ecad981973256a3d5ce71fc1b39bd84da158d5bbb7528ac"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/package_roles.mv",
+        "sha256": "70443dc7e65e466aa5d2c638df2bc49a942c5cb1774abdf2dbfd091cdc02a0ce"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/revenue.mv",
+        "sha256": "1b8f5ce6f15d8eb574af7e11311ff279b1894aadc3a1ce254e0471b38291b690"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityFoundation/source_authority.mv",
+        "sha256": "75e862363f0d25b49d09fc7a14b6eeee5eb85ccd73e8879ad86f3ee9f5df6eaf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerPublication/output_data.mv",
+        "sha256": "420ee77030723a71e52df95fa2acbd3749c65e4b1e3bb341052e116f697810ba"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerPublication/publication_validation.mv",
+        "sha256": "2781086f5e500c3e1dee31654db582e8c48c93132411b7ba0a2d84d684e48945"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerTerms/maker_physical_metadata.mv",
+        "sha256": "6767d0c38b745cc131a0ca7cf377b71a50991c005339841b02717550ef76c1af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityMakerTerms/maker_resale.mv",
+        "sha256": "e7416fb95c18ac6f9271d61ff2495fdf111439dc76e779b498999a34baff9de3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/assembly.mv",
+        "sha256": "8d465cb7e9e998285e7efaa0a06e9b0c371ed50d6066d74a5bce2f16fe3aabf2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/components.mv",
+        "sha256": "3be5fd683a8962980509928bbb2f9a56aa444b8f1694d661b50b51e1cf3cd72a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/material_policy.mv",
+        "sha256": "527ab3d21005fab357b189153787a69f6ee0af395516dd373bf62dfb544f5089"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityModel/policy.mv",
+        "sha256": "64685169a70c18b3fc09da2507f18c5f67176f4195454a57c7e036b4aa7db2af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/SoulidityVisual/visual.mv",
+        "sha256": "1f164f1d2fbe74cfbed74386bbe3d2b7632a75ca554ff9181e68923799171f1b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator.mv",
+        "sha256": "13f1e245063ecc1968951d3ad09c08aa71a986812cc81ba5e0934494357ae71e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator_metadata.mv",
+        "sha256": "d25e4fefc9cf5c3bda8669a92ae2094a3d2dc5b894210ecd3d6893b4ced7596d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/accumulator_settlement.mv",
+        "sha256": "0295d713fa20798808689a203a9a707ecb7f1dac562d6654b74d039b838fdbe2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address.mv",
+        "sha256": "128c053b504010ca059b3e74371446dbab14c64d6d6aa8d602da34aa7a6a26a4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address_alias.mv",
+        "sha256": "2db8c12e7fb0bbcf7eff4e0caacb6017342d62ce0b748aaf6a13d6b916bfa19c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/address_tests.mv",
+        "sha256": "265debd04698a951b0ab7715775144f7d747ac3dd26f3830fd281abc368cf795"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/authenticator_state.mv",
+        "sha256": "f55a3c026f333077d7843d80e4ebbb907319705a8b5e508876fc8dee031309ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/authenticator_state_tests.mv",
+        "sha256": "5194d9cfea59e05304dc41f01d4e337f7906769e8983184071888d34474d9650"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bag.mv",
+        "sha256": "6cade8b408db865838497a93a8fc5d9ed65b482f47d2e99c1b1253bdd6d7e387"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bag_tests.mv",
+        "sha256": "be53483d26893272680f39d0461c85dae64327321a606cc72794d5cfff4df1c3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/balance.mv",
+        "sha256": "636798e1303aa14b00ddca0e3646f1194fba88464f658959a1563827ce705552"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/balance_tests.mv",
+        "sha256": "fe84a07f73d435e02f911644346059ea93a048ff12999638ccfa52a605adb0bf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bcs.mv",
+        "sha256": "aee6224830bee30d01fffa4ac213cdc6030d47d06ea1560bd4640cf037ad8d53"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bcs_tests.mv",
+        "sha256": "5dd3377285a93f002303be168fa3675f7eac97f06e6fce99bf56030ed11aca0a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bls12381.mv",
+        "sha256": "7613030e117fc5f158a79ba47d2795b777dfb158ef546419509b2364a0089466"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bls12381_tests.mv",
+        "sha256": "c92a6dc6f5be9814c284b8aefcf549d105f8421b8730a4782db162d5824c97ec"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/borrow.mv",
+        "sha256": "0bee4b4536ad7c5088879ccbeec282edbd9e6b9d92abfbc1cdb9337178356cf0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/bulletproofs_tests.mv",
+        "sha256": "62f105ee506ea195eeae34779135cf9111415bdef0a07cbcba45ef3c55eb1eba"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/clock.mv",
+        "sha256": "534b85438ad5091b5e939d9abdbf4ac4dcef4e08db26c7582e60939afd61bf8e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/clock_tests.mv",
+        "sha256": "c9395acc0e6b8e7474eb498d84ae124d762609c98380e8d50a13494b1e9670b4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin.mv",
+        "sha256": "83fb85686ddd3200f3b2f82d33e93884e847d5ec0a3036cca555fcdc4ccc0a8e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_registry.mv",
+        "sha256": "ea91cb76dca83c428ef864d9ee90c98cd1ff52675aefd89ca54f77642ffe63d0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_registry_tests.mv",
+        "sha256": "dd1960022c29dd0414ee435d6cade6c7620127380e487533856e22f3f0d0096f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/coin_tests.mv",
+        "sha256": "aed3a07a65094a2d5c8bacb0cfd362ecaeee3d3dcb2de9d2e3bc13bfdb836f29"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/config.mv",
+        "sha256": "9631636ac246bd4563f4fbd78f387b74927e9062791ed8d33a4a2ae4b448e664"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/config_tests.mv",
+        "sha256": "7153615377c1bc57559b1d7c1459b09b61e392bf32b8912dec5dfe1ad08d1fb3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/deny_list.mv",
+        "sha256": "8239887b70e99dd396f99d6c1ccacb2e49e1927b757aaed4f45cd322f69859af"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/deny_list_tests.mv",
+        "sha256": "5e1f278cc15afaa4b7384b052bb139c73616c0cff8eded35e8e593a3792f89b9"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/derived_object.mv",
+        "sha256": "9c95e6417337b079d5929eedb559c1d631967789d2980ef2342c35dcb3267ce5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/derived_object_tests.mv",
+        "sha256": "999348d1ff08d62e68f0d8970c9ab9cefc2d2d46e6ad5456c196f87618e35583"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display.mv",
+        "sha256": "4b528a26329f77988f37d68229248f515e4f6b397a0c5327867f5d58ea65b593"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_registry.mv",
+        "sha256": "0b624a5f2f5ac05d6bf7309176ac5feb399e8bd3539f081b1cb604203630be1a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_registry_tests.mv",
+        "sha256": "390f869d6e0b67b78b321e31cc4e5b135d0050a3f55361388a09fc0d044a5812"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/display_tests.mv",
+        "sha256": "bf86ca28473ece2c210e337df8976671b04267e206ddfa468ace931dd6553f83"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dummy_policy.mv",
+        "sha256": "2bcafd4c84562d030d8e014a7eca99f2983621f5bd35c391a81157b53622db79"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_field.mv",
+        "sha256": "7769b0ae701339cd601bbae01610078aeb0897f4119681b39589157bda45dcc0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_field_tests.mv",
+        "sha256": "3465a7de16047336a260dedd88c7cd60ea347eafc470396bd8fc99c7d0ea0b60"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_object_field.mv",
+        "sha256": "eea9191dc71785fd1deadf92f469cf16d073e4768bccdf6e75108acc67b7a71f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/dynamic_object_field_tests.mv",
+        "sha256": "3dfbf847c9575b1f91c12dda24cf68dff96d5af01a54aaaf124830d1f68fc318"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_k1.mv",
+        "sha256": "1b78da5c7eca6bb1e302112e250df650051c26d76dcfd81bfa1da3a146d38f0f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_k1_tests.mv",
+        "sha256": "ad99e3365bde1683a45e052c0ae033cfc955b16e4a52c2c31fe25843a48dfbee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_r1.mv",
+        "sha256": "b993b1d05108aa4ea91a71950f4d3e61ecdccedf56d2fed28e02e29014c0a584"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecdsa_r1_tests.mv",
+        "sha256": "8bfee4e544f1ae6e4d6509641159c0f64d4eaabe37cb8c3da9f619cc40a5ff38"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecvrf.mv",
+        "sha256": "570e26e8941747e4baaf9dd1d8b0a417ecc806154e305615e990397427b8a381"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ecvrf_tests.mv",
+        "sha256": "3acdb5288bb577ce7fb32d3a7790f7536407bb26269fb4e895b5182950a8ca71"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ed25519.mv",
+        "sha256": "3de1b9607aea50993f336b3ab3614fedcc5f386e4ffa03823a0347b2b7566474"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ed25519_tests.mv",
+        "sha256": "7c6ec143ea67e9bd38d55ffb9951a3720818d51e2461ff92616b30d435e91ce1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/event.mv",
+        "sha256": "15e35587957fbc980f933aee5e767a7a7e20b7b5c88966045c933b293d13c03d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/event_tests.mv",
+        "sha256": "396b71162e71941f80decb1e6a8e8d61a9d4e7a0dc6be3453596cc7e922a930f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/fixed_commission.mv",
+        "sha256": "3d316a3d3eef0bb6394bb6cf16e31e86984fa47eb11f0a4aa44f1608cfb3c0e0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/forwarding_address.mv",
+        "sha256": "80b4fc9140433bbcc55f6e6086a8805582b91b5b81f03be7cc5519340abaa788"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/funds_accumulator.mv",
+        "sha256": "79c872dc395201c5758bb4b52fcf8bfcad07c423ce652252b71c5ee67796cd2a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/funds_accumulator_tests.mv",
+        "sha256": "f8c507821ac9db741dde266bcada22779d4ddd625c2efa91d0381720faffe212"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/groth16.mv",
+        "sha256": "fa308d24a44503440a8f4e1fd25dfd6e08c4d0986c168d52cc76c04dae414eb6"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/groth16_tests.mv",
+        "sha256": "06ed00150289f5219a8d55ede568af2a04b51f97c1a4f5aafd7e9a88e7d4620c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/group_ops.mv",
+        "sha256": "a4c27e9d6da6b13e08f82178e3df2d21427dd1f062c82b3b759784fc253bc9ef"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hash.mv",
+        "sha256": "19686db92ef8115683c40d87e32531d91e6bd83c7c2441ab3c94b952258fd78a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hash_tests.mv",
+        "sha256": "5f6bd1d0493493c3e1220190f3881a59994a93c1026ae0da53763b96b3415bbc"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hex.mv",
+        "sha256": "3f63781bedafb3e0bc771f1708ee14b739c21284fd3745e1099290a924929832"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hex_tests.mv",
+        "sha256": "4defb28deebb84ab837fa91a4889b2e97b7f3ece88fbe531055edd6d1ca71bda"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hmac.mv",
+        "sha256": "3b7672d728d97193716ae791bf7179865c2b87857c8d1d2532d25115c4a28ebe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/hmac_tests.mv",
+        "sha256": "ca557af2fdb13e92c513dae74363863c8cdcaa7067cd70a0b4ddfa51bd57bc80"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/id_tests.mv",
+        "sha256": "e81b8293f22a08ef1e7ee47ded5ed61d0acdee6d7aad152b861eeeef49913d85"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/item_locked_policy.mv",
+        "sha256": "587120579bd1e843b0061f39551850d0949c0e41053a050ff9d5dc67df8694fd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk.mv",
+        "sha256": "527ca98efdd60a81e48af2210b57033af670e93f3765b0a59a93e04dd967db5b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_borrow_tests.mv",
+        "sha256": "98b7d4bedb483b925572b16a8360b55a988e4b97b3ecd35b21a031589ea035ed"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_extension.mv",
+        "sha256": "e5c4c58fba43511fd58558cd35aae58d312f22295c8b1c696dbc3115168d732f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_extensions_tests.mv",
+        "sha256": "db873cda604c2189c686b861deebb2442a2fe50399d4e265f0f89fcc3bc867ee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_locked_test.mv",
+        "sha256": "11eb0cc9f5fdf3b62c0fce5d491098c06198dac70debac3af9f3a23c2ce80c02"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_marketplace_ext.mv",
+        "sha256": "775bc308a789dccdb9009586590d7e66cfbd49c1c88db3ff6fe86052c237af09"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_test_utils.mv",
+        "sha256": "8c87f81f500ed8c0ad29bfc3bb078927a6953204042e28fc74a7acfb7a2966b4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/kiosk_tests.mv",
+        "sha256": "76f03d57efdf0b861d2d7405fb32367d5ca3178dd1498f19a1bb620c657b47a7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/linked_table.mv",
+        "sha256": "104544ddf61b575d9a1fb6b915c6c2d67b5cf694f564c0e632758ca4dcc5b464"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/linked_table_tests.mv",
+        "sha256": "8db8553409fb9b7b9c0d383ff020d4721ad77effacbffbe2b90343667b2e4729"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/malicious_policy.mv",
+        "sha256": "a3d9d88086e7c3e0e09f0c2bb1c99b0f3fac310b4874331290e136e8663dba6a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/math.mv",
+        "sha256": "156d911ad9affa75c595f7867e24905aa831a0685eddf2116abbdeeaff72cf50"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/math_tests.mv",
+        "sha256": "4c1d3c1da12558eee71a00bc69f6d93e10c04eb47b1a266bcfdf7ee7a5dba2d7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/nitro_attestation.mv",
+        "sha256": "b74e224000c727b19fc4f45e54ff64e66c37f5de84cce6210204d8f0778531d2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/nitro_attestation_tests.mv",
+        "sha256": "a544e753643a04b1ee1843a13795e0dd2f67a63247cb70ac2226a6f6a59e302f"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object.mv",
+        "sha256": "25663803bea7cafcd9b37f86773d7a05f8ed8483203fd2c6fe7c9065b07b941c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_bag.mv",
+        "sha256": "4ce1da3c08636868df5fbbc3c1c69b6c5daac61d990028b68fef091bcfd9e9c5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_bag_tests.mv",
+        "sha256": "a16bd6f402c8761fbc1c8af11d454cfae01c9ddcedc1c23010d367b3d87d39f2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_table.mv",
+        "sha256": "b1c1c40dc1affd0eb4fa624267a33ba5c27f90c5915c74889e415eae3b844553"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_table_tests.mv",
+        "sha256": "99c763d5ff917d16bc0137cfa1fe6221fcc21537e24f72815fe1edee032734a4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/object_tests.mv",
+        "sha256": "b474fe79abb161e184c12858920e4bfc2750d2b42649512ce22f88cbc513d6bb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/package.mv",
+        "sha256": "1ac60139d24de5c4acaef94f7ae0e2d55e114468bfe775c6243a4103ed3c8105"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/package_tests.mv",
+        "sha256": "b98aa2733d15662536822e9bc77d19fc0e5a79aa0f39fe3bcfc3cb71c7442822"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/party.mv",
+        "sha256": "c49d7624c9c04a172ac776005a60e9d6910ac1c9fc581a43927f6f786fa1be89"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/pay.mv",
+        "sha256": "213a8a8a49376a8a89e181841c4a9807a676f0e281f69ed4911f74445443b626"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/pay_tests.mv",
+        "sha256": "f4f57795b39e8bdcee0281a47743c914aaa4ab6b79fb498ab87aba4d86f906b7"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/poseidon.mv",
+        "sha256": "77a73ed44bad95a4adf56d586fec5db64c5ad0b71159bec259a44a49e53fbdc2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/poseidon_tests.mv",
+        "sha256": "8c4f7f92c93c4279f1e96f2355e472b2c9caf5a242696aef2462a5929f6c63f2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/priority_queue.mv",
+        "sha256": "eb2bd24627ef63b6de44d109d9b43a35d63c8c4f39384b280fa13d6a29d809c2"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/protocol_config.mv",
+        "sha256": "4a152ee802a78110d4b99f94f041a18bc80283b703f1581e8bdac911c5bf7c4e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/protocol_config_tests.mv",
+        "sha256": "c447ec01157bd3ccf0c79664b306c7af52e8e8624cd7f48412508229ec7f5cde"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/prover.mv",
+        "sha256": "a36a4e18b735bcee79c05d7c11bb4e840dab0300e37d1daa90326faffb4da80b"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/prover_tests.mv",
+        "sha256": "9ae532879b33d078f658b36053d88581c63af8d388c1e79a653377abb613b2ca"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/random.mv",
+        "sha256": "8f9db8f996b67f59c8aca49f8e3d12d216f91f68c7f16ecdaa1a80892ca5f44d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/random_tests.mv",
+        "sha256": "3e6ae6be23b528ce86002afa269890419d3560d9ffdd5a23f1fc2cf3e1840844"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/rangeproofs.mv",
+        "sha256": "2193154fa4e803fc687974da9f3ed2c351ecdb976554dd169bdd92396d62950c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ristretto255.mv",
+        "sha256": "54bc4ef8f4ea13df2cc77c6ac4f04f9919061fc07c1be47c9c370423f9ee5a84"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/ristretto255_tests.mv",
+        "sha256": "0260d7dff878484524fb99b1e308fb8158aa1181778b30463b4ce35e06860355"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/royalty_policy.mv",
+        "sha256": "025e10b58eb4d7f94d52ca2c3b18229f90afbb3af8c25bfc9ed928fa327670f8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/royalty_policy_tests.mv",
+        "sha256": "77632aa7933ad845275125280ee84737a69eb0396b65cd4ee4ca67a02336947d"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/scratch.mv",
+        "sha256": "05fdb72b98d22dcd919f3287ecc8ba752cb370a6eac2ddd25022698d06415ea4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/scratch_tests.mv",
+        "sha256": "47f9148359caff3d6d087446380d9f94de2b7da0dba3f2600506f5cde9f14c8c"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/sui.mv",
+        "sha256": "ce5b97b80d8e9e7a641a78095296c428527a935e1ecd516081458d88f0e69862"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table.mv",
+        "sha256": "d0dc502d8536f95b25c4d8baa79156ff1e8bccaf89859b24263694a4dbaf297e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_tests.mv",
+        "sha256": "de5c1f6fd32968cb8deec8a507be5cf8946cec360aa808bb053980c98f89ddcf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_vec.mv",
+        "sha256": "5bde34a14e63a1d3ca288c6327052bf195f2b199be54555940e84301f1a506bd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/table_vec_tests.mv",
+        "sha256": "a6f9322ad3fd48a14da0654ac1e3defc117ff500bfd50c01c6cec3dff6b91410"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_random.mv",
+        "sha256": "c141e4fbece5e1e7fee8aed179922437e74b89f171d71aaa75dbc1c543902aeb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_random_tests.mv",
+        "sha256": "f64bfad7369b0d9a87fd02cdc62fcdcad9403ba6b941007a8e96c40b1e119629"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_scenario.mv",
+        "sha256": "8821b3b83a9801619c32b4956dc200b3bbfbf1bab5e656f9f09db5907bd84d60"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_scenario_tests.mv",
+        "sha256": "9a2c636ed7958cd5cdca5f7241b0466143bc32b558b324995f8765b9f8e46f37"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/test_utils.mv",
+        "sha256": "1cddac6c0ba1fe0f5ad6ec91c9c101d7a006f5c7c4447ae4f0efd2fafb876957"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token.mv",
+        "sha256": "d6826085e30d66eb128ba42aacea6f0fd22455d904b30f46ab88b1acc8be4014"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_actions_tests.mv",
+        "sha256": "88e534042adf293106390fe76220d902ec360942c8ea2fbb7a7a63d2d80baeb1"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_config_tests.mv",
+        "sha256": "de5c578c2751e87f276c93d33220bf40ef471c28a7b22a0da5fbebe8ddee2ee3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_public_actions_tests.mv",
+        "sha256": "0b5a6eb97ce74177458d25a492592ae93f31869fa8a3ce397d9b12e4656ad0ee"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_request_tests.mv",
+        "sha256": "150130ff9dda811fc77822169804ef09423bc937767f7fd819d656173f92c8a3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_test_utils.mv",
+        "sha256": "db7aa3bb31288fa0bc18e1c0eeb7b4a213e10204a10192bf94766504913ae201"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/token_treasury_cap_tests.mv",
+        "sha256": "2647dff5b8b591417f91bbbf7119d7033d7f71601a012b30550263a42bc30597"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer.mv",
+        "sha256": "d82de0c7a0a516d6d8e2796b0cdd637cf8fc8de6baf057c8da8df378ae73fa88"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer_policy.mv",
+        "sha256": "1a9c58d9914f5d4174eab6c9e44f6e1da8277797b8bafc4f2cabebc105083b7a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/transfer_policy_tests.mv",
+        "sha256": "239250dcb2d91ec454d65665e0922af7277f611bda8a4f642dbcdf49e87cfaf4"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/tx_context.mv",
+        "sha256": "807dba34356fdec361e8f0cc6a77d9dd50272335f784bf4378f2ed7073f7612a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/tx_context_tests.mv",
+        "sha256": "7ea7ef6593223526aec3dcb82583972fe98b0bba985866778caee68c6761e033"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/types.mv",
+        "sha256": "93fba99a595a289f2c6b10a3eeaa2037ed9465ca89323ca11f6d9b8ddf2adbc3"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/url.mv",
+        "sha256": "45299ada786c8a227d3b9b400c7aadbed9be72ed40b9f999c204849b2e9e1a40"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/url_tests.mv",
+        "sha256": "5e3810b1d3f3390235f849a69fae97b0bcd0b15d40643a12aa9635e9e163ea23"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vdf.mv",
+        "sha256": "22e5f2bf7e100568246a42965a96f72bb6919fdf5caa2001a865268767d00719"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vdf_tests.mv",
+        "sha256": "0d2652f127ceb5674630230cecdbb971421f2dd86d04883ebd35529ece55d2fe"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_map.mv",
+        "sha256": "d4ed3516e1c45764ff7cafad6b062b5c3af6a85bcff7ed54f24f218fd1928bc0"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_map_tests.mv",
+        "sha256": "b256b5392e859429b70f67355fffaeff3e6b570e5ee80e29843f03d628e2c59e"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_set.mv",
+        "sha256": "be1d9a5056a4e9e7f5d194e14821515e33f47fc70afbaaf82efb624d8770328a"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/vec_set_tests.mv",
+        "sha256": "f6fb461e43ae3f2256126d20d6826347948e60a0d8e71b78c4c17d21a6579b81"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/verifier_tests.mv",
+        "sha256": "13ef433da1d9512bd4acae302bb339f3871ee0417ba9bcd1c08103cb79183cc8"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/versioned.mv",
+        "sha256": "c91a31473de0c7cf808907c357c2a770723ae24ada8360c19a533b9aba3a4cbd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/versioned_tests.mv",
+        "sha256": "ab6af21d9842b15c5aed5f7e2dcb2a92b7a820fe4d025717fc40b927816cfdcd"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/witness_policy.mv",
+        "sha256": "e6469b0c28e7cc1080d5fa467ec0ac3408657193d9033794db63a666bbb73845"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/witness_policy_tests.mv",
+        "sha256": "9521fdb3894370afbf446475b9b036878533a779d801adda40d14b69d7e9b677"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_id.mv",
+        "sha256": "a44b28291839b7206b6f811be8e840e376507c4f3f958b60bb568588f3982ccf"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_id_tests.mv",
+        "sha256": "136daf9d983dcd672a7534daf1c39e045833db4551d6fcc7eb5e769a23f94dc6"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_issuer.mv",
+        "sha256": "2eb4270287ed5ddbdd43d9e967091f5d4723d426c2af236470779e6391b9f5cb"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/dependencies/Sui/zklogin_verified_issuer_tests.mv",
+        "sha256": "a0f485e668e7ff6c119e64eafe809ae0b7d1897eac54c00bac7e87eb44239125"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/native_binding.mv",
+        "sha256": "92416215e2b551acdda0d17fd771bceb0e48f4b53e94122d365f9b39361d80b5"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/producer.mv",
+        "sha256": "411105e7301759a189101d4a9511542278a6daa62c32a64c3a2ecd2deabb1007"
+      },
+      {
+        "path": "build/ForeignPublicationProducer/bytecode_modules/tests.mv",
+        "sha256": "5650a9e23910fd7b73b00e336885e5807bbca1b7715be7b9e47c3ecce1fed6d5"
+      }
+    ]
+  },
+  {
+    "root": "soulidity_v1",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_v1",
+      "--install-dir",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scratch-build"
+    ],
+    "returncode": 0,
+    "duration_seconds": 45.33856500010006,
+    "bytecode": [
+      {
+        "path": "build/soulidity_v1/bytecode_modules/access.mv",
+        "sha256": "7acd73b475778166ea8dbf170e46a59ad41627dce9c4f323a3a436571b711f37"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/access_security_tests.mv",
+        "sha256": "7321a96c359cce49d85aaa419cadb4cdd40f9db6a1f1f6350735ad155542adfc"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/application_operator.mv",
+        "sha256": "c16cd47e5048cfc6da25fd8644ec806aa54efc43cd85ab55be9ba2b77ba58cc4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/authorization_tests.mv",
+        "sha256": "6a07ad9295bb66224e3c493a805d6a0b2465924847cebfea2249114ad5e037b4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/capacity_tests.mv",
+        "sha256": "6320b9f0f2f97fe95f1559518980cbd1c850dded3d7afb45974d00cb96a87e7c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/catalog.mv",
+        "sha256": "5c0d22fd9a3ce985852be8df0dc80079feb966bd369c36d7ca2a8255efe78e8e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/character_boundary_tests.mv",
+        "sha256": "3c0b6058c90f4a65e8796aaf55d23ef5a7b77759a0dec67ca244a37b9ea633b0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/collection.mv",
+        "sha256": "99ca79c155606f8963bb953c996f34cc12aa8ca827e32a3bf792a47e328c0b7e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/collection_metadata_tests.mv",
+        "sha256": "a97e87955edf6b4bfd655fd33a0fefa3cac32d1130b3dae7de3d40818487644a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/collection_tests.mv",
+        "sha256": "789e403c7fde1396ed1c602e0938dc8e8193b6d515372779b2c1744bdda990ee"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/commerce_tests.mv",
+        "sha256": "ba293342e69374a9518eadd0941caccd246284808e9855bd501c5f4f34e122d6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/community_tests.mv",
+        "sha256": "ac6b5f3617f3c3c3144a7a5fdaa758f33a5a26830cfb400c3cbb796d6f1482df"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/compact_binding_tests.mv",
+        "sha256": "0b6d456bd436f84a121a2374a34d0fc286873159e97fe3d280199c532e84f8d7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/completion_cap_tests.mv",
+        "sha256": "986affe530892bfd3fc62e57c6d76579a7849654477fd922d55aa41fcae3b274"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/component_issuance_tests.mv",
+        "sha256": "51949fc093dd10e5f773acca6481b1f10d0dbc24e9a85e8c6413d9d9d3e73574"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/config_tests.mv",
+        "sha256": "10d76de351cd65482c5d095980dc945a727b5b3ec6236d65fa4af3447811905c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/content_boundary_tests.mv",
+        "sha256": "396ceff2b254d3183cf40e7d992a6282d04acbeb281ed9053e17b406bbb86ae4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/content_tests.mv",
+        "sha256": "d7235846c5240455c38b123d2f3d84e5854d0932e949f5f7fbb72d97909bc25f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/custody.mv",
+        "sha256": "d915c8b0e6da5a9277e746a5c871b104fc83d0db9acab174244e199477d96ad4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/custody_creation_tests.mv",
+        "sha256": "577e1aa90b1f3a88c6538bd7c5836ec95cca361608c5ba1c05c85d018b0c6a5d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/address.mv",
+        "sha256": "57a72efbe7e51223ebc985cd50d5e639ec82eecc8609b66b05793e7b5f0f3a68"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/ascii.mv",
+        "sha256": "c776f30a0976f2d63ed07ef3e09a3d4283e7b508a4ffad74e8a3784d82e752e1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/ascii_tests.mv",
+        "sha256": "2e690abb2ce9f899fa85b2656afb89444bd9bfb538e96d266b91fcc924d5dd05"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/bcs.mv",
+        "sha256": "98d59a872e8d93f6a380dee5a81a634a9e286ec45f8955655a6e0251d7494c25"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/bcs_tests.mv",
+        "sha256": "73a21975dbf4211e526b1b7dad17e6c44cb838c943af68a2b4c17997cc69bdf7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/bit_vector.mv",
+        "sha256": "8b382890039c59e18b9f03ed194be23458be57a76f76db0b29b8a438ac67aa12"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/bit_vector_tests.mv",
+        "sha256": "046318ff21af5d60d4bbe9eec3873c47c90474bdcdb014c37d282dbbf1c0783f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/bool.mv",
+        "sha256": "79cb2014c95dfead9378f44a40bc8ac28a9364cd43c40b01e312a405fdf576cf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/debug.mv",
+        "sha256": "ce89b6c60eeca2cc6b3f058d09d934cdb96e7954640bc5422395292da341bf53"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/fixed_point32.mv",
+        "sha256": "06f350681148fc364132bd287e9eb529870d1318714bb0805dedd0eae714b742"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/fixed_point32_tests.mv",
+        "sha256": "d7da3cd9e7c672f47026d3cdea1d9bd8a10c496affbc40263ba6d74a167bdc3d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/hash.mv",
+        "sha256": "939871753a6ada94329e82237502cc64bb99d64d855bd7007e625bffc9c89cf8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/hash_tests.mv",
+        "sha256": "ed286e75593fdeed7c9c37b2ad4ed77383877589832b6bf107a7ada21ce5570e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/integer_tests.mv",
+        "sha256": "6809d9d3157296d778972ee0e40e361d6f49e2eff348bc36159c06a170eca9d2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/internal.mv",
+        "sha256": "52f16ed840bd341771ccecfbe4fac9805a4d007576c5c9d1ba0e415549538b77"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/macros.mv",
+        "sha256": "66de6647d83ca6a7a2d3657cbd904a1f3a3279cb8651c2f6fa8fadeda59c21a7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/option.mv",
+        "sha256": "d5bbb0429cb10932e06ededabeb35fbe247a8e90e6096b691f3e05c092d255ae"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/option_tests.mv",
+        "sha256": "97a9a5c56efb498e9fd933efa46a24d96e8120ea5b9de3e28178d4da4effd614"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/string.mv",
+        "sha256": "abd43ab32b4f2c5a3fef6545d57ec78b313f9b052562f5b896d4fd766037dc96"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/string_tests.mv",
+        "sha256": "fbc19411460c0e2acf683a49c63928a9b8d9e0f608f983c1a85191c60190a91e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/type_name.mv",
+        "sha256": "4a99db45380cd9ef08b4eae8f87ddeed0d79e8f24bdda2a0e7471f631f52b1b0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/type_name_tests.mv",
+        "sha256": "a4e189263f83e40c2a146bda97a66d1a8ec746b8f0026594d7d0f53024641e2d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u128.mv",
+        "sha256": "9c489c10729c161300c6fb092d4122aa690b0790abbaea1a65edcc3e047eccf0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u128_tests.mv",
+        "sha256": "0db45bbe0746c55349fa49f2adb570fb5d7547c6ad6ce7c5490b5773caea15ec"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u16.mv",
+        "sha256": "9812885a591f7026ce6de94f120133fb7c22f5431d75194855d7775e1bc907e3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u16_tests.mv",
+        "sha256": "42412138843c97d357d6e8933b967fc47b3fdc650b5e44c54ccfe411c2d2b013"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u256.mv",
+        "sha256": "c15c7a573c9b1b845d8317f78b66ce2ca4083b35971082c7ca9911423d88fa87"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u256_tests.mv",
+        "sha256": "9a0845b4f684d2027b757edbb8eaaf5e3c58d9b01470317a737f9b57f3d94d7a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u32.mv",
+        "sha256": "ad64103e8d666e9b752cbe73d8b7f2fdf3115dce0236311974728f7757f9b5e0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u32_tests.mv",
+        "sha256": "1f31637facce8a21818cef0ad7d33388de31e57db8fa9b5d9e9a85f11e7e0d1f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u64.mv",
+        "sha256": "a4f091d6541cf6106197e682b48d81e153f97a5760f9b0147da21add8b5a76aa"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u64_tests.mv",
+        "sha256": "c3d37ac0ad3876bffbaf06c9b23fac46227654e3c60f523ccdec475600db785b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u8.mv",
+        "sha256": "f0a95e3657806ddad7e198410b1d7691be2ae7e914f00a8eba5b1b629fe17dfe"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/u8_tests.mv",
+        "sha256": "8d28d74fce11dc10769affa8cd836e14c9f9e423d8391b027311ca6f256102c0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/unit_test.mv",
+        "sha256": "26e23964a6a170a1249b714f3a5be843a6a80ca07a84f2a0b9b701f337fd1776"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/uq32_32.mv",
+        "sha256": "3d8cb785516321a36a785581704bbcbb70baa9e616c734012babd24653846a2e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/uq32_32_tests.mv",
+        "sha256": "e2d7f4f09ba83fe0564b99bf8bf8f5225b0bcfb79e6435fb5fe029e330ed9d0a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/uq64_64.mv",
+        "sha256": "6654947f94058e39cb55d971e53d42389bb21bfc9402d3334c89a094d628635f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/uq64_64_tests.mv",
+        "sha256": "96e7aeb8719faaa570880afd07283239ddb02bd899aeb20b031561805910d43b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/vector.mv",
+        "sha256": "bf8afbceb35d981a45bdde3d5c9da25ce67916442f89c4621fbd85f9b653a7d4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/MoveStdlib/vector_tests.mv",
+        "sha256": "c3b0c43de4871eb0990f7c77cf67406a3978266c528dbc473cbb6bc634e4d56f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/character.mv",
+        "sha256": "1a98a4bacdb016fae5222e71f2e0059cb1a7f0e7939a7febe285ef387b7a4bf8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/forms.mv",
+        "sha256": "eff0c49558eb2711f254cb43c028a8565f184e2f9c4911c589dd7a726b510c00"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/growth.mv",
+        "sha256": "fb944fa4cc29cbe073f1a08999ea10cef158cab46e0113e3b84a84269dd4e762"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/issuance.mv",
+        "sha256": "0507777ba15945d9378e46965ec0b7ac3f4830b9aa1acbb049178d2e66449089"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/output.mv",
+        "sha256": "b245017740ec55da90ee9d7a12b7a1b8351aa44869a75d4e7893741aa49421e1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/physical_metadata.mv",
+        "sha256": "baa9beea14502ed50d4538ab5921c847c24d67c52d02a27eb575979f6b0ebcbe"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/publication_rules.mv",
+        "sha256": "b003e7dbf22f4ebff1a00245b5d8adb3544c3c0d4d5bce1991024226ff05b251"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/resale.mv",
+        "sha256": "f795d2742f664042c237b4f1d6d5ee5f215221a23e7000178dbaf601729be0bb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/vault.mv",
+        "sha256": "40f4106cb3214f85a460ec3380cb2fc74f005ee554a66a34ff2690412f4a1d03"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityApplication/visual_capture.mv",
+        "sha256": "eb9c2f0214b0e435d350a5326eb15f80017adfb6ca79eaa25f61e38dcfbbf043"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/community_posts.mv",
+        "sha256": "58674aa017c8517d2ae45e291326883571304af6a15a54cc29c724866e63ab5f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/community_votes.mv",
+        "sha256": "7ae39678cae2f2e8016bab904a609ce6557c3c817ebbd42852af7f50f0d865aa"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/original_community_posts_tests.mv",
+        "sha256": "7d1e2e42ccdc08d3438eeb2077a39c34048fbce0766bb81eae8494168feafb4d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/original_community_votes_tests.mv",
+        "sha256": "63cacc9130ca5ce5bbf6197c0779752f89e1fcf936d5aaea15ff41589abd700d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/original_social_tests.mv",
+        "sha256": "c95cc4bd6385ff1c874fa83092ac94e1f985eaf2a012de74f641510e3e575018"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/private_bookmarks_tests.mv",
+        "sha256": "872837456f8ab46f5becb2f96ab87a182fc8331a88a76a2a1414a33e7a23015d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/profile.mv",
+        "sha256": "c1ac9cfb4770e83453a34599c552be974ce1c99e3b216d8e560faf43c56d5a1d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/profile_tests.mv",
+        "sha256": "c68db74e9f49ff9c8c573fea8be2a8f5c9cdb3503704f6c8f286df9c65a198dc"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCommunity/social.mv",
+        "sha256": "407451702b3ff34c9b7ed36c7d73d7915407f142843dc42d964918643e548893"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/authority.mv",
+        "sha256": "e224df041891dfccce2de2ab4af275be69d63759e807b26fe680f00c48e13479"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/authorization.mv",
+        "sha256": "49994e098a92af3f39acbe56146ec42cd3f16d839064189a93910bae62fd9dd2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/blob_custody.mv",
+        "sha256": "0f6ea479b9e039fbd3cabf806aa835d627a21a4ec48047931b03f4ab3bd9378b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/document.mv",
+        "sha256": "7c9153a49bdd2246bfdcb220c93d6e4c51f422b5520b157a1740a51f3895da46"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/founding_library.mv",
+        "sha256": "315d3a89f2bc770373da51e7374295ef9f29b98d0d62694309b4fbf8b6bfc6fb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/kind_registry.mv",
+        "sha256": "4bdf85bcbd2fdb741833046322169993220f041a9712a378874a63ff9226ee0d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/loadout.mv",
+        "sha256": "68c221f0dc36f44dbff97ecae8655f3ceb789f75d282d4db348221b7dc513427"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/paged_store.mv",
+        "sha256": "496765fb1827c9cde3d245922341eeacc989a39748a721d498a46636ad8e703c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/paid_access.mv",
+        "sha256": "af7c724866c557d8a7f212431ae00a62bb00dfdb7599f90c8718de9344540e2e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/permissions.mv",
+        "sha256": "e81cb8ad48a999d82905380d2e7dcf90014fd27f418cc0b7f80e22c533742650"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/state_configuration.mv",
+        "sha256": "b53a219324b61b9b60f63728ff5901698e666afe0a673775cb49a015b8bba2e8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContent/storage.mv",
+        "sha256": "b446a54b1b5645eb0cf0ec61b0ec2e1f56a5d8998079c7644028f1bffadc92d1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContentKinds/content_kind_registry.mv",
+        "sha256": "04d414175d2a8439f6697c33c2fd3b93e746fc4083ecea4db0a753196012b982"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContentKinds/content_permissions.mv",
+        "sha256": "832de1746c5b402d1ee6d47419c4c73cfaded26806cea09947824b560cb6a0fb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityContentKinds/document_policy.mv",
+        "sha256": "b5d9e92a3481386f606a8533eb1a39516a9923413935ff0cf3d8e09cac07853a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCustody/account.mv",
+        "sha256": "569f906eb744af7dad3832208137f110058d882283efadeb98337b1cfbc78fd2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCustody/creation.mv",
+        "sha256": "75c4624f340732b4a9b97168825ea57162b0247cbccda5ccf5976d9a71a31e48"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityCustody/custody_namespace_tests.mv",
+        "sha256": "c7451f348f57f5dcb808aaccdfdf5a936687ba816c09bc6dc2e8e390a47d66af"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityFoundation/economics.mv",
+        "sha256": "8c18d9694ea827cc6ecad981973256a3d5ce71fc1b39bd84da158d5bbb7528ac"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityFoundation/package_roles.mv",
+        "sha256": "70443dc7e65e466aa5d2c638df2bc49a942c5cb1774abdf2dbfd091cdc02a0ce"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityFoundation/revenue.mv",
+        "sha256": "1b8f5ce6f15d8eb574af7e11311ff279b1894aadc3a1ce254e0471b38291b690"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityFoundation/source_authority.mv",
+        "sha256": "75e862363f0d25b49d09fc7a14b6eeee5eb85ccd73e8879ad86f3ee9f5df6eaf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityMakerAdmission/maker_issuance.mv",
+        "sha256": "7f0a1159751a2d56aaffb756ddb1efff01741c06d3f97a75b943d3859574842b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityMakerPublication/output_data.mv",
+        "sha256": "420ee77030723a71e52df95fa2acbd3749c65e4b1e3bb341052e116f697810ba"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityMakerPublication/publication_validation.mv",
+        "sha256": "2781086f5e500c3e1dee31654db582e8c48c93132411b7ba0a2d84d684e48945"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityMakerTerms/maker_physical_metadata.mv",
+        "sha256": "6767d0c38b745cc131a0ca7cf377b71a50991c005339841b02717550ef76c1af"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityMakerTerms/maker_resale.mv",
+        "sha256": "e7416fb95c18ac6f9271d61ff2495fdf111439dc76e779b498999a34baff9de3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityModel/assembly.mv",
+        "sha256": "8d465cb7e9e998285e7efaa0a06e9b0c371ed50d6066d74a5bce2f16fe3aabf2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityModel/components.mv",
+        "sha256": "3be5fd683a8962980509928bbb2f9a56aa444b8f1694d661b50b51e1cf3cd72a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityModel/material_policy.mv",
+        "sha256": "527ab3d21005fab357b189153787a69f6ee0af395516dd373bf62dfb544f5089"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityModel/policy.mv",
+        "sha256": "64685169a70c18b3fc09da2507f18c5f67176f4195454a57c7e036b4aa7db2af"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityNative/birth.mv",
+        "sha256": "c55240b00adc2c6dad2d4f13bd838c7062e863943c4c77c3fd86b1e9b09d327f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityNative/registry.mv",
+        "sha256": "ddce793a9efee9aa7f2c8f55ca156d0feaefd0c47f2aa51eeec17efc99866df2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityStandard/foreign.mv",
+        "sha256": "86ac4f107941b4bce5bfb8f9d27a3be68d6a4a703bd68834cd67122881debf8a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityStandard/kernel_tests.mv",
+        "sha256": "a9bcf86926a2d56c1de1a572ceb83646b66c39e956342d0d523f4ee665924c45"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityStandard/publisher_tests.mv",
+        "sha256": "714cd36498e04dac4f73fc225d5c80c416f7078474f34bf1ca68fc40459ba67b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityStandard/soul.mv",
+        "sha256": "19e19b32f47108b0a778bee3f6b56998260a6ffd12a0bb930b2df5ebafcaef65"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/SoulidityVisual/visual.mv",
+        "sha256": "1f164f1d2fbe74cfbed74386bbe3d2b7632a75ca554ff9181e68923799171f1b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/accumulator.mv",
+        "sha256": "13f1e245063ecc1968951d3ad09c08aa71a986812cc81ba5e0934494357ae71e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/accumulator_metadata.mv",
+        "sha256": "d25e4fefc9cf5c3bda8669a92ae2094a3d2dc5b894210ecd3d6893b4ced7596d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/accumulator_settlement.mv",
+        "sha256": "0295d713fa20798808689a203a9a707ecb7f1dac562d6654b74d039b838fdbe2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/address.mv",
+        "sha256": "128c053b504010ca059b3e74371446dbab14c64d6d6aa8d602da34aa7a6a26a4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/address_alias.mv",
+        "sha256": "2db8c12e7fb0bbcf7eff4e0caacb6017342d62ce0b748aaf6a13d6b916bfa19c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/address_tests.mv",
+        "sha256": "265debd04698a951b0ab7715775144f7d747ac3dd26f3830fd281abc368cf795"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/authenticator_state.mv",
+        "sha256": "f55a3c026f333077d7843d80e4ebbb907319705a8b5e508876fc8dee031309ec"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/authenticator_state_tests.mv",
+        "sha256": "5194d9cfea59e05304dc41f01d4e337f7906769e8983184071888d34474d9650"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bag.mv",
+        "sha256": "6cade8b408db865838497a93a8fc5d9ed65b482f47d2e99c1b1253bdd6d7e387"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bag_tests.mv",
+        "sha256": "be53483d26893272680f39d0461c85dae64327321a606cc72794d5cfff4df1c3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/balance.mv",
+        "sha256": "636798e1303aa14b00ddca0e3646f1194fba88464f658959a1563827ce705552"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/balance_tests.mv",
+        "sha256": "fe84a07f73d435e02f911644346059ea93a048ff12999638ccfa52a605adb0bf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bcs.mv",
+        "sha256": "aee6224830bee30d01fffa4ac213cdc6030d47d06ea1560bd4640cf037ad8d53"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bcs_tests.mv",
+        "sha256": "5dd3377285a93f002303be168fa3675f7eac97f06e6fce99bf56030ed11aca0a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bls12381.mv",
+        "sha256": "7613030e117fc5f158a79ba47d2795b777dfb158ef546419509b2364a0089466"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bls12381_tests.mv",
+        "sha256": "c92a6dc6f5be9814c284b8aefcf549d105f8421b8730a4782db162d5824c97ec"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/borrow.mv",
+        "sha256": "0bee4b4536ad7c5088879ccbeec282edbd9e6b9d92abfbc1cdb9337178356cf0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/bulletproofs_tests.mv",
+        "sha256": "62f105ee506ea195eeae34779135cf9111415bdef0a07cbcba45ef3c55eb1eba"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/clock.mv",
+        "sha256": "534b85438ad5091b5e939d9abdbf4ac4dcef4e08db26c7582e60939afd61bf8e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/clock_tests.mv",
+        "sha256": "c9395acc0e6b8e7474eb498d84ae124d762609c98380e8d50a13494b1e9670b4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/coin.mv",
+        "sha256": "83fb85686ddd3200f3b2f82d33e93884e847d5ec0a3036cca555fcdc4ccc0a8e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/coin_registry.mv",
+        "sha256": "ea91cb76dca83c428ef864d9ee90c98cd1ff52675aefd89ca54f77642ffe63d0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/coin_registry_tests.mv",
+        "sha256": "dd1960022c29dd0414ee435d6cade6c7620127380e487533856e22f3f0d0096f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/coin_tests.mv",
+        "sha256": "aed3a07a65094a2d5c8bacb0cfd362ecaeee3d3dcb2de9d2e3bc13bfdb836f29"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/config.mv",
+        "sha256": "9631636ac246bd4563f4fbd78f387b74927e9062791ed8d33a4a2ae4b448e664"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/config_tests.mv",
+        "sha256": "7153615377c1bc57559b1d7c1459b09b61e392bf32b8912dec5dfe1ad08d1fb3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/deny_list.mv",
+        "sha256": "8239887b70e99dd396f99d6c1ccacb2e49e1927b757aaed4f45cd322f69859af"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/deny_list_tests.mv",
+        "sha256": "5e1f278cc15afaa4b7384b052bb139c73616c0cff8eded35e8e593a3792f89b9"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/derived_object.mv",
+        "sha256": "9c95e6417337b079d5929eedb559c1d631967789d2980ef2342c35dcb3267ce5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/derived_object_tests.mv",
+        "sha256": "999348d1ff08d62e68f0d8970c9ab9cefc2d2d46e6ad5456c196f87618e35583"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/display.mv",
+        "sha256": "4b528a26329f77988f37d68229248f515e4f6b397a0c5327867f5d58ea65b593"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/display_registry.mv",
+        "sha256": "0b624a5f2f5ac05d6bf7309176ac5feb399e8bd3539f081b1cb604203630be1a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/display_registry_tests.mv",
+        "sha256": "390f869d6e0b67b78b321e31cc4e5b135d0050a3f55361388a09fc0d044a5812"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/display_tests.mv",
+        "sha256": "bf86ca28473ece2c210e337df8976671b04267e206ddfa468ace931dd6553f83"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/dummy_policy.mv",
+        "sha256": "2bcafd4c84562d030d8e014a7eca99f2983621f5bd35c391a81157b53622db79"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/dynamic_field.mv",
+        "sha256": "7769b0ae701339cd601bbae01610078aeb0897f4119681b39589157bda45dcc0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/dynamic_field_tests.mv",
+        "sha256": "3465a7de16047336a260dedd88c7cd60ea347eafc470396bd8fc99c7d0ea0b60"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/dynamic_object_field.mv",
+        "sha256": "eea9191dc71785fd1deadf92f469cf16d073e4768bccdf6e75108acc67b7a71f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/dynamic_object_field_tests.mv",
+        "sha256": "3dfbf847c9575b1f91c12dda24cf68dff96d5af01a54aaaf124830d1f68fc318"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecdsa_k1.mv",
+        "sha256": "1b78da5c7eca6bb1e302112e250df650051c26d76dcfd81bfa1da3a146d38f0f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecdsa_k1_tests.mv",
+        "sha256": "ad99e3365bde1683a45e052c0ae033cfc955b16e4a52c2c31fe25843a48dfbee"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecdsa_r1.mv",
+        "sha256": "b993b1d05108aa4ea91a71950f4d3e61ecdccedf56d2fed28e02e29014c0a584"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecdsa_r1_tests.mv",
+        "sha256": "8bfee4e544f1ae6e4d6509641159c0f64d4eaabe37cb8c3da9f619cc40a5ff38"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecvrf.mv",
+        "sha256": "570e26e8941747e4baaf9dd1d8b0a417ecc806154e305615e990397427b8a381"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ecvrf_tests.mv",
+        "sha256": "3acdb5288bb577ce7fb32d3a7790f7536407bb26269fb4e895b5182950a8ca71"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ed25519.mv",
+        "sha256": "3de1b9607aea50993f336b3ab3614fedcc5f386e4ffa03823a0347b2b7566474"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ed25519_tests.mv",
+        "sha256": "7c6ec143ea67e9bd38d55ffb9951a3720818d51e2461ff92616b30d435e91ce1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/event.mv",
+        "sha256": "15e35587957fbc980f933aee5e767a7a7e20b7b5c88966045c933b293d13c03d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/event_tests.mv",
+        "sha256": "396b71162e71941f80decb1e6a8e8d61a9d4e7a0dc6be3453596cc7e922a930f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/fixed_commission.mv",
+        "sha256": "3d316a3d3eef0bb6394bb6cf16e31e86984fa47eb11f0a4aa44f1608cfb3c0e0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/forwarding_address.mv",
+        "sha256": "80b4fc9140433bbcc55f6e6086a8805582b91b5b81f03be7cc5519340abaa788"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/funds_accumulator.mv",
+        "sha256": "79c872dc395201c5758bb4b52fcf8bfcad07c423ce652252b71c5ee67796cd2a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/funds_accumulator_tests.mv",
+        "sha256": "f8c507821ac9db741dde266bcada22779d4ddd625c2efa91d0381720faffe212"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/groth16.mv",
+        "sha256": "fa308d24a44503440a8f4e1fd25dfd6e08c4d0986c168d52cc76c04dae414eb6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/groth16_tests.mv",
+        "sha256": "06ed00150289f5219a8d55ede568af2a04b51f97c1a4f5aafd7e9a88e7d4620c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/group_ops.mv",
+        "sha256": "a4c27e9d6da6b13e08f82178e3df2d21427dd1f062c82b3b759784fc253bc9ef"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hash.mv",
+        "sha256": "19686db92ef8115683c40d87e32531d91e6bd83c7c2441ab3c94b952258fd78a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hash_tests.mv",
+        "sha256": "5f6bd1d0493493c3e1220190f3881a59994a93c1026ae0da53763b96b3415bbc"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hex.mv",
+        "sha256": "3f63781bedafb3e0bc771f1708ee14b739c21284fd3745e1099290a924929832"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hex_tests.mv",
+        "sha256": "4defb28deebb84ab837fa91a4889b2e97b7f3ece88fbe531055edd6d1ca71bda"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hmac.mv",
+        "sha256": "3b7672d728d97193716ae791bf7179865c2b87857c8d1d2532d25115c4a28ebe"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/hmac_tests.mv",
+        "sha256": "ca557af2fdb13e92c513dae74363863c8cdcaa7067cd70a0b4ddfa51bd57bc80"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/id_tests.mv",
+        "sha256": "e81b8293f22a08ef1e7ee47ded5ed61d0acdee6d7aad152b861eeeef49913d85"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/item_locked_policy.mv",
+        "sha256": "587120579bd1e843b0061f39551850d0949c0e41053a050ff9d5dc67df8694fd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk.mv",
+        "sha256": "527ca98efdd60a81e48af2210b57033af670e93f3765b0a59a93e04dd967db5b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_borrow_tests.mv",
+        "sha256": "98b7d4bedb483b925572b16a8360b55a988e4b97b3ecd35b21a031589ea035ed"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_extension.mv",
+        "sha256": "e5c4c58fba43511fd58558cd35aae58d312f22295c8b1c696dbc3115168d732f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_extensions_tests.mv",
+        "sha256": "db873cda604c2189c686b861deebb2442a2fe50399d4e265f0f89fcc3bc867ee"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_locked_test.mv",
+        "sha256": "11eb0cc9f5fdf3b62c0fce5d491098c06198dac70debac3af9f3a23c2ce80c02"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_marketplace_ext.mv",
+        "sha256": "775bc308a789dccdb9009586590d7e66cfbd49c1c88db3ff6fe86052c237af09"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_test_utils.mv",
+        "sha256": "8c87f81f500ed8c0ad29bfc3bb078927a6953204042e28fc74a7acfb7a2966b4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/kiosk_tests.mv",
+        "sha256": "76f03d57efdf0b861d2d7405fb32367d5ca3178dd1498f19a1bb620c657b47a7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/linked_table.mv",
+        "sha256": "104544ddf61b575d9a1fb6b915c6c2d67b5cf694f564c0e632758ca4dcc5b464"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/linked_table_tests.mv",
+        "sha256": "8db8553409fb9b7b9c0d383ff020d4721ad77effacbffbe2b90343667b2e4729"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/malicious_policy.mv",
+        "sha256": "a3d9d88086e7c3e0e09f0c2bb1c99b0f3fac310b4874331290e136e8663dba6a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/math.mv",
+        "sha256": "156d911ad9affa75c595f7867e24905aa831a0685eddf2116abbdeeaff72cf50"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/math_tests.mv",
+        "sha256": "4c1d3c1da12558eee71a00bc69f6d93e10c04eb47b1a266bcfdf7ee7a5dba2d7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/nitro_attestation.mv",
+        "sha256": "b74e224000c727b19fc4f45e54ff64e66c37f5de84cce6210204d8f0778531d2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/nitro_attestation_tests.mv",
+        "sha256": "a544e753643a04b1ee1843a13795e0dd2f67a63247cb70ac2226a6f6a59e302f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object.mv",
+        "sha256": "25663803bea7cafcd9b37f86773d7a05f8ed8483203fd2c6fe7c9065b07b941c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object_bag.mv",
+        "sha256": "4ce1da3c08636868df5fbbc3c1c69b6c5daac61d990028b68fef091bcfd9e9c5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object_bag_tests.mv",
+        "sha256": "a16bd6f402c8761fbc1c8af11d454cfae01c9ddcedc1c23010d367b3d87d39f2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object_table.mv",
+        "sha256": "b1c1c40dc1affd0eb4fa624267a33ba5c27f90c5915c74889e415eae3b844553"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object_table_tests.mv",
+        "sha256": "99c763d5ff917d16bc0137cfa1fe6221fcc21537e24f72815fe1edee032734a4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/object_tests.mv",
+        "sha256": "b474fe79abb161e184c12858920e4bfc2750d2b42649512ce22f88cbc513d6bb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/package.mv",
+        "sha256": "1ac60139d24de5c4acaef94f7ae0e2d55e114468bfe775c6243a4103ed3c8105"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/package_tests.mv",
+        "sha256": "b98aa2733d15662536822e9bc77d19fc0e5a79aa0f39fe3bcfc3cb71c7442822"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/party.mv",
+        "sha256": "c49d7624c9c04a172ac776005a60e9d6910ac1c9fc581a43927f6f786fa1be89"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/pay.mv",
+        "sha256": "213a8a8a49376a8a89e181841c4a9807a676f0e281f69ed4911f74445443b626"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/pay_tests.mv",
+        "sha256": "f4f57795b39e8bdcee0281a47743c914aaa4ab6b79fb498ab87aba4d86f906b7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/poseidon.mv",
+        "sha256": "77a73ed44bad95a4adf56d586fec5db64c5ad0b71159bec259a44a49e53fbdc2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/poseidon_tests.mv",
+        "sha256": "8c4f7f92c93c4279f1e96f2355e472b2c9caf5a242696aef2462a5929f6c63f2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/priority_queue.mv",
+        "sha256": "eb2bd24627ef63b6de44d109d9b43a35d63c8c4f39384b280fa13d6a29d809c2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/protocol_config.mv",
+        "sha256": "4a152ee802a78110d4b99f94f041a18bc80283b703f1581e8bdac911c5bf7c4e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/protocol_config_tests.mv",
+        "sha256": "c447ec01157bd3ccf0c79664b306c7af52e8e8624cd7f48412508229ec7f5cde"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/prover.mv",
+        "sha256": "a36a4e18b735bcee79c05d7c11bb4e840dab0300e37d1daa90326faffb4da80b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/prover_tests.mv",
+        "sha256": "9ae532879b33d078f658b36053d88581c63af8d388c1e79a653377abb613b2ca"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/random.mv",
+        "sha256": "8f9db8f996b67f59c8aca49f8e3d12d216f91f68c7f16ecdaa1a80892ca5f44d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/random_tests.mv",
+        "sha256": "3e6ae6be23b528ce86002afa269890419d3560d9ffdd5a23f1fc2cf3e1840844"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/rangeproofs.mv",
+        "sha256": "2193154fa4e803fc687974da9f3ed2c351ecdb976554dd169bdd92396d62950c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ristretto255.mv",
+        "sha256": "54bc4ef8f4ea13df2cc77c6ac4f04f9919061fc07c1be47c9c370423f9ee5a84"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/ristretto255_tests.mv",
+        "sha256": "0260d7dff878484524fb99b1e308fb8158aa1181778b30463b4ce35e06860355"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/royalty_policy.mv",
+        "sha256": "025e10b58eb4d7f94d52ca2c3b18229f90afbb3af8c25bfc9ed928fa327670f8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/royalty_policy_tests.mv",
+        "sha256": "77632aa7933ad845275125280ee84737a69eb0396b65cd4ee4ca67a02336947d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/scratch.mv",
+        "sha256": "05fdb72b98d22dcd919f3287ecc8ba752cb370a6eac2ddd25022698d06415ea4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/scratch_tests.mv",
+        "sha256": "47f9148359caff3d6d087446380d9f94de2b7da0dba3f2600506f5cde9f14c8c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/sui.mv",
+        "sha256": "ce5b97b80d8e9e7a641a78095296c428527a935e1ecd516081458d88f0e69862"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/table.mv",
+        "sha256": "d0dc502d8536f95b25c4d8baa79156ff1e8bccaf89859b24263694a4dbaf297e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/table_tests.mv",
+        "sha256": "de5c1f6fd32968cb8deec8a507be5cf8946cec360aa808bb053980c98f89ddcf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/table_vec.mv",
+        "sha256": "5bde34a14e63a1d3ca288c6327052bf195f2b199be54555940e84301f1a506bd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/table_vec_tests.mv",
+        "sha256": "a6f9322ad3fd48a14da0654ac1e3defc117ff500bfd50c01c6cec3dff6b91410"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/test_random.mv",
+        "sha256": "c141e4fbece5e1e7fee8aed179922437e74b89f171d71aaa75dbc1c543902aeb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/test_random_tests.mv",
+        "sha256": "f64bfad7369b0d9a87fd02cdc62fcdcad9403ba6b941007a8e96c40b1e119629"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/test_scenario.mv",
+        "sha256": "8821b3b83a9801619c32b4956dc200b3bbfbf1bab5e656f9f09db5907bd84d60"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/test_scenario_tests.mv",
+        "sha256": "9a2c636ed7958cd5cdca5f7241b0466143bc32b558b324995f8765b9f8e46f37"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/test_utils.mv",
+        "sha256": "1cddac6c0ba1fe0f5ad6ec91c9c101d7a006f5c7c4447ae4f0efd2fafb876957"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token.mv",
+        "sha256": "d6826085e30d66eb128ba42aacea6f0fd22455d904b30f46ab88b1acc8be4014"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_actions_tests.mv",
+        "sha256": "88e534042adf293106390fe76220d902ec360942c8ea2fbb7a7a63d2d80baeb1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_config_tests.mv",
+        "sha256": "de5c578c2751e87f276c93d33220bf40ef471c28a7b22a0da5fbebe8ddee2ee3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_public_actions_tests.mv",
+        "sha256": "0b5a6eb97ce74177458d25a492592ae93f31869fa8a3ce397d9b12e4656ad0ee"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_request_tests.mv",
+        "sha256": "150130ff9dda811fc77822169804ef09423bc937767f7fd819d656173f92c8a3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_test_utils.mv",
+        "sha256": "db7aa3bb31288fa0bc18e1c0eeb7b4a213e10204a10192bf94766504913ae201"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/token_treasury_cap_tests.mv",
+        "sha256": "2647dff5b8b591417f91bbbf7119d7033d7f71601a012b30550263a42bc30597"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/transfer.mv",
+        "sha256": "d82de0c7a0a516d6d8e2796b0cdd637cf8fc8de6baf057c8da8df378ae73fa88"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/transfer_policy.mv",
+        "sha256": "1a9c58d9914f5d4174eab6c9e44f6e1da8277797b8bafc4f2cabebc105083b7a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/transfer_policy_tests.mv",
+        "sha256": "239250dcb2d91ec454d65665e0922af7277f611bda8a4f642dbcdf49e87cfaf4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/tx_context.mv",
+        "sha256": "807dba34356fdec361e8f0cc6a77d9dd50272335f784bf4378f2ed7073f7612a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/tx_context_tests.mv",
+        "sha256": "7ea7ef6593223526aec3dcb82583972fe98b0bba985866778caee68c6761e033"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/types.mv",
+        "sha256": "93fba99a595a289f2c6b10a3eeaa2037ed9465ca89323ca11f6d9b8ddf2adbc3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/url.mv",
+        "sha256": "45299ada786c8a227d3b9b400c7aadbed9be72ed40b9f999c204849b2e9e1a40"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/url_tests.mv",
+        "sha256": "5e3810b1d3f3390235f849a69fae97b0bcd0b15d40643a12aa9635e9e163ea23"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vdf.mv",
+        "sha256": "22e5f2bf7e100568246a42965a96f72bb6919fdf5caa2001a865268767d00719"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vdf_tests.mv",
+        "sha256": "0d2652f127ceb5674630230cecdbb971421f2dd86d04883ebd35529ece55d2fe"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vec_map.mv",
+        "sha256": "d4ed3516e1c45764ff7cafad6b062b5c3af6a85bcff7ed54f24f218fd1928bc0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vec_map_tests.mv",
+        "sha256": "b256b5392e859429b70f67355fffaeff3e6b570e5ee80e29843f03d628e2c59e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vec_set.mv",
+        "sha256": "be1d9a5056a4e9e7f5d194e14821515e33f47fc70afbaaf82efb624d8770328a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/vec_set_tests.mv",
+        "sha256": "f6fb461e43ae3f2256126d20d6826347948e60a0d8e71b78c4c17d21a6579b81"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/verifier_tests.mv",
+        "sha256": "13ef433da1d9512bd4acae302bb339f3871ee0417ba9bcd1c08103cb79183cc8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/versioned.mv",
+        "sha256": "c91a31473de0c7cf808907c357c2a770723ae24ada8360c19a533b9aba3a4cbd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/versioned_tests.mv",
+        "sha256": "ab6af21d9842b15c5aed5f7e2dcb2a92b7a820fe4d025717fc40b927816cfdcd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/witness_policy.mv",
+        "sha256": "e6469b0c28e7cc1080d5fa467ec0ac3408657193d9033794db63a666bbb73845"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/witness_policy_tests.mv",
+        "sha256": "9521fdb3894370afbf446475b9b036878533a779d801adda40d14b69d7e9b677"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/zklogin_verified_id.mv",
+        "sha256": "a44b28291839b7206b6f811be8e840e376507c4f3f958b60bb568588f3982ccf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/zklogin_verified_id_tests.mv",
+        "sha256": "136daf9d983dcd672a7534daf1c39e045833db4551d6fcc7eb5e769a23f94dc6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/zklogin_verified_issuer.mv",
+        "sha256": "2eb4270287ed5ddbdd43d9e967091f5d4723d426c2af236470779e6391b9f5cb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Sui/zklogin_verified_issuer_tests.mv",
+        "sha256": "a0f485e668e7ff6c119e64eafe809ae0b7d1897eac54c00bac7e87eb44239125"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/WAL/wal.mv",
+        "sha256": "251304a95eebc1bc9b3116b14d668e8780ee50a0218aa791122dcc23b225156a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/active_set.mv",
+        "sha256": "3994aa4d6671c3d00ee73d5e7164b6d8e8fe0503c7cd231fcb262f4ae3ff894c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/active_set_tests.mv",
+        "sha256": "ed237e6edfbce91693855cd808098b92577aafa0b27e8241bf2239678715986b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/apportionment_queue.mv",
+        "sha256": "7956dda1cb6c68f13a52964b6c18464b82dab9af875895cbc1be4eaa116ada53"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/auth.mv",
+        "sha256": "f6af09b3d7104f15b488f850463baf64f20629115d1d75aebc3e9de306a3a248"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/blob.mv",
+        "sha256": "3f83949c727c52ac87fa74f3f0ed06fb42e6a1502506e5a8f2d48e4f7eecabcf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/blob_tests.mv",
+        "sha256": "dd248ec832784276aaafdb1e3d6009420996434e3e77a907b4ad74e9129d3968"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/bls_aggregate.mv",
+        "sha256": "db3bd9a980eb314f8fe27de5c8758b31d30b3b30fd5ce967b14a3629d3f641e8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/bls_tests.mv",
+        "sha256": "a15d17800bf96a2c5307b5e0d0b29b0685c558c69a1565acf44d4721a5d4f0e6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/committee.mv",
+        "sha256": "770d7d84b28e2bd4e0d2f62ae5fe35b93209c469cd42513c1788ac801bb1b370"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/committee_tests.mv",
+        "sha256": "3a162b459c040348042d5aa83926b805f7322315aab0d4fdeb0f884c023e38d1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/deny_list_tests.mv",
+        "sha256": "bb684c40758e4f5bdcf522f82b7fe73f84879517a226411203c896c1066c3535"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/display.mv",
+        "sha256": "08452c3944718739a68628430dcae300d60000e17d5a82e8c26863adc4db3522"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/e2e_runner.mv",
+        "sha256": "b2dcb38082b7f83980a9111bc0ce6f5f7d22ff9c0844cd1c0f39bb34a5fb8495"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/e2e_tests.mv",
+        "sha256": "656c50cd8c80760ed7227d7457c9f72cdead8aa25600a32d9181f7425697c5f2"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/encoding.mv",
+        "sha256": "b91c77d1285be02aec8a6f82424cac8a8ff91b3ec8fc4bc6db638ca13a80b068"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/epoch_parameters.mv",
+        "sha256": "1755d89f7ea6b7945cd57f1385205aca2e70df94b0210f29aeebc853151b803b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/event_blob.mv",
+        "sha256": "af40fada8860d73585f71a249cc2a6e2d7fa1d09ebde8d0ded2ddf59d6d31c10"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/event_blob_tests.mv",
+        "sha256": "66e97dd563dfb153d1151846857764f167d9e055d8e4b58aa8e4885d9bc649a1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/events.mv",
+        "sha256": "849c14c43965e51a700c22c55488d680227ba0c2f35302eef2e4694dd0adc5c8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/extended_field.mv",
+        "sha256": "fae3eabaf586830f47085a3210624c9919c7e990142265e6f22ad8e38ee0db8a"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/init.mv",
+        "sha256": "78bd0791dff276017c3fa02f07f0dfce962c52af028065047c2806abcfd78879"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/invalid_tests.mv",
+        "sha256": "7f23a6799cb5541e2f6e9bf1bd876ee8588986c98b563beea74eeea254e33d3f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/messages.mv",
+        "sha256": "19e836998c4f3c57aee2d2639d8d602a37736e6ee4ce1ef1b92b99015d3a4567"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/metadata.mv",
+        "sha256": "b6efc715bc2094213449655292ec21d40ae3732fb500cb4ec8a850625056f31d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/metadata_tests.mv",
+        "sha256": "274442353880ca0efa9f947420430b76fd5009d712394684d9e945eafa9df53d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/node_metadata.mv",
+        "sha256": "85af7d826e325c957eba541b2491230718c3217540deef9cf4968e286299876c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pending_values.mv",
+        "sha256": "bf64d28e1d577c11c506d81cef8d12de2ab288f23bdc84f5472a017f0c4223eb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pool_commission_tests.mv",
+        "sha256": "77f78401028a43e38451ebdd264b6d73c055c2bb5a0f49299bf83c845b562cb5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pool_direct_withdraw_tests.mv",
+        "sha256": "110720ceae41ca9a32be9606e2ea2dc3494eb19217d801fccce604189b240752"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pool_early_withdraw_tests.mv",
+        "sha256": "7c468def96eab0e27fe3933d3f0d63f328d84091afb8d08fcbc6dcfd408762fb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pool_exchange_rate.mv",
+        "sha256": "6a58852a2d0f63986f1588f0d8803e988a8d2a59af9443a5cd4ec51981c73158"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/pool_rounding_tests.mv",
+        "sha256": "38da541658a4236dfa0887f7216ef2c315b5d98ae8609b87bf73fc4c9296f725"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/redstuff.mv",
+        "sha256": "88dac584b9a5297881acbba10aa46146a843e9aace437af7152b405b8c056ed3"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/ringbuffer_tests.mv",
+        "sha256": "6e171700bf496072a42212d2a28844c8cb303a172f5d3514fc972ed072472c7c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/shared_blob.mv",
+        "sha256": "47d0f343bac054aa6b26bb0207e14298c7cccb71a88a2e82fa8ea6080115d26f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/sort.mv",
+        "sha256": "69525dc77f600ce6cb43676c14246819a5e4e610392378b6fff298ca4a28e8ef"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staked_wal.mv",
+        "sha256": "1557a93e9bfef954a9d1a394c94d97623f8710faaf3fc671e24db28fc4787498"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staked_wal_tests.mv",
+        "sha256": "7063f2156fb60db5d8191140de904bcf87b9c0657d4fcf7556c2d35b6ee17d96"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking.mv",
+        "sha256": "c17287369f794f58c06b92a57e76f8de17a75b28157dd42a93f94d2fd0cf6a7c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking_inner.mv",
+        "sha256": "dbbdf83b3fca369119684de59cec64ed45755c4830326e07a03b62ff662267c0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking_inner_compute_tests.mv",
+        "sha256": "7b7b83052232017672efa6faaac4cf0d16c54497f5b78235f8f3650542dabf65"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking_inner_tests.mv",
+        "sha256": "a92aea749b3f9768f3be1636ae42081e927ca6758f24d4e87b19905863f57edc"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking_pool.mv",
+        "sha256": "91a272d9d71af8f6167fd9d879c275539f841f85f9deca385dabacc838e14287"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/staking_pool_tests.mv",
+        "sha256": "3f254554ca1262c56a78afd8536054d07b90d2fb11a7918c140586337d7c8871"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/storage_accounting.mv",
+        "sha256": "a6cdef34a6ad921c2d4bd55a64179f28e2380ca9fde28792793aa34d18ca83c0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/storage_node.mv",
+        "sha256": "2398c42fd606049e406d4a4527bb2fb6a6744bf3686741b8bb903f141e2b130f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/storage_resource.mv",
+        "sha256": "60d94dff249642ccdb6c816e70459d0a93d8d9cfe16e27d3c45ede79f9c7198b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/storage_resource_tests.mv",
+        "sha256": "81c529d1bfca8a2c63037a01f0853ddcec389452309b499b5ff774058c6fcd4c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/system.mv",
+        "sha256": "7614cafc51bcd9f34c9a05e11e0344ac44b202c1620009f5a03a9fba72c4ebd0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/system_state_inner.mv",
+        "sha256": "4ad060e9cf255ceb973f10530d4fcc7df73065e1d23ed934655adc389c2d2125"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/system_state_inner_tests.mv",
+        "sha256": "1e407da482515d4a5a32eb414880dcdad5b7e021d968d3b138a5c6179804b4e6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/test_node.mv",
+        "sha256": "8019a7f63e2c342af0286406eadb0f8a2da318cc9de49e72fa9d52eea98dc995"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/test_utils.mv",
+        "sha256": "5a7dd0b07885073f240c159081ac40aa6d6e8b14b46980b69af9a246c9f07350"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/upgrade.mv",
+        "sha256": "a6e1188a3cc6c5d1cc57907d2c88dbff39e022aeca5e1b976f8783c094b5b68c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/upgrade_tests.mv",
+        "sha256": "8da56d41da4e30e128e8af68207a61f891b1c6a0a380cb57ee3a96bdaa8dc0a7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/walrus_context.mv",
+        "sha256": "48fa212be8810b455100bb929f30f7fc14b2407ed90145aac0b5032fa566c1f4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/dependencies/Walrus/walrus_context_tests.mv",
+        "sha256": "e0b2e01a6156e1b507fd699186419e34853721fe077a0603f9d3e3ab253ff648"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/entitlement_tests.mv",
+        "sha256": "98bcb9c003b817e2a9fb3a48b89ce95a8172ce17034d8899fca0de749e3c2d93"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/financial_domain_tests.mv",
+        "sha256": "d0d7a45ba02e40a0d00ca9a95ad6c9c395f8d6bf1e8699a4eec0f19c26e25292"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/fixtures.mv",
+        "sha256": "189a70530f86c53ca69fab420f67f2d080241cc92dcf93bc7a40c38810c3c359"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/forms_tests.mv",
+        "sha256": "adbb3e466db4c4b2802c16ce6c22e5708d514c5e73c90699d5287d41578ff98d"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/foundation_tests.mv",
+        "sha256": "d996950bd1e2f5cb74960a385572f453d68e454697b48adac69606812aaabda8"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/founding_library_tests.mv",
+        "sha256": "a4da3dc8ca2c402c384bd1fe0b0f5183ee09703d11516aae0ae372e6dbd70033"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/growth_tests.mv",
+        "sha256": "eac8173a33ec946583735fc5dd56abd91756b8393ebca26483e2d0db61a2b3eb"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/income_routing_tests.mv",
+        "sha256": "b1b7e9f551403964e2090ebddde6984b7842185312c6b1720f029f95429cef88"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/installation_tests.mv",
+        "sha256": "2eabdd1f58a162bd0e63cc076da1a346a375b95ea16b931ebac260a5b789ef91"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/issuance_tests.mv",
+        "sha256": "1894bd414ca6baa4322a5746c0307ec8bb049a31e6d98554501327f220d8ef31"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/issuer.mv",
+        "sha256": "9963708a406b55dfb42acc2e9b5b1ec98f8143b40f9559d7b86b46e297b01ee1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/loadout_tests.mv",
+        "sha256": "d92d7b1ef1173cc0eb2e1c7c46ad37dced90bc69c581ba5777d5b9a1d44fd592"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/market.mv",
+        "sha256": "c0d792b23e0c2714741df03956e3f20394be1cc727839b004405de5d889ef5f7"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/market_global_gate_tests.mv",
+        "sha256": "728caf22b6529b92446c9454153ae38c17233bd2987e6bebca20afbed1bb8be6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/market_independent_gate_tests.mv",
+        "sha256": "8e58a117d180db533a1ffae24eac4df541063b26f3b0e25cc304f5554d0e2014"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/market_tests.mv",
+        "sha256": "47cd963a2ca0fcc9df9aba62ae7c69a91bb53eeee79d402baaa5bc689f27b0b5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/metadata.mv",
+        "sha256": "e3250e6eeb4c69027bc959ad0d13d0fd44d75f9c3a2538be5ffab7e39aa7361c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/model_source_tests.mv",
+        "sha256": "43065e9662f1233695156b9feddb691e1b4b3745fa5defbaa621d490304fe59f"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_binding.mv",
+        "sha256": "1d697ecf0b9167b4e0ea5c77482ad8fb883b9c5e9ff28fec86a1eb5710e01945"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_binding_tests.mv",
+        "sha256": "fdebf19746b70fb46f84e4996aefcc10fd66c742ae908e058cb8f861af12d111"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_birth_tests.mv",
+        "sha256": "688e565fc50c795f23cb80dc412fc171a3dfe1efa8d2b9e0568f8cdda6b0dbb4"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_creation.mv",
+        "sha256": "d59360fa266faa949ac37a7d8eb21845b92bd9914b500b447b376fbee65e6a9c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_registry_tests.mv",
+        "sha256": "cab08bf950ebfe6d8b006692edd1c222606f04bb5ab8f38f4e551d5b896ddf05"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/native_revision_tests.mv",
+        "sha256": "f979a319bd12763e910cc327d483fc97d9501df1e688653e8395a9d015f41ee5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/nested_vault_tests.mv",
+        "sha256": "8466314663ea154d191a4626e5b3e6ae39ca4ea379ea9190bc81eaf31a9f4d9c"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/output_boundary_tests.mv",
+        "sha256": "b924c36401791f1d9928a58d0c96d615e9fae7bed71ca42c050078a1d5e310cd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/output_tests.mv",
+        "sha256": "76bd43eaf4db15804a8b18b68e19f881d963cad5eeaaa71b648a74ea9253eca1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/pack_player_tests.mv",
+        "sha256": "ef1451283072139b1cdc2b345e0fb2241d94f50b1212aaa2e65d4fbe04f1676e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/pack_publication_tests.mv",
+        "sha256": "e310f5c793ee8b79b1a0b4e617afe6a3e078c2e9e72a6c4af11abe83b29fb923"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/pack_soul_tests.mv",
+        "sha256": "9d5f481f40b60fb492f6d78ca3712aba2b119fddf7a284317e664c1ec44662dd"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/pack_tests.mv",
+        "sha256": "02c61912b7257b39e5f246d61308f3717a93a7204e3eb6e28b73334ddd206fec"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/package_role_tests.mv",
+        "sha256": "bc6f2d31386f650495c5d3a9f5537aceaac72f9c9a13e5d7d72efacefab21460"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/paid_access_tests.mv",
+        "sha256": "ca772522f3e30499fbaadf86e1e7380f37ef6a01b176d37525f8ac531ab9ae03"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/physical.mv",
+        "sha256": "ff2d0d811c8aeb429180157f6b26aa335e6ad9a102cc336b5d08564b92853dfa"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/physical_tests.mv",
+        "sha256": "30b209282f4bb407f3db531d79670506dbed94524a3c30123db20c7cd0a2b531"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/player.mv",
+        "sha256": "4550835eedd3b6bce1280c8732aa3da91368e19f41be2c29db7aa8c18916ae69"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/primary_snapshot_tests.mv",
+        "sha256": "8601915af2a7c8c98dedeec3ee47d754e9b258cf0809bd6f240ddf4f1af0c6b6"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/release.mv",
+        "sha256": "b8db3ab484c3fd566855844e9eeb74e36f9bd3574419e53bc2a8b9297753fc1e"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/release_tests.mv",
+        "sha256": "0247cf8bcff1ec33aa6c0d619e725f560d3466a1f93ca693841e086de2d29435"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/revenue_tests.mv",
+        "sha256": "3755d91b748a4f38d26ee00a91f737fa5d796baa22af066f3c1b8aa70e07d823"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/royalty_tests.mv",
+        "sha256": "f4a2558c6f98a18bd889b5c9e7b91dde8a9e2a950e0262f673f376457b230e4b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/runtime.mv",
+        "sha256": "ecc099c85a3aacdb3d537a915231e323af5b4354b6f1ade3516922777c1d1ae0"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/scene_variant_tests.mv",
+        "sha256": "c0183ad71b4034e19921ed571e3acfd03a2f2753d022be7d25ea6c021039a676"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/standard_business_tests.mv",
+        "sha256": "4e270465c8a59502ab09b28b6f84c90c24e9b2288cf9ed745086bf0a6ee077fa"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/standard_extension_fixture.mv",
+        "sha256": "1ca5ab6ec44142e6f13811813ececcecff967e3c9f384c1da669fa72cf088345"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/state_configuration_tests.mv",
+        "sha256": "59ab4d83c56642cd826979558f593b843b1577b23bc12338bdad60944b206fc5"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/storage_epoch_tests.mv",
+        "sha256": "acf10a824df4baceeeba86bba76da1bde41c52029f9984a75fa4b4643ff5b8c1"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/storage_fixture.mv",
+        "sha256": "a3db51a33bab42f1b2bb901e3d6fbf18ba2e2d225d2e00c7b5fa5b99e0b8cbda"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/upgrade_schema_tests.mv",
+        "sha256": "2474327ac510f9f54f964e090e155583909a611a2ebb39e7bf72e5251639ee0b"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/vault_edit_tests.mv",
+        "sha256": "085e185d5e4ff4ff99e2b6251a40d31e85eaa1b5d5fa20c4419033b7b2c954cf"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/vault_tests.mv",
+        "sha256": "3bcc3f80c05b2fd5395ebad5dac8db20ca32742b8e3dbc75423805f41056fd74"
+      },
+      {
+        "path": "build/soulidity_v1/bytecode_modules/visual_tests.mv",
+        "sha256": "cbc05e9c9a59d2a16fb6a1cac9021b668f51177970aa6500afaf4ad21e30b0c4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+{
+  "schema": 2,
+  "status": "PASS",
+  "review_version": "candidate-v2",
+  "scope": "Read-only bounded frozen candidate replay/control review under the sealed Python runtime; no Sui/build/test/RPC/signing/git commands executed. Offline parsing, hashing and in-memory validation only.",
+  "candidate": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity",
+  "actual_worktree": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "ecosystem": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem",
+  "config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+  "seal_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1",
+  "reviewed_identity": {
+    "config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+    "seal_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1",
+    "verify_sha256": "3d10155ef52c053b8c0c59167c8577f1310a5592e8584721a9be6d90d44e71bf",
+    "lock_graph_sha256": "6fc336c8c82b46f1349937efab54e908f802e59ea869250bfdb46fbc0029f39d",
+    "payload_map_sha256": "2b7bcc86059a284aa2c3aab77216986df4c5ea6bfb99d2c1693d18db94a08548",
+    "python_binary_sha256": "2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb",
+    "tool_sha256": "1d7baa7c7314113671415acfa20279b1eedb6ae6d04f286988a00da285e769c3"
+  },
+  "open_findings": [],
+  "resolved_findings": [
+    {
+      "id": "RPCONTROL-01",
+      "priority": "P1",
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/lock_graph.py",
+      "lines": [
+        25,
+        27,
+        30,
+        47,
+        54,
+        62,
+        65,
+        73,
+        74,
+        91
+      ],
+      "title": "Optimization removes required lock graph validation",
+      "problem": "Ten validation asserts disappear when Python runs with -O, -OO or PYTHONOPTIMIZE. Version, manifest digest, local graph edge, package identity and unsupported dependency checks cease to reject malformed inputs.",
+      "evidence": "Offline compile(optimize=0) rejects a manifest containing dep-replacements; optimize=1 and optimize=2 accept it and compute a digest. No Sui command was executed.",
+      "required_fix": "Replace all validation asserts with explicit require/ValueError checks and verify the rejection behavior at normal, -O and -OO optimization.",
+      "status": "resolved-in-v2",
+      "resolution": "All ten assertions were replaced with explicit require/ValueError checks. No validation assert remains. Independent normal/optimize1/optimize2 checks reject malformed manifests, locators, lock digests and edges."
+    },
+    {
+      "id": "RPCONTROL-02",
+      "priority": "P2",
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/verify_maker_publication.py",
+      "lines": [
+        1,
+        16
+      ],
+      "title": "Default entry point selects an unsupported unsealed Python runtime",
+      "problem": "The env python3 entry point resolves to Python 3.9.6, which cannot import tomllib. The working bundled Python 3.12.14 is not specified or sealed in verification-config/verification-seal.",
+      "evidence": "Read-only import under default Python raises ModuleNotFoundError: No module named tomllib. Bundled Python SHA is 2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb.",
+      "required_fix": "Use an explicit launcher that locates and validates the reviewed runtime before importing the verifier/helper, and pin runtime identity in the reviewed controls/evidence.",
+      "status": "resolved-in-v2",
+      "resolution": "Selected bundled Python 3.12.14 path, resolved binary, SHA and version are sealed; load_controls verifies them. Config explicitly makes no default-python3 compatibility claim. Coordinator must install/verify its default-Python launcher selecting this sealed runtime before actual replay."
+    },
+    {
+      "id": "RPCONTROL-03",
+      "priority": "P2",
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/verify_maker_publication.py",
+      "lines": [
+        84,
+        85,
+        86,
+        176,
+        177,
+        182
+      ],
+      "title": "Actual mode does not enforce frozen original controls before replay",
+      "problem": "Actual mode omits original_before == original_inputs. Thirty-four original legacy refusal fixture files lie outside the actual input inventory; a modification before replay is accepted as a new baseline and can still produce original_inputs_unchanged=true.",
+      "evidence": "All 217 original frozen files currently match, but resolving original_paths against the 254 actual configured input paths leaves 34 unguarded old fixture files.",
+      "required_fix": "Define original_actual_expected using reviewed payload hashes for original paths present in payload-map, preserving frozen original_inputs hashes for unaffected paths, and require equality before actual replay. Continue before/after unchanged checks.",
+      "status": "resolved-in-v2",
+      "resolution": "Actual mode now requires all 217 original inputs to match actual_original_inputs. Independent recomputation shows 183 paths derive exactly from reviewed payload, including 63 changed hashes; all 34 unaffected historical paths retain original pins."
+    },
+    {
+      "id": "RPCONTROL-04",
+      "priority": "P2",
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/verify_maker_publication.py",
+      "lines": [
+        145,
+        146,
+        148
+      ],
+      "title": "Refusal source check accepts a secondary location",
+      "problem": "The first diagnostic code is required, but any location inside that diagnostic may satisfy refusal source identity. A first diagnostic originating in a dependency with a secondary location at refusal.move could pass.",
+      "evidence": "All 16 current replay records already have ./sources/refusal.move as their first primary location. The any-location predicate is broader than that reviewed evidence.",
+      "required_fix": "Require the first primary source location to be the staged refusal source and reject a synthetic expected-code/wrong-first/right-secondary case offline.",
+      "status": "resolved-in-v2",
+      "resolution": "refusal_diagnostic now requires the first diagnostic code and first primary source location. Independent expected-code/wrong-first/right-secondary and wrong-first-code/later-right cases reject in all optimization modes; all 16 historical real refusal logs still satisfy the stricter predicate."
+    }
+  ],
+  "handbook": {
+    "version": "1.0 (2026-10-06)",
+    "sections": [
+      "1-5",
+      "7",
+      "8.1",
+      "8.3",
+      "8.4",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Test evidence review",
+    "remaining_exit_criteria": "All four candidate controls resolved. Coordinator-owned actual import/launcher/single replay remain separate acceptance checks; existing owners and full goal unchanged."
+  },
+  "checks": {
+    "seal_controls_match": 39,
+    "candidate_input_hashes_match": 254,
+    "payload_input_hashes_match": 254,
+    "config_payload_map_correspondence": true,
+    "move_bytes_candidate_payload_equal": 170,
+    "candidate_to_payload_normalization_files_equal": 254,
+    "candidate_local_lock_checks": 274,
+    "current_original_frozen_hashes_match": 217,
+    "original_files_outside_actual_inventory": 34,
+    "cache_files_frozen_match": 20268,
+    "v1_recorded_replay_results_pass": 45,
+    "v1_stdout_stderr_hash_pairs_match": 45,
+    "v1_recorded_vm_counts": [
+      [
+        22,
+        22,
+        0
+      ],
+      [
+        10,
+        10,
+        0
+      ],
+      [
+        1038,
+        1038,
+        0
+      ]
+    ],
+    "v1_refusal_first_location_matches": 16,
+    "v1_recorded_stage_lock_checks": 274,
+    "v2_validation_asserts_remaining": 0,
+    "v2_existing_config_fields_changed": 0,
+    "actual_original_expected_recomputed_equal": true,
+    "actual_original_expected_paths": 217,
+    "actual_original_expected_payload_paths": 183,
+    "actual_original_preserved_historical_paths": 34,
+    "actual_original_expected_hash_changes": 63,
+    "candidate_and_reviewed_actual_payload_same_stage_files_equal": 254,
+    "writer_offline_control_cases_pass": 51,
+    "writer_offline_modes": [
+      0,
+      1,
+      2
+    ],
+    "independent_in_memory_control_cases_pass": 45,
+    "independent_in_memory_modes": [
+      0,
+      1,
+      2
+    ],
+    "all_16_historical_refusals_pass_v2_predicate_each_mode": true,
+    "final_v2_freeze_and_all_input_control_cache_pins_match": true
+  },
+  "evidence": {
+    "freeze": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/frozen-candidate-v2.json",
+    "changes": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/v2-control-changes.json",
+    "writer_offline_summary": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/offline-control-runs/1791646613715258000/summary.json",
+    "historical_v1_45_command_proof": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/summary.json"
+  },
+  "non_claims": {
+    "actual_import_verified": false,
+    "actual_replay_executed_by_reviewer": false,
+    "full_manufacturing_complete": false,
+    "published_compatibility_proven": false,
+    "full_goal_complete": false,
+    "actual_default_python_launcher_verified": false,
+    "v2_sui_commands_repeated_by_reviewer": false
+  },
+  "coordinator_remaining_acceptance": [
+    "Import only after all independent peer reviews pass.",
+    "Copy reviewed main/helper/config bytes exactly; retarget only seal control path keys as required and pin the resulting installed seal.",
+    "Install and verify the default-Python-compatible launcher selecting the sealed Python 3.12.14 runtime before any actual Sui replay.",
+    "Run one actual 45-command staged replay; verify input/control/cache/frozen originals and raw/module equivalence using this v2 config."
+  ],
+  "next": "Scoped candidate-v2 PASS permits coordinator to proceed with its already authorized import preparations; actual verification and full product goal remain incomplete."
+}

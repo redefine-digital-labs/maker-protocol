@@ -1,0 +1,32 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerAdmission
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING RefuseDropContribution
+[0m[1m[38;5;11mwarning[WC09002][0m[1m: unused variable[0m
+  [0m[34m┌─[0m ./sources/refusal.move:3:20
+  [0m[34m│[0m
+[0m[34m3[0m [0m[34m│[0m public fun discard([0m[33mv[0m:Contribution){}
+  [0m[34m│[0m                    [0m[33m^[0m [0m[33mUnused parameter 'v'. Consider removing or prefixing with an underscore: '_v'[0m
+  [0m[34m│[0m
+  [0m[34m=[0m This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+[0m[1m[38;5;9merror[EC06001][0m[1m: unused value without 'drop'[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:35
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun discard(v:Contribution)[0m[31m{}[0m
+   [0m[34m│[0m                    [0m[34m-[0m [0m[34m------------[0m [0m[31m^^[0m [0m[31mInvalid return[0m
+   [0m[34m│[0m                    [0m[34m│[0m [0m[34m│[0m             
+   [0m[34m│[0m                    [0m[34m│[0m [0m[34mThe type '(soulidity_maker_admission=0x0)::maker_issuance::Contribution' does not have the ability 'drop'[0m
+   [0m[34m│[0m                    [0m[34mThe parameter 'v' still contains a value. The value does not have the 'drop' ability and must be consumed before the function returns[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move:13:15
+   [0m[34m│[0m
+[0m[34m13[0m [0m[34m│[0m public struct Contribution {root:ID,product:ID,version:u64,policy:vector<u8>,actor:address,payment:PrimaryReceipt}
+   [0m[34m│[0m               [0m[34m------------[0m [0m[34mTo satisfy the constraint, the 'drop' ability would need to be added here[0m
+

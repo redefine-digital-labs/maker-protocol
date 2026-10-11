@@ -1,0 +1,25 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+warning[WC09001]: unused alias
+  ┌─ ./tests/runtime.move:7:51
+  │
+7 │ use soulidity_foundation::economics::{Self,Config,Admin};
+  │                                                   ^^^^^ Unused 'use' of alias 'Admin'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./tests/runtime.move:9:31
+  │
+9 │ use soulidity_standard::soul::Soul;
+  │                               ^^^^ Unused 'use' of alias 'Soul'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09001]: unused alias
+  ┌─ ./sources/consumer.move:7:39
+  │
+7 │ use soulidity_foundation::economics::{Self,Config,PrimaryReceipt};
+  │                                       ^^^^ Unused 'use' of alias 'economics'. Consider removing it
+  │
+  = This warning can be suppressed with '#[allow(unused_use)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+

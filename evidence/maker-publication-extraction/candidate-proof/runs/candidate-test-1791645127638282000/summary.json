@@ -1,0 +1,17 @@
+[
+  {
+    "root": "foreign_publication_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer",
+      "--install-dir",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scratch-build"
+    ],
+    "returncode": 1,
+    "duration_seconds": 6.942438749829307,
+    "bytecode": []
+  }
+]

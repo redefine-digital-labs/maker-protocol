@@ -1,0 +1,495 @@
+[NOTE] Updating dependencies for `mainnet` environment because "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/Move.toml" has been changed since the last update.
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/forms_tests.move:80:84
+   │
+80 │     let old=forms::commitment(forms::snapshot(forms::journal(&s),first));let mut i=1;
+   │                                                                                    ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+   ┌─ ./sources/market.move:53:34
+   │
+53 │     let rights=*soul::resale(&s);resale::quote_gross(&rights,cfg,price,ctx.sender());
+   │                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+   │
+   = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+   = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+   ┌─ ./sources/market.move:58:34
+   │
+58 │     let rights=*soul::resale(&s);resale::quote_collection(&rights,cfg,price,ctx.sender(),object::id(c),collection::current_holder(c),collection::extra_royalty(c));
+   │                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+   │
+   = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+   = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+   ┌─ ./sources/market.move:63:83
+   │
+63 │     let hash=policy::source_hash(source);let market=policy::source_market(source);economics::market_quote(&market,cfg,1,price,ctx.sender());
+   │                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+   │
+   = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+   = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+   ┌─ ./sources/market.move:69:42
+   │
+69 │     let market=catalog::market_policy(p);economics::market_quote(&market,cfg,0,price,ctx.sender());let hash=control_hash(&c,p);
+   │                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+   │
+   = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+   = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+    ┌─ ./sources/market.move:106:69
+    │
+106 │     economics::assert_secondary_live(cfg,fee_revision,expiry,clock);economics::market_quote(l.commerce.borrow(),cfg,1,price,l.seller);
+    │                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+    │
+    = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+    = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/market.move:148:176
+    │
+141 │ public fun buy_soul<C>(l:&mut Listing<Soul,C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext) {
+    │            -------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    ·
+148 │     resale::settle(MarketAuthority1{},MarketRevision3{},cfg,l.rights.borrow(),receipt,payment,l.asset,attempt,ctx);l.settlement=option::some(receipt);mark_sale(l,attempt,ctx);transfer::public_transfer(s,ctx.sender());
+    │                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                                                                                                                                │                           │
+    │                                                                                                                                                                                │                           Transaction sender address coming from here
+    │                                                                                                                                                                                Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/market.move:155:176
+    │
+151 │ public fun buy_soul_with_collection<C>(l:&mut Listing<Soul,C>,c:&Collection,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_collection:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext) {
+    │            ------------------------ Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    ·
+155 │     resale::settle(MarketAuthority1{},MarketRevision3{},cfg,l.rights.borrow(),receipt,payment,l.asset,attempt,ctx);l.settlement=option::some(receipt);mark_sale(l,attempt,ctx);transfer::public_transfer(s,ctx.sender())
+    │                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                                                                                                                                │                           │
+    │                                                                                                                                                                                │                           Transaction sender address coming from here
+    │                                                                                                                                                                                Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/market.move:161:201
+    │
+157 │ public fun buy_item<C>(l:&mut Listing<Item,C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext) {
+    │            -------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    ·
+161 │     economics::market_settle<C,MarketAuthority1,MarketRevision3>(cfg,MarketAuthority1{},MarketRevision3{},r,payment,l.asset,attempt,ctx);l.commerce_settlement=option::some(r);mark_sale(l,attempt,ctx);transfer::public_transfer(it,ctx.sender());
+    │                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                                                                                                                                                         │                            │
+    │                                                                                                                                                                                                         │                            Transaction sender address coming from here
+    │                                                                                                                                                                                                         Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/market.move:169:201
+    │
+163 │ public fun buy_control<C>(l:&mut Listing<Control,C>,p:&Product<C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext) {
+    │            ----------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    ·
+169 │     economics::market_settle<C,MarketAuthority1,MarketRevision3>(cfg,MarketAuthority1{},MarketRevision3{},r,payment,l.asset,attempt,ctx);l.commerce_settlement=option::some(r);mark_sale(l,attempt,ctx);transfer::public_transfer(c,ctx.sender());
+    │                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                                                                                                                                                         │                           │
+    │                                                                                                                                                                                                         │                           Transaction sender address coming from here
+    │                                                                                                                                                                                                         Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:30:15
+   │
+30 │     let mut n=0;while(n < 4){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);n=n+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:56:15
+   │
+56 │     let mut i=0;while(i < 3){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);i=i+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/storage_epoch_tests.move:67:15
+   │
+67 │     let mut i=0;while(i < 3){storage_fixture::next_epoch(&mut sc,&mut system,&mut nodes,&mut clock);i=i+1};
+   │               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:206:61
+    │
+206 │     {let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut l,registry,maker,ticket,cfg,pay,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};assert!(physical::listing_state(&l)==1 && physical::listing_receipt(&l)==option::some(fixtures::h(41)),0);test_scenario::return_shared(l);f.sc.next_tx(@0xc);
+    │                                                             ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:220:409
+    │
+220 │ fun self_purchase_rejected_before_child_receive(){let(mut f,lid,asset_id)=listed();let mut l:Listing<USD> = f.sc.take_shared_by_id(lid);let ticket=test_scenario::receiving_ticket_by_id<Asset>(asset_id);let hash=physical::listing_hash(&l);let quote=physical::sale_quote_hash(&l,&f.cfg,f.sc.sender());let coin=coin::mint_for_testing<USD>(101,f.sc.ctx());{let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut l,registry,maker,ticket,cfg,coin,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(l);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:254:54
+    │
+254 │     {let F{sc,maker,registry,player,cfg,clock}=f;let fee_revision=economics::revision(cfg);physical::purchase_pack(registry,maker,pack,player,b"bound",cfg,coin,4,1,0,0,1000,q,fixtures::h(31),clock,sc.ctx())}
+    │                                                      ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:336:61
+    │
+336 │     {let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy(&mut listing,registry,maker,ticket,cfg,payment,0,hash,quote,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(listing);f.sc.next_tx(@0xb);end(f)
+    │                                                             ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/physical_tests.move:394:730
+    │
+394 │ fun pack_physical_sale_keeps_maker_creator_and_its_own_source_income(){let mut f=setup(0,0,3,true);let mut pack=add_pack(&mut f,1,37,2);select_pack(&mut f,&pack);let a=pack_purchase(&mut f,&mut pack);let id=object::id(&a);let pack_id=object::id(&pack);let p=physical::asset_sale(&a);assert!(physical::sale_creator(&p)==@0xa && physical::sale_source_recipient(&p)==@0xe,0);let lid=physical::list(&f.registry,&f.maker,&pack,a,&f.cfg,101,1000,0,0,&f.clock,f.sc.ctx());f.sc.next_tx(@0xc);let mut l:Listing<USD> = f.sc.take_shared_by_id(lid);let q=physical::sale_quote_hash(&l,&f.cfg,@0xc);let h=physical::listing_hash(&l);let t=test_scenario::receiving_ticket_by_id<Asset>(id);{let F{sc,maker,registry,player:_,cfg,clock}=&mut f;let fee_revision=economics::revision(cfg);physical::buy_pack(&mut l,registry,maker,&mut pack,t,cfg,coin::mint_for_testing<USD>(101,sc.ctx()),0,h,q,0,fixtures::h(41),clock,sc.ctx())};test_scenario::return_shared(l);test_scenario::return_shared(pack);f.sc.next_tx(@0xe);assert!(fixtures::product_income(&f.sc,pack_id)==39 && coin_sum(&f.sc)==0,1);f.sc.next_tx(@0xa);assert!(coin_sum(&f.sc)==5,2);f.sc.next_tx(@0xf);assert!(soulidity_foundation::revenue::balance(economics::income(&f.cfg))==5 && coin_sum(&f.sc)==0,3);f.sc.next_tx(@0xb);assert!(coin_sum(&f.sc)==89,4);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^^^^^^^^^^^^ Unused local variable 'fee_revision'. Consider removing or prefixing with an underscore: '_fee_revision'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/nested_vault_tests.move:23:207
+   │
+23 │ fun exact_depth_sixteen_rotates_deepest_tool(){let mut sc=test_scenario::begin(@0xb);let mut child=bare(&mut sc);attach_tool(&mut sc,&mut child,73);let id=object::id(&child);let mut path=vector[];let mut i=0;while(i < 16){let mut parent=bare(&mut sc);path.push_back(object::id(&child));standard::nest(&mut parent,child,0);child=parent;i=i+1};vault::prepare_handover(&mut child);let mut p=&child;let mut i=16;while(i > 0){i=i-1;p=standard::nested(p,path[i])};assert!(object::id(p)==id && vault::privacy_generation(vault::tool(p))==1 && vault::coin_balance<USD>(p)==73,0);transfer::public_transfer(child,@0xb);sc.end();}
+   │                                                                                                                                                                                                               ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/nested_vault_tests.move:25:158
+   │
+25 │ fun depth_seventeen_rejects_before_handover(){let mut sc=test_scenario::begin(@0xb);let mut child=bare(&mut sc);attach_tool(&mut sc,&mut child,73);let mut i=0;while(i < 17){let mut parent=bare(&mut sc);standard::nest(&mut parent,child,0);child=parent;i=i+1};vault::prepare_handover(&mut child);transfer::public_transfer(child,@0xb);sc.end();}
+   │                                                                                                                                                              ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+    ┌─ ./sources/physical.move:201:55
+    │
+201 │     assert!(expiry>clock::timestamp_ms(clock),EQuote);sale_amounts(&asset.sale,price);
+    │                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+    │
+    = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+    = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/scene_variant_tests.move:138:68
+    │
+138 │ fun maker_control_cannot_sign_a_pack_pose(){let(sc,m,p,mc,pc,state,e)=pack_setup();let _=catalog::visual_variant(&p,&mc,1,pack_pose(catalog::scene(catalog::published(&p,1)),true),vector[]);pack_end(sc,m,p,mc,pc,state)}
+    │                                                                    ^ Unused local variable 'e'. Consider removing or prefixing with an underscore: '_e'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/visual_tests.move:160:325
+    │
+160 │ fun reset_uses_frozen_creator_layout_and_user_transform_reaches_plan(){let(mut sc,id)=setup(0);let root=mint(&mut sc,id,false);let mut s:Soul=sc.take_from_sender_by_id(root);soul::tune(&mut s,b"free",policy::layout_signed(true,1000,false,2000,1500000,true,45000,vector[]),0);let layers=soul::render_plan(&s);let mut matched=0;layers.do_ref!(|l|{let(x,y,scale,rotation)=visual::transform_parts(&visual::layer_user(l));let(nx,mx)=visual::signed_parts(&x);let(ny,my)=visual::signed_parts(&y);let(nr,mr)=visual::signed_parts(&rotation);if(nx && mx==1000){assert!(!ny && my==2000 && scale==1500000 && nr && mr==45000,0);matched=matched+1}});assert!(matched==2,1);soul::reset_layout(&mut s,b"free",1);assert!(soul::binding_layout(&soul::binding(&s,b"free").destroy_some())==fixtures::layout(),2);sc.return_to_sender(s);sc.end();}
+    │                                                                                                                                                                                                                                                                                                                                     ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/standard_business_tests.move:63:248
+   │
+63 │     let mut sc=fixtures::setup(0,0,0,0,0,0);let parent=fixtures::mint(&mut sc,20,0);sc.next_tx(@0xb);let mut s:Soul=sc.take_from_sender_by_id(parent);let (seed,mut branch)=growth::bare_soul(sc.ctx());transfer::public_transfer(seed,@0xb);let mut n=0;while(n < 16){let(seed,mut next)=growth::bare_soul(sc.ctx());transfer::public_transfer(seed,@0xb);standard::nest(&mut next,branch,0);branch=next;n=n+1};let rev=standard::revision(&s);standard::nest(&mut s,branch,rev);soul::handover(s,@0xc,0);sc.end();
+   │                                                                                                                                                                                                                                                        ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL02001]: possible owned object share
+    ┌─ ./sources/collection.move:50:32
+    │
+ 50 │     let id=object::id(&policy);transfer::public_share_object(policy);transfer::share_object(Factory{id:object::new(ctx),publisher,policy:id,cap})
+    │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                │                             │
+    │                                │                             Creating a fresh object and sharing it within the same function will ensure this does not abort.
+    │                                Potential abort from a (potentially) owned object created by a different transaction.
+    │
+    ┌─ /Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move:71:50
+    │
+ 71 │ public struct TransferPolicy<phantom T> has key, store {
+    │                                                  ----- Potentially an owned object because 'store' grants access to public transfers
+    ·
+115 │ public fun new<T>(pub: &Publisher, ctx: &mut TxContext): (TransferPolicy<T>, TransferPolicyCap<T>) {
+    │                                                           ----------------- A potentially owned object coming from here
+    │
+    = This warning can be suppressed with '#[allow(lint(share_owned))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+   ┌─ ./sources/collection.move:99:249
+   │
+99 │     let r=custody::borrow_right<C,CollectionAuthority1,CollectionRevision3,Right>(cfg,CollectionAuthority1{},CollectionRevision3{},k,a,c.right,ctx);assert!(policy::hash_bytes(bcs::to_bytes(r))==c.right_hash && kiosk::is_locked(k,c.right),EBinding);economics::right_total(cfg,ask);
+   │                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+   │
+   = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+   = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WL02013]: return value of a non-mutating call is discarded
+    ┌─ ./sources/collection.move:111:55
+    │
+111 │     transfer_policy::add_receipt(Rule{},&mut request);transfer_policy::confirm_request(p,request);l.state=1;l.revision=l.revision+1;l.buyer=option::some(ctx.sender());l.attempt=option::some(attempt);event::emit(Sold{listing:object::id(l),collection:object::id(c),right:c.right,seller:previous,buyer:c.holder,epoch:c.epoch,attempt})
+    │                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Unused return value. This function takes no '&mut' arguments, so its result is the only observable effect of the call
+    │
+    = Bind the result with 'let', or use 'let _ = ...' to discard it explicitly.
+    = This warning can be suppressed with '#[allow(lint(unused_return_value))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/catalog.move:104:32
+    │
+100 │ fun create<C>(cfg:&Config<C>,control_royalty_bps:u16,primary:PrimaryPolicy,maker:Option<ID>,parent_version:u64,parent_snapshot:Option<ParentSnapshot>,ctx:&mut TxContext):ID {
+    │                                                                                                                                                                           -- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    ·
+104 │     let product=object::id(&p);transfer::public_transfer(Control{id:object::new(ctx),product},ctx.sender());transfer::share_object(p);product
+    │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                │                                                              │
+    │                                │                                                              Transaction sender address coming from here
+    │                                Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:233:109
+    │
+233 │ fun runtime_expired_actual_maker_cannot_create_player(){let mut f=setup();runtime_ready(&mut f,0);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};runtime_player(&mut f);end(f)}
+    │                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:239:125
+    │
+239 │ fun runtime_expired_actual_certificate_cannot_collect_access_payment(){let mut f=setup();runtime_ready(&mut f,15);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};let hash=catalog::policy_hash(catalog::published(&f.p,1));let rev=economics::revision(&f.cfg);let expiry=clock::timestamp_ms(&f.clock)+1000;let payment=coin::mint_for_testing<USD>(15,f.sc.ctx());{let F{out:_,sc,p,cfg,clock,cap:_,sys,nodes:_}=&mut f;soulidity_v1::runtime::buy_access(p,cfg,1,hash,rev,expiry,fixtures::h(94),payment,clock,sys,sc.ctx())};end(f)}
+    │                                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:241:618
+    │
+241 │ fun runtime_already_owned_free_item_can_exit_after_maker_expiry(){let mut f=setup();runtime_ready(&mut f,0);f=advance(f);let id=runtime_player(&mut f);f=advance(f);let mut p:soulidity_v1::player::Player=f.sc.take_from_sender_by_id(id);runtime_choose(&mut f,&mut p);let soul=runtime_complete(&mut f,&p);soulidity_v1::player::close(p,1,f.sc.ctx());f=advance(f);let mut s:soulidity_standard::soul::Soul=f.sc.take_from_sender_by_id(soul);let before=soulidity_application::character::free_id(&soulidity_application::character::binding(&s,b"free").destroy_some()).destroy_some();transfer::public_transfer(s,@0xa);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};f=advance(f);let mut s:soulidity_standard::soul::Soul=f.sc.take_from_sender_by_id(soul);let rev=soulidity_application::character::revision(&s);let item=soulidity_application::character::detach(&mut s,b"free",rev);assert!(object::id(&item)==before,0);transfer::public_transfer(item,@0xb);transfer::public_transfer(s,@0xa);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:273:120
+    │
+273 │ fun runtime_pack_seal_rejects_expired_parent_even_with_live_pack(){let mut f=setup();runtime_ready(&mut f,0);let mut n=0;while(n < 2){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};let(mut f,pack,cap)=runtime_pack(f,0,0,0);storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);release::assert_current(&pack,&f.cfg,1,&f.sys);release::seal_approve_pack(release::seal_scope(object::id(&f.cfg),object::id(&pack),1,fixtures::h(11)),&pack,&f.p,&f.cfg,1,&f.sys,&f.clock,f.sc.ctx());test_scenario::return_shared(pack);f.sc.return_to_sender(cap);end(f)}
+    │                                                                                                                        ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:292:361
+    │
+292 │ fun runtime_expired_creator_cannot_issue_physical_from_old_player(){let mut f=setup();let rid=runtime_physical_ready(&mut f,0,0);let id=runtime_player(&mut f);f=advance(f);let mut p:soulidity_v1::player::Player=f.sc.take_from_sender_by_id(id);let mut r:soulidity_v1::physical::Registry<USD> =f.sc.take_shared_by_id(rid);runtime_choose(&mut f,&mut p);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};soulidity_v1::physical::deliver(runtime_physical_issue(&mut f,&mut r,&p,0));test_scenario::return_shared(r);f.sc.return_to_sender(p);end(f)}
+    │                                                                                                                                                                                                                                                                                                                                                                         ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:317:27
+    │
+317 │     if(expired){let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1}};
+    │                           ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:395:55
+    │
+395 │     release::archive(&mut f.p,&mut f.cap,1);let mut n=0;while(n < 3){storage_fixture::next_epoch(&mut f.sc,&mut f.sys,&mut f.nodes,&mut f.clock);n=n+1};
+    │                                                       ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/release_tests.move:419:61
+    │
+419 │     assert!(32+std::bcs::to_bytes(&blobs).length()==4225 && 4225 <245760,1);
+    │                                                             ^^^^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL02008]: struct with id but missing key ability
+   ┌─ ./sources/release.move:44:1
+   │
+44 │ public struct Custody has store {id:UID}
+   │ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Struct's first field has an 'id' field of type 'sui::object::UID' but is missing the 'key' ability.
+   │
+   = This warning can be suppressed with '#[allow(lint(missing_key))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./sources/release.move:145:228
+    │
+145 │     assert!(d.header.actor==ctx.sender(),EActor);assert!(paged_store::length(&d.rows)-d.returned<=30,EBounds);let Draft{mut id,header:_,expected:_,rows,index:_,revision:_,canceling:_,returned}=d;let DraftVersion{id:metadata_id,version}=dof::remove(&mut id,MetadataKey{});metadata_id.delete();let mut blobs=vector[blob_custody::take_document(&mut id,0),blob_custody::take_document(&mut id,1)];let mut i=returned;while(i < paged_store::length(&rows)){blobs.push_back(blob_custody::take(&mut id,i));i=i+1};paged_store::destroy(rows);id.delete();blobs
+    │                                                                                                                                                                                                                                    ^^^^^^^ Unused local variable 'version'. Consider removing or prefixing with an underscore: '_version'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:47:41
+   │
+47 │ fun exact_payment_required(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,36);finish(sc,sys,clock)}
+   │                                         ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:50:53
+   │
+50 │ fun committed_attempt_cannot_buy_twice(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,40);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)}
+   │                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:84:53
+   │
+84 │ fun perpetual_entry_cannot_be_rebought(){let(mut sc,root,_id,sys,clock)=setup(5,option::none());buy(&mut sc,&clock,40,40);sc.next_tx(@0x8);buy(&mut sc,&clock,41,40);finish(sc,sys,clock)}
+   │                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/paid_access_tests.move:95:16
+   │
+95 │     let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));sc.next_tx(@0xa);let mut cfg:Config<USD> = sc.take_shared();let mut admin:Admin=sc.take_from_sender();economics::configure(&mut cfg,&mut admin,0,1000,500,0,@0xf,true);test_scenario::return_shared(cfg);sc.return_to_sender(admin);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)
+   │                ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:106:69
+    │
+106 │ fun original_ask_alone_cannot_buy_additional_fee_offer(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,37);finish(sc,sys,clock)}
+    │                                                                     ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:109:64
+    │
+109 │ fun overpayment_is_rejected_without_partial_issue(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));buy(&mut sc,&clock,40,41);finish(sc,sys,clock)}
+    │                                                                ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:112:44
+    │
+112 │ fun primary_total_cannot_overflow(){let(sc,root,_id,sys,clock)=setup(5,option::some(1000));let cfg:Config<USD> = sc.take_shared();economics::primary_total(&cfg,18446744073709551615);test_scenario::return_shared(cfg);finish(sc,sys,clock)}
+    │                                            ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+    ┌─ ./tests/paid_access_tests.move:115:61
+    │
+115 │ fun old_fee_revision_cannot_pay_under_new_rate(){let(mut sc,root,_id,sys,clock)=setup(5,option::some(1000));sc.next_tx(@0xa);let mut cfg:Config<USD> = sc.take_shared();let mut admin:Admin=sc.take_from_sender();economics::configure(&mut cfg,&mut admin,0,2000,500,0,@0xf,false);test_scenario::return_shared(cfg);sc.return_to_sender(admin);sc.next_tx(@0x8);buy(&mut sc,&clock,40,40);finish(sc,sys,clock)}
+    │                                                             ^^^^ Unused local variable 'root'. Consider removing or prefixing with an underscore: '_root'
+    │
+    = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09002]: unused variable
+   ┌─ ./tests/package_role_tests.move:26:69
+   │
+26 │     let value=native_binding::catalog_for_testing(&c,1,s.ctx());let h=native_binding::commitment(&value);let p=native_binding::installation_for_testing(&c,&mut a,1,economics::commitment(&c),&value);
+   │                                                                     ^ Unused local variable 'h'. Consider removing or prefixing with an underscore: '_h'
+   │
+   = This warning can be suppressed with '#[allow(unused_variable)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/pack_soul_tests.move:266:299
+    │
+266 │ fun fresh_free_purchase_uses_exact_published_supply_and_returns_every_old_id(){let(mut sc,maker,mut a,b,mut cfg,clock,p,id)=fresh_enhancement(2);let mut s:Soul=sc.take_from_sender_by_id(id);let d=policy::definition_hash(&definition(&scene(true),b"pack-style",2));let mut old_ids=vector[];let mut i=0;while(i < 10){let items=buy_choice(&mut sc,&mut s,&maker,&mut a,&mut cfg,&clock,b"pack-style",100+(i as u8));items.do!(|it|{old_ids.push_back(object::id(&it));transfer::public_transfer(it,@0xb)});i=i+1};let current=soul::free_id(&soul::binding_scoped(&s,key(&a)).destroy_some()).destroy_some();assert!(old_ids.length()==9 && !old_ids.contains(&current) && catalog::issued_count(&a,1,d)==10 && catalog::wallet_completes(&a,1,@0xb)==10 && soul::enhancement_count(&s)==10,0);sc.return_to_sender(s);sc.next_tx(@0xb);assert!(sc.ids_for_sender<Item>().length()==9,1);end(F{sc,maker,a,b,cfg,clock,p})}
+    │                                                                                                                                                                                                                                                                                                           ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+    ┌─ ./tests/pack_soul_tests.move:268:180
+    │
+268 │ fun post_mint_fresh_free_cannot_exceed_published_supply(){let(mut sc,maker,mut a,b,mut cfg,clock,p,id)=fresh_enhancement(2);let mut s:Soul=sc.take_from_sender_by_id(id);let mut i=0;while(i < 11){buy_choice(&mut sc,&mut s,&maker,&mut a,&mut cfg,&clock,b"pack-style",110+(i as u8)).do!(|it|transfer::public_transfer(it,@0xb));i=i+1};sc.return_to_sender(s);end(F{sc,maker,a,b,cfg,clock,p})}
+    │                                                                                                                                                                                    ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+    │
+    = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+    = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/pack_player_tests.move:42:301
+   │
+42 │ fun own_palette_change_does_not_recolor_another_same_name_pack(){let mut f=setup();select(&mut f,true,b"pack-style");select(&mut f,false,b"pack-style");let a=scope(&f.a);let b=scope(&f.b);player::set_pack_colors(&mut f.p,a,colors(true),3,f.sc.ctx());let layers=player::render_plan(&f.p);let mut gold=0;let mut silver=0;layers.do_ref!(|l|{if(visual::track_key(visual::layer_track(l))==b"glow"){let name=visual::swatch_key(&visual::layer_color(l).destroy_some());if(name==b"gold")gold=gold+1;if(name==b"silver")silver=silver+1}});assert!(gold==1 && silver==1 && player::pack_colors(&f.p,a)!=player::pack_colors(&f.p,b),0);end(f)}
+   │                                                                                                                                                                                                                                                                                                             ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04039]: unable to determine literal's type
+   ┌─ ./tests/pack_player_tests.move:42:318
+   │
+42 │ fun own_palette_change_does_not_recolor_another_same_name_pack(){let mut f=setup();select(&mut f,true,b"pack-style");select(&mut f,false,b"pack-style");let a=scope(&f.a);let b=scope(&f.b);player::set_pack_colors(&mut f.p,a,colors(true),3,f.sc.ctx());let layers=player::render_plan(&f.p);let mut gold=0;let mut silver=0;layers.do_ref!(|l|{if(visual::track_key(visual::layer_track(l))==b"glow"){let name=visual::swatch_key(&visual::layer_color(l).destroy_some());if(name==b"gold")gold=gold+1;if(name==b"silver")silver=silver+1}});assert!(gold==1 && silver==1 && player::pack_colors(&f.p,a)!=player::pack_colors(&f.p,b),0);end(f)}
+   │                                                                                                                                                                                                                                                                                                                              ^ Could not determine a concrete type for this numeric literal, so defaulting to 'u64'
+   │
+   = To avoid this warning, add an explicit type annotation, e.g., '<num>u64'
+   = This warning can be suppressed with '#[allow(untyped_literal)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+   ┌─ ./sources/access.move:81:88
+   │
+77 │ public fun withdraw(k:&mut Kiosk,a:&mut Account,id:ID,expected:u64,expected_soul:u64,ctx:&TxContext){
+   │            -------- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+   ·
+81 │     soul::clear_authorizations(&mut s);vault::prepare_handover(&mut s);changed(k,id,1);transfer::public_transfer(s,ctx.sender())
+   │                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   │                                                                                        │                           │
+   │                                                                                        │                           Transaction sender address coming from here
+   │                                                                                        Transfer of an object to transaction sender address
+   │
+   = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Please report feedback on the linter warnings at https://forums.sui.io
+

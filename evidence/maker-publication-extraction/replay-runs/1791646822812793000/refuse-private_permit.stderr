@@ -1,0 +1,21 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING Refuse_private_permit
+[0m[1m[38;5;9merror[EC04001][0m[1m: restricted visibility[0m
+   [0m[34m┌─[0m ./sources/refusal.move:4:38
+   [0m[34m│[0m
+[0m[34m 4[0m [0m[34m│[0m public fun bad(source:Source):Permit{[0m[31mPermit{source,target:object::id_from_address(@0x1)}[0m}
+   [0m[34m│[0m                                      [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mStruct '(soulidity_model=0x0)::components::Permit' can only be instantiated within its defining module '(soulidity_model=0x0)::components'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_model/sources/components.move:12:15
+   [0m[34m│[0m
+[0m[34m12[0m [0m[34m│[0m public struct Permit {source:Source,target:ID}
+   [0m[34m│[0m               [0m[34m------[0m [0m[34mStruct defined in module '(soulidity_model=0x0)::components'[0m
+

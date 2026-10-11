@@ -1,0 +1,119 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING SoulidityFoundation
+warning[WC09009]: unused struct field
+   ┌─ ./sources/economics.move:60:51
+   │
+60 │ public struct ConfigurationChanged has copy,drop {snapshot:ConfigSnapshot,commitment:vector<u8>}
+   │                                                   ^^^^^^^^ The 'snapshot' field of the 'ConfigurationChanged' type is unused
+   │
+   = This warning can be suppressed with '#[allow(unused_field)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC09009]: unused struct field
+   ┌─ ./sources/economics.move:60:75
+   │
+60 │ public struct ConfigurationChanged has copy,drop {snapshot:ConfigSnapshot,commitment:vector<u8>}
+   │                                                                           ^^^^^^^^^^ The 'commitment' field of the 'ConfigurationChanged' type is unused
+   │
+   = This warning can be suppressed with '#[allow(unused_field)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/economics.move:219:119
+    │
+218 │ public fun create<C>(_authority:&Authority,primary_bps:u16,secondary_bps:u16,complete_fee:u64,recipient:address,ctx:&mut TxContext):ID {
+    │                                                                                                                                     -- Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+219 │     let (config,admin)=new_config<C>(primary_bps,secondary_bps,complete_fee,recipient,ctx);let id=object::id(&config);transfer::public_transfer(admin,ctx.sender());transfer::share_object(config);id
+    │                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                                                                       │                               │
+    │                                                                                                                       │                               Transaction sender address coming from here
+    │                                                                                                                       Transfer of an object to transaction sender address
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WSL06002]: non-composable transfer to sender
+    ┌─ ./sources/economics.move:228:118
+    │
+228 │ public(package) fun share_config<C>(c:Config<C>,a:Admin,ctx:&TxContext):ID{assert_admin(&c,&a);let id=object::id(&c);transfer::public_transfer(a,ctx.sender());transfer::share_object(c);id}
+    │                                                                         --                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    │                                                                         │                                            │                           │
+    │                                                                         │                                            │                           Transaction sender address coming from here
+    │                                                                         │                                            Transfer of an object to transaction sender address
+    │                                                                         Returning an object from a function, allows a caller to use the object and enables composability via programmable transactions.
+    │
+    = This warning can be suppressed with '#[allow(lint(self_transfer))]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:245:82
+    │
+245 │ public fun operational_snapshot<C>(c:&Config<C>):OperationalSnapshot{assert!(df::exists_(&c.id,MarketGatesKey{}),EPolicy);OperationalSnapshot{domain:b"soulidity-protocol-operational-v4",config:snapshot(c),gates:*df::borrow(&c.id,MarketGatesKey{})}}
+    │                                                                                  ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:248:13
+    │
+248 │     if(!df::exists_(&c.id,MarketGatesKey{}))df::add(&mut c.id,MarketGatesKey{},MarketGates{primary:false,secondary:false});
+    │             ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:257:25
+    │
+257 │     let expected=if(df::exists_(&c.id,MarketGatesKey{}))operational_snapshot_hash(&operational_snapshot(c)) else snapshot_hash(&snapshot(c));
+    │                         ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:310:161
+    │
+310 │ public fun assert_enabled<C>(c:&Config<C>){assert_recovery_identity(c);assert_current_package(c);assert_native_current(c);assert!(c.enabled && !c.paused && df::exists_(&c.id,MarketGatesKey{}),EPolicy)}
+    │                                                                                                                                                                 ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:311:54
+    │
+311 │ public fun primary_enabled<C>(c:&Config<C>):bool{df::exists_(&c.id,MarketGatesKey{}) && df::borrow<MarketGatesKey,MarketGates>(&c.id,MarketGatesKey{}).primary}
+    │                                                      ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:312:56
+    │
+312 │ public fun secondary_enabled<C>(c:&Config<C>):bool{df::exists_(&c.id,MarketGatesKey{}) && df::borrow<MarketGatesKey,MarketGates>(&c.id,MarketGatesKey{}).secondary}
+    │                                                        ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:319:78
+    │
+319 │     assert!(c.revision==expected && c.commitment==expected_commitment && df::exists_(&c.id,MarketGatesKey{}),EPolicy);
+    │                                                                              ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:339:49
+    │
+339 │     let key=SourceRegistryKey<T>{};assert!(!df::exists_(&c.id,key),EPolicy);
+    │                                                 ^^^^^^^ The function 'sui::dynamic_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+warning[WC04037]: deprecated usage
+    ┌─ ./sources/economics.move:389:87
+    │
+389 │ fun assert_native_current<C>(c:&Config<C>){assert!(c.native_binding.is_some() && dof::exists_(&c.id,NativeBindingKey{}),EPolicy);let n=c.native_binding.borrow();package_roles::assert_identity(&c.roles,0,n.original_package,n.callable_package);assert!(is_nonzero_hash(&n.commitment),EPolicy)}
+    │                                                                                       ^^^^^^^ The function 'sui::dynamic_object_field::exists_' is deprecated: Renamed to `exists`
+    │
+    = This warning can be suppressed with '#[allow(deprecated_usage)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+Please report feedback on the linter warnings at https://forums.sui.io
+

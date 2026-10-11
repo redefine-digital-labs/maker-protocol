@@ -1,0 +1,9 @@
+[
+  {
+    "name": "permit_drop",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop/sources/refusal.move",
+    "source_sha256": "4054f4cf4af78a09468f85590840b6e96c6e3a17bad68dd9c6a9bb822886fed0"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "all_original_source_manifest_lock_and_legacy_inputs_unchanged": true,
+  "original_source_inputs": 217,
+  "cache_original_inputs": 20268,
+  "cache_original_changes": [],
+  "additional_cache_inputs": {},
+  "scope": "New optional cache lock metadata is reported separately; existing cache bytes are retained."
+}

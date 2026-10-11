@@ -1,0 +1,950 @@
+[
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/ability",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/ability",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "51b41357a7fac4792bc62fc8d4687c9d0e7cef87e62eeec9e8f8c2c77ae22ed1"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/ability/Move.lock",
+        "sha256": "013d853939249086be5327586b4a93447d1cab59949cd9e4952856a46fac42b6",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/ability-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.263028624933213
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/container",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/container",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "fe016524d16ff30df5a014dbb9dc2da91d59495abf57651c6e2bd62ab63a20e3"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/container/Move.lock",
+        "sha256": "2f144032d80ece33956e919f8eff4002013ff0c94d15492d736594defad0ea17",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/container-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.196671916171908
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/content_controller",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/content_controller",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/content_controller/Move.lock",
+        "sha256": "4933258a7062d2427f8d12fdb00bc47c90c9f69d196a6ca7bcc68f5feb971b1a",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/content_controller-Move.lock"
+      }
+    ],
+    "duration_seconds": 13.946325625060126
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer/Move.lock",
+        "sha256": "283b2afafedbab99c543da1e4d03883ebf650f798e038b7e581e31caf1273499",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/foreign_publication_producer-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.849579834146425
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/integration",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/integration",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/integration/Move.lock",
+        "sha256": "c7b05261c87b15bdd5142c3f2a796b0ceb52f8f52fd84559b05809c63b3c55c2",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/integration-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.147299541858956
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/maker",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/maker",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "dc066486dceb938ca76272a80690a7212c7a51b33623a3895fb15737da6b9db4"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/maker/Move.lock",
+        "sha256": "2ee8a04b12c867975c13d1f63c85d604842539e1de91ab08f6b58d7d02bec5f9",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/maker-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.994485749863088
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/model_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/model_producer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/model_producer/Move.lock",
+        "sha256": "0f74c7d80d41d3a4e7b958bbfe088163aa9b8b4f092bbe708c89426eeae33728",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/model_producer-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.001294916961342
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/output_extension",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/output_extension",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/output_extension/Move.lock",
+        "sha256": "38701428f62ca36c0b26b4a3f607c53838fee70c0fc40695393bf67fe413b861",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/output_extension-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.38218095805496
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "9214f5e1fd7c614f0807ef34008f725a62f5822fb4e4111922faf84efbce4c04"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_application/Move.lock",
+        "sha256": "ce990e70d35838479571c800c217b0e6b7e0ff36cd03cadf89741440c1690366",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_application-Move.lock"
+      }
+    ],
+    "duration_seconds": 14.88561762496829
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_community",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_community",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "82e94d5b85f588ef553fbdb98c2e0f1095ab735d9acfc15965ad8fe061b2f15d"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_community/Move.lock",
+        "sha256": "82e94d5b85f588ef553fbdb98c2e0f1095ab735d9acfc15965ad8fe061b2f15d",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_community-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.7724239581730217
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content/Move.lock",
+        "sha256": "ad1c826d24f1262e86bdd3981035a5f09ed4ac5fde9eae68ddb2dca50d3b69b4",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_content-Move.lock"
+      }
+    ],
+    "duration_seconds": 14.78553174994886
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds/Move.lock",
+        "sha256": "d18bb1135d517064c42c4ebbc4b8e0727c2b97cfedecf0a0c74324b4925bcd2d",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_content_kinds-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.4858462498523295
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_custody",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_custody",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "1526127ff49f6d872385964fa2a477442e7ca15303421c9bd44ac52d6a9cc042"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_custody/Move.lock",
+        "sha256": "81d7795d9164db9415cf9618e0f4ad792e761e0c484f5310e7b8b00d7b4fed12",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_custody-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.12787604192272
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "5c6ddee0be90a667c14029867ce966a797aa4cd7f367b9f2ccb60742fb0683fa"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation/Move.lock",
+        "sha256": "5c6ddee0be90a667c14029867ce966a797aa4cd7f367b9f2ccb60742fb0683fa",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_foundation-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.9941832919139415
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_admission",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_admission",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "a5226ac4417db423013ae5baa7b8a8134f9b42cb39e16fd47f6b6131a61118e4"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_admission/Move.lock",
+        "sha256": "8d037c56e4e98a17ecf89cfe4af7d65e09532ea47c21267c9743f7716872d621",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_maker_admission-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.0399587920401245
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication/Move.lock",
+        "sha256": "85635433b57844875e50f5d5bfa783d40c452943edadef1d6091decac5203aef",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_maker_publication-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.99266070779413
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "9867cab7fc52ef9c44987a5220b89c58a1ac89441d7534a7e7898307cc57f0ce"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms/Move.lock",
+        "sha256": "9f35876191e64f8eb1a0595c5c5b21bd5f7c8b853e47c26e326cdb31dcfeffb7",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_maker_terms-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.042640083935112
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "cd9b56c842ea85a2028ccc576a7125393e0b554f6e81cf93cfc04228b79cb579"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model/Move.lock",
+        "sha256": "b91f7e8567e4e7aaad5aa57b2a4a22439dc5923d142999c706fc1c09ba961fb2",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_model-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.028513875091448
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_native",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_native",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "bd1a441d92bb36ab160b77f7d583e0524f022d4c682d71249f41d4f629716d3c"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_native/Move.lock",
+        "sha256": "0592741e36ded9d39ae9cb6dd5a3f3cbe930f5f3e3d2de0b9d35cd28ff3141a2",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_native-Move.lock"
+      }
+    ],
+    "duration_seconds": 20.225268832873553
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_standard",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_standard",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_standard/Move.lock",
+        "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_standard-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.925309249898419
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_v1",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_v1",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "b291ff9232692bcc10e23e032183ae26ea2489f956bb2764af776bf4da97a473"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_v1/Move.lock",
+        "sha256": "a2c1f2eb71bd56cc0e99a6c80640ec4a7a12c2a9f8b89abe3b11153411f88cbc",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_v1-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.10937354201451
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {
+      "Move.lock": "0c9cdce18044b83bde071e8c715c6cebdf60d8ab4768474e53d6f2acc6aea86e"
+    },
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual/Move.lock",
+        "sha256": "0c9cdce18044b83bde071e8c715c6cebdf60d8ab4768474e53d6f2acc6aea86e",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/soulidity_visual-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.8153733329381794
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/vault_tool",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/vault_tool",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/vault_tool/Move.lock",
+        "sha256": "e6fa43db0911521bdf0083f53a3683b6abd264eff2a4d5df621b929c6baa9b12",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/vault_tool-Move.lock"
+      }
+    ],
+    "duration_seconds": 22.453676624922082
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/visual_capture_extension",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/visual_capture_extension",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/visual_capture_extension/Move.lock",
+        "sha256": "81f963b0de5659de3566e50c596d1203365aef9401f8451a72cc3ee1a63b40d1",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/visual_capture_extension-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.239979750011116
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectConsumer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectConsumer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectConsumer/Move.lock",
+        "sha256": "1f4798d694f0e74c3862afc7498134c4f67f88388a479e738eae57a2896e2ab2",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/MakerDirectConsumer-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.1397518748417497
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectProducer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectProducer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/legacy-fixtures/MakerDirectProducer/Move.lock",
+        "sha256": "116042ec41c3fea13550c11a8001671045d493b37e75829ecf9321c473f8b435",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/MakerDirectProducer-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.033927459036931
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_copy",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_copy",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_copy/Move.lock",
+        "sha256": "396eda3c48df676a6ec3f0fb78fdd33a97de2ef758214f2559b2cd37406462b9",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/permit_copy-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.022210958879441
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop/Move.lock",
+        "sha256": "d90a1d63eced211bd20ef850083c343d0031a8aeb8d2d04eb633a29d2e43121f",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/permit_drop-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.271631667157635
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_store",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_store",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_store/Move.lock",
+        "sha256": "8800aa91e20c3d924916fdb35fc08ff05edeb343d64e4e33b7e1c483ceaf8c6c",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/permit_store-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.9684202501084656
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_type_substitution",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_type_substitution",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_type_substitution/Move.lock",
+        "sha256": "edbb606010abafd39488b4e9e6a4f0c7ad44e4227f94f8a0dc1ffd8db45705fa",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/permit_type_substitution-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.777269042097032
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_component_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_component_producer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_component_producer/Move.lock",
+        "sha256": "3f6144fd62cfa5f20055628e7d867bfc9516bb70f5fd32eca19f159250737c78",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_component_producer-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.016038666013628
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_expected",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_expected",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_expected/Move.lock",
+        "sha256": "34d449ef5a23addb4fc007b17a9426eb27720a3e28e884a90af2dcb72166104b",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_expected-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.052067999960855
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_initial_rule",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_initial_rule",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_initial_rule/Move.lock",
+        "sha256": "e0746193c79a200b762abf3fc54630bb5e3c39354cbc4ef9acbc13588d63e3fa",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_initial_rule-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.985846000025049
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_function",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_function",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_function/Move.lock",
+        "sha256": "b91f2e21c97aa6257e8d90e20f0ac6af01efb5c0819c6ff995d44779d4ad466a",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_operator_function-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.41479824995622
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_struct",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_struct",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_struct/Move.lock",
+        "sha256": "a2bb75f99d8fdc345de41516b543bfc85352f2989ba221da8c7f2fdea754afde",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_operator_struct-Move.lock"
+      }
+    ],
+    "duration_seconds": 17.448069874895737
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_permit",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_permit",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_permit/Move.lock",
+        "sha256": "153c8031ed14c0d34fe3c2f237926759ad2009ad91e0db56662be74bd973f476",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_permit-Move.lock"
+      }
+    ],
+    "duration_seconds": 2.61393166705966
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy/Move.lock",
+        "sha256": "ba88b72aff1922b1c909f2610a56a5883aff83438776e2fb1048f056767f8513",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_policy-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.0217762920074165
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy_producer",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy_producer",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy_producer/Move.lock",
+        "sha256": "345c170a9b323e94e9096bf000bd658b7f0c0ed41ae23df4bf35c0c0c851adb9",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_policy_producer-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.193191374884918
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_cap",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_cap",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_cap/Move.lock",
+        "sha256": "18cec6c2b72045882f3ec6455f31410e1af3dc6c137ba7e83656eb468e97ce96",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_registry_cap-Move.lock"
+      }
+    ],
+    "duration_seconds": 4.779472124995664
+  },
+  {
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_descriptor",
+    "command": [
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+      "move",
+      "update-deps",
+      "--path",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_descriptor",
+      "-e",
+      "mainnet"
+    ],
+    "exit": 0,
+    "before": {},
+    "after": [
+      {
+        "name": "Move.lock",
+        "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_descriptor/Move.lock",
+        "sha256": "4473b62decb05d794003ca3778a2092345df48ffef5f17457b522f9abc99fa01",
+        "raw_generated_copy": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/runs/lock-resolution-1791645548292015000/private_registry_descriptor-Move.lock"
+      }
+    ],
+    "duration_seconds": 5.062185500049964
+  }
+]

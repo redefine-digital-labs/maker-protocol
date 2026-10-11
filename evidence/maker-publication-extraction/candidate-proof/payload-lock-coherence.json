@@ -1,0 +1,1377 @@
+{
+  "roots": 42,
+  "local_node_occurrences": 274,
+  "all_actual_target_digests_and_edges_match": true,
+  "nodes": [
+    {
+      "root": "ability",
+      "node": "IndependentAbility",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "ability",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "container",
+      "node": "IndependentContainer",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "container",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "content_controller",
+      "node": "IndependentContentController",
+      "actual_manifest_digest": "4430CB0B1FADA40B173D783CADB72F4DDA6CD94A441EFDA6A073AE4970FF61B1"
+    },
+    {
+      "root": "content_controller",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "content_controller",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "content_controller",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "content_controller",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "ForeignPublicationProducer",
+      "actual_manifest_digest": "A549480E8A06F8F878F65CB505E1AD4B95D72FD90F923C019E4496F47A3E56CE"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "foreign_publication_producer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "integration",
+      "node": "IndependentAbility",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "integration",
+      "node": "IndependentContainer",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "integration",
+      "node": "IndependentMaker",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "integration",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "integration",
+      "node": "StandardInteropTests",
+      "actual_manifest_digest": "60121669FBFE62BF6C9268ED69B654028DBF0878162B4518489BAB2F6E414300"
+    },
+    {
+      "root": "maker",
+      "node": "IndependentMaker",
+      "actual_manifest_digest": "88B90E71FEED4C444A33A58D02C49682037B49F2C2F7E88AB5E55C8D99A4C31B"
+    },
+    {
+      "root": "maker",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "model_producer",
+      "node": "IndependentModelProducer",
+      "actual_manifest_digest": "0F86AD4DCEAE9360F77E4DBF6CD325861677ABDA9F56702B70808F022428FCBD"
+    },
+    {
+      "root": "model_producer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "model_producer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "model_producer",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "model_producer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "output_extension",
+      "node": "IndependentOutputExtension",
+      "actual_manifest_digest": "A8F8E43B77ED6390F1B8FEAFD1F8E2D20AAA25F180B4B0F580365609CB3ACF44"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "output_extension",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_application",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_community",
+      "node": "SoulidityCommunity",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_content",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "soulidity_content",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_content",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_content",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_content_kinds",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityCustody",
+      "actual_manifest_digest": "86EA01394AEECA474DBA5F43E9BD119A3E20A523ED85484D4EC3E3106FAB11CA"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityNative",
+      "actual_manifest_digest": "C35C6BF1DBFDD580557F9CC47DEEDEB0103F49E6C865CA6EE9BB4AA03B9FE064"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_custody",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_foundation",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_admission",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_admission",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "soulidity_maker_admission",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_maker_admission",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_admission",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_maker_publication",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_terms",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_maker_terms",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "soulidity_maker_terms",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_maker_terms",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_model",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_model",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_model",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_native",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "soulidity_native",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_native",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_native",
+      "node": "SoulidityNative",
+      "actual_manifest_digest": "C35C6BF1DBFDD580557F9CC47DEEDEB0103F49E6C865CA6EE9BB4AA03B9FE064"
+    },
+    {
+      "root": "soulidity_native",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_standard",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityCommunity",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityCustody",
+      "actual_manifest_digest": "86EA01394AEECA474DBA5F43E9BD119A3E20A523ED85484D4EC3E3106FAB11CA"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityNative",
+      "actual_manifest_digest": "C35C6BF1DBFDD580557F9CC47DEEDEB0103F49E6C865CA6EE9BB4AA03B9FE064"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "soulidity_v1",
+      "node": "soulidity_v1",
+      "actual_manifest_digest": "725DD33950886C7DF7061D3A3EDDA8DC8E28C59BB92D1A00412D2832A527A264"
+    },
+    {
+      "root": "soulidity_visual",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "vault_tool",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "vault_tool",
+      "node": "VaultToolProbe",
+      "actual_manifest_digest": "7C2CC5858119E3EC9FC63F1DF92F9940344ED7ADCBDE28B6EFFE68F0E20A7033"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "IndependentVisualCapture",
+      "actual_manifest_digest": "7C2CC5858119E3EC9FC63F1DF92F9940344ED7ADCBDE28B6EFFE68F0E20A7033"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "visual_capture_extension",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "MakerDirectConsumer",
+      "actual_manifest_digest": "EF0FD34A0FBA2E60F094A044B1C476E193AA499CD697C6A38AEFCC5A3D4F08CF"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "MakerDirectProducer",
+      "actual_manifest_digest": "3C17D660F1F66FAFC0F5139553A2C99B0AB95A614A646380A71A0C3F60E48A68"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectConsumer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "MakerDirectProducer",
+      "actual_manifest_digest": "3C17D660F1F66FAFC0F5139553A2C99B0AB95A614A646380A71A0C3F60E48A68"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "MakerDirectProducer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "Refuse_authorize_nonkey_target",
+      "actual_manifest_digest": "3D501FFCE039C1ACE3CCA91CC83C192416EFA5889B3D4EF1E19619B108F640ED"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "authorize_nonkey_target",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_copy",
+      "node": "Refuse_permit_copy",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "permit_copy",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_drop",
+      "node": "Refuse_permit_drop",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "permit_drop",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_key",
+      "node": "Refuse_permit_key",
+      "actual_manifest_digest": "3D501FFCE039C1ACE3CCA91CC83C192416EFA5889B3D4EF1E19619B108F640ED"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "permit_key",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_store",
+      "node": "Refuse_permit_store",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "permit_store",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "Refuse_permit_type_substitution",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "permit_type_substitution",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "ForeignPublicationProducer",
+      "actual_manifest_digest": "A549480E8A06F8F878F65CB505E1AD4B95D72FD90F923C019E4496F47A3E56CE"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "Refuse_private_component_producer",
+      "actual_manifest_digest": "FB40D69C8CF3858D00B9525A641F015FB84DFB850E8451EF73E9623FAC6477CE"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_component_producer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_expected",
+      "node": "Refuse_private_expected",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_expected",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "Refuse_private_initial_rule",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_initial_rule",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "Refuse_private_operator_function",
+      "actual_manifest_digest": "D4502DEDEC92DDAF3F6B7E015C73A87DAB18472623C5C9AB36E28561FF5B87CA"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityCommunity",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityCustody",
+      "actual_manifest_digest": "86EA01394AEECA474DBA5F43E9BD119A3E20A523ED85484D4EC3E3106FAB11CA"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityNative",
+      "actual_manifest_digest": "C35C6BF1DBFDD580557F9CC47DEEDEB0103F49E6C865CA6EE9BB4AA03B9FE064"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_function",
+      "node": "soulidity_v1",
+      "actual_manifest_digest": "725DD33950886C7DF7061D3A3EDDA8DC8E28C59BB92D1A00412D2832A527A264"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "Refuse_private_operator_struct",
+      "actual_manifest_digest": "D4502DEDEC92DDAF3F6B7E015C73A87DAB18472623C5C9AB36E28561FF5B87CA"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityApplication",
+      "actual_manifest_digest": "3AF445CE019972D6E515E84D393C0C3DE4ACBD3A60C7B1585112258F8A4529B8"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityCommunity",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityContent",
+      "actual_manifest_digest": "A37F7D3458AA4C776BB49588CB1FD27277E71975F0ED82E2206AF45371B6409F"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityCustody",
+      "actual_manifest_digest": "86EA01394AEECA474DBA5F43E9BD119A3E20A523ED85484D4EC3E3106FAB11CA"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityMakerAdmission",
+      "actual_manifest_digest": "200548BB93CC84CD3718181442EA77DBB70F60D7B57D22C8496696EFEF81A4DD"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityNative",
+      "actual_manifest_digest": "C35C6BF1DBFDD580557F9CC47DEEDEB0103F49E6C865CA6EE9BB4AA03B9FE064"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityStandard",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_operator_struct",
+      "node": "soulidity_v1",
+      "actual_manifest_digest": "725DD33950886C7DF7061D3A3EDDA8DC8E28C59BB92D1A00412D2832A527A264"
+    },
+    {
+      "root": "private_permit",
+      "node": "Refuse_private_permit",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_permit",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy",
+      "node": "Refuse_private_policy",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_policy",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "ForeignPublicationProducer",
+      "actual_manifest_digest": "A549480E8A06F8F878F65CB505E1AD4B95D72FD90F923C019E4496F47A3E56CE"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "Refuse_private_policy_producer",
+      "actual_manifest_digest": "FB40D69C8CF3858D00B9525A641F015FB84DFB850E8451EF73E9623FAC6477CE"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_policy_producer",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "Refuse_private_registry_cap",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_registry_cap",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "Refuse_private_registry_descriptor",
+      "actual_manifest_digest": "8ED43AB447F1827CC19C9819C65111550FA2612E67B912022E60A6D65CB3B425"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityContentKinds",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityFoundation",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityMakerPublication",
+      "actual_manifest_digest": "A0DAA86E9A6A963FB14E8D5DD3670F3573FF95E5EAE04E4A959A7462A609B70D"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityMakerTerms",
+      "actual_manifest_digest": "D5037873B9818703AA1B5A60443B6553A4465816877C84ECB606A5D03DDA76C8"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityModel",
+      "actual_manifest_digest": "D303611DEB37D8998EE93504401445B8159335E051F0A85B617E02290B7417A3"
+    },
+    {
+      "root": "private_registry_descriptor",
+      "node": "SoulidityVisual",
+      "actual_manifest_digest": "D8F84FF524A818A0AE43A5F3FE25F4495915FE81B9CC4C746D23E807AEBB2FE6"
+    }
+  ]
+}

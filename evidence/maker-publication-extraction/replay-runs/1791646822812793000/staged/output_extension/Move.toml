@@ -1,0 +1,10 @@
+[package]
+name = "IndependentOutputExtension"
+edition = "2024"
+[dependencies]
+SoulidityMakerPublication = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_publication" }
+SoulidityContentKinds = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_content_kinds" }
+SoulidityApplication = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_application" }
+SoulidityStandard = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_standard" }
+[addresses]
+independent_output = "0x0"

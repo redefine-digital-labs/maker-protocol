@@ -1,0 +1,1029 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "maker_scope_status": "PASS",
+  "scope": "Independent read-only actual installation, staged actual-input Maker publication prerequisite replay, directly affected independent Content9 current consumer CI, and final documentation/continuation review. This is not complete Maker manufacturing or qualified Release/Deploy.",
+  "reviewer_actions": "No project writes, Sui/build/test/RPC/Git/signature/deployment. Read-only hashing/parsing and launcher identity checks with execv removed in memory; reports only /tmp.",
+  "handbook": {
+    "version": "1.0 (2026-10-06)",
+    "sections": [
+      "1-4",
+      "9",
+      "12"
+    ],
+    "operating_model_section": "8",
+    "existing_records_owners_and_stage_authority": "Preserved; scoped evidence only."
+  },
+  "pre_import": {
+    "workspace_sha256": "232961865778db2ae140c2910aec1aea6dec86570114a093ea90f50c76279c15",
+    "production_baseline_rows": 52,
+    "source_transition_references": [
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/native-custody-leaf/source-transition-registered.json",
+        "sha256": "80ce8d8881af0ecee5c7f148511f3c3252577a46ffe64fb04ea1b45859cac611"
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-leaf-extraction/source-transition-registered.json",
+        "sha256": "deb89009b54bb6c3b0f62c97bb2fb5a65a6d46e5efb5309daaad8e05ab73caff"
+      }
+    ],
+    "docs": {
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/CURRENT.md": "240380416151ca0312a1714cff859094b01ef269cbb225dcf9540c7cbef70663",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/PROJECT_MEMORY.md": "662781b2cc50e49ce09d090ff3e4f0261a83e140f2c4d8d992391d3f11e6ae7b",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/ecosystem-construction/ACTIVE_CONSTRUCTION_CN.md": "6e037e5a0eec28cb0793cc9b6251d92baffde74d4914c8391ef02a94b681bafd",
+      "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/CURRENT.md": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+      "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/PROJECT_MEMORY.md": "94a6c8030a66d20aba1c2cb762dce20bec7d3d54f7fa900d2e82b2bcfa284e58"
+    }
+  },
+  "installation": {
+    "installed_payload_rows": 254,
+    "installed_payload_mismatches": [],
+    "durable_payload_mismatches": [],
+    "before_copies": 63,
+    "before_copy_errors": [],
+    "new_sources": [
+      {
+        "current_writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/content_kind_registry.move",
+        "target_module": "CONTENT",
+        "source_role": "sole_unpublished_canonical_implementation",
+        "sha256": "9d5fcbafab4b22aaa332c53b5169f94dda2a9855890e6cb67e2913e59ed7f72c",
+        "declared_move_module": "soulidity_content_kinds::content_kind_registry;",
+        "payload_after": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/reviewed-payload/soulidity_content_kinds/sources/content_kind_registry.move"
+      },
+      {
+        "current_writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/content_permissions.move",
+        "target_module": "CONTENT",
+        "source_role": "sole_unpublished_canonical_implementation",
+        "sha256": "c6124808bcceb5c4c563a3884558c29cad9e364dd429194736b39b4a5ae7be76",
+        "declared_move_module": "soulidity_content_kinds::content_permissions;",
+        "payload_after": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/reviewed-payload/soulidity_content_kinds/sources/content_permissions.move"
+      },
+      {
+        "current_writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds/sources/document_policy.move",
+        "target_module": "CONTENT",
+        "source_role": "sole_unpublished_canonical_implementation",
+        "sha256": "4d450bebb3cbcca1c0980c4da966da39318714248d5dbb0ea620adabfd164e8f",
+        "declared_move_module": "soulidity_content_kinds::document_policy;",
+        "payload_after": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/reviewed-payload/soulidity_content_kinds/sources/document_policy.move"
+      },
+      {
+        "current_writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/sources/output_data.move",
+        "target_module": "MAKER",
+        "source_role": "sole_unpublished_canonical_implementation",
+        "sha256": "0ceef171186662894fb405ae7b9cb7755e24c1422ef3dc7a7b3353194bacb4b0",
+        "declared_move_module": "soulidity_maker_publication::output_data;",
+        "payload_after": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/reviewed-payload/soulidity_maker_publication/sources/output_data.move"
+      },
+      {
+        "current_writer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_publication/sources/publication_validation.move",
+        "target_module": "MAKER",
+        "source_role": "sole_unpublished_canonical_implementation",
+        "sha256": "e54f40dc840ca6c5f11ebe017c164cd91934d62b8b463785e073b2a93e68c9fa",
+        "declared_move_module": "soulidity_maker_publication::publication_validation;",
+        "payload_after": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/reviewed-payload/soulidity_maker_publication/sources/publication_validation.move"
+      }
+    ],
+    "new_nonproduction": 66,
+    "before_workspace_sha256": "232961865778db2ae140c2910aec1aea6dec86570114a093ea90f50c76279c15",
+    "before_workspace_independent": true,
+    "original52rows_unchanged": true,
+    "production_baseline_rows": 52,
+    "derived_rows": 10,
+    "production_total": 62,
+    "guarded_inputs": 205,
+    "source_guard_errors": [],
+    "source_transition_pinned": true,
+    "previous_transition_references_unchanged": true,
+    "existing_links": [
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_community",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authority.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/authorization.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/blob_custody.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/document.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/kind_registry.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paged_store.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/paid_access.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/permissions.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_content/sources/storage.move",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_model",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_standard",
+        "pass": true
+      },
+      {
+        "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_visual",
+        "pass": true
+      }
+    ],
+    "maker_tree": [
+      "module-before-current-ci.json",
+      "replay-runs",
+      "independent-control-v2-review.json",
+      "candidate-proof",
+      "independent-control-v2-review.md",
+      "control-installation.json",
+      "verification-config.json",
+      "verification-seal.json"
+    ]
+  },
+  "controls": {
+    "old_control_count": 39,
+    "installed_control_count": 40,
+    "control_copy_or_pin_errors": [],
+    "exact39_mapping": true,
+    "config_bytes_equal": true,
+    "config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+    "new_seal_sha256": "601809d344f041c1f4dbddd2ac53d92f974ad4bdee85aed9bc49ad30ca4780aa",
+    "seal_config_pin_matches": true,
+    "wrapper_sha256": "9633e5d2c5c6c3b5b17a755e5db85fae97ce3fe6ec068b8a5e6e94bba002dd87",
+    "wrapper_sealed": true,
+    "default_python_version": [
+      3,
+      9,
+      6
+    ],
+    "wrapper_selected_python": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "wrapper_selected_resolved_python": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "pinned_python_version": [
+      3,
+      12,
+      14
+    ],
+    "pinned_python_binary_sha256": "2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb",
+    "wrapper_execv_called": false,
+    "copied_script_bytes_equal": true,
+    "registered_product_commands": [
+      {
+        "id": "maker-publication-prerequisite-staged-actual-inputs",
+        "argv": [
+          "python3",
+          "scripts/run_maker_publication.py"
+        ],
+        "timeout_seconds": 1800
+      }
+    ],
+    "preserved_management": true,
+    "preserved_agent_contract": true,
+    "preserved_permissions": true,
+    "delivery_stage": "Test",
+    "delivery_status": "in_progress",
+    "release_status": "pending"
+  },
+  "replay": {
+    "status": "PASS",
+    "scope": "staged actual-input replay",
+    "run": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000",
+    "summary_sha256": "c46a5b4d68f3097786190e59797945b6ce0fe05a636b83045404d28dd31f2e97",
+    "run_directories": 1,
+    "ordered_results": 45,
+    "builds": 26,
+    "module_instances": 3084,
+    "distinct_module_hashes": 202,
+    "tests": [
+      {
+        "root": "foreign_publication_producer",
+        "counts": [
+          22,
+          22,
+          0
+        ]
+      },
+      {
+        "root": "MakerDirectConsumer",
+        "counts": [
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "root": "soulidity_v1",
+        "counts": [
+          1038,
+          1038,
+          0
+        ]
+      }
+    ],
+    "refusals": [
+      {
+        "root": "private_initial_rule",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "f5763194f4e6b710c135979fdbacceb33f1998d659719aff803b98e562cc61fe",
+        "pass": true
+      },
+      {
+        "root": "private_policy",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "f0e222bbde27eb15514f879b60bd509423813cfdd777a0605e0252e1be37d587",
+        "pass": true
+      },
+      {
+        "root": "private_registry_descriptor",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "221db88e1ca8725e7d237d3bc63e6ee0c60c5d8f548d99b0183f4a67d28420f2",
+        "pass": true
+      },
+      {
+        "root": "private_registry_cap",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "34e9cfe36333a0fe06e7839b8daa84c4c22aeaa36aa2029453acfd892acda6b1",
+        "pass": true
+      },
+      {
+        "root": "private_expected",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "4dc88d8b1a497e583d3856e9d3a850249082b25c25c0291fd03e60d8445f7199",
+        "pass": true
+      },
+      {
+        "root": "private_permit",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "27b42754ba15548a3b8d066c9bd197e5b4a01370a494f89a3494d3fefa631c66",
+        "pass": true
+      },
+      {
+        "root": "private_policy_producer",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "84bf9d0e9a32034a4d55a684f35f00693229116681286484abfa3d60e8d966e7",
+        "pass": true
+      },
+      {
+        "root": "private_component_producer",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "f2997fd47999b2df4a117831c4f9a9c015340ad97a52ee6ca1b9a468c949ce4d",
+        "pass": true
+      },
+      {
+        "root": "private_operator_struct",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "978987aa271147a3c522eddb7b170e5ad86a404b3e42d0f5c958e1bdfe3a1f94",
+        "pass": true
+      },
+      {
+        "root": "private_operator_function",
+        "code": "EC04001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "7f4ad1dd2cfee549df343613ce40a13babc5d614274a0873c038bd5eafb7786e",
+        "pass": true
+      },
+      {
+        "root": "permit_copy",
+        "code": "EC05001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "946861485c16a3cc953b8b0e01d813ecbeeca51c2106404f410d5f8343fe83ea",
+        "pass": true
+      },
+      {
+        "root": "permit_drop",
+        "code": "EC05001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "4054f4cf4af78a09468f85590840b6e96c6e3a17bad68dd9c6a9bb822886fed0",
+        "pass": true
+      },
+      {
+        "root": "permit_store",
+        "code": "EC05001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "73e6261f2027e95e21b78813a68d0d265db3b9a5b94135d8fc2d914912d1c321",
+        "pass": true
+      },
+      {
+        "root": "permit_type_substitution",
+        "code": "EC04007",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "e87ed04723a1c9044bbc444402758755a8dc189d209950f6d91f71abcf8e2b6a",
+        "pass": true
+      },
+      {
+        "root": "permit_key",
+        "code": "EC05001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "c9700f4509b32cbbf9818fc21fc6cb8d8d280cd50a17f678c9b31fcb6be8421a",
+        "pass": true
+      },
+      {
+        "root": "authorize_nonkey_target",
+        "code": "EC05001",
+        "first_location": "./sources/refusal.move",
+        "source_sha256": "131e1ea687e7c0ab211ccc2cf093543931ca5799b8311598f422d9ef95290d87",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "source_path_executed": false,
+    "rpc_calls": 0,
+    "signatures": 0,
+    "config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+    "seal_sha256": "601809d344f041c1f4dbddd2ac53d92f974ad4bdee85aed9bc49ad30ca4780aa",
+    "python_binary_sha256": "2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb",
+    "input_files": 254,
+    "cache_files": 20268,
+    "full_manufacturing_complete": false,
+    "published_compatibility_proven": false
+  },
+  "integrity": {
+    "actual_input_before_after_equal": true,
+    "staged_input_before_after_equal": true,
+    "actual_inputs_match_config": true,
+    "actual_inputs_match_map_count": 254,
+    "actual_and_stage_current_hash_errors": [],
+    "original_before_after_equal": true,
+    "original_matches_reviewed_payload_plus_preserved_pins": true,
+    "original_input_count": 217,
+    "cache_before_after_equal": true,
+    "cache_matches_config": true,
+    "cache_matches_current_full_inventory": true,
+    "cache_files": 20268,
+    "controls_before_current_equal": true,
+    "controls_before_count": 43,
+    "controls_current_hashes_match": true,
+    "all254_staged_files_exact_copy_or_allowed_local_retarget": true,
+    "actual_lock_occurrences": 274,
+    "stage_lock_occurrences": 274,
+    "actual_lock_checks_equal_saved": true,
+    "stage_lock_checks_equal_saved": true,
+    "runtime_before_current_sha_match": true
+  },
+  "open_findings": [],
+  "pending_checks": [],
+  "non_claims": {
+    "actual_source_path_cli_executed": false,
+    "reviewer_executed_replay": false,
+    "full_manufacturing_complete": false,
+    "published_compatibility_proven": false,
+    "full_goal_complete": false
+  },
+  "remaining_full_product": [
+    "Generic manufacturing Product/Version/Control and supply/income writes; authenticated Soul distribution.",
+    "Gate0 effective authority/published origins/linkage/initialization/old writers/independent upgrades.",
+    "D26/B0/CASE19; original SDK/UI/wallet/native post-birth/market/exit/full journeys.",
+    "Qualified Release/Deploy and external review.",
+    "Retained Content3 publication responsibilities and independent Channel production."
+  ],
+  "affected_content_static": {
+    "status": "PASS",
+    "errors": [],
+    "config_sha256": "8ee2012260bd454f19fdf55b534b64320dc83806dd4fa7c6aed505460d965b12",
+    "seal_sha256": "b7a07d5e907f77dfae0ad540a201d40f8535218dc79e310c1a338a71fba08f0c",
+    "configseal_matches": true,
+    "controlpins_match": true,
+    "verifier_sha256": "1f9981c57b1666fda06768dfbfcec9470cf167542fd5b2211de8872faff1e934",
+    "validation_asserts": 0,
+    "roots": 4,
+    "input_count": 29,
+    "sources": 17,
+    "unchanged_original_testfiles": 4,
+    "only_actual_changes": [
+      {
+        "root": "soulidity_content",
+        "relative": "Move.lock",
+        "before_sha256": null,
+        "after_sha256": "5ba135775ea05af1cdd882b277fcfa089d7d1b03353d18e28e63debde5b34106"
+      },
+      {
+        "root": "soulidity_content",
+        "relative": "Move.toml",
+        "before_sha256": "2af27742b1b85cdf32a38473408285fb3eabc9ec52910cc0019ae29a5a5093cc",
+        "after_sha256": "c3ce867952d303ac1be39816beb421db52993633516641bbd471292a38babf66"
+      }
+    ],
+    "candidate_payload_exact_move_or_local_retarget": true,
+    "candidate_lock_occurrences": 4,
+    "cache_count": 435,
+    "cache_exact_config": true,
+    "cache_exact_prior_Makerpins": true,
+    "cache_groups": {
+      "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework": 144,
+      "/Users/naoer/.move/git/https___github_com_MystenLabs_sui_git_2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/move-stdlib": 43,
+      "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/walrus": 168,
+      "/Users/naoer/.move/git/https___github_com_MystenLabs_walrus_git_a19764ff77f501a79db88dc6d922a2c73848e989/mainnet-contracts/wal": 80
+    },
+    "declaredgit": [
+      {
+        "root": "soulidity_content",
+        "dependency": "Sui",
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      },
+      {
+        "root": "soulidity_content",
+        "dependency": "Walrus",
+        "git": "https://github.com/MystenLabs/walrus.git",
+        "subdir": "mainnet-contracts/walrus",
+        "rev": "a19764ff77f501a79db88dc6d922a2c73848e989"
+      },
+      {
+        "root": "soulidity_content_kinds",
+        "dependency": "Sui",
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      },
+      {
+        "root": "soulidity_standard",
+        "dependency": "Sui",
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      },
+      {
+        "root": "soulidity_foundation",
+        "dependency": "Sui",
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    ],
+    "new_kinds_dependency_present": true,
+    "canonical_actual_content_dependency_targets": {
+      "SoulidityContentKinds": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content_kinds",
+      "SoulidityStandard": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard",
+      "SoulidityFoundation": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_foundation"
+    },
+    "expected_nine_equal_actual_integrated_subset": true,
+    "candidate_nine_equal_expected": true,
+    "candidate_proof_status": "PASS",
+    "candidate_counts": [
+      19,
+      19,
+      0
+    ],
+    "candidate_config_v1_historical": true,
+    "candidate_staged_path_only": true,
+    "candidate_logs_hashes_match": true,
+    "runtime_pin_match": true,
+    "sui_pin_match": true
+  },
+  "affected_content_scope_status": "PASS",
+  "affected_content_installation": {
+    "status": "PASS",
+    "errors": [],
+    "installed_input_rows": 29,
+    "control_config_bytes_equal": true,
+    "verifier_script_bytes_equal": true,
+    "config_sha256": "8ee2012260bd454f19fdf55b534b64320dc83806dd4fa7c6aed505460d965b12",
+    "seal_sha256": "b27535b5e1d061790c5b6f14a75499a260f82d9457f47706e79f5288d13a9749",
+    "seal_control_count": 5,
+    "seal_original_controls": 4,
+    "seal_only_script_retarget_plus_wrapper": true,
+    "before_manifest_copies": 1,
+    "new_nonproduction_inputs": 1,
+    "new_sources": 0,
+    "before_workspace_independent": true,
+    "original52rows_unchanged": true,
+    "prior_transition_references_unchanged": true,
+    "current_transition_pin_correct": true,
+    "guarded_inputs": 207,
+    "derived_source_rows": 10,
+    "production_total": 62,
+    "guard_errors": [],
+    "Maker254payload_unchanged": true,
+    "default_python_version": [
+      3,
+      9,
+      6
+    ],
+    "wrapper_selected_binary": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "wrapper_selected_binary_sha256": "2498a31965647f1507a53e391842b23c29d96f0ef4550475f34a1d2b30c23ddb",
+    "wrapper_execv_called": false,
+    "wrapper_sealed": true,
+    "product_commands": [
+      {
+        "id": "independent-current-content9-kinds",
+        "argv": [
+          "python3",
+          "tools/run_content_current.py"
+        ],
+        "timeout_seconds": 600
+      }
+    ],
+    "management_preserved": true,
+    "agent_contract_preserved": true,
+    "permissions_preserved": true,
+    "release_status": "pending",
+    "delivery_stage": "Test",
+    "delivery_status": "in_progress"
+  },
+  "affected_content_replay": {
+    "status": "PASS",
+    "errors": [],
+    "summary_status": "PASS",
+    "run": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/evidence/content-current-kinds/runs/1791647507025959000",
+    "summary_sha256": "93c688948623947590581acce5a944b063c8840935c099ea8c43cbe0164a9a42",
+    "one_actual_run": true,
+    "ordered_operations": [
+      "build",
+      "test"
+    ],
+    "counts_independently_parsed": [
+      19,
+      19,
+      0
+    ],
+    "nine_module_hashes_equal_expected_integrated_current": true,
+    "raw_dump_contains_all_nine_expected_module_bytes_once": true,
+    "raw_unpublished_modules": 17,
+    "actual_inputs_before_after_equal": true,
+    "actual_inputs_match_reviewed": true,
+    "staged_inputs_before_after_equal": true,
+    "all29_stage_files_exact_move_or_allowed_retarget": true,
+    "controls_before_after_equal": true,
+    "control_pins_count": 9,
+    "config_seal_runtime_sui_guarded": true,
+    "cache_before_after_equal": true,
+    "cache_exact_config_and_current": true,
+    "cache_files": 435,
+    "source_lock_check_equal_saved": true,
+    "staged_lock_check_equal_saved": true,
+    "source_lock_occurrences": 4,
+    "current_content_source_test_hashes": {
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authority.move": "72b14a54093a542ffc065553920481cdffc3383eb6cb2f7d05f36c2355e97bfe",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/authorization.move": "e1e337cd3e940f26f5eabad5c0fd486b192a0b6cf8327688c62e91ff310cb0dd",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/blob_custody.move": "81ab5b2b929a7b67c74ab6c6bafea67891d56ce751ada2da99ebf0690eca2737",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/document.move": "c97cda851d7fe7337d7ee417f2041fa0ea12c000dec86cd6d3605c1ef0bbb0e9",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/kind_registry.move": "f23a055a01655eb569c897dd1cf6432890c9d98990cd8e2b13157a7e02355351",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paged_store.move": "33d15484e8d5868d0202654373577a024077b8d43ae680ee68e974fbfe7fda0a",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/paid_access.move": "d741d6522a4758315fbd1ffb506cf4e589008904cb82ceb610956730bec62ae9",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/permissions.move": "ca7f784a35545193e0d10379178de806c9038594329d94bcfce1a1ea226f3937",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/sources/storage.move": "dba26fb0baac1a181363a43fb05353e77f078f527984442f79ca4647f25851ee",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/tests/capacity_tests.move": "bacbacfad4c7374de8f2d8628e3bde68f1a4a6c1f832a77f8f736c623cb3517d",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/tests/fixtures.move": "03069a202fde6843b7e045bc0b8226128cc09b0b2a53bace0e1079a065f56bb6",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/tests/storage_epoch_tests.move": "3a2b05155c33d23b19094908f52446ff715a6f31428ff38bb7841784e445e0c8",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/move/soulidity_content/tests/storage_fixture.move": "218fa3214c27e2db02b7518f64bc0bd6cee41bca093feecdcc4c5fc61b5928ac"
+    },
+    "source_path_executed": false,
+    "rpc_calls": 0,
+    "signatures": 0,
+    "published_compatibility_proven": false,
+    "original13_source_test_hashes_equal_pre_correction": true
+  },
+  "closed_affected_content_findings": [
+    {
+      "id": "CONTENT-CURRENT-01",
+      "issue": "Independent Content9 manifest did not declare newly canonical ContentKinds or current dependency owners.",
+      "resolution": "Only manifest updated and one active lock added; original9 sources and4 test files unchanged; current9 module bytes equal integrated current Content12 and19 original tests pass."
+    },
+    {
+      "id": "CONTENT-CURRENT-02",
+      "issue": "Initial current verifier did not persist complete entry-point/tool/runtime/cache before-and-after identities.",
+      "resolution": "Version2 snapshots config/seal/Python/Sui and435 exact selected cache files before and after; current actual run independently checked."
+    },
+    {
+      "id": "CONTENT-CURRENT-03",
+      "issue": "Initial provenance metadata working candidate copy was not an independent manifest recovery copy.",
+      "resolution": "Explicitly historical metadata only; actual import retained a separate regular hash-correct manifest before copy plus independent workspace recovery."
+    }
+  ],
+  "review_status": "SCOPED_PASS",
+  "review_completed_utc": "2026-10-10 16:03:38 UTC",
+  "docs_scope_status": "PASS",
+  "installation_snapshot_scope": "Immediately after Maker134 import, before the additional Content manifest/lock correction.",
+  "final_current_state": {
+    "guarded_inputs": 207,
+    "derived_source_rows": 10,
+    "production_total": 62,
+    "source_guard_errors": [],
+    "original52_rows_exactly_preserved": true,
+    "all254_Maker_actual_hashes_unchanged": true,
+    "full20268_Maker_cache_current_equal": true,
+    "all217_Maker_originals_current_equal": true,
+    "all40_installed_Maker_seal_controlpins_current_match": true,
+    "all13_locator_text_and_target_preserved": true,
+    "workspace_sha256": "69884cccbc1c1b46a932cb057143b484595bad3a196b9cb871c940605cb53c7c"
+  },
+  "documentation": {
+    "status": "PASS",
+    "errors": [],
+    "documentation_files_reviewed": 14,
+    "doc_before_copies": 9,
+    "doc_before_after_hashes_and_independence_match": true,
+    "current_before_copy_sha256": "240380416151ca0312a1714cff859094b01ef269cbb225dcf9540c7cbef70663",
+    "current_before_copy_independent": true,
+    "continuation_pointer": "docs/codex/handoffs/20261010-maker-publication-actual-verified.md",
+    "continuation_pointer_exists": true,
+    "continuation_pointer_correct": true,
+    "current_status_in_progress": true,
+    "handoff_status_in_progress": true,
+    "full_goal_unchanged": true,
+    "next_action_complete_manufacturing": true,
+    "current_and_handoff_explicit_staged_not_source_path": true,
+    "current_and_handoff_label_old_leaf_native_historical": true,
+    "current_blockers_present": {
+      "Gate0": true,
+      "D26": true,
+      "B0/CASE-19": true,
+      "CASE-19": true,
+      "Channel": true,
+      "originalwallet/UI": true,
+      "qualifiedRelease/Deploy": true,
+      "manufacturing Product/Version/Control": true
+    },
+    "unpublished_scope_and_compatibility_boundary": true,
+    "independent_report_is_scoped_not_qualified_release": true,
+    "original52_baseline_unchanged_sources": 26,
+    "original52_baseline_transformed_sources": 26,
+    "module_owner_status_and_stages": [
+      {
+        "repo": "maker-protocol",
+        "management_preserved": true,
+        "agent_contract_preserved": true,
+        "permissions_preserved": true,
+        "delivery_status_preserved": true,
+        "delivery_stage_preserved": true,
+        "release_readiness_preserved": true,
+        "release_status": "pending",
+        "module_sha256": "d0a5c4559cfb469684bac6ae3af8f9d5bf82b81d2747f7bd6295fc716049846c",
+        "all8_stage_records_identical_to_pre_ci": false,
+        "stage_identity_status_and_exit_criteria_preserved": true,
+        "records_changed_only_current_evidence_scope": true,
+        "evidence_updates": [
+          {
+            "stage": "Code",
+            "changed_fields": [
+              "scope_note",
+              "evidence"
+            ]
+          },
+          {
+            "stage": "Build",
+            "changed_fields": [
+              "scope_note",
+              "evidence"
+            ]
+          },
+          {
+            "stage": "Test",
+            "changed_fields": [
+              "scope_note",
+              "evidence"
+            ]
+          }
+        ]
+      },
+      {
+        "repo": "soul-content",
+        "management_preserved": true,
+        "agent_contract_preserved": true,
+        "permissions_preserved": true,
+        "delivery_status_preserved": true,
+        "delivery_stage_preserved": true,
+        "release_readiness_preserved": true,
+        "release_status": "pending",
+        "module_sha256": "92f79d008f7c2c9acaae08452fb9b2b1a90ff942890b41403653ef348fd6086c",
+        "all8_stage_records_identical_to_pre_ci": true,
+        "stage_identity_status_and_exit_criteria_preserved": true,
+        "records_changed_only_current_evidence_scope": true,
+        "evidence_updates": []
+      }
+    ],
+    "final_docs_sha256": {
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/CURRENT.md": "4955cf0dcccba3d099a3558b16a5ebc52952c6dbb90a92ec2e594e5ad2d04c13",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/PROJECT_MEMORY.md": "3947e7269c79e8be566b0a6266ec74c24c1ad563ae32d530b7a7d6e57bb5bc26",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/ecosystem-construction/ACTIVE_CONSTRUCTION_CN.md": "27ab17f5360eabc54a854990f8997962a499019cbec558b86b770b4d69ce3658",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/PRODUCT_ENGINEERING_REVIEW_CN.md": "1108baf7efbbaf17a21c952aa05921bcc458ee0bbb08929ad900f00566657ff4",
+      "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/handoffs/20261010-maker-publication-actual-verified.md": "72a66585950166e88d19cb0eb5bdcc3179aa1b234a41b11a505f989d7043d28a",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/MODULE.md": "d0db6a2d3d810f8715e1df4cd5a1460de58e41f08519d8ab4fab01b7deb44f01",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/COMPATIBILITY.md": "d29cb1bf63b4a5048f2b50fec8a0bc8505d433aa88c46f4441979249d1f02264",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/README.md": "38ca663d44e4ccb8c63c42ff41ce581add73b70f04fb6c803526fdf58641e493",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/README.md": "e04d3d89423d80b7da5f7d48da038942c03d93abc06c2a1e809b8e7ca369487b",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/RUNBOOK.md": "598e6145dd8201b7228190e6aa901195a61a98d7572f9c8e0a5d2545c74f958e",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/MODULE.md": "77154e39cb3dc3149cb7b4be7595dbe21189afdaffd4ba025bc099b9e7b26edf",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/COMPATIBILITY.md": "eeae25dee0cd6a519b0cc1990f7065d238e6aa2961d9f367bae2462868353ea1",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/RUNBOOK.md": "f374999caa69e800f0635772e1a13b7d217d7cc75dad355329a1a54b3a3cad57",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/README_CN.md": "6399ee7cb4aedcb8cb751e7304bb601da1342a05e5b3bdcc1f6804b299da4772"
+    },
+    "primary_CURRENT_sha256": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+    "primary_PROJECT_MEMORY_sha256": "94a6c8030a66d20aba1c2cb762dce20bec7d3d54f7fa900d2e82b2bcfa284e58",
+    "actual_verification_record": {
+      "status": "PASS",
+      "summary": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/summary.json",
+      "summary_sha256": "c46a5b4d68f3097786190e59797945b6ce0fe05a636b83045404d28dd31f2e97",
+      "scope": "staged actual-input replay",
+      "guarded_inputs": 207,
+      "original_baseline_rows": 52,
+      "derived_sources": 10,
+      "production_sources": 62,
+      "source_integrity_errors": [],
+      "installed_config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+      "installed_seal_sha256": "601809d344f041c1f4dbddd2ac53d92f974ad4bdee85aed9bc49ad30ca4780aa",
+      "commands": 45,
+      "builds": 26,
+      "vm_counts": [
+        22,
+        10,
+        1038
+      ],
+      "refusals": 16,
+      "source_path_executed": false,
+      "full_manufacturing_complete": false,
+      "published_compatibility_proven": false,
+      "rpc_calls": 0,
+      "signatures": 0,
+      "workspace_current_sha256": "69884cccbc1c1b46a932cb057143b484595bad3a196b9cb871c940605cb53c7c",
+      "directly_affected_content_proof": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/content-independent-current/actual-layout-verification.json"
+    },
+    "content_actual_verification_record": {
+      "status": "PASS",
+      "summary": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-content/evidence/content-current-kinds/runs/1791647507025959000/summary.json",
+      "summary_sha256": "93c688948623947590581acce5a944b063c8840935c099ea8c43cbe0164a9a42",
+      "config_sha256": "8ee2012260bd454f19fdf55b534b64320dc83806dd4fa7c6aed505460d965b12",
+      "ci_command": [
+        "python3",
+        "scripts/ci.py",
+        "--product"
+      ],
+      "ci_exit_code": 0,
+      "scope": "staged actual independent Content9 inputs",
+      "input_files": 29,
+      "selected_cache_files": 435,
+      "nine_module_bytes_equal_integrated_current": true,
+      "tests": [
+        19,
+        19,
+        0
+      ],
+      "inputs_controls_cache_unchanged": true,
+      "maker254inputs_unchanged": true,
+      "original_source_test_changes": 0,
+      "rpc_calls": 0,
+      "signatures": 0
+    },
+    "current_before_matches_initial_pre": true,
+    "primary_current_and_memory_preserved": true,
+    "PE_review_copy_and_workspace_pin": {
+      "actual_PE_review_sha256": "1108baf7efbbaf17a21c952aa05921bcc458ee0bbb08929ad900f00566657ff4",
+      "Maker_copy_PE_review_sha256": "1108baf7efbbaf17a21c952aa05921bcc458ee0bbb08929ad900f00566657ff4",
+      "PE_copy_same": true,
+      "workspace_sha256": "69884cccbc1c1b46a932cb057143b484595bad3a196b9cb871c940605cb53c7c",
+      "actual_record_workspace_pin_matches": true,
+      "planned_final_review_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/independent-actual-layout-review.json",
+      "planned_review_exists": false
+    }
+  },
+  "checks": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "claim": "134 declared changes and254 frozen payload hashes verified before import"
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "claim": "All254 installed target and durable payload hashes match"
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "claim": "All63 Maker before copies are regular, independent and SHA-correct"
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "claim": "Maker workspace recovery matches independently captured pre-import pin"
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "claim": "Original52 complete responsibility rows remain exactly unchanged"
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "claim": "Five new sole canonical ContentKinds/MakerPublication source registrations match ownership"
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "claim": "Final207 guarded inputs,10 derived sources and62 production writers validate"
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "claim": "Source transition pins, prior chains and independent recovery files validate"
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "claim": "All13 original locator text and resolutions remain unchanged"
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "claim": "All39 reviewed Maker controls retain exact hash/copy identity after relocation; launcher is40th"
+    },
+    {
+      "id": "A11",
+      "status": "PASS",
+      "claim": "Installed config and verifier/helper/offline-check script bytes equal reviewed v2"
+    },
+    {
+      "id": "A12",
+      "status": "PASS",
+      "claim": "Default Python3.9 launcher selects fixed Python3.12.14 and binary SHA"
+    },
+    {
+      "id": "A13",
+      "status": "PASS",
+      "claim": "Exactly one ordered Maker45-command staged actual-input replay exists"
+    },
+    {
+      "id": "A14",
+      "status": "PASS",
+      "claim": "All26 raw build dumps and module inventories equal frozen candidate"
+    },
+    {
+      "id": "A15",
+      "status": "PASS",
+      "claim": "All90 Maker stdout/stderr hashes and retained module byte hashes validate"
+    },
+    {
+      "id": "A16",
+      "status": "PASS",
+      "claim": "Independent raw VM counts are22/22,10/10,1038/1038 with zero failures"
+    },
+    {
+      "id": "A17",
+      "status": "PASS",
+      "claim": "All16 refusal first codes, first primary source locations and exact source SHA match"
+    },
+    {
+      "id": "A18",
+      "status": "PASS",
+      "claim": "Every replay command executes staged paths with no budget or package-size override"
+    },
+    {
+      "id": "A19",
+      "status": "PASS",
+      "claim": "All254 actual/staged before/after/current source inputs match reviewed expectations"
+    },
+    {
+      "id": "A20",
+      "status": "PASS",
+      "claim": "All254 staged files use exact copy or allowed local manifest/lock retargeting"
+    },
+    {
+      "id": "A21",
+      "status": "PASS",
+      "claim": "All274 source and staged lock occurrences reproduce saved valid records"
+    },
+    {
+      "id": "A22",
+      "status": "PASS",
+      "claim": "All217 originals match reviewed payload or preserved historical pins before/after/current"
+    },
+    {
+      "id": "A23",
+      "status": "PASS",
+      "claim": "All20268 cache keys and SHA match frozen before/after/current inventory"
+    },
+    {
+      "id": "A24",
+      "status": "PASS",
+      "claim": "All43 Maker replay control pins including runtime remain unchanged"
+    },
+    {
+      "id": "C01",
+      "status": "PASS",
+      "claim": "Affected Content29 inputs and four root closures match exact frozen candidate/payload"
+    },
+    {
+      "id": "C02",
+      "status": "PASS",
+      "claim": "Content17 source files and four original test files unchanged; Content9 has real Kinds dependency"
+    },
+    {
+      "id": "C03",
+      "status": "PASS",
+      "claim": "Only Content manifest replaced and new lock added; independent manifest/workspace recovery validate"
+    },
+    {
+      "id": "C04",
+      "status": "PASS",
+      "claim": "Content config/verifier exact copies, relocated seal plus fixed-runtime wrapper validate"
+    },
+    {
+      "id": "C05",
+      "status": "PASS",
+      "claim": "Exactly one current Content staged build/test run passes original19 tests"
+    },
+    {
+      "id": "C06",
+      "status": "PASS",
+      "claim": "Allnine decoded raw module SHA values equal corresponding integrated current Content12 modules"
+    },
+    {
+      "id": "C07",
+      "status": "PASS",
+      "claim": "Content29 actual/staged snapshots, nine controls and435 cache keys/SHA unchanged"
+    },
+    {
+      "id": "C08",
+      "status": "PASS",
+      "claim": "Contentfour local source/stage lock occurrences reproduce valid records"
+    },
+    {
+      "id": "C09",
+      "status": "PASS",
+      "claim": "Content correction leaves all Maker254 input hashes unchanged"
+    },
+    {
+      "id": "D01",
+      "status": "PASS",
+      "claim": "Allnine documentation before copies independent and hash-correct; after hashes match"
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "claim": "CURRENT before copy matches independently captured initial CURRENT"
+    },
+    {
+      "id": "D03",
+      "status": "PASS",
+      "claim": "CURRENT continuation pointer names the new existing exact handoff"
+    },
+    {
+      "id": "D04",
+      "status": "PASS",
+      "claim": "Current/historical evidence, staged replay/source-path and unpublished/compatibility boundaries explicit"
+    },
+    {
+      "id": "D05",
+      "status": "PASS",
+      "claim": "Full goal remains in-progress with manufacturing,Gate0,D26,B0/CASE19,Channel/UI and qualifiedRelease pending"
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "claim": "Original management,agent contracts,permissions,delivery stage/status and release readiness preserved"
+    },
+    {
+      "id": "D07",
+      "status": "PASS",
+      "claim": "Eight stage identities/status/exit criteria preserved; current scoped evidence appended separately"
+    },
+    {
+      "id": "D08",
+      "status": "PASS",
+      "claim": "Primary project CURRENT and PROJECT_MEMORY hashes unchanged"
+    },
+    {
+      "id": "D09",
+      "status": "PASS",
+      "claim": "Final source guard,input,original,cache,seal,locator and workspace pin checks pass after docs"
+    }
+  ],
+  "check_count": 42,
+  "archival_plan": {
+    "target": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-publication-extraction/independent-actual-layout-review.json",
+    "coordinator_copy_pending": true,
+    "reviewer_project_writes": false
+  }
+}

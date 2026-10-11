@@ -1,0 +1,658 @@
+{
+  "status": "PASS scoped actual Maker layout and CI review",
+  "reviewed_at": "2026-10-10T14:42:11.359670+00:00",
+  "actual": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "workspace": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem",
+  "evidence": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-leaf-extraction",
+  "checks": [
+    {
+      "check": "715 durable evidence copies retain SHA and do not alias donor files",
+      "pass_": true,
+      "count": 715,
+      "failures": []
+    },
+    {
+      "check": "83 installed inputs equal 41 payload targets plus 42 fixture files",
+      "pass_": true,
+      "production_config_test_targets": 41,
+      "fixture_files": 42,
+      "changed_targets": 34,
+      "new_targets": 7,
+      "failures": []
+    },
+    {
+      "check": "registered transition uses durable canonical after/recovery locators",
+      "pass_": true,
+      "failures": [],
+      "manifest_sha256": "deb89009b54bb6c3b0f62c97bb2fb5a65a6d46e5efb5309daaad8e05ab73caff",
+      "frozen_payload_manifest_sha256": "e70112343d21ed7fdb1d336038faa67e2a7cd2581da39c6cb23f3ac2bbe6ff7d"
+    },
+    {
+      "check": "original52 sourceSHA baseline retained",
+      "pass_": true,
+      "baseline_rows": 52
+    },
+    {
+      "check": "actual source transition integrity validates 116 guarded inputs and57 sole production writers",
+      "pass_": true,
+      "guarded_inputs": 116,
+      "production_writers": 57,
+      "derived": 5,
+      "errors": []
+    },
+    {
+      "check": "source ledger remains38unchanged14transformed5derived22external",
+      "pass_": true,
+      "counts": {
+        "original_unchanged": 38,
+        "original_transformed": 14,
+        "derived": 5,
+        "external_production_writers": 22
+      }
+    },
+    {
+      "check": "109 public delegates route to three sole implementations with16 canonical types",
+      "pass_": true,
+      "modules": [
+        {
+          "module": "soulidity_maker_terms::maker_resale",
+          "public_functions": 31,
+          "types": 4,
+          "types_names": [
+            "Rates",
+            "Snapshot",
+            "Receipt",
+            "Settled"
+          ],
+          "sha256": "c408d1e0cd72ce13f08bf2fda5f10e4c88f9d420171a640b3dc173f18da3aa34",
+          "pass_": true
+        },
+        {
+          "module": "soulidity_maker_terms::maker_physical_metadata",
+          "public_functions": 73,
+          "types": 9,
+          "types_names": [
+            "Authorization",
+            "Quote",
+            "Proof",
+            "Provenance",
+            "Registration",
+            "SalePolicy",
+            "RuleCommitment",
+            "Snapshot",
+            "SaleReceipt"
+          ],
+          "sha256": "d6938e21a8c7a53d90eea3f96087766487bf1f9e87097d1180c10ac21ca82916",
+          "pass_": true
+        },
+        {
+          "module": "soulidity_maker_admission::maker_issuance",
+          "public_functions": 5,
+          "types": 3,
+          "types_names": [
+            "Binding",
+            "Genesis",
+            "Contribution"
+          ],
+          "sha256": "83c721d5793b07fcd85487b2f2575d26a9562fe481ab806cf96ddd2ddb25f0df",
+          "pass_": true
+        }
+      ]
+    },
+    {
+      "check": "121 original Move inputs preserve complete source text under explicit namespace mapping",
+      "pass_": true,
+      "original_move_inputs": 121,
+      "failures": []
+    },
+    {
+      "check": "1038 original core test methods, expected failures and assertion bodies preserved",
+      "pass_": true,
+      "methods": 1038,
+      "expected_failure_methods": 659,
+      "test_body_assertions": 871,
+      "all_file_assertions_with_helpers": 904,
+      "files": 58,
+      "failures": []
+    },
+    {
+      "check": "actual12 canonical package manifests resolve local dependencies without compiler SCC",
+      "pass_": true,
+      "roots": 12,
+      "edges": 35,
+      "cycles": [],
+      "failures": []
+    },
+    {
+      "check": "Maker leaves do not reverse depend on Application Core Native",
+      "pass_": true,
+      "terms": [
+        "SoulidityFoundation",
+        "SoulidityModel"
+      ],
+      "admission": [
+        "SoulidityFoundation",
+        "SoulidityModel",
+        "SoulidityStandard"
+      ],
+      "note": "Terms Model dependency transitively reaches Standard/Visual; Admission explicitly consumes Standard Soul"
+    },
+    {
+      "check": "all57 actual production source files are the registered sole writers",
+      "pass_": true,
+      "unregistered": [],
+      "missing": []
+    }
+  ],
+  "actual_ci": {
+    "status": "PASS",
+    "run": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/runs/c26c8943-222f-494c-8c1f-bf9bc80b1fd3",
+    "reviewed_at": "2026-10-10T14:45:57.322462+00:00",
+    "summary_sha256": "1e13308277362909224ce7faa64d58399b718317ccf692e15182c14ce1a2c2c1",
+    "checks": [
+      {
+        "check": "run config tool verifier and17control hashes remain frozen",
+        "pass_": true,
+        "control_files": 17,
+        "config_sha256": "8255119c7b8643707796df6e7d196688a513f390dda7c1c7cda7fa759bdab5ef",
+        "verifier_sha256": "9ceb39529c49a920165aa242753c09f3c0e5cebb60c7c8058015ae38d2c46d18",
+        "tool_sha256": "1d7baa7c7314113671415acfa20279b1eedb6ae6d04f286988a00da285e769c3"
+      },
+      {
+        "check": "all35root440input snapshots equal config before after and current files",
+        "pass_": true,
+        "roots": 35,
+        "input_files": 440,
+        "before_sha256": "51207ab8298ada342de6ca00661afb26778540723312c2fcf2f464ae82309acc",
+        "after_sha256": "51207ab8298ada342de6ca00661afb26778540723312c2fcf2f464ae82309acc"
+      },
+      {
+        "check": "payload_manifest is still frozen",
+        "pass_": true,
+        "sha256": "e70112343d21ed7fdb1d336038faa67e2a7cd2581da39c6cb23f3ac2bbe6ff7d"
+      },
+      {
+        "check": "source_transition is still frozen",
+        "pass_": true,
+        "sha256": "deb89009b54bb6c3b0f62c97bb2fb5a65a6d46e5efb5309daaad8e05ab73caff"
+      },
+      {
+        "check": "fresh combined evidence includes26commands in required order",
+        "pass_": true,
+        "commands": 26,
+        "labels": [
+          "SoulidityMakerTerms",
+          "SoulidityMakerAdmission",
+          "MakerDirectConsumer",
+          "SoulidityApplication",
+          "soulidity_v1",
+          "SoulidityCustody",
+          "SoulidityNative",
+          "focused-runtime",
+          "RefuseCopyBinding",
+          "RefuseDropBinding",
+          "RefuseStoreBinding",
+          "RefusePrivateBinding",
+          "RefuseCopyGenesis",
+          "RefuseDropGenesis",
+          "RefuseStoreGenesis",
+          "RefusePrivateGenesis",
+          "RefuseCopyContribution",
+          "RefuseDropContribution",
+          "RefuseStoreContribution",
+          "RefusePrivateContribution",
+          "RefuseOldRates",
+          "RefuseOldProof",
+          "RefuseOldBinding",
+          "RefuseQuoteToAdmission",
+          "RefuseMetadataToGenesis",
+          "original-Core"
+        ]
+      },
+      {
+        "check": "all raw logs and exact command argv retain hashes with default budgets",
+        "pass_": true,
+        "failures": []
+      },
+      {
+        "check": "7 actual production roots equal raw dumps and every compiled module byte",
+        "pass_": true,
+        "compiled_module_instances": 946,
+        "raw_dump_modules": 191,
+        "roots": [
+          {
+            "root": "SoulidityMakerTerms",
+            "pass_": true,
+            "compiled_mv_count": 101,
+            "raw_dump_module_count": 12,
+            "raw_dump_sha256": "37d5f781ca267675e2a71140e5cf2a1e52cf4704e9112002a7963550edadd971"
+          },
+          {
+            "root": "SoulidityMakerAdmission",
+            "pass_": true,
+            "compiled_mv_count": 100,
+            "raw_dump_module_count": 11,
+            "raw_dump_sha256": "48d0d4cfb3b681230ec17e93000508648b00f75e8f6bad3dfe9045e377ec4a21"
+          },
+          {
+            "root": "MakerDirectConsumer",
+            "pass_": true,
+            "compiled_mv_count": 107,
+            "raw_dump_module_count": 18,
+            "raw_dump_sha256": "8b6618a91b6c485dbb5a8902b8a8a0a3564110522d436a914f5d9fec74d1cae4"
+          },
+          {
+            "root": "SoulidityApplication",
+            "pass_": true,
+            "compiled_mv_count": 157,
+            "raw_dump_module_count": 35,
+            "raw_dump_sha256": "b4662c90d7f65e5b0809cf550b45e203e5ef5b363eedd8610a93b87b8cc3d5d7"
+          },
+          {
+            "root": "soulidity_v1",
+            "pass_": true,
+            "compiled_mv_count": 179,
+            "raw_dump_module_count": 57,
+            "raw_dump_sha256": "02d43b30c7889b0c4345f50752de73fe1c354061b6056c5c41feee365cc3653a"
+          },
+          {
+            "root": "SoulidityCustody",
+            "pass_": true,
+            "compiled_mv_count": 161,
+            "raw_dump_module_count": 39,
+            "raw_dump_sha256": "7c29bcdb512bbbf5a07c570c7ea9531d0afb8518c7ee39dbd9053e2bf308ef79"
+          },
+          {
+            "root": "SoulidityNative",
+            "pass_": true,
+            "compiled_mv_count": 141,
+            "raw_dump_module_count": 19,
+            "raw_dump_sha256": "56496c5687b7a66f883d20c77191d0830a1a9b067393dd217a7bed71db6ff600"
+          }
+        ],
+        "byte_failures": []
+      },
+      {
+        "check": "focused-runtime raw VM output preserves exact passing counts and names",
+        "pass_": true,
+        "total": 10,
+        "raw_pass_names": 10,
+        "raw_log_sha256": "e05e3cd306091c4169e5f4ac48278deb9108147ab779e690fc6c0393d9ced4c2",
+        "test_names_match_candidate": true
+      },
+      {
+        "check": "original-Core raw VM output preserves exact passing counts and names",
+        "pass_": true,
+        "total": 1038,
+        "raw_pass_names": 1038,
+        "raw_log_sha256": "2a460f0691ff8ad04d9fa06d839ab5b86f560c0db38cfa2ad024742bac21ea75",
+        "test_names_match_candidate": true
+      },
+      {
+        "check": "all17 foreign cases reject by intended first diagnostic at exact frozen source",
+        "pass_": true,
+        "cases": [
+          {
+            "root": "RefuseCopyBinding",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "d6557283e044268c8610e218cd826ec9424a6522c3ff1fa10d0b7daaf0d058b2",
+            "diagnostics": [
+              "EC05001",
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefuseDropBinding",
+            "pass_": true,
+            "intended_primary": "EC06001",
+            "actual_primary": "EC06001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "cc08930735b9cf22336974faec398d285959ff9e209d303860f9150f3f0d7ae9",
+            "diagnostics": [
+              "EC06001"
+            ]
+          },
+          {
+            "root": "RefuseStoreBinding",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "bcc2923faa0d752dd584525d688c4c7340c55b8a864428160c930e1e0426d4dc",
+            "diagnostics": [
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefusePrivateBinding",
+            "pass_": true,
+            "intended_primary": "EC04001",
+            "actual_primary": "EC04001",
+            "primary_locations": [
+              "./sources/refusal.move"
+            ],
+            "source_sha256": "3b51a30414d7a20c8e4ff3cc347df67e7f923548cdb5404cf76010e6c9fdb002",
+            "diagnostics": [
+              "EC04001"
+            ]
+          },
+          {
+            "root": "RefuseCopyGenesis",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "979531721971ca32bc12538b4a998a3c51ae8931c1157bbf196802b78ab05409",
+            "diagnostics": [
+              "EC05001",
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefuseDropGenesis",
+            "pass_": true,
+            "intended_primary": "EC06001",
+            "actual_primary": "EC06001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "c71a446e24e319e78fc30d2a7dbeb8d364da2807c71e57f0eca48c3df15d61dc",
+            "diagnostics": [
+              "EC06001"
+            ]
+          },
+          {
+            "root": "RefuseStoreGenesis",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "2d53ff09507d475e8165c81e19623ea2a13683cec62721999af793cdd382b538",
+            "diagnostics": [
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefusePrivateGenesis",
+            "pass_": true,
+            "intended_primary": "EC04001",
+            "actual_primary": "EC04001",
+            "primary_locations": [
+              "./sources/refusal.move"
+            ],
+            "source_sha256": "8859e9efbcc05fa576e1e0dc1e723079a657c6446829bcf0af27788f7dc09b1c",
+            "diagnostics": [
+              "EC04001"
+            ]
+          },
+          {
+            "root": "RefuseCopyContribution",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "e0d50da07b7cfac2daa6960adc55fa6835419ef0076c152d7a9b45f819ca050e",
+            "diagnostics": [
+              "EC05001",
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefuseDropContribution",
+            "pass_": true,
+            "intended_primary": "EC06001",
+            "actual_primary": "EC06001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "981ced8c45c42fe406483064bf0419b916e4629e74152993b47e912b7d9c06a2",
+            "diagnostics": [
+              "EC06001"
+            ]
+          },
+          {
+            "root": "RefuseStoreContribution",
+            "pass_": true,
+            "intended_primary": "EC05001",
+            "actual_primary": "EC05001",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/move/soulidity_maker_admission/sources/maker_issuance.move"
+            ],
+            "source_sha256": "aa51b6de6d2e5977eea3d977519ad798f6eb68e38330de6026a94690850a6430",
+            "diagnostics": [
+              "EC05001"
+            ]
+          },
+          {
+            "root": "RefusePrivateContribution",
+            "pass_": true,
+            "intended_primary": "EC04001",
+            "actual_primary": "EC04001",
+            "primary_locations": [
+              "./sources/refusal.move"
+            ],
+            "source_sha256": "2dfcd9f02db4997412963bcd2906bd6eb6e048909f46e2530b2255946fc96362",
+            "diagnostics": [
+              "EC04001"
+            ]
+          },
+          {
+            "root": "RefuseOldRates",
+            "pass_": true,
+            "intended_primary": "EC03003",
+            "actual_primary": "EC03003",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/resale.move"
+            ],
+            "source_sha256": "83d6b1753c20154e1a38ec862dc13dd4bd67edaaa4907d5ddfc2142fec694a7a",
+            "diagnostics": [
+              "EC03003",
+              "EC03004",
+              "EC03004"
+            ]
+          },
+          {
+            "root": "RefuseOldProof",
+            "pass_": true,
+            "intended_primary": "EC03003",
+            "actual_primary": "EC03003",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/physical_metadata.move"
+            ],
+            "source_sha256": "28b9ffdb20c3325b7ae6a3207c7341f1c99f205420b2147119ca5130b3e9fc0a",
+            "diagnostics": [
+              "EC03003",
+              "EC03004",
+              "EC03004"
+            ]
+          },
+          {
+            "root": "RefuseOldBinding",
+            "pass_": true,
+            "intended_primary": "EC03003",
+            "actual_primary": "EC03003",
+            "primary_locations": [
+              "./sources/refusal.move",
+              "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move/soulidity_application/sources/issuance.move"
+            ],
+            "source_sha256": "65b749159c674cafffae034aa23c89e87d8c6f3f0bce72736ba32fb9ac5bd0ef",
+            "diagnostics": [
+              "EC03003",
+              "EC03004",
+              "EC03004"
+            ]
+          },
+          {
+            "root": "RefuseQuoteToAdmission",
+            "pass_": true,
+            "intended_primary": "EC04007",
+            "actual_primary": "EC04007",
+            "primary_locations": [
+              "./sources/refusal.move"
+            ],
+            "source_sha256": "8140ef93dd5cbb0a6ff37c0949cf15f4d128644d12c9ecaecd933fa7780bd7c7",
+            "diagnostics": [
+              "EC04007"
+            ]
+          },
+          {
+            "root": "RefuseMetadataToGenesis",
+            "pass_": true,
+            "intended_primary": "EC04007",
+            "actual_primary": "EC04007",
+            "primary_locations": [
+              "./sources/refusal.move"
+            ],
+            "source_sha256": "469f919804d57325c9c6153f15d9446edecba534c87b3ea9551589410cae7a6f",
+            "diagnostics": [
+              "EC04007"
+            ]
+          }
+        ]
+      },
+      {
+        "check": "evidence scope excludes published compatibility and full product acceptance",
+        "pass_": true
+      },
+      {
+        "check": "outer product CI command raw hashes and116input integrity record independently match",
+        "pass_": true,
+        "checked_at": "2026-10-10T14:46:44.319908+00:00",
+        "argv": [
+          "python3",
+          "scripts/ci.py",
+          "--product"
+        ],
+        "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol",
+        "command_record_sha256": "883ade44a7be2a6d0077d0ffae912517d5571b045e9bc1d1430ef8f04b2b0ccd",
+        "stdout_sha256": "32c267c91f4840c25575d01ec438289498e35f8e0041f4fc19da8bae5f475653",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "guard_sha256": "77fc009f5b63b61d024062339a75cdc5c0cf990c86089c1258962951f8e7b1e9",
+        "workspace_sha256_checked_before_later_doc_status_edits": "d7b124bfc5b8d6dd3210858c8c190c6a574686ff85ecefae6d54755a4eb4a832"
+      }
+    ]
+  },
+  "limits": [
+    "Read-only local source/layout review; Sui/VM/npm/RPC/signing not executed by reviewer.",
+    "Unpublished new type/event identity only; no old published ABI, origin, linkage or migration proof.",
+    "Full product acceptance, Gate0/B0 and D26 unsafe freshKiosk failure remain unresolved.",
+    "NativeBinder/ApplicationOperator manufacturing authority co-location remains a responsibility issue; actual package graph has no compiler SCC."
+  ],
+  "source_observations": [
+    "maker_resale.settle checks actual role3/config/revision/Secondary, recomputes copyable receipt and routes exact Coin<C> through platform income and recipient transfers; gross floors and Collection additions ceil each component.",
+    "maker_issuance Binding/Genesis/Contribution lack abilities; bind and authorize paths validate configured role types, actual producer/source/Soul identity, actor, metadata or settled PrimaryReceipt. Source parity preserves these obligations; this scoped review is not full authority/creation acceptance.",
+    "The emitted Settled event and16 canonical types use Maker leaf namespaces; Application adapters do not restore old nominal types/events."
+  ],
+  "documentation_corrections": [],
+  "resolved_documentation_findings": [
+    "README and MODULE still describe previous cycle status and template-only CI.",
+    "module.json release_units/production_targets currently empty although two leaf units exist; attach scoped Code/Build/Test evidence after actual run.",
+    "Retain old629module/140input native proof as historical after Maker import; current proof must cite actual new run.",
+    "workspace.json status still described actual combined verification as pending after completed PASS; corrected by explicit metadata-only transition."
+  ],
+  "documentation_review": {
+    "status": "PASS",
+    "checked_at": "2026-10-10T14:49:37.207806+00:00",
+    "checks": [
+      {
+        "check": "two documented unpublished release units retain actual source artifact and product argv pins",
+        "pass_": true,
+        "units": [
+          {
+            "unit": "MAKER.TERMS",
+            "package": "SoulidityMakerTerms",
+            "pass_": true
+          },
+          {
+            "unit": "MAKER.SOUL_ADMISSION",
+            "package": "SoulidityMakerAdmission",
+            "pass_": true
+          }
+        ],
+        "current_module_sha256": "4d2396b88fa966e4699cbf69fcaf75f569fc3c8c5ea3122f77d71cdd27d69b14"
+      },
+      {
+        "check": "current documentation corrects stale cycle CI source ownership and historical evidence claims",
+        "pass_": true,
+        "reviewed_files_sha256": {
+          "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/README.md": "c1b9685da232e834ac37a23778f261b0f790c4bafb8c8c5a7f536781fb01048d",
+          "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/MODULE.md": "3ebb094dc25dde1657a842825a22af692355f5b957d2ace525276a7d7e350a02",
+          "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/COMPATIBILITY.md": "5c7c8bd2ec2edb538560c32854749c4a3f71645afbd3ecde8b7393c9fbe57555",
+          "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-leaf-extraction/PRODUCT_ENGINEERING_REVIEW_CN.md": "74bb5d6708efb4492c6d7e5f57e60088ce40f721ca8213050c58d301b8a99d9d",
+          "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/ecosystem-construction/ACTIVE_CONSTRUCTION_CN.md": "1b5c133aa1ce8cf7c2970c1acf88f7b8fbe22f7ef293453a72ace7f8aa354a03",
+          "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/README_CN.md": "3c8043e603acc0a9da5ec73ca13c1d115f3d7d7817a4206aa8061903534c880a"
+        },
+        "scope": "Scoped Code/Build/Test only; complete stages remain unverified; corrected specific fresh delivery claim does not close D26"
+      },
+      {
+        "check": "last workspace machine status correction is metadata only and116source inputs remain exact",
+        "pass_": true,
+        "changed_fields": [
+          "actual_maker_verification",
+          "last_updated",
+          "status"
+        ],
+        "before_workspace_sha256": "d7b124bfc5b8d6dd3210858c8c190c6a574686ff85ecefae6d54755a4eb4a832",
+        "current_workspace_sha256": "232961865778db2ae140c2910aec1aea6dec86570114a093ea90f50c76279c15",
+        "source_guard_sha256": "77fc009f5b63b61d024062339a75cdc5c0cf990c86089c1258962951f8e7b1e9"
+      },
+      {
+        "check": "current aggregate proof cites exact run and preserves unresolved full acceptance failures",
+        "pass_": true,
+        "aggregate_proof_sha256": "f909fca36aad55c4eeac522c8c82a3db1b296192fea669e94a640789d4e5b9a0"
+      }
+    ]
+  },
+  "total_checks": 28,
+  "open_findings": [],
+  "handbook": {
+    "version": "1.0",
+    "date": "2026-10-06",
+    "applicable_sections": [
+      "1\u20134",
+      "5",
+      "6: payment precision",
+      "7",
+      "8.3\u20138.4",
+      "9",
+      "12"
+    ],
+    "internal_read_only_AI_review_not_external_audit": true
+  },
+  "reviewer_actions": {
+    "repository_writes": 0,
+    "sui_or_vm_or_npm_invocations": 0,
+    "rpc_calls": 0,
+    "signatures": 0,
+    "report_outputs": [
+      "/tmp/maker-actual-layout-review-20261010.json",
+      "/tmp/maker-actual-layout-review-20261010.md"
+    ]
+  }
+}

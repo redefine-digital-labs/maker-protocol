@@ -1,0 +1,33 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING ForeignPublicationProducer
+Running Move unit tests
+[ PASS    ] foreign_publication_producer::tests::all_nine_canonical_bcs_fields_domains_and_hashes_match_exact_preimages
+[ PASS    ] foreign_publication_producer::tests::canonical_scope_bits_are_stable
+[ PASS    ] foreign_publication_producer::tests::cap_registry_mismatch_rejected_before_name_validation
+[ PASS    ] foreign_publication_producer::tests::copied_foreign_source_rejects_other_actual_product
+[ PASS    ] foreign_publication_producer::tests::copied_source_is_not_producer_witness
+[ PASS    ] foreign_publication_producer::tests::deprecated_kind_precedes_invalid_read_mask
+[ PASS    ] foreign_publication_producer::tests::duplicate_initials_rejected
+[ PASS    ] foreign_publication_producer::tests::foreign_bound_target_consumes_supply_without_item
+[ PASS    ] foreign_publication_producer::tests::foreign_free_target_consumes_supply_and_issues_exact_source
+[ PASS    ] foreign_publication_producer::tests::foreign_reference_target_consumes_supply_without_item
+[ PASS    ] foreign_publication_producer::tests::founding_name_cannot_fork
+[ PASS    ] foreign_publication_producer::tests::mismatched_cap_cannot_deprecate
+[ PASS    ] foreign_publication_producer::tests::mismatched_cap_cannot_reactivate
+[ PASS    ] foreign_publication_producer::tests::missing_kind_rejects_actual_registry
+[ PASS    ] foreign_publication_producer::tests::owner_mode_required
+[ PASS    ] foreign_publication_producer::tests::private_kind_requires_zero_download
+[ PASS    ] foreign_publication_producer::tests::private_memory_cannot_request_public
+[ PASS    ] foreign_publication_producer::tests::protected_policy_requires_scope
+[ PASS    ] foreign_publication_producer::tests::public_read_requires_public_download
+[ PASS    ] foreign_publication_producer::tests::registry_builtin_and_custom_reactivation_preserves_descriptor
+[ PASS    ] foreign_publication_producer::tests::same_named_foreign_module_witness_rejected
+[ PASS    ] foreign_publication_producer::tests::wrong_target_id_rejects_consumption
+Test result: OK. Total tests: 22; passed: 22; failed: 0

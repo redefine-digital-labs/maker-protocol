@@ -1,0 +1,21 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityContentKinds
+INCLUDING DEPENDENCY SoulidityFoundation
+INCLUDING DEPENDENCY SoulidityMakerPublication
+INCLUDING DEPENDENCY SoulidityMakerTerms
+INCLUDING DEPENDENCY SoulidityModel
+INCLUDING DEPENDENCY SoulidityVisual
+INCLUDING DEPENDENCY Sui
+BUILDING Refuse_private_initial_rule
+[0m[1m[38;5;9merror[EC04001][0m[1m: restricted visibility[0m
+   [0m[34m┌─[0m ./sources/refusal.move:3:30
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun bad():InitialRule{[0m[31mInitialRule{kind:0,name:std::string::utf8(b"soul"),read_mask:3,download_policy:0}[0m}
+   [0m[34m│[0m                              [0m[31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [0m[31mStruct '(soulidity_maker_publication=0x0)::output_data::InitialRule' can only be instantiated within its defining module '(soulidity_maker_publication=0x0)::output_data'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m /Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_maker_publication/sources/output_data.move:12:15
+   [0m[34m│[0m
+[0m[34m12[0m [0m[34m│[0m public struct InitialRule has copy,drop,store {kind:u32,name:String,read_mask:u64,download_policy:u8}
+   [0m[34m│[0m               [0m[34m-----------[0m [0m[34mStruct defined in module '(soulidity_maker_publication=0x0)::output_data'[0m
+

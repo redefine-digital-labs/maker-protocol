@@ -1,0 +1,9 @@
+[package]
+name = "IndependentMaker"
+edition = "2024"
+
+[dependencies]
+SoulidityStandard = { local = "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/staged/soulidity_standard" }
+
+[addresses]
+independent_maker = "0x0"

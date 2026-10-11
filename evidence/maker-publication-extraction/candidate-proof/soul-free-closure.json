@@ -1,0 +1,98 @@
+[
+  {
+    "root": "soulidity_content_kinds",
+    "local_closure": {
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds": "SoulidityContentKinds"
+    },
+    "git_dependencies": {
+      "Sui": {
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    },
+    "forbidden_local_packages": [],
+    "actual_canonical_types_used": true
+  },
+  {
+    "root": "soulidity_model",
+    "local_closure": {
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model": "SoulidityModel",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual": "SoulidityVisual",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation": "SoulidityFoundation"
+    },
+    "git_dependencies": {
+      "Sui": {
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    },
+    "forbidden_local_packages": [],
+    "actual_canonical_types_used": true
+  },
+  {
+    "root": "soulidity_maker_terms",
+    "local_closure": {
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms": "SoulidityMakerTerms",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation": "SoulidityFoundation",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model": "SoulidityModel",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual": "SoulidityVisual"
+    },
+    "git_dependencies": {
+      "Sui": {
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    },
+    "forbidden_local_packages": [],
+    "actual_canonical_types_used": true
+  },
+  {
+    "root": "soulidity_maker_publication",
+    "local_closure": {
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication": "SoulidityMakerPublication",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms": "SoulidityMakerTerms",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation": "SoulidityFoundation",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model": "SoulidityModel",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual": "SoulidityVisual",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds": "SoulidityContentKinds"
+    },
+    "git_dependencies": {
+      "Sui": {
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    },
+    "forbidden_local_packages": [],
+    "actual_canonical_types_used": true
+  },
+  {
+    "root": "foreign_publication_producer",
+    "local_closure": {
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/foreign_publication_producer": "ForeignPublicationProducer",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_visual": "SoulidityVisual",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_foundation": "SoulidityFoundation",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_model": "SoulidityModel",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_content_kinds": "SoulidityContentKinds",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_publication": "SoulidityMakerPublication",
+      "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/candidate/move/soulidity_maker_terms": "SoulidityMakerTerms"
+    },
+    "git_dependencies": {
+      "Sui": {
+        "git": "https://github.com/MystenLabs/sui.git",
+        "subdir": "crates/sui-framework/packages/sui-framework",
+        "rev": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+        "override": true
+      }
+    },
+    "forbidden_local_packages": [],
+    "actual_canonical_types_used": true
+  }
+]

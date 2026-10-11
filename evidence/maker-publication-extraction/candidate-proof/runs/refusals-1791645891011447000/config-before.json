@@ -1,0 +1,114 @@
+[
+  {
+    "name": "private_initial_rule",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_initial_rule",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_initial_rule/sources/refusal.move",
+    "source_sha256": "f5763194f4e6b710c135979fdbacceb33f1998d659719aff803b98e562cc61fe"
+  },
+  {
+    "name": "private_policy",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy/sources/refusal.move",
+    "source_sha256": "f0e222bbde27eb15514f879b60bd509423813cfdd777a0605e0252e1be37d587"
+  },
+  {
+    "name": "private_registry_descriptor",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_descriptor",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_descriptor/sources/refusal.move",
+    "source_sha256": "221db88e1ca8725e7d237d3bc63e6ee0c60c5d8f548d99b0183f4a67d28420f2"
+  },
+  {
+    "name": "private_registry_cap",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_cap",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_registry_cap/sources/refusal.move",
+    "source_sha256": "34e9cfe36333a0fe06e7839b8daa84c4c22aeaa36aa2029453acfd892acda6b1"
+  },
+  {
+    "name": "private_expected",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_expected",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_expected/sources/refusal.move",
+    "source_sha256": "4dc88d8b1a497e583d3856e9d3a850249082b25c25c0291fd03e60d8445f7199"
+  },
+  {
+    "name": "private_permit",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_permit",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_permit/sources/refusal.move",
+    "source_sha256": "27b42754ba15548a3b8d066c9bd197e5b4a01370a494f89a3494d3fefa631c66"
+  },
+  {
+    "name": "private_policy_producer",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy_producer",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_policy_producer/sources/refusal.move",
+    "source_sha256": "84bf9d0e9a32034a4d55a684f35f00693229116681286484abfa3d60e8d966e7"
+  },
+  {
+    "name": "private_component_producer",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_component_producer",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_component_producer/sources/refusal.move",
+    "source_sha256": "f2997fd47999b2df4a117831c4f9a9c015340ad97a52ee6ca1b9a468c949ce4d"
+  },
+  {
+    "name": "private_operator_struct",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_struct",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_struct/sources/refusal.move",
+    "source_sha256": "978987aa271147a3c522eddb7b170e5ad86a404b3e42d0f5c958e1bdfe3a1f94"
+  },
+  {
+    "name": "private_operator_function",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_function",
+    "primary_code": "EC04001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/private_operator_function/sources/refusal.move",
+    "source_sha256": "7f4ad1dd2cfee549df343613ce40a13babc5d614274a0873c038bd5eafb7786e"
+  },
+  {
+    "name": "permit_copy",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_copy",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_copy/sources/refusal.move",
+    "source_sha256": "946861485c16a3cc953b8b0e01d813ecbeeca51c2106404f410d5f8343fe83ea"
+  },
+  {
+    "name": "permit_drop",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop",
+    "primary_code": "EC06001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_drop/sources/refusal.move",
+    "source_sha256": "4054f4cf4af78a09468f85590840b6e96c6e3a17bad68dd9c6a9bb822886fed0"
+  },
+  {
+    "name": "permit_store",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_store",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_store/sources/refusal.move",
+    "source_sha256": "73e6261f2027e95e21b78813a68d0d265db3b9a5b94135d8fc2d914912d1c321"
+  },
+  {
+    "name": "permit_type_substitution",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_type_substitution",
+    "primary_code": "EC04007",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_type_substitution/sources/refusal.move",
+    "source_sha256": "e87ed04723a1c9044bbc444402758755a8dc189d209950f6d91f71abcf8e2b6a"
+  },
+  {
+    "name": "permit_key",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_key",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/permit_key/sources/refusal.move",
+    "source_sha256": "c9700f4509b32cbbf9818fc21fc6cb8d8d280cd50a17f678c9b31fcb6be8421a"
+  },
+  {
+    "name": "authorize_nonkey_target",
+    "root": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/authorize_nonkey_target",
+    "primary_code": "EC05001",
+    "source_file": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/refusals/authorize_nonkey_target/sources/refusal.move",
+    "source_sha256": "131e1ea687e7c0ab211ccc2cf093543931ca5799b8311598f422d9ef95290d87"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "changes": [
+    {
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/lock_graph.py",
+      "v1_sha256": "677a966229f26c5059b5c636fb89ff5624f5a34e543217a21304d0b9d0aa44cf",
+      "v2_sha256": "6fc336c8c82b46f1349937efab54e908f802e59ea869250bfdb46fbc0029f39d"
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/verify_maker_publication.py",
+      "v1_sha256": "185dbb0029ffeb26ab1313e03650ba66efe0742fe118cfbc4a4193c34fd28986",
+      "v2_sha256": "3d10155ef52c053b8c0c59167c8577f1310a5592e8584721a9be6d90d44e71bf"
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verification-config.json",
+      "v1_sha256": "63838f3760e1d3b7a62a7accf6496fb91eb54a30d3f313157adc1a5fa157979d",
+      "v2_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2"
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/verification-seal.json",
+      "v1_sha256": "0b2edde0ac33a543ccb9f6cad0cc56ff204df4671acbea706fc7ea0d8b47b8ba",
+      "v2_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1"
+    }
+  ],
+  "new_control_script": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/scripts/offline_control_checks.py",
+  "new_control_script_sha256": "cedabc60a7abd223ccc149df6e42ec12e9ce4c763ddd7eb12e7e79bc7d8a1b8a",
+  "changes_only": "Explicit guard errors replace asserts; pin selected Python path/version/binary; bind actual originals to reviewed payload or unchanged original pins; enforce first source location; add offline three-mode guards.",
+  "candidate_source_and_payload_changed": false,
+  "v1_45_commands_not_repeated": true,
+  "v1_proof": "/Users/naoer/.codex/worktrees/maker-publication-construction/soulidity/evidence/replay-runs/1791646134016005000/summary.json",
+  "current_config_sha256": "597b076d00a577d8c6b4545851130a6f1260bce37d49eb70941775ed3031f1d2",
+  "current_seal_sha256": "8638c9a2f8e3cb75ea73826bf2ff91ad5d668b3af5ea72e84523a3409f9342d1"
+}

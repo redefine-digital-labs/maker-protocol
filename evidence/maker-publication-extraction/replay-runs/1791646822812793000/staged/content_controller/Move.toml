@@ -1,0 +1,10 @@
+[package]
+name = "IndependentContentController"
+edition = "2024"
+
+[dependencies]
+SoulidityContent = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_content" }
+SoulidityStandard = { local = "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/maker-protocol/evidence/maker-publication-extraction/replay-runs/1791646822812793000/staged/soulidity_standard" }
+
+[addresses]
+independent_content = "0x0"
